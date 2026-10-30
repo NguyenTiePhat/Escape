@@ -1,0 +1,1349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_th
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: th
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 388619548772270098
+  m_TableData:
+  - m_Id: 5190169124864
+    m_Localized: เชื่อมต่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: ออกไป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: โหมดเกม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: ภายใน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: IP ของเซิร์ฟเวอร์ภายใน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: ออนไลน์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: หรือ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: เล่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: การตั้งค่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: สล็อต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: สถิติ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: ชื่อและแผนที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: ตัวละคร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: สร้างเซิร์ฟเวอร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: เปิดใช้งานเซิร์ฟเวอร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: 'ภูมิภาคเซิร์ฟเวอร์: {serverRegion}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Localized: สถิติจะไม่สามารถใช้ได้หากคุณไม่ได้เข้าสู่ระบบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: คอลเลกชัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: แมตช์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: 'ชัยชนะ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: 'ความพ่ายแพ้:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: รายการ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: พบชิ้นส่วนรถยนต์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: 'ชิ้นส่วนที่ซ่อมแล้ว:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: การฆาตกรรม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: 'ผู้รอดชีวิตถูกฆ่า:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: (สามารถปลดล็อคได้ในเกมเพลย์)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: เสื้อผ้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: 'ปลดล็อคหมวกและหน้ากาก:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: ทั่วไป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: การควบคุม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: เสียง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: กราฟิก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: ผู้เล่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: ชื่อเล่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: UI และ HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: 'ขนาด UI:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: อื่น ๆ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: ภูมิภาคเซิร์ฟเวอร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: ภาษา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: ตัวควบคุม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: ความไวในแนวนอน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: ความไวในแนวตั้ง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: 'กลับด้านในแนวนอน:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: 'กลับด้านแนวตั้ง:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: ระดับเสียงรวม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: ปริมาณ BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: 'ระดับเสียง UI:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: ปริมาณเอฟเฟกต์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: ผู้เล่นหลายคน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: ระดับเสียง VoIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: อุปกรณ์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: 'ในหูฟัง:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: ใช้ประสิทธิภาพสูง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: การประมวลผลภายหลัง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: 'แสงจากผู้เล่น:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: 'แสงปริมาตร:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: เข้าสู่ระบบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: กลับสู่เกม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: ออกไปที่เมนูหลัก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: พรีเมี่ยม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: 'หมวก:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: ตัวละคร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: ซื้อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: คุณแน่ใจหรือไม่ว่าต้องการออก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: ไม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: ใช่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: ขนาด UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: แน่ใจไหมว่าต้องการใช้การเปลี่ยนแปลง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: เลือกภาษา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: แน่ใจไหมว่าต้องการเข้าร่วมห้องนี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: สร้างห้อง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: ชื่อห้อง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: 'ผู้เล่น:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PVP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: สร้าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: ห้องส่วนตัว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: ห้องไอพี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: เข้าร่วม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: สร้างห้องไม่สำเร็จ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: ในภายหลัง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: รวมบัญชี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: คุณต้องการเชื่อมโยงข้อมูลบัญชีเดิมของคุณกับบัญชีใหม่หรือไม่?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: อ่าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: เข้าร่วมส่วนตัว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: 'ห้องส่วนตัว:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: ดำเนินการต่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: พบหนังสือพิมพ์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: กำลังโหลดห้อง ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: ซ่อมรถ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: ชิ้นส่วนรถยนต์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: ล้อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: แบตเตอรี่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: เชื้อเพลิง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: คีย์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: ซื้อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: 'โหมดเกม:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: เครื่องส่งรับวิทยุ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: คุณภาพพื้นผิว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: 'แผนที่คงที่:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: คำใบ้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: คลิกที่แท็บออนไลน์เพื่อโหลดห้องใหม่ คุณสามารถโหลดห้องใหม่ได้ทุกๆ 5 วินาที
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: ชุดฟิวส์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: บทช่วยสอน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: แผนที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: ข้าม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: ความละเอียดหน้าจอ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: ไมค์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: คุณภาพ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: 'เลือด:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: โปรดทราบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: ตรวจสอบให้แน่ใจว่าคุณใช้หูฟังเพื่อป้องกันเสียงสะท้อนจากไมโครโฟน คุณยังสามารถเปลี่ยนไมโครโฟนในการตั้งค่าเสียง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: เล่นออฟไลน์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: กรอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: หลัก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: คำเตือน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: ไม่รองรับอุปกรณ์ Iphone 6+ หรือต่ำกว่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: กู้คืนข้อมูล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: เพื่อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: ลีก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: สร้างล็อบบี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: เชื่อมต่อใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: เริ่ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: การตั้งค่าล็อบบี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: เชิญ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: เชิญผู้เล่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: คุณแน่ใจหรือไม่ว่าต้องการออกจากล็อบบี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: ไม่มีเพื่อนออนไลน์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: ลบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: ลีกของฉัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: ปัจจุบัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: ก่อนหน้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: คุณไม่สามารถสร้างเซิร์ฟเวอร์ได้หากคุณเป็นเจ้าของฮอตสปอตเคลื่อนที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: ลีกใหม่มาถึงแล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: แชร์ ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: คุณแน่ใจหรือไม่ว่าต้องการกู้คืนข้อมูลจากฐานข้อมูลเก่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: กู้คืนข้อมูลเก่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: ยอมรับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: เพิ่ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: เพิ่มเพื่อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: ค้นหา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: Discord หรือแอพอื่น ๆ อาจไม่ทำงานหากได้รับอนุญาตจากไมโครโฟน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: ซ่อมรถแล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: รอคนอื่นอยู่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: เข้าไปในรถ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: เครื่องกำเนิดไฟฟ้าเปิดอยู่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: การเลือกแผนที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: โรงพยาบาล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: ท่อระบายน้ำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: โรงเรียน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: รีเซ็ตการซูม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: วัตถุประสงค์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: 'แสดงฉากจบ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: ได้รับ XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: สิทธิพิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: ใช้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: สิทธิพิเศษที่เลือก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: 'หมอก:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: การฝึกอบรม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: ทางสังคม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: บันทึก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: รีเซ็ต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: ร้านค้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: การซื้อที่ไม่ผ่านการตรวจสอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: คุณต้องการตรวจสอบการซื้อตอนนี้หรือไม่?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: ความยาก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: เปิดใช้งานแชทด้วยเสียง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: ปิดเสียงแชทเสียง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: บัญชี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: ข้อมูล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: 'รหัสผู้ใช้:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: 'ประเภทการเข้าสู่ระบบ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: รหัสผ่าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: ลงชื่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: ลืมรหัสผ่าน?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: เล่นเลย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: การยืนยันอีเมล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: ตรวจสอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: กู้คืนรหัสผ่าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: รหัสผ่านใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: รีเซ็ตรหัสผ่าน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: ฟื้นตัว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: เข้าสู่ระบบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: โอนข้อมูล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: ข้อมูลจะถูกโอนจากบัญชีแขก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: ตัวเลือกนี้ไม่พร้อมใช้งานสำหรับคุณในขณะนี้ คุณต้องกระตือรือร้นมากขึ้นจึงจะสามารถสมัครอีเมลได้ฟรี คุณสามารถใช้ตัวเลือกการเข้าสู่ระบบอื่นแทนได้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: xp ทั้งหมดที่ได้รับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: ถ้วยรางวัลทั้งหมด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: รายละเอียดการแข่งขัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: 'การแข่งขันที่ชนะ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: 'รอดตาย:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: 'เวลารอดชีวิต:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: ภูมิภาคที่แนะนำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: แผนที่และวันที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: ถ้วยรางวัล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: ประวัติโดยย่อ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: สำเนา ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: ฤดูกาลที่ดีที่สุด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: ดีที่สุดตลอดกาล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: เชิญล๊อบบี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: ออกจากล็อบบี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: แสดง Jumpscare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: ส่งคำเชิญล็อบบี้แล้ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: ปลดล็อคสิทธิพิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: ความคืบหน้าอาจสูญหายได้หากคุณไม่ได้เข้าสู่ระบบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: รหัส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: 'การปรับแต่งปุ่ม:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: ปรับแต่ง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: ไม่สามารถโอนข้อมูลไปยังบัญชีที่มีอยู่แล้ว คุณต้องการดำเนินการต่อหรือไม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: แผนที่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: คู่มือ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: จับคู่ผู้เล่น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "ศัตรู: ลิล ก็อดวิลลา\n ประเภท: ผี\n \n Lil Godwilla ช้า แต่เธอสามารถปรากฏตัวในห้องต่างๆ ได้ อย่าเข้าใกล้เธอเพื่อหลีกเลี่ยงการถูกไล่ล่า - เธอจะเร็วกว่าเมื่ออยู่ในสถานะไล่ล่า อย่าหันไปทางเสียงกระซิบ\n วัตถุประสงค์: คุณเริ่มต้นในโรงรถของโรงพยาบาลหนึ่งในสามแห่ง เป้าหมายคือการซ่อมรถเพื่อหลบหนี คุณจำเป็นต้องค้นหาส่วนต่างๆ ต่อไปนี้เพื่อหลบหนี: 4 ล้อ, แบตเตอรี่, เชื้อเพลิงและกุญแจ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "ศัตรู: รูปปั้น\n ประเภท: ผี\n \n จุดอ่อนของรูปปั้นคือประตูและไฟฉาย มันจะไม่เคลื่อนที่เมื่อคุณชี้ไฟฉายไปในทิศทางของมัน แต่โปรดจำไว้ว่าไฟฉายจะไม่คงอยู่ตลอดไป ปิดประตูข้างหลังคุณ - มันจะทำให้รูปปั้นช้าลง\n วัตถุประสงค์: หลบหนีผ่านประตูหลักโดยการไขปริศนา เปิดห้องรปภ ซ่อมกล่องฟิวส์ ไขปริศนาประตู"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "ศัตรู: Crawler\n ประเภท: Monster\n \n Crawlerสามารถปีนขึ้นไปบนกำแพงและเขาไม่เห็นคุณเมื่อคุณปิดไฟฉาย หลีกเลี่ยงการเข้าไปในจุดที่มีแสงสว่าง\n วัตถุประสงค์: เปิดเครื่องกำเนิดไฟฟ้า 9 เครื่องเพื่อจ่ายไฟให้กับประตูหลัก ไขปริศนาต่างๆ เพื่อไปให้ถึงจุดสิ้นสุด"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: '- สีต่อไปนี้ระหว่างการเล่นเกมหมายความว่าคุณสามารถใช้สิทธิพิเศษได้โดยการกด'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: '- สิทธิพิเศษอาจไม่สามารถใช้ได้ในสถานการณ์ใดสถานการณ์หนึ่งต่อไปนี้ 1. สิทธิพิเศษถูกใช้ไปแล้ว 2. คุณมีสิทธิพิเศษไม่เพียงพอ 3. สิทธิพิเศษไม่รองรับในแผนที่ปัจจุบัน'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: '- สีต่อไปนี้ระหว่างการเล่นเกมหมายความว่าสิทธิพิเศษจะเปิดใช้งานโดยอัตโนมัติระหว่างการเล่นเกม (AKA สถานการณ์พิเศษ)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: คุณสามารถเลือกเล่นกับผู้เล่นศัตรูได้ ผู้เล่นคนหนึ่งจะถูกเลือกให้เป็นศัตรู ศัตรูจะต้องกำจัดผู้รอดชีวิตทุกคนเพื่อที่จะชนะ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: เล่นแมตช์จัดอันดับและเพิ่มลีกของคุณ ไต่อันดับกระดานผู้นำเพื่อรับรางวัลพิเศษ ปลดล็อคสิทธิพิเศษใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: คุณต้องการอ่านคู่มือเกี่ยวกับเกมหรือไม่?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: ปลดล็อค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: รับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: อัพเกรด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: คุณต้องปลดล็อกสิทธิพิเศษก่อนหน้าก่อน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: เตะ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: รางวัล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: สิ้นสุดฤดูกาล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: ห้อง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: เข้าร่วมด้วยแท็ก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: ลบบัญชี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: คุณแน่ใจหรือไม่ว่าต้องการลบบัญชีของคุณ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: อัลฟ่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: แสดง FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: 'อินพุตโปรแกรมจำลอง:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: คุณภาพของตัวละคร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: คุณภาพของเชเดอร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: โบนัส XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: 'แก้ไข DNS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "ศัตรู: หลากหลาย\n ประเภท: สัตว์ประหลาด/ผี\n \n คุณติดอยู่ในอพาร์ตเมนต์ต้องสาป ค้นหาความผิดปกติเพื่อก้าวไปยังชั้นถัดไปและหลบหนีโดยไปถึงชั้น 1\n มีศัตรูมากมาย ศัตรูทุกตัวมีพฤติกรรมเฉพาะตัว คุณจะต้องหาทางตอบโต้พวกมัน\n \n วัตถุประสงค์: ไปถึงชั้น 1 และหลบหนีอพาร์ทเมนท์โดยการค้นหาสิ่งผิดปกติ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: ปริมาณบรรยากาศ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: FOV แบบไดนามิก (มีประโยชน์สำหรับ iPad)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "เครื่องอ่าน EMF ตรวจจับการปรากฏตัวของผีและกิจกรรมผีล่าสุด\n \n ใช้เครื่องอ่าน EMF เพื่อค้นหาพื้นที่/ห้องผีโดยประมาณอย่างรวดเร็ว"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "ใช้ไฟฉาย UV ของคุณ\n เพื่อตรวจจับหลักฐานของรังสีอัลตราไวโอเลต\n \n ผีสามารถทิ้งรอยมือไว้ได้หลังจากโต้ตอบกับประตูหรือสวิตช์ไฟ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "รับคำตอบจากกล่องวิญญาณภายในพื้นที่ของผีเป็นหลักฐาน\n \n คุณมีโอกาสได้รับคำตอบสูงขึ้นในระหว่างกิจกรรมของผี"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "ใช้เทอร์โมมิเตอร์วัดอุณหภูมิบริเวณ/ห้องของผีให้ต่ำกว่า 5°C\n \n หลักฐานอุณหภูมิเยือกแข็งอยู่ต่ำกว่า 0°C"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: มีโอกาสที่เทียนจะดับลงเมื่อวางไว้ในห้องผี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: ลูกแก้วผีจะปรากฏขึ้นใกล้กับผีเมื่อมีผีอยู่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "ศัตรู: ผีสังหาร\n ประเภท: ผี\n \n คุณถูกจับตัวไปและถูกนำไปยังสถานที่ใต้ดินลับ พวกเขาสัญญาว่าจะให้อิสรภาพหากคุณประสบความสำเร็จในการค้นหาหลักฐานผีที่ถูกต้อง\n ผีจะดูดซับกระแสไฟฟ้าเมื่อปรากฏตัว ทำให้แสงกะพริบ\n \n ผีอาศัยอยู่ในห้องใดห้องหนึ่ง และจะเริ่มล่าจากที่นั่นเมื่อถูกยั่วยุ\n คุณสามารถหลีกเลี่ยงแนวสายตาของผีได้โดยซ่อนตัวอยู่หลังสิ่งกีดขวาง\n \n วัตถุประสงค์: ค้นหาหลักฐานผีที่ถูกต้องเพื่อทำพิธีกรรมให้เสร็จสิ้นและหลบหนี"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: สามารถปลดล็อคได้ระหว่างกิจกรรม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: แสดงเพิ่มเติม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: แสดงน้อยลง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: ข้อเสนอการซื้อครั้งแรก!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: ข้อเสนอกุญแจฟรี!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: ข้อเสนอ XP ฟรี!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: ข้อเสนอทรัพยากรฟรี!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: ข้อเสนอชุด XP!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: ข้อเสนอลังฟรี!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: ข้อเสนอของขวัญฟรี!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: ข้อเสนอใบรับรองสีน้ำเงิน!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: ข้อเสนอลังใบรับรอง!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: ข้อเสนอการเปิดลังไม้!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: ข้อเสนอลังหายาก!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: ข้อเสนอใบรับรองสีม่วง!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: ข้อเสนอชุดใบรับรอง!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: ข้อเสนอการเปิดลังหายาก!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: ข้อเสนอใบรับรองสีชมพู!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: ข้อเสนอใบรับรองสีแดง!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: วางจำหน่ายเร็วๆ นี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: ไม่สามารถใช้งานได้ชั่วคราว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: คุณแน่ใจว่าต้องการยอมรับการค้าขายหรือไม่?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: คุณแน่ใจหรือไม่ว่าต้องการรับรางวัล?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: เพิร์ค "ควบคุมจิตใจ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: เพิร์ค "ลางสังหรณ์"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: เพิร์ค "กรงผี"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: เสื้อคลุม "ตระกูลตง"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: ตัวคูณของวันนี้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: ยังไม่หลบหนี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: หลบหนีเพียงครั้งเดียวและปลดล็อคการแข่งขัน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: การเลือกอายุไม่มีผลต่อการเล่นเกม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: อายุของคุณคือเท่าไหร่?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: รับทองทั้งหมด <color=#FFEF67>250 เหรียญทอง</color> หรือมีโอกาส <color=#FFEF67>3%</color> ที่จะได้รับ Perk ตุ๊กตาต้องคำสาปในหนึ่งในกล่องรางวัล!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: ข้อเสนอฮาโลวีน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>อัปเดตฮาโลวีน!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: การอัปเดตครั้งนี้มาพร้อมกับฉากธีมฮาโลวีน เควสต์เสริมธีมฮาโลวีน ไอเทมเควสต์ส่วนตัวใหม่ การปรับสมดุล และการปรับปรุงที่รอคอยมานาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>ไวลด์การ์ด</b> - แทนที่ความสามารถพิเศษแบบสุ่มหนึ่งอย่างเมื่อเริ่มเกม หลังจากตายแล้ว ความสามารถพิเศษทั้งหมดของคุณสามารถนำกลับมาใช้ได้อีกครั้ง'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>รีเมคท่อระบายน้ำกำลังจะมา!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: ในอนาคตอันใกล้ เราจะปล่อยรีเมคท่อระบายน้ำ ในช่วงที่เปิดตัว จะมีกิจกรรมพิเศษพร้อมรางวัลสุดพิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>สิทธิพิเศษเฉพาะฮาโลวีน</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "ตอนนี้มีไอเทมเควสต์ส่วนตัวให้รับแล้ว ไอเทมเหล่านี้ช่วยให้คุณเริ่มเควสต์ส่วนตัวใดก็ได้ทุกเมื่อที่ต้องการ และรับรางวัลดี ๆ เมื่อทำสำเร็จ! เควสต์มีสองประเภท: มาตรฐานและฮาโลวีน\n \n <b>ไอเทมเควสต์ส่วนตัว:</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>ไอเทมใหม่: ชาร์ด</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>สกินใหม่:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>การปรับปรุงและการเปลี่ยนแปลงความสมดุล</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>หมวกและถ้วยรางวัลใหม่:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>ชะแลง</b> - ช่วยให้คุณงัดประตูที่ล็อกอยู่ได้ทุกบาน'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: กิจกรรมวันฮาโลวีน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>เวอร์ชัน</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: ความคืบหน้าออนไลน์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: เลือกช่อง '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270098
+  - m_Id: 348348179381477376
+    m_Localized: ใช้ Perk '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270098
+  - m_Id: 344688356441972736
+    m_Localized: HUD บนมือถือ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: การผูกอินพุต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: แป้นพิมพ์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: เกมแพด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: โหมดหมอบ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: ความไวของเคอร์เซอร์ UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: การกระทำหลัก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: การกระทำรอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: ไฟฉาย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: ดรอปไอเท็ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: โหลดซ้ำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: หนังสือพิธีกรรม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Localized: กระดานคะแนน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: เมนูหยุดชั่วคราว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: ตรวจพบเกมแพด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: คุณต้องการเปิดใช้งานการป้อนข้อมูลด้วยเกมแพดหรือไม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: ข้อเสนอปีใหม่
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- ปรับปรุงการตอบสนองเมื่อประตูถูกล็อก\n- ปรับปรุงการจัดการการซื้อในแอป\n- แก้ไขภารกิจที่ไม่นับในเกมเดี่ยวที่โรงฆ่าสัตว์\n- หลุมดำ: ลดระยะเวลาลง <color=red>−75%</color> (สูงสุด 30 วิ จากเดิม 120 วิ)\n- การฟื้นคืนชีพแบบไม่มีตัวตน: ลดระยะเวลาลง <color=red>−50%</color> (สูงสุด 30 วิ จากเดิม 60 วิ)\n- บัฟ หวัง, ตื่นนอน, พวกเราจะทำให้ได้, ผู้ช่วยชีวิต: ระยะการเปิดเผยไอเท็มเพิ่มขึ้น <color=green>+50%</color> ในเลเวลต่ำ\n- บัฟ หัวหน้า, พลังของเหยื่อ: ระยะการเปิดเผยไอเท็มเพิ่มขึ้น <color=green>+40%</color> ในเลเวลต่ำ\n- บัฟ พิทักษ์วิญญาณ: นานขึ้น 3 เท่าที่เลเวล 1 (15 วิ จากเดิม 5 วิ)\n- ไพ่พิเศษ จะรีเฟรชสิทธิพิเศษของทุกคนที่อยู่ในช่วงคูลดาวน์ รวมถึง หนึ่งผู้ลุกขึ้น และ การดูแลตนเอง\n- แก้ไขสิทธิพิเศษ รองเท้าความเร็ว ที่สูญเสียโบนัสหลังจาก เข็มฉีดยาอะดรีนาลีน, ยาพรางตัว, ไล่ตามไฟกระชาก หรือ ของขวัญแห่งการฟื้นฟู สิ้นสุดลง หรือหลังจากผู้เล่นถูกชุบชีวิต\n\n- การเปลี่ยนแปลงและการปรับปรุงอื่น ๆ"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: คุณสามารถเปิดใช้งานการแสดงชื่อห้องได้ในการตั้งค่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: แสดงชื่อห้อง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: ชุด "TTR Clan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: ความสามารถพิเศษ "Adrenaline Shot"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: มงกุฎ "King Clan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: เพื่อรับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Localized: ระดับเสียงเพลงฮาโลวีน
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 388619548772270098
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

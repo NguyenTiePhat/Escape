@@ -1,0 +1,1349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 388619548772270092
+  m_TableData:
+  - m_Id: 5190169124864
+    m_Localized: 接続する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: 外出する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: ゲームモード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: ローカル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: ローカルサーバーのIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: オンライン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: または
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: プレイ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: 設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: スロット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: 統計
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: 名前と地図
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: キャラクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: サーバーを作成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: サーバーを有効にする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: サーバーリージョン：{serverRegion}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Localized: ログインしていない場合、統計は利用できません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: コレクション
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: 試合
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: 勝利：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: 敗北：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: アイテム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: 自動車部品が見つかりました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: 修理した部品：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: 殺人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: 殺された生存者：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: （ゲームプレイでロックを解除できます）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: 衣類
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: ロック解除された帽子とマスク：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: 一般
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: 操作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: オーディオ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: グラフィックス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: プレーヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: ニックネーム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: UIとHUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: UIサイズ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: その他
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: 地域
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: 言語
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: コントローラ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: 水平感度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: 垂直感度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: 水平方向に反転：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: 垂直反転：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: 全体のボリューム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: BGMボリューム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: UIボリューム：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: 効果音ボリューム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: マルチプレイヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: VoIPボリューム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: デバイス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: ヘッドホンで：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: パフォーマンス負荷が高い
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: 後処理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: プレイヤーからの光：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: 体積光：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: ログイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: ゲームを再開する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: メインメニューに戻る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: プレミアム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: キャップ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: キャラクター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: 購入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: 終了してもよろしいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: いいえ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: はい
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: UIサイズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: 変更を適用してもよろしいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: 言語を選択
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: この部屋に参加してもよろしいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: 部屋を作成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: 部屋の名前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: プレイヤー：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PVP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: 作成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: 個室
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: ルームIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: 参加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: 部屋の作成に失敗しました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: 後で
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: アカウントをマージする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: 以前のアカウントのデータを新しいアカウントにリンクしますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: 読む
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: プライベートに参加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: 個室：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: 続行します
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: 新聞が見つかりました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: 部屋を読み込み中...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: 車を修理する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: 自動車部品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: ホイール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: 電池
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: 燃料
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: キー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: 買った
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: ゲームモード：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: トランシーバー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: テクスチャ品質
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: '固定マップ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: ヒント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: オンラインタブをクリックして、部屋をリロードします。 5秒に1回部屋をリロードできます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: ヒューズの組み合わせ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: チュートリアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: 地図
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: スキップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: 画面の解像度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: マイク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: 品質
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: 流血表現：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: ご注意ください
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: マイクからのエコーを防ぐために、ヘッドフォンを使用していることを確認してください。オーディオ設定でマイクを変更することもできます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: オフラインでプレイ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: フィルター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: 主要
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: 警告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: iPhone 6+以下のデバイスはサポートされていません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: データを復元する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: 友達
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: リーグ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: ロビーを作成する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: 再接続
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: 始める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: ロビーの設定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: 招待
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: プレイヤーを招待する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: ロビーを出てもよろしいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: オンラインの友達はいない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: 削除する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: 私のリーグ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: 現在
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: 前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: モバイルホットスポットの所有者の場合、サーバーを作成することはできません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: 新しいリーグに到達
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: 共有ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: 古いデータベースからデータを復元してもよろしいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: 古いデータを復元する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: 承認
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: 追加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: 友人を追加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: 検索
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: マイクの許可が与えられている場合、Discordまたは他のアプリが機能しない可能性があります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: 車が修理されました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: 他の人を待っています
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: 車に乗る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: 発電機がオンになっています
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: マップの選択
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: 病院
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: 下水道
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: 学校
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: ズームをリセット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: 目的
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: エンディングシーンを表示：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: XPを獲得
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: 特典
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: 使用する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: 選択した特典
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: 霧：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: トレーニング
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: 社交
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: 保存する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: リセット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: 店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: 未検証の購入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: 今すぐ購入を検証しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: 難易度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: ボイスチャットを有効にする
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: ボイスチャットをミュート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: アカウント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: 情報
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: ユーザーID：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: ログインタイプ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: パスワード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: サインアップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: パスワードをお忘れですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: 今すぐプレイ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: メールによる確認
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: 確認
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: パスワードの復元
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: 新しいパスワード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: パスワードのリセット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: 回復
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: ログイン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: データを転送する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: データはゲストアカウントから転送されます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: このオプションは現在利用できません。無料の電子メール サインアップを取得するには、より積極的に活動する必要があります。代わりに他のログイン オプションを使用することもできます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: 獲得した合計xp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: 総トロフィー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: 試合の内訳
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: 勝った試合：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: 生き残った：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: 生き残った時間：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: おすすめの地域
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: 地図と日付
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: トロフィー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: プロフィール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: IDをコピー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: ベストシーズン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: 史上最高
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: ロビー招待
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: ロビーを出る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: ジャンプスケアを表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: ロビー招待状が送信されました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: ロック解除された特典
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: ログインしていないと進行状況が失われる可能性があります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: コード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: ボタンのカスタマイズ：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: カスタマイズ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: 既存のアカウントへのデータ転送は利用できません。続行しますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: マップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: マニュアル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: マッチメイキング
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "敵：リル・ゴッドウィラ\n タイプ：ゴースト\n \n リル・ゴッドウィラは遅いですが、彼女は部屋に現れることができます。 追いかけられるのを避けるために彼女に近づかないでください-追いかけている状態のとき、彼女はより速くなります。 ささやきの方向に行かないでください。\n 目的：3つの病院のガレージの1つから始めます。 目標は、脱出するために車を修理することです。 脱出するには、次の部品を見つける必要があります：4つの車輪、バッテリー、燃料、鍵。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "敵：像\n タイプ：ゴースト\n \n 彫像の弱点はドアと懐中電灯です。 懐中電灯をその方向に向けても動きませんが、懐中電灯が無期限に続くわけではないことに注意してください。 あなたの後ろのドアを閉めてください-それは像を遅くします。\n 目的：パズルを解いて正門を抜ける。 セキュリティルームを開き、ヒューズボックスを修理し、ゲートパズルを解きます。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "敵：クローラー\n タイプ：モンスター\n \n クローラーは壁に登ることができ、懐中電灯を消すと彼はあなたを見ることができません。 照らされた場所に入らないでください。\n 目的：メインゲートに電力を供給するために9台の発電機をオンにします。 一連のパズルを解いて、最後までやり遂げましょう。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: -ゲームプレイ中の次の色は、それを押すことで特典を使用できることを意味します
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: -次のいずれかの状況で特典が利用できなくなる可能性があります1.特典が使用されました。 2.特典の量が不足しています。 3.特典は現在のマップではサポートされていません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: -ゲームプレイ中の次の色は、ゲームプレイ中に特典が自動的にアクティブになることを意味します（別名シチュエーション特典）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: 敵プレイヤーと対戦することを選択できます。プレイヤーの1人が敵として選ばれます。敵は勝つためにすべての生存者を排除する必要があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: ランクマッチをプレイしてリーグを増やし、リーダーボードを上がってユニークな報酬を獲得し、新しい特典をアンロックしましょう。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: ゲームのマニュアルを読みたいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: アンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: 取得する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: アップグレード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: 最初に前の特典のロックを解除する必要があります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: キック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: 褒美
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: シーズン終了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: 部屋
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: タグで参加する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: アカウントを削除する
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: アカウントを削除してもよろしいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: アルファ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: FPS を表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: 'エミュレータ入力:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: キャラクターの品質
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: シェーダの品質
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: XPボーナス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: DNSを解決：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "敵：複数\n タイプ: モンスター/ゴースト\n \n 呪われたアパートに閉じ込められ、異常を見つけて次の階に進み、1階に到達して脱出します。\n 敵は複数います。すべての敵には独自の行動があるため、それらに対抗する方法を見つける必要があります。\n \n 目的: 1階に到達し、異常を見つけてアパートから脱出します。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: アンビエンスの音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: ダイナミックFOV（iPadに便利）
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "EMFリーダーは幽霊の存在と最近の幽霊の活動を検知します。\n \n EMFリーダーを使用して、幽霊のいるおおよそのエリア/部屋を素早く見つけてください。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "紫外線懐中電灯を使って、\n 紫外線の証拠を見つけてください。\n \n ゴーストはドアやスイッチに触れた後に手形を残すことがあります。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "ゴーストエリア内のスピリットボックスから証拠として応答を得てください。\n \n ゴースト活動中は応答を得る確率が高くなります。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "温度計を使って幽霊のいる場所/部屋を特定してください。5℃以下です。\n \n 氷点下の証拠となる温度は0℃以下です。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: 幽霊の部屋に置くと、ろうそくが吹き消される可能性があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: 幽霊が活動しているときは、幽霊の近くにゴーストオーブが出現します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "敵：スローターゴースト\n タイプ：ゴースト\n \n あなたは誘拐され、秘密の地下施設に連れてこられました。正しいゴーストの証拠を見つければ解放されると約束されています。\n ゴーストは顕現時に電流を吸収し、照明を点滅させます。\n \n ゴーストは部屋の一つに住んでおり、刺激されるとそこから狩りを始めます。\n 障害物の後ろに隠れることでゴーストの視界を避けることができます。\n \n 目的：正しいゴーストの証拠を見つけ、儀式を完了して脱出する。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: イベント期間中にアンロック可能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: もっと見る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: 少なく表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: 初回購入オファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: 無料キーオファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: 無料XPオファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: 無料リソースオファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: XPバンドルオファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: 無料クレートオファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: 無料プレゼントオファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: 青証明書オファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: 証明書クレートオファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: 木箱開封オファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: レアクレートオファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: 紫証明書オファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: 証明書コンボオファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: レアクレート開封オファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: ピンク証明書オファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: 赤証明書オファー！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: 近日発売予定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: 一時的に利用できません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: 本当に取引を受け入れますか?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: 報酬を受け取ってもよろしいですか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: 「マインドコントロール」パーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: 「予感」パーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: 「ゴーストケージ」パーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: 「トング・クラン」コート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: 今日の乗数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: 未脱出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: 一度脱出して競技モードをアンロック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: 年齢選択はゲームプレイに影響しません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: あなたの年齢は？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: 賞品クレートの中から、合計<color=#FFEF67>250ゴールド</color>、または<color=#FFEF67>3%</color>の確率で呪われた人形特典を獲得できます！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: ハロウィンオファー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>ハロウィンアップデート！</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: このアップデートでは、ハロウィンの舞台、ハロウィンのサイドクエスト、新しい個人クエストアイテム、バランスの変更、待望の改善がもたらされます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>ワイルドカード</b> - 開始時にランダムなパークを1つ置き換えます。死亡後も、すべてのパークを再び使用できます。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>下水道リメイクがやってきます！</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: 近日中に下水道リメイクをリリースします。リリース期間中は、限定報酬が手に入る専用イベントを開催します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>ハロウィン限定パーク</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "個人クエストアイテムを入手できるようになりました。好きなタイミングで好きな個人クエストを開始でき、クリアすると素敵な報酬がもらえます！クエストには「通常」と「ハロウィン」の2種類があります。\n \n <b>個人クエストアイテム：</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>新アイテム：シャード</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>新スキン：</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>改善とバランス調整</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>新帽子＆トロフィー：</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>バール</b> - 鍵のかかったドアをこじ開けることができます。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: ハロウィンイベント
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>バージョン</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: オンラインでの進捗状況
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: スロット '{slot}' を選択
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270092
+  - m_Id: 348348179381477376
+    m_Localized: パーク '{slot}' を使用
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270092
+  - m_Id: 344688356441972736
+    m_Localized: モバイルHUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: 入力割り当て
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: キーボード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: ゲームパッド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: しゃがみモード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: UIカーソル感度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: メインアクション
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: セカンダリアクション
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: 懐中電灯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: アイテムをドロップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: リロード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: 儀式の書
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Localized: スコアボード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: ポーズメニュー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: ゲームパッドを検出しました
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: ゲームパッド入力を有効にしますか？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: 新年のオファー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- 施錠されたドアのフィードバックを改善。\n- アプリ内課金の処理を改善。\n- スローターハウスのソロプレイでクエストがカウントされない問題を修正。\n- ブラックホール：持続時間を<color=red>−75%</color>短縮（最大30秒、以前は120秒）\n- エーテルの復活：持続時間を<color=red>−50%</color>短縮（最大30秒、以前は60秒）\n- 望み、起きろ、私たちならできる、命の恩人のバフ：低レベル時のアイテム感知範囲が<color=green>+50%</color>\n- リーダー、被害者の力のバフ：低レベル時のアイテム感知範囲が<color=green>+40%</color>\n- ソウルガードのバフ：レベル1での持続時間が3倍に（15秒、以前は5秒）\n- ワイルドカードが、ワン・ライゼスやセルフケアを含む、クールダウン中の全員の特典を更新するようになりました\n- アドレナリンショット、ステルスポーション、追跡サージ、回復の贈り物の効果終了後、またはプレイヤーが蘇生された後に、特典スピードブーツのボーナスが失われる問題を修正。\n\n- その他の変更と改善"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: 設定で部屋名の表示を有効にすることができます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: 部屋名を表示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: 「TTRクラン」スーツ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: 「アドレナリン・ショット」パーク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: 「キング・クラン」の王冠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: 受け取る
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Localized: ハロウィン曲の音量
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 388619548772270092
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

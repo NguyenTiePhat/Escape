@@ -1,0 +1,1354 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: -2
+    - rid: 388619548772270086
+  m_TableData:
+  - m_Id: 927011430400
+    m_Localized: Play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: Local Server IP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: Stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: Settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: Exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: Local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: Title & Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: Game mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: Slots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: or
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5190169124864
+    m_Localized: Connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: Create server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: Enable server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: 'Server region: {serverRegion}'
+    m_Metadata:
+      m_Items:
+      - rid: -2
+  - m_Id: 1829868118466560
+    m_Localized: Stats are not available if you're not logged in.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: Collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: Matches
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: 'Wins:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: Losses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: Items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: Parts found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: 'Parts fixed:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: Kills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: 'Survivors killed:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: (Can be unlocked in the gameplay)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: Outfit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: 'Hats & Masks unlocked:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: Controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: Graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: Player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: username
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: UI & HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: 'UI SCALE:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: other
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: Region
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: Language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: CONTROLLER
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: Horizontal sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: Vertical sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: 'Invert horizontal:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: 'Invert vertical:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: Master Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: BGM Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: 'UI volume:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: SFX Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: Voice Chat Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: DEVICES
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: 'using headphones:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: Target framerate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: Performance heavy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: Post Processing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: 'Player point light:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: 'Volumetric light:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: Resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: Exit to main menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: Premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: 'Cap:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: Character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: Buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: Are you sure you want to exit?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: Yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: Ui scale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: Are you sure you want to apply changes?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: Choose language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: ARE YOU SURE YOU WANT TO CONNECT TO THIS ROOM?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: Create room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: Room Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: 'Players:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: Room IP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PVP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: Create
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: Private room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: Join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: failed to create room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: Later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: Merge Accounts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: Do you want to link your previous account data to the new one?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: Login
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: join private
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: 'private room:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: Continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: Papers Found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: Loading room...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: Fix the car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: car parts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: Wheel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: Battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: Fuel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: Keys
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: bought
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: 'Gamemode:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: Walkie-talkie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: Texture Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: 'fixed map:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: Hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: Click on online tab to reload rooms. You can reload rooms once every 5 seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: Fuse combination
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: Map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: Skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: Screen Resolution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: Microphone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: 'Gore:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: Please Note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: Make sure you are using headphones to prevent echo from the mic. You can also change microphone in audio settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: Play offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: Filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: Main
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: Warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: Iphone 6+ or lower device is not supported
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: Restore data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: Friends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: Create lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: Reconnect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: Lobby settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: Invite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: Invite players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: Are you sure you want to exit lobby?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: No friends found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: Remove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: My league
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: Current
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: Previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: You can't create a server if you're a mobile hotspot owner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: Accept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: Add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: New league reached
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: Share ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: Are you sure you want to restore data from the old database?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: Restore old data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: Add friend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: Search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: League
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: Discord or other apps might not work if microphone permission is granted
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: Car is repaired
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: Waiting for others
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: Get in the car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: Generators turned on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: Map selection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: Hospital
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: Sewers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: School
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: Reset zoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: Objectives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: 'show ending scene:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: Earned XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: Perks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: Use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: Selected perks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: 'Fog:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: Training
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: Social
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: Save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: Reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: Shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: Unvalidated purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: Do you want to validate purchases now?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: Difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: Enable Voice Chat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: Mute Voice Chat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: Account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: Info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: 'Player Id:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: 'Login type:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: Password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: Sign up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: Forgot password?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: Play now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: Email verification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: Verify
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: Password recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: New password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: Password reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: Recover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: Sign in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: Transfer data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: Data will be transferred from guest account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: This option is currently unavailable for you. You must be more active in order to get free email sign up. You can use other login options instead.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: Total xp earned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: Total trophies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: Match breakdown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: 'Match won:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: 'Survived:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: 'Time survived:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: Preferred region
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: Map & date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: Trophies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: Profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: Copy ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: Best season
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: All time best
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: Lobby Invite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: Exit lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: Show Jumpscare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: Lobby invite was sent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: Unlocked perks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: Progress might get lost if you're not logged in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: Code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: 'Buttons customization:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: Customize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: Transferring data to an already existing account is unavailable, do you want to continue?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: Maps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: Matchmaking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "Enemy: Lil Godwilla\n Type: Ghost\n \n Lil Godwilla moves slowly, but in chase state she is much more faster - it is better to keep distance to avoid being chased.\n \n - Godwilla can appear in rooms.\n - Don't go into the direction of whispers.\n \n Objective: You begin in one of three hospital garages. The goal is to repair the car to escape. You need to find the following parts to escape: 4 wheels, a battery, a fuel and keys."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: '- The following color during gameplay means that you can use perk by pressing it'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: '- Perk might become unavailable in one of the following situations 1.Perk has been used. 2.You have insufficient amount of perks. 3.Perk is not supported in the current map'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: '- The following color during gameplay means that the perk activates automatically during gameplay (AKA situational perks)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: Play ranked matches and increase your league, climb up the leaderboard to earn unique rewards, unlock new perks.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "Enemy: Crawler\n Type: Monster\n \n Crawler can climb on walls. He can't see you if your flashlight is turned off. Avoid being near a well-lit areas.\n \n Objective: turn on 9 generators to power the main gate while solving a series of puzzles to get to the end."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "Enemy: Statue\n Type: Ghost\n \n Statue's weak points are doors and flashlight. It can't move when you're pointing your flashlight in it's direction, but keep in mind that the flashlight does not last indefinitely. Close doors behind you - it will slow down the Statue.\n \n Objective: escape through the main gate by solving puzzles. Open the security room, fix the fuse box, solve the gate puzzle"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: Would you like to read a manual on the game?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: You can choose to play against enemy player. One of the player will be chosen as an enemy. Enemy has to eliminate every survivor to win.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: Unlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: Get
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: Upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: You must unlock previous perk first
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: Kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: Season ended
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: Rooms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: Join by tag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: Delete account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: Are you sure you want to delete this account?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: Alpha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: Show FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: 'Emulator Input:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: Characters Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: Shaders Quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: XP Bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: 'Resolve DNS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "Enemy: Multiple\n Type: Monster/Ghost\n \n You're trapped in a cursed apartment, find anomalies to progress to the next floor and escape by reaching the 1st floor.\n There are multiple enemies. Every enemy has their own unique behaviour, you'll have to find a way to counter them.\n \n Objective: Reach floor 1 and escape apartments by finding anomalies"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: Ambience Volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: To receive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: Dynamic FOV (Useful for ipads)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "EMF reader detects ghost presence and recent ghost activity.\n \n Use EMF reader to quickly find approximate ghost area/room."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "Use your UV flashlight\n to detect Ultraviolet evidence.\n \n Ghost can leave handprints after interacting with doors or light switches."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "Get the reponse from spirit box inside ghost's area as an evidence.\n \n You have a higher chance to get the response during ghost activity."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "Use thermometer to finalize ghost's area/room, below 5°C.\n \n Freezing temperature evidence is below 0°C."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: There is a chance the candle will be blown out when placed inside the ghost room.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: Ghost orbs will appear near the ghost when there's ghost activity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "Enemy: Slaughter Ghost\n Type: Ghost\n \n You were kidnapped and brought to a secret underground facility. They promise freedom if you succeed in finding the correct ghost evidence.\n The ghost absorbs electrical current when manifesting, causing lights to flicker.\n \n Ghost resides in one of the rooms, and will begin its hunt from there when provoked.\n You can avoid ghost's line of sight by hiding behind obstructions.\n \n Objective: Find correct ghost evidences to complete the ritual and escape."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: Can be unlocked during events
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: Show more
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: Show less
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: First purchase offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: Free keys offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: Free XP offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: Free resources offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: XP Bundle offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: Free crates offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: Free presents offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: Blue certificates offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: Certificate crates offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: Wooden crate opening!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: Rare crates offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: Purple certificates offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: Certificates combo offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: Rare crates opening!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: Pink certificates offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: Red certificates offer!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: Available soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: Temporarily Unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: Are you sure you want to accept trade?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: Are you sure you want to claim the reward?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: '"Mind Control" Perk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: '"Premonition" Perk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: '"Ghost Cage" Perk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: '"Tong Clan" Coat'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: Today's multiplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: Not Escaped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: 'Unlock competitive mode: Escape at least once'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: Age selection doesn't affect gameplay.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: What is your age?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: Get a total of <color=#FFEF67>250 gold</color> or a <color=#FFEF67>3%</color> chance to receive a cursed doll perk inside one of the prize crates!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: Halloween offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>Halloween update!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: This update brings Halloween sceneries, halloween side quests, new personal quests items, balance changes and long awaited improvements.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>Wildcard</b> - Replaces a random perk at start. After death, all your perks can be used again.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>Sewers Remake is coming!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: In the near future we will release Sewers Remake. During the release, there will be a dedicated event with exclusive rewards.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>Halloween Exclusive Perk</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "There is now personal quest items that you can get. They allow you to start any personal quest at any time you want - and receive nice reward for completing them! There are two types of quests: Standard and Halloween.\n \n <b>Personal Quest Items:</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>New items: Shards</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>New Skins:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>Improvements & Balance Changes</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>New Hat & Trophy:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>Crowbar</b> - Allows you to pry open any locked door.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: Halloween Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>Version</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: Online Progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344688356441972736
+    m_Localized: Mobile HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: Input Bindings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: Keyboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: Gamepad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: Crouch Mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: UI Cursor Sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: Main Action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: Secondary Action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: Flashlight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: Drop Item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: Reload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: Ritual Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: Select Slot '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270086
+  - m_Id: 348348179381477376
+    m_Localized: Use Perk '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270086
+  - m_Id: 348349027587186688
+    m_Localized: Scoreboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: Pause Menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: Gamepad Detected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: Would you like to enable gamepad input?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: New Year offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- Better feedback for locked door.\n- IAP handling improvements.\n- Fixed quests not counting in solo games in Slaughterhouse.\n- Black Hole: reduced duration by <color=red>−75%</color> (max 30 s, was 120 s)\n- Ethereal Resurgence: reduced duration by <color=red>−50%</color> (max 30 s, was 60 s)\n- Hope, Wake Up, Will Make It, Lifesaver buff: <color=green>+50%</color> item reveal range at low levels\n- Leader, Victim Power buff: <color=green>+40%</color> item reveal range at low levels\n- Soul Guard buff: 3x longer at level 1 (15 s, was 5 s)\n- Wildcard now refreshes everyone's perks with cooldowns, including One Rises and Self Care\n- Fixed Speed Boots perk losing its bonus after Adrenaline Shot, Stealth Potion, Pursuit Surge or Recovery Gift ended, or after the player was revived.\n\n- Other changes and improvements"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: You can enable room names display in settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: Display Room Names
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: '"TTR Clan" Suit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: '"Adrenaline Shot" Perk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: '"King Clan" Crown'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Localized: Halloween Tune Volume
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: -2
+      type: {class:, ns:, asm:}
+      data: {}
+    - rid: 388619548772270086
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

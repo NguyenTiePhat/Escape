@@ -1,0 +1,4205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Dynamic Localization_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: bd247c8abbd899544abdf80ed5f11ab1, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6820423584242466821
+  m_TableData:
+  - m_Id: 5541370781696
+    m_Localized: 'Ich habe mich abgeschlossen und den Schlüssel im Safe gelassen, für den Fall, dass das Experiment, das ich gerade durchführen werde, fehlschlägt. Der Code zum Öffnen der Safebox lautet wie folgt:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5743183912960
+    m_Localized: 05. Juli
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5879968555008
+    m_Localized: 29. Oktober
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5923174080512
+    m_Localized: 01. September
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5962290159616
+    m_Localized: 03. August
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6005327912960
+    m_Localized: 19. Juni
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6047572942848
+    m_Localized: 25. Mai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6085720137728
+    m_Localized: 10. April
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6120407031808
+    m_Localized: 22. März
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6155697905664
+    m_Localized: 27. Februar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6224182501376
+    m_Localized: 30. Januar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6245586034688
+    m_Localized: 17. Mai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14193423015936
+    m_Localized: Drei Glocken läuten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14323928784896
+    m_Localized: Finden Sie den blauen Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14364894552064
+    m_Localized: Finden Sie den grünen Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14416123781120
+    m_Localized: Finden Sie den roten Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17854165409792
+    m_Localized: Finden Sie Türschlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19360503554048
+    m_Localized: Keine Energie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20106712178688
+    m_Localized: Finde einen Dietrich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41201007845376
+    m_Localized: Haupttor geöffnet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63004849725440
+    m_Localized: Gesperrt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4753716497342464
+    m_Localized: Schalten Sie alle Generatoren ein
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4773582931484672
+    m_Localized: Ziel aktualisiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4774003188162560
+    m_Localized: Reparieren Sie den Sicherungskasten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4774093231480832
+    m_Localized: Löse das Tor-Rätsel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4781854656815104
+    m_Localized: Verschlossene Türen öffnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5112596523900928
+    m_Localized: Dietrich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5113971110567936
+    m_Localized: Grüner Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5114013527564288
+    m_Localized: Blauer Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5114047270739968
+    m_Localized: Roter Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6214146365317120
+    m_Localized: 4 oben 4 Mitte 7 unten 3 oben 3 Mitte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6580402473918464
+    m_Localized: Aufgaben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6580435936075776
+    m_Localized: "-Sicherungskasten reparieren\n -Finden Sie Token\n -Öffne das Tor"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8027875532857344
+    m_Localized: Lösen Sie das Glockenrätsel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8029229286416384
+    m_Localized: Modul 2 entsperren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8029783647576064
+    m_Localized: Finden Sie den letzten Rätselhinweis und schließen Sie die Tür auf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8034741402984448
+    m_Localized: Baubereich freischalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12823908955709440
+    m_Localized: Charaktermenü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12823941574811648
+    m_Localized: Einige Outfits können während des Spiels freigeschaltet werden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12826192146063360
+    m_Localized: Karte wird geladen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12826332890128384
+    m_Localized: Assets werden entladen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12826397633404928
+    m_Localized: Verbinden...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12844965863350272
+    m_Localized: Daten werden geladen...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12845013900713984
+    m_Localized: Überprüfung fehlgeschlagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13933251813957632
+    m_Localized: Daten werden synchronisiert...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14200732679921664
+    m_Localized: Warten auf Spieler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14200784609599488
+    m_Localized: Spiel erstellen...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15715488842637312
+    m_Localized: Beginnend in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581316822327296
+    m_Localized: Rad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581326754439168
+    m_Localized: Kraftstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581376238837760
+    m_Localized: Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581401610182656
+    m_Localized: Batterie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581674172833792
+    m_Localized: Sicherung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581779311452160
+    m_Localized: Zeichen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581890875744256
+    m_Localized: 'Schlüssel: Eingang'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39582077086064640
+    m_Localized: Hammer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48507501954457600
+    m_Localized: Versagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48507551363358720
+    m_Localized: Der Raum wurde bereits gelöscht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76807447166050304
+    m_Localized: 'Abklingzeit der Raumerstellung: 1 Minute'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84344486077915136
+    m_Localized: Zimmer existiert nicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84344558840700928
+    m_Localized: Es ist ein Fehler aufgetreten. Bitte versuchen Sie es in ein paar Sekunden noch einmal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85843330917720064
+    m_Localized: 'Grund: Das Spiel wurde vom Lobbybesitzer abgesagt'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85845884896534528
+    m_Localized: 'Grund: Der Besitzer der Lobby konnte keine Übereinstimmung beantragen'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85846882159419392
+    m_Localized: Spiel abgesagt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88125177869623296
+    m_Localized: Die Uhrzeit auf Ihrem Gerät ist falsch eingestellt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88347193499443200
+    m_Localized: Warten auf verfügbare Server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89458527758704640
+    m_Localized: 'In der Liga freischaltbar:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90637878806175744
+    m_Localized: Kaufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90638162303377408
+    m_Localized: Kauf erfolgreich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30343710779629568
+    m_Localized: Flucht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3193452392079360
+    m_Localized: Überlebe 10 Minuten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192212757569536
+    m_Localized: Eliminiere alle Überlebenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90944572715163648
+    m_Localized: Verbindungszeitüberschreitung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385693450362880
+    m_Localized: Code erneut senden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: anmelden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92464438689390592
+    m_Localized: E-Mail ist ungültig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92464489222365184
+    m_Localized: Die Länge des Passworts muss mindestens 8 Zeichen betragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92467848566267904
+    m_Localized: falsche Email oder Passwort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92467948369731584
+    m_Localized: Wir haben einen Code per E-Mail gesendet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92467978933624832
+    m_Localized: Bitte überprüfen Sie Ihren Posteingang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92468006465036288
+    m_Localized: Wenn Sie eine E-Mail nicht finden können, suchen Sie nach einem Schlüsselwort
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92468066976260096
+    m_Localized: Erfolg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92468110521524224
+    m_Localized: Passwort wurde zurückgesetzt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95727896763555840
+    m_Localized: Medkit erforderlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96497186815074304
+    m_Localized: Tag kopiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170253684498432
+    m_Localized: Update verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170344013029376
+    m_Localized: Bitte aktualisieren Sie Ihr Spiel auf die neueste Version
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97821147687542784
+    m_Localized: Saison
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: Spielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: NEIN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: Ja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271202324242432
+    m_Localized: Bereit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271340274900992
+    m_Localized: Stornieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271416628011008
+    m_Localized: Anfordern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271498114949120
+    m_Localized: In der Warteschlange
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167660795125760
+    m_Localized: Stornieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55026460497272832
+    m_Localized: Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98276847656099840
+    m_Localized: Freundschaftsanfrage wurde gesendet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98276983631241216
+    m_Localized: Du wurdest gekickt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277150145110016
+    m_Localized: Lobby wurde gelöscht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109695964661407744
+    m_Localized: Die aktuelle Lobby ist nicht verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: Lobby-Einladung wurde gesendet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277334031785984
+    m_Localized: Freund ist bereits hinzugefügt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277415753605120
+    m_Localized: Limit erreicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277471026143232
+    m_Localized: Der Spieler wurde nicht gefunden oder ist bereits in der Freundesliste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277547698020352
+    m_Localized: Der Spieler hat das Limit ausstehender Anfragen erreicht oder die Anfrage wurde bereits gesendet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98281164123398144
+    m_Localized: Vor Tagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98633451891056640
+    m_Localized: 'Geschätzt: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 98646163022929920
+    m_Localized: Nicht genug XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: Karten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102216725435506688
+    m_Localized: Die Lobby ist derzeit nicht verfügbar. Sie können stattdessen mit Freunden benutzerdefinierte Spiele oder Ranglistenspiele mit zufälligen Spielern spielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170490880778240
+    m_Localized: Verbindung unterbrochen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170587391713280
+    m_Localized: Prüfe deine Internetverbindung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106472316056100864
+    m_Localized: Wird bearbeitet. Bitte schließen Sie das Spiel nicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107607691889729536
+    m_Localized: Gefunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108622592783409152
+    m_Localized: 'Timeout aufgrund des Verlassens eines Ranglistenspiels: 10 Minuten'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108669659937497088
+    m_Localized: Anfrage wurde gesendet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59328057125625856
+    m_Localized: Sie sind nicht der Besitzer der Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142819424264192
+    m_Localized: Zusammenfassung des Spiels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94144757133991936
+    m_Localized: PvP-Zusammenfassung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: Krankenhaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: Kanalisation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: Schule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51105563140096
+    m_Localized: Umkleideraum
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51105571528704
+    m_Localized: Wählen Sie Ihren Charakter und wechseln Sie das Outfit in der Umkleidekabine
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111944916992
+    m_Localized: Ungültige Eingabe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152604499968
+    m_Localized: Kauf ungültig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17426342207488
+    m_Localized: IP kopiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43544143991922688
+    m_Localized: Sie sind nicht angemeldet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63456183011237888
+    m_Localized: 'Generatoren eingeschaltet: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 101871462078472192
+    m_Localized: Spieler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102208760158609408
+    m_Localized: Nach ID suchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107311979918516224
+    m_Localized: Verschleißgrenze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111000281985048576
+    m_Localized: '{} lädt Sie in die Lobby ein'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 111018472660525056
+    m_Localized: '{} in die Lobby einladen?'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112822895611207680
+    m_Localized: '{} Timeout für Abbruch des Ranglistenspiels'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 115611745941184512
+    m_Localized: Erreichen Sie den Top-100-Rang, tätigen Sie einen Einkauf im Shop oder schauen Sie sich eine Anzeige an, um sich verifizieren zu lassen und die Prämien zu erhalten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115632057734914048
+    m_Localized: Handel #{}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 115649609471090688
+    m_Localized: Läuft ab {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 115725278263631872
+    m_Localized: '{} Empfängt:'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 116342002486861824
+    m_Localized: '{} Inventar:'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 117058415333728256
+    m_Localized: Muster #{}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 14091804672
+    m_Localized: Sie können sich unter dem Tisch verstecken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109650632704
+    m_Localized: Machen Sie keinen Lärm – der Geist kann Sie hören
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121793142784
+    m_Localized: Sammeln Sie Papiere, um herauszufinden, was im New Wishlie Hospital passiert ist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146858303488
+    m_Localized: Sie können die Statue hinter Türen einsperren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299573141135360
+    m_Localized: Im Überlebensmodus können Sie sich nicht verstecken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8674990290362368
+    m_Localized: Kruzifix kann Sie vor dem Geisterangriff retten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47462536444895232
+    m_Localized: Das beste Gegenmittel gegen die Godwilla, wenn sie sich teleportiert, besteht darin, sich langsam zu bewegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613588736991232
+    m_Localized: Befestigen Sie den Sicherungskasten, um den Strom einzuschalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613639693590528
+    m_Localized: Halten Sie jederzeit Sichtkontakt zur Statue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613651655745536
+    m_Localized: Löse das Torrätsel, um zu entkommen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613881897869312
+    m_Localized: Crawler kann Sie mit eingeschalteter Taschenlampe sehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613908162600960
+    m_Localized: Schalten Sie alle Generatoren ein, um das Haupttor zu öffnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78614076979142656
+    m_Localized: Repariere das Auto, um zu entkommen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78614092598730752
+    m_Localized: Teile sind zufällig auf der Karte verteilt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78614108767772672
+    m_Localized: Für einige Türen ist möglicherweise ein Schlüssel erforderlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119385191447781376
+    m_Localized: Hat verlassen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120748477678346240
+    m_Localized: Entkam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121111192766767104
+    m_Localized: Kiste für {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 121551436259516416
+    m_Localized: 'Gekaufte Marktartikel: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 121551492597407744
+    m_Localized: 'Verkaufte Marktartikel: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 122196511440232448
+    m_Localized: 'Gebühr: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 122966113493442560
+    m_Localized: 'Zuschauen in: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 123610732598124544
+    m_Localized: Datum unbekannt {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 101558433671536640
+    m_Localized: Beliebig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59214284268232704
+    m_Localized: 30 Sek. Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112749752456568832
+    m_Localized: Aufgeben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115722762239074304
+    m_Localized: Akzeptiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121808765431656448
+    m_Localized: Kontodetails
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121523330639454208
+    m_Localized: Konto erfolgreich übertragen. Sie müssen die Übertragung von Inventargegenständen manuell abschließen, indem Sie eine Handelsanfrage für das neue Konto erstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105221500408508416
+    m_Localized: Aktionen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123556046335631360
+    m_Localized: Aktivierungsmodus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121470726827925504
+    m_Localized: Werbeunterbrechung...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121067740153065472
+    m_Localized: Erweitert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113924916720427008
+    m_Localized: Menge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102717043529211904
+    m_Localized: Anti-Aliasing (MSAA)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98966563497959424
+    m_Localized: Beliebig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108404938432831488
+    m_Localized: Anwenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123311935397552128
+    m_Localized: Möchten Sie Einstellungen übernehmen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113553549441359872
+    m_Localized: Durchschn. Preis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105833453549772800
+    m_Localized: Verboten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104899863286636544
+    m_Localized: Schwarzer Anzug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123318330884874240
+    m_Localized: Block
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105106421782142976
+    m_Localized: Blutig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466212125237248
+    m_Localized: Klassisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105106816080273408
+    m_Localized: Blueorb
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104808430659690496
+    m_Localized: Unterteil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93242814920384512
+    m_Localized: Taste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114552079396102144
+    m_Localized: Kaufanfragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103695013710389248
+    m_Localized: Von neueste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103695117305503744
+    m_Localized: Durch Verschleiß
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115722782937964544
+    m_Localized: Abgesagt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101555975394156544
+    m_Localized: Cargohosen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119704565845057536
+    m_Localized: Kassette
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108404366157799424
+    m_Localized: Benutzernamen ändern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123318753221926912
+    m_Localized: Plaudern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122903692078735360
+    m_Localized: Karte auswählen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117899587102957568
+    m_Localized: Schließen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121087114297552896
+    m_Localized: Kleidungsqualität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101515239810392064
+    m_Localized: Zustand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108405140543758336
+    m_Localized: Bestätigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103687056251674624
+    m_Localized: Kosten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113514830084694016
+    m_Localized: Kiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121112226385879040
+    m_Localized: Kann im Inventar freigeschaltet werden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122272865825316864
+    m_Localized: Diese Kiste ist derzeit auf dem Markt/im Handel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110909034238828544
+    m_Localized: Anpassung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105107014642819072
+    m_Localized: Damast
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104887708990562304
+    m_Localized: Standard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115240155252514816
+    m_Localized: Löschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119385175639449600
+    m_Localized: Gestorben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120384147682222080
+    m_Localized: Schwierigkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102714351666847744
+    m_Localized: 'Chat deaktivieren:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105108667987124224
+    m_Localized: Disko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112384749681500160
+    m_Localized: Verdiente Belohnungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104898702827577344
+    m_Localized: Elektronisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115237687680557056
+    m_Localized: Ausrüsten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60867454367162368
+    m_Localized: Entfliehen Sie der Gegend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123318230628425728
+    m_Localized: Alle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119635730387427328
+    m_Localized: Erkunden Sie die Gegend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93244163229736960
+    m_Localized: Figur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109816149913362432
+    m_Localized: 'Chat filtern:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101888036554399744
+    m_Localized: Finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101857254880305152
+    m_Localized: Nach IP suchen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59455580647972864
+    m_Localized: Sicherung finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76866220811345920
+    m_Localized: Schlüssel finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62762695877713920
+    m_Localized: Gemälde finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108370343444340736
+    m_Localized: Spieler finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59805290059522048
+    m_Localized: Token finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54041408737107968
+    m_Localized: Repariere den Transporter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437612046278656
+    m_Localized: Fabrikneu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108378782920859648
+    m_Localized: 'Freundschaftsanfragen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123318300195151872
+    m_Localized: Nur Freunde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121060036651069440
+    m_Localized: Spielqualität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93241597007749120
+    m_Localized: Gartenschere
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93244194808651776
+    m_Localized: Gangsperre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105108353292689408
+    m_Localized: Golddiamanten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466397836435456
+    m_Localized: Außergewöhnlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104899600240861184
+    m_Localized: Grauer Anzug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102712779587182592
+    m_Localized: Gyroskop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102712962312036352
+    m_Localized: 'Empfindlichkeit des Gyroskops:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123556311516307456
+    m_Localized: Halten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111307505924038656
+    m_Localized: Im Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110593370806542336
+    m_Localized: Eingehend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108434726442754048
+    m_Localized: Prüfen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115745964088614912
+    m_Localized: Ungültig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101127140643168256
+    m_Localized: Inventar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101894052054556672
+    m_Localized: IP:Port/TAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101130629427486720
+    m_Localized: Name und Nummer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115401411682885632
+    m_Localized: Ausgewählte Artikel sind nicht handelbar oder bereits im Handel/Markt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115401431064764416
+    m_Localized: Ausgewählte Artikel sind im Handel/Markt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111363423508357120
+    m_Localized: Sie können dem Match nicht beitreten, wenn Sie sich im Warteschlangenstatus befinden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109467055009292288
+    m_Localized: Der Beitritt zur Lobby ist fehlgeschlagen. Bitte versuchen Sie es in ein paar Minuten noch einmal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105455843720290304
+    m_Localized: Treten Sie dem Spiel bei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93242739884285952
+    m_Localized: Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466151974723584
+    m_Localized: Grundschule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113956281973202944
+    m_Localized: Aktuelle Einträge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109460613493678080
+    m_Localized: Sie können der Lobby nicht beitreten, wenn Sie sich im Warteschlangenstatus befinden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93242782641020928
+    m_Localized: Herrenhausschlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101902256557776896
+    m_Localized: Markt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112734773015732224
+    m_Localized: Ihr vorheriges Spiel ist noch aktiv. Verlassen Sie das vorherige Spiel oder nehmen Sie daran teil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98972804131577856
+    m_Localized: Mechaniker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104895894426476544
+    m_Localized: Gittergewebe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113514790641459200
+    m_Localized: Metallkiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556304940621824
+    m_Localized: Motorradjacke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121530109930758144
+    m_Localized: Sie müssen zuerst Ihre Inventargegenstände und Marktanfragen löschen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119276529534361600
+    m_Localized: Stumm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437633462394880
+    m_Localized: Minimaler Verschleiß
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101131180324151296
+    m_Localized: Name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111687462932176896
+    m_Localized: Neuer Hut freigeschaltet!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101880716751527936
+    m_Localized: Keine Zimmer gefunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101130404478574592
+    m_Localized: Keiner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114191418740695040
+    m_Localized: Nicht genug Gold XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113424023625392128
+    m_Localized: Nichts gefunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111308387562545152
+    m_Localized: Offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109853846761627648
+    m_Localized: OK
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115367441817657344
+    m_Localized: In der Warteschleife
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115369144411480064
+    m_Localized: Auf dem Markt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115368882858876928
+    m_Localized: Im Handel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111308346533863424
+    m_Localized: Online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115252153927327744
+    m_Localized: Offen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556331448623104
+    m_Localized: Offene Motorradjacke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114200383872557056
+    m_Localized: Die Bestellung wurde erfolgreich aufgegeben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101131476253270016
+    m_Localized: Outfit & Seltenheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110593479527096320
+    m_Localized: Ausgehend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101473384221630464
+    m_Localized: Eigentümer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93243477075156992
+    m_Localized: Malerei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556075398946816
+    m_Localized: Hose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102272560169738240
+    m_Localized: Vergangene Spiele
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101473340705726464
+    m_Localized: Muster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119392568892973056
+    m_Localized: Vorteil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466314466254848
+    m_Localized: Elite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104899043644137472
+    m_Localized: Pinkblend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104899989858148352
+    m_Localized: Pinksuit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113446867436560384
+    m_Localized: Bestellung aufgeben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108370523749081088
+    m_Localized: Spieler-ID (z. B. 000aa111-22b2-3333-c4c4-55555d555d55)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104897404740820992
+    m_Localized: Tupfen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105454411067678720
+    m_Localized: Spielerübersicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113554200686747648
+    m_Localized: Preis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104897736719982592
+    m_Localized: Prisonline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466255855050752
+    m_Localized: Besonders
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272570279714816
+    m_Localized: '<color=#F23625>Aaaah!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272488318820352
+    m_Localized: '<color=#61D1F7>Hurra!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98270811931009024
+    m_Localized: '<color=#F4BF75>Sei vorsichtig!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271672111456256
+    m_Localized: '<color=#61D1F7>Gegenstand fallen lassen!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272048072089600
+    m_Localized: '<color=#61D1F7>Folge mir</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272111213142016
+    m_Localized: '<color=#61D1F7>Ich folge dir</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272205584982016
+    m_Localized: '<color=#61D1F7>Ich habe etwas gefunden!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98270768297664512
+    m_Localized: '<color=#F4BF75>Ich habe einen Geist entdeckt!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271623331700736
+    m_Localized: '<color=#61D1F7>Gehen Sie hierher!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272412561301504
+    m_Localized: '<color=#61D1F7>Gut</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271727904088064
+    m_Localized: '<color=#F4BF75>Ich habe Geräusche gehört!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272010726006784
+    m_Localized: '<color=#61D1F7>Hallo</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271532244000768
+    m_Localized: '<color=#61D1F7>Hilfe!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271581149585408
+    m_Localized: '<color=#61D1F7>Hier!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272351458680832
+    m_Localized: '<color=#61D1F7>Nein</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272282563043328
+    m_Localized: '<color=#61D1F7>Okay</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272160546545664
+    m_Localized: '<color=#61D1F7>Auf dem Weg</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272459738832896
+    m_Localized: '<color=#F23625>Lauf!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272383889039360
+    m_Localized: '<color=#61D1F7>Danke!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101183940277035008
+    m_Localized: Rang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112750880170696704
+    m_Localized: Ihre Verbindung zum Ranglistenspiel wurde getrennt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112745572501282816
+    m_Localized: Für das Verlassen eines Ranglistenspiels wird eine Zeitüberschreitungsstrafe verhängt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101131628879798272
+    m_Localized: Seltenheit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93242648326823936
+    m_Localized: Ratsche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110632165887172608
+    m_Localized: Möchten Sie die Verbindung wiederherstellen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466335307751424
+    m_Localized: Außergewöhnlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105108218798137344
+    m_Localized: Rote Linie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102688966875013120
+    m_Localized: Region & Sprache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101127978396672000
+    m_Localized: Registrierung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103683857268596736
+    m_Localized: Anfragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105105212350390272
+    m_Localized: Robotik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110908776112971776
+    m_Localized: In Räumen können Sie Ihren eigenen Raum nach Ihren Wünschen gestalten und anpassen. Egal, ob Sie PvP oder gegen feindliche KI spielen möchten, entscheiden Sie, wie viele Spieler Sie Ihrem Raum beitreten möchten, ändern Sie den Spielmodus und andere nützliche Einstellungen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93244042928709632
+    m_Localized: Verrosteter Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437771610185728
+    m_Localized: Verdorben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118595458417287168
+    m_Localized: Punktzahl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104896365966909440
+    m_Localized: schottisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556029089636352
+    m_Localized: OP-Kleidung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113555301536358400
+    m_Localized: Wählen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115242203368906752
+    m_Localized: Wählen Sie mehr aus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105879425527394304
+    m_Localized: Charakter auswählen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115240875695529984
+    m_Localized: Verkaufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115309505363828736
+    m_Localized: Verkaufe Gegenstände auf dem Markt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115324320396337152
+    m_Localized: Artikel wurden erfolgreich auf dem Markt gelistet. Spieler können Ihre aufgelisteten Gegenstände kaufen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114552005354053632
+    m_Localized: Verkaufsanfragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116359603904569344
+    m_Localized: Sie müssen mindestens 1 Artikel senden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123350108215435264
+    m_Localized: Empfindlichkeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120114253719920640
+    m_Localized: Serverbeendigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556162783076352
+    m_Localized: Hemd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105105471860367360
+    m_Localized: Hemd rosa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105105114119790592
+    m_Localized: Hemd Rot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104808381330481152
+    m_Localized: Schuhe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101555805298352128
+    m_Localized: Segeltuchschuhe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101555927054802944
+    m_Localized: Oxfords-Schuhe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556219645255680
+    m_Localized: Kurzarm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102714519095074816
+    m_Localized: 'Chat im Event-Feed anzeigen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122261235808854016
+    m_Localized: Ein ähnlicher Artikel ist bereits in Ihren Verkaufsanfragen aufgeführt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105134040514813952
+    m_Localized: Soziale Netzwerke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119698644163092480
+    m_Localized: Bilderrätsel lösen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62101607892901888
+    m_Localized: Puzzle lösen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103694815722463232
+    m_Localized: Sortieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120751192810708992
+    m_Localized: Statistiken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556254915158016
+    m_Localized: Anzug
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108428555711406080
+    m_Localized: Überleben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120011693164060672
+    m_Localized: Überleben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118514710918193152
+    m_Localized: Synchronisierungsstatus...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120304889349791744
+    m_Localized: 'Etikett:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104896981615239168
+    m_Localized: Plane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112385383432445952
+    m_Localized: Dieser Tag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112384865335238656
+    m_Localized: Diese Woche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123556334761140224
+    m_Localized: Umschalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107365165282877440
+    m_Localized: DIE BESTEN 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105455683808256000
+    m_Localized: Handel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116326528055238656
+    m_Localized: Maximales Limit für Handelsgegenstände erreicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115597330705539072
+    m_Localized: 'Begrenzter Handel: Kann nur gehandelt werden, nachdem der Top-100-Rang erreicht oder mindestens ein Einkauf im Shop getätigt wurde'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108378845957054464
+    m_Localized: 'Handelsanfragen:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101902325226921984
+    m_Localized: Handelsgeschäfte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98972840550719488
+    m_Localized: Fallenausdauer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104892033116659712
+    m_Localized: Typ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123315104299081728
+    m_Localized: Rückgängig machen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115251925107073024
+    m_Localized: Ablegen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119700469780045824
+    m_Localized: Safebox entsperren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119276543472033792
+    m_Localized: Stummschaltung aufheben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104808493830103040
+    m_Localized: Oberbekleidung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119394102913523712
+    m_Localized: Verwendet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98972914076868608
+    m_Localized: Die Macht des Opfers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123555499402584064
+    m_Localized: Sprachchat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119276567383760896
+    m_Localized: Stimme stummschalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119276598039928832
+    m_Localized: Stummschaltung der Stimme aufheben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437697366810624
+    m_Localized: Getragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118274112307060736
+    m_Localized: Walkie-Talkie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101473278005075968
+    m_Localized: Verschleiß
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104898232109228032
+    m_Localized: Weiße Streifen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118312371473080320
+    m_Localized: Neues Wishlie-Krankenhaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113514763944714240
+    m_Localized: Holzkiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93244112814202880
+    m_Localized: Holzschlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111027798171181056
+    m_Localized: Nachricht schreiben...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437750894518272
+    m_Localized: Gut getragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110926560792403968
+    m_Localized: XP-Belohnung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110926599027679232
+    m_Localized: Belohnung wird verarbeitet. Sie erhalten in wenigen Sekunden eine Belohnung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121542048161456128
+    m_Localized: Für dieses Konto liegen ausstehende Marktanfragen vor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115725235150381056
+    m_Localized: 'Du erhältst:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116352882712764416
+    m_Localized: 'Sie handeln:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116014131134324736
+    m_Localized: 'Ihr Inventar:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123558308013400064
+    m_Localized: 'HUD-Sichtbarkeit:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123558783018328064
+    m_Localized: Sichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123558802903523328
+    m_Localized: Mobiles HUD ausgeblendet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123558884264632320
+    m_Localized: Unsichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123579748762771456
+    m_Localized: Einkäufe wiederherstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123610985766313984
+    m_Localized: Weiterführende Schule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123614333345193984
+    m_Localized: Geheimes grönländisches Labor, Kanalisation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123705392607780864
+    m_Localized: Schnell-Chat-Rad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123951309638328320
+    m_Localized: Menü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124029044842815488
+    m_Localized: Fehlenden Kauf melden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127272284668813312
+    m_Localized: Sie erhalten einen Artikel mit ähnlichem oder demselben Tragegrad und Muster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127272901575434240
+    m_Localized: 'Enthält eines der folgenden:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127291495617126400
+    m_Localized: Ausbildung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129152205276045312
+    m_Localized: blutet.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131225592521547776
+    m_Localized: Beschleunigung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131255196653182976
+    m_Localized: Behoben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131255806341406720
+    m_Localized: Treibstofftank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131255856639500288
+    m_Localized: Ausgefüllt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131256150844760064
+    m_Localized: Eingefügt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131256583197810688
+    m_Localized: Van-Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131563588454178816
+    m_Localized: Sichtfeld
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131563988989239296
+    m_Localized: Bewegungsbereich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131606969876209664
+    m_Localized: Tasten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137487124536483840
+    m_Localized: Was ist neu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137489311832465408
+    m_Localized: Neuestes Update
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137496757988745216
+    m_Localized: Vorheriges Update
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141003720148115456
+    m_Localized: kompetitives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140658484830003200
+    m_Localized: Abklingzeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140696149524733952
+    m_Localized: Update anzeigen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140732621611065344
+    m_Localized: Mikrofontest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141003245147381760
+    m_Localized: Wählen Sie den Modus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141008640565829632
+    m_Localized: Alle Karten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141009424426721280
+    m_Localized: Lässiges Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142040099366187008
+    m_Localized: Sie können Voice-Chat in den Hauptmenüeinstellungen aktivieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142040497997033472
+    m_Localized: Nutzen Sie epische Qualität für realistische Grafiken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142041350506098688
+    m_Localized: Sie können in Räumen den benutzerdefinierten Modus wählen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142041780195766272
+    m_Localized: In einer höheren Liga können Sie neue Vorteile freischalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142042091991937024
+    m_Localized: 'Wettbewerbsmodus: Höhere Ligen haben härtere Gegner'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142042467675746304
+    m_Localized: Erreichen Sie den Top-100-Rang in der Bestenliste, um exklusive Belohnungen zu erhalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142043501630402560
+    m_Localized: Das Aussehen der Kleidung hängt von der Abnutzungsklasse ab. Je höher die Abnutzungsklasse, desto schmutziger kann sie aussehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142045478271660032
+    m_Localized: Nutzen Sie den Handel, um Gegenstände mit Ihren Freunden auszutauschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142045609591123968
+    m_Localized: Erstellen Sie eine Lobby, um mit Freunden konkurrenzfähig oder zwanglos zu spielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142046933816782848
+    m_Localized: Sie können andere Spieler auf einer Minikarte sehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142049935824510976
+    m_Localized: Anomalie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142054291743432704
+    m_Localized: Wohnungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142066395999711232
+    m_Localized: Passen Sie die Spieleinstellungen an und verwenden Sie Kopfhörer für ein besseres Erlebnis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142070563109593088
+    m_Localized: Sammlerstück
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144010110282227712
+    m_Localized: s
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144009269995364352
+    m_Localized: m
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144009250709954560
+    m_Localized: h
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144009211761647616
+    m_Localized: d
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144363276853043200
+    m_Localized: Teamkollegen auffüllen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144272876333510656
+    m_Localized: Sie können das mobile HUD in den Einstellungen deaktivieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143484961328279552
+    m_Localized: 'Hören Sie gut zu: Sie sitzen in einer verfluchten Wohnung fest und sie ist voller <color=#962433>Anomalien.</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143485051363209216
+    m_Localized: Wenn Sie raus wollen, erfassen Sie <color=#962433>Anomalien</color> mit Ihrer Kamera und begeben Sie sich zum <color=#26bf21>Aufzug</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143485081356677120
+    m_Localized: Wenn Sie eine <color=#962433>Anomalie</color> übersehen, wird der <color=#26bf21>Aufzug</color> ausfallen und Sie zurück in die oberste Etage bringen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143485106178568192
+    m_Localized: Beachten Sie, dass <color=#962433>Monster</color> keine Anomalien sind. Viel Glück.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143488063116750848
+    m_Localized: Verfluchtes Wohnhaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143488401035046912
+    m_Localized: 30. Oktober 03:00 Uhr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143657085470498816
+    m_Localized: Glätte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143891920365543424
+    m_Localized: Hinweise anzeigen (spezifische Karten)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893999817580544
+    m_Localized: Anomalie übersehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143974761577308160
+    m_Localized: Saisonale Karte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143986589309067264
+    m_Localized: Neue Karte verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144607034555228160
+    m_Localized: Versatz des sicheren Bereichs
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144698724834074624
+    m_Localized: Kamera-Bob (spezifische Karten)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145075970627330048
+    m_Localized: Ausgang 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146069030895083520
+    m_Localized: Sind Sie sicher, dass Sie dieses Element löschen möchten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146543352669876224
+    m_Localized: '<color=#ff0000>Anomalien</color> können <color=#ff0000>fehlende</color> oder <color=#ff0000>anomale</color> Objekte sein. Lebende Bewohner, Geräusche, erhebliche Umgebungsveränderungen, „roter Raum“, Medikamentenkoffer oder Sammlerstücke sind keine <color=#ff0000>Anomalien</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147793826500915200
+    m_Localized: Jede Etage ist identisch. Merken Sie sich Details. Jede Bodenveränderung ist eine <color=#ff0000>Anomalie</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148229115379789824
+    m_Localized: "Drücken Sie nach oben, wenn auf dieser Etage eine <color=#ff0000>Anomalie</color> vorliegt\n Drücken Sie nach unten, wenn keine <color=#ff0000>Anomalie</color> vorliegt"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148229147633987584
+    m_Localized: Wenn es eine <color=#ff0000>Anomalie</color> gibt, erfassen Sie diese mit Ihrer Kamera, um sie zu entfernen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148360364716711936
+    m_Localized: (Sie müssen das Match beenden)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151259120327974912
+    m_Localized: Objekt #
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150837701282619392
+    m_Localized: Gegenstand neu gespawnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151222169319235584
+    m_Localized: Taschenlampe 'Hände'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151273093479784448
+    m_Localized: Suchen nach #
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152320104228446208
+    m_Localized: Spiel konnte nicht erstellt werden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153060098597445632
+    m_Localized: Empfohlenes Video
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154011156576460800
+    m_Localized: 'Anomalien gefunden: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 154014535314825216
+    m_Localized: Du bist tot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154134905975988224
+    m_Localized: Erweiterte Grafik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154437131340603392
+    m_Localized: Zurück
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154477862977527808
+    m_Localized: Spiel beginnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154478881711054848
+    m_Localized: '{} - Ducken'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 154478984249204736
+    m_Localized: '{} - Laufen'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 154479069792034816
+    m_Localized: '{} - Kamera'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 154479298993971200
+    m_Localized: '{} - Interagieren'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 154479373619027968
+    m_Localized: '{} - Chat'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 154479570373828608
+    m_Localized: '{} - Zuschauen'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 154482917361311744
+    m_Localized: Normal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154483067920048128
+    m_Localized: Einfach (keine Monster)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154483348296687616
+    m_Localized: Spiel erstellen (privat)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154483442240708608
+    m_Localized: Verbinden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156222931038711808
+    m_Localized: 'Hinweis: Deaktivieren Sie „Nachbearbeitung“ in den Einstellungen, wenn die Leistung schlecht ist'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156325667126194176
+    m_Localized: Verkaufe Gegenstände auf dem Markt, um Gold-XP zu erhalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157646892152381440
+    m_Localized: Holzkiste 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157646929578156032
+    m_Localized: Giftkiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157646996322115584
+    m_Localized: Gummi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647027338993664
+    m_Localized: Praktikant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647080644403200
+    m_Localized: Rosa Streifen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647130229465088
+    m_Localized: Zebra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647224395784192
+    m_Localized: Rosa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647281270546432
+    m_Localized: Giftig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647362581323776
+    m_Localized: Lässig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647409968570368
+    m_Localized: Büro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647424078209024
+    m_Localized: Fade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647453920681984
+    m_Localized: Farbe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647472820215808
+    m_Localized: Sommer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647507700047872
+    m_Localized: Klassenzimmer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647524070416384
+    m_Localized: Punk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647564448980992
+    m_Localized: Golden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647578466344960
+    m_Localized: Kirsche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647598695473152
+    m_Localized: Leopard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157648203082096640
+    m_Localized: Stiefel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157648627088482304
+    m_Localized: Leggings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157648808907366400
+    m_Localized: Jeans
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157648895066759168
+    m_Localized: Rock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157650176300802048
+    m_Localized: Eingestecktes Hemd
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157650219162394624
+    m_Localized: Mantel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158367844553187328
+    m_Localized: Fahrradhosen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158502789472837632
+    m_Localized: Wasser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158502805046288384
+    m_Localized: Sport
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159606422700548096
+    m_Localized: Neue Kollektion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167573237078679552
+    m_Localized: '{} Stimmen'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 168135790653595648
+    m_Localized: Tag {var}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 168281674175471616
+    m_Localized: Vor {} beendet
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 167819285407719424
+    m_Localized: Es sind keine Abstimmungen verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167819512327954432
+    m_Localized: Welche Karte möchten Sie im Wettkampfmodus ersetzen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167901778416754688
+    m_Localized: Danke für Ihre Stimme! Ihre Stimme hat keinen Einfluss auf die Bewertungen, da Sie ein Gastkonto verwenden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168167335384834048
+    m_Localized: Abholen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168174081373364224
+    m_Localized: Täglicher Preis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168268333453402112
+    m_Localized: Wählen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168635929012985856
+    m_Localized: Belohnung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168636119249838080
+    m_Localized: Täglicher Besuch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168636417129308160
+    m_Localized: „The Ghost“-Fan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168636461391798272
+    m_Localized: Militär
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168636605264814080
+    m_Localized: Kupfer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168935592177950720
+    m_Localized: Fortschritt zurücksetzen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169019095804534784
+    m_Localized: Premium-Tagesbesuch kaufen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169021051847565312
+    m_Localized: Sind Sie sicher, dass Sie den Fortschritt zurücksetzen möchten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170314056573726720
+    m_Localized: Sie können Anzeigen entfernen, indem Sie etwas im Shop kaufen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173705600737206272
+    m_Localized: Zerstöre Molden Blobs {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 171090705147486208
+    m_Localized: Der Akku ist voll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178699836599558144
+    m_Localized: Es ist Ihnen nicht gestattet, diesem MM-Server beizutreten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187715042095214592
+    m_Localized: Wenn Sie raus wollen, müssen Sie auf die Umgebung achten, um keine <color=#962433>Anomalie</color> zu übersehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187715883619397632
+    m_Localized: Wenn Sie eine <color=#962433>Anomalie</color> finden, drücken Sie nach oben. Wenn keine Anomalie vorliegt, drücken Sie nach unten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187354463696052224
+    m_Localized: "Sind Sie sicher, dass Sie das aktive Spiel (<b>{}</b>) abbrechen möchten?\n \n Sie erhalten eine Auszeit"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 187362407040933888
+    m_Localized: Vom Benutzer getrennt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187362476045623296
+    m_Localized: Vom Server getrennt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187362518718472192
+    m_Localized: Zeitüberschreitung.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187362694757605376
+    m_Localized: Hoher Ping.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187369502607925248
+    m_Localized: verließ das Spiel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204511327982444544
+    m_Localized: Vollständig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200770832919683072
+    m_Localized: Halloween
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205205562511581184
+    m_Localized: 'Endet in:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205922613838819328
+    m_Localized: Transporterrad finden {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205922675776106496
+    m_Localized: Sicherungen in den Sicherungskasten einsetzen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205923104371060736
+    m_Localized: Legen Sie Token in das Haupttor {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205923352837435392
+    m_Localized: Blasen Sie Kerzen im Halloween-Modus {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205925591387811840
+    m_Localized: Finden Sie Medikamentenkoffer in den Apartments {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205925710774480896
+    m_Localized: Lieferwagenrad aufsetzen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205923283983740928
+    m_Localized: Verwenden Sie den „roten Schlüssel“ {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205923427697373184
+    m_Localized: Kanister finden {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205924534406426624
+    m_Localized: Schulschlüssel finden {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205924600256999424
+    m_Localized: Van-Batterie einbauen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205924765009260544
+    m_Localized: „Grünen Schlüssel“ verwenden {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205925488748998656
+    m_Localized: Verwenden Sie den „blauen Schlüssel“ {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205925878647304192
+    m_Localized: Finde eine Kiste in der Schule {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205926036235694080
+    m_Localized: Benutze den Dietrich im Krankenhaus {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205926132989898752
+    m_Localized: Sicherungskasten in der Schule lösen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286331951339528192
+    m_Localized: Antwort von der Geisterbox im Schlachthaus erhalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205926345557225472
+    m_Localized: Van-Kanister verwenden {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 199329411788431360
+    m_Localized: Demnächst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200773632147841024
+    m_Localized: Ereignis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203342954768969728
+    m_Localized: Überlebe Halloween
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203674712630702080
+    m_Localized: Verwenden Sie den Sprachbefehl „Gegenstand fallen lassen“, um Spieler zu zwingen, einen Gegenstand fallen zu lassen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205203105400217600
+    m_Localized: Ist beendet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205922863307632640
+    m_Localized: Kiste im Halloween-Modus finden {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 206566222684217344
+    m_Localized: Hut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206566246386229248
+    m_Localized: Maske
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206569845828870144
+    m_Localized: Trophäe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206572261013970944
+    m_Localized: Hexenhut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206572312897511424
+    m_Localized: Geistergesicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206572352869228544
+    m_Localized: Kürbishut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206572398855577600
+    m_Localized: Halloween-Medaille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206575788880814080
+    m_Localized: Kopfbedeckung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206687681553358848
+    m_Localized: 'Hauptaufgabe:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206687767062634496
+    m_Localized: 'Unteraufgaben:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209476885266030592
+    m_Localized: 'Das Konto konnte nicht gesichert werden. Bitte löschen Sie ungültige Freunde: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 208775744718888960
+    m_Localized: Elemente werden in 30 Tagen gelöscht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208780005217394688
+    m_Localized: Beim Löschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209158489320185856
+    m_Localized: Skins werden synchronisiert...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209171765215092736
+    m_Localized: Sicheres Konto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209178169179103232
+    m_Localized: Sichern Sie Ihr Konto, um es vor Diebstahl zu schützen. Möchten Sie fortfahren?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209488959664807936
+    m_Localized: Gast-Sicherheitsupdate erforderlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209532362951745536
+    m_Localized: Auf „unsicher“ umstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209545275225661440
+    m_Localized: Nicht gefunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212040290661294080
+    m_Localized: Kleidung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213126462129037312
+    m_Localized: Entschädigung für Duplikate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213126679104577536
+    m_Localized: Drop-Chance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213143292138741760
+    m_Localized: Der Verschleißwert für freie Kisten ist auf 0,26–0,74 begrenzt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216120912899989504
+    m_Localized: Sind Sie sicher, dass Sie diesen Artikel kaufen möchten?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229425929914757120
+    m_Localized: Flucht vor dem Metzger in Apartments {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 229426803907047424
+    m_Localized: Überlebe und entkomme {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 229427222796382208
+    m_Localized: Entkomme Godwilla im Krankenhaus {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 229427771059023872
+    m_Localized: Flucht vor dem Crawler in der Kanalisation {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 229910606974889984
+    m_Localized: Finde eine Kiste im Krankenhaus-Level {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 226521932035862528
+    m_Localized: Silbernes Geschenk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226522954703646720
+    m_Localized: Goldenes Geschenk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228327251862958080
+    m_Localized: Weihnachtsmütze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228327500580990976
+    m_Localized: Neujahrsmedaille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228413983591227392
+    m_Localized: Neujahr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229429273556934656
+    m_Localized: Außer Schule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229777597233356800
+    m_Localized: Premium-XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229787331730595840
+    m_Localized: Thixter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229815736068988928
+    m_Localized: 30. Dezember-Jubiläum des Thixter-Clans
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230197962151899136
+    m_Localized: Aktualisieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230487347107803136
+    m_Localized: Neujahrs-Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230501753216643072
+    m_Localized: 1 übrig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230502295485624320
+    m_Localized: Ausverkauft
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231222558804226048
+    m_Localized: Beschreibung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231260653813575680
+    m_Localized: Details zum Drop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231589672568303616
+    m_Localized: XP austauschen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231638365591560192
+    m_Localized: Presse-Konto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231972309285462016
+    m_Localized: Artikel gegen {} eintauschen?
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 231997774939283456
+    m_Localized: 'Sie haben kürzlich Artikel verkauft:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233536523846279168
+    m_Localized: Nordamerika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233536450466930688
+    m_Localized: Europa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235553816675606528
+    m_Localized: Ihre Verbindung wurde wegen Griefing getrennt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235555640396734464
+    m_Localized: '{} Auszeit wegen Griefing'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 239175955156819968
+    m_Localized: Vor Stunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240060250385801216
+    m_Localized: 'Zeit bis zur Fertigstellung: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 240344512561405952
+    m_Localized: 'Übrige Zeit: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 22971146240
+    m_Localized: Abwasserlabyrinth
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5831696310272
+    m_Localized: Eintrag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233536386138890240
+    m_Localized: Asien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233536471526531072
+    m_Localized: Südamerika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234974663127588864
+    m_Localized: Bericht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235555261047103488
+    m_Localized: 'Meldelimit erreicht:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235602690563891200
+    m_Localized: wurde gemeldet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236291103801729024
+    m_Localized: Anomalie entfernt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239165330775072768
+    m_Localized: Letzte Käufe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239175599626641408
+    m_Localized: Vor < 1 Stunde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239687944589271040
+    m_Localized: Narr
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239688056480718848
+    m_Localized: Nicht genügend Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240055499422162944
+    m_Localized: Persönliche Quest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240412291040096256
+    m_Localized: Feind nicht in Sicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241123807093317632
+    m_Localized: '{} übrig'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 241352735089569792
+    m_Localized: Holzkiste 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241352735131512832
+    m_Localized: Vintage-Kiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241095788358262784
+    m_Localized: Dieses Paket enthält
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747968
+    m_Localized: Weiß
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747969
+    m_Localized: Vintage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747970
+    m_Localized: Hellblau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747971
+    m_Localized: Antiquität
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747972
+    m_Localized: Leder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747973
+    m_Localized: Blatt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747974
+    m_Localized: Lotus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747975
+    m_Localized: Strauß
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747976
+    m_Localized: Moleskin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747977
+    m_Localized: Kitty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747978
+    m_Localized: Blaue Rüstung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747979
+    m_Localized: Hosenträger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747980
+    m_Localized: Memphis Maya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747981
+    m_Localized: Drachen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747982
+    m_Localized: Zellnetz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747983
+    m_Localized: Dreiecke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747984
+    m_Localized: Schokolade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241363285471211520
+    m_Localized: Belebe Spieler wieder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366533200490496
+    m_Localized: Sammeln Sie Punkte in Spielen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366582617780224
+    m_Localized: Spielen Sie Spiele
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366657490300928
+    m_Localized: Gewinne Wettkampfspiele
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366689534783488
+    m_Localized: Verdiene XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366715417833472
+    m_Localized: Verdiene Trophäen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241466368448606208
+    m_Localized: Kein Signal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241479408126255104
+    m_Localized: Außer Wohnungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241735174471364608
+    m_Localized: Kaufen Sie mehr Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242457879182827520
+    m_Localized: Jacke
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242926744122839040
+    m_Localized: Jüngste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247657977009397760
+    m_Localized: Aktiv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247653997801889792
+    m_Localized: Status
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247658028997795840
+    m_Localized: Inaktiv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247652915369467904
+    m_Localized: Generator
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264591670013583360
+    m_Localized: '{} - Beenden'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 266439017559482368
+    m_Localized: Limit erreicht {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 268628886704611328
+    m_Localized: gelöst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268629807777964032
+    m_Localized: Rätsel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268631918582423552
+    m_Localized: der Safe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268635955876847616
+    m_Localized: geöffnet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270109032087281664
+    m_Localized: markiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270109081005449216
+    m_Localized: auf der Karte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270109065155174400
+    m_Localized: Hinweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281576585514967040
+    m_Localized: Ausloggen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281680875441086464
+    m_Localized: Kartenveröffentlichung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269953906680782848
+    m_Localized: Hoch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269953893590360064
+    m_Localized: Epische
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269953978751508480
+    m_Localized: Mittel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269954074616520704
+    m_Localized: Niedrig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269954116177879040
+    m_Localized: Maßgeschneiderte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287524803176292352
+    m_Localized: Rotes Zertifikat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286331772934807552
+    m_Localized: EMF-Stufe 2–4 erkennen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286331830648430592
+    m_Localized: EMF-Stufe 5 erkennen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286334996844634112
+    m_Localized: Niedrige Temperatur im Schlachthaus erkennen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286334787976683520
+    m_Localized: Schlachthausgeist entkommen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286331891549724672
+    m_Localized: Geist in den Wohnungen entkommen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286334120906186752
+    m_Localized: Wohnungen entkommen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286334622532362240
+    m_Localized: Schlachthaus entkommen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286343702995001344
+    m_Localized: Schlachthaus überleben und entkommen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286335194601873408
+    m_Localized: Krankenhaus entkommen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286335661805395968
+    m_Localized: Medizinkasten in der Schule finden {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286341496732377088
+    m_Localized: Schule entkommen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286341658334715904
+    m_Localized: Schattenmonster in den Wohnungen entkommen {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205922790481932288
+    m_Localized: Generatoren in der Kanalisation reparieren {}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249713826632556544
+    m_Localized: Halten zum Interagieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258418153152831488
+    m_Localized: Kraftstoff erforderlich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258418441767084032
+    m_Localized: Kein Kraftstoff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260572344260485120
+    m_Localized: Naher Osten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260572514062688256
+    m_Localized: Südafrika
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268630954303545344
+    m_Localized: Leichenschauhaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268637354694008832
+    m_Localized: Speicher
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269614673831124992
+    m_Localized: Verschieben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269614818161319936
+    m_Localized: Vergrößern/Verkleinern
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269953784051916800
+    m_Localized: Unbegrenzt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278052396657008640
+    m_Localized: Ventil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278324583334928384
+    m_Localized: EMF Stufe 5
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278325178896736256
+    m_Localized: Ultraviolett
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278325812484104192
+    m_Localized: Geisterbox
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278326153753649152
+    m_Localized: Gefriertemperatur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278334345132892160
+    m_Localized: Beweis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278334813733117952
+    m_Localized: Ausgeblasene Kerze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278351168259743744
+    m_Localized: Ritual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278807763074670592
+    m_Localized: Fehlender Schlüssel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278807855840092160
+    m_Localized: Fehlendes Ventil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278819235406274560
+    m_Localized: Wählen Sie <color=#B10000>3–4</color> richtige Beweise aus, um das Ritual zu beginnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278819372585181184
+    m_Localized: Ritual gelöst
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282664135381999616
+    m_Localized: Geisterkugeln
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282700708018380800
+    m_Localized: Schlachthaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284087895121190912
+    m_Localized: Kerze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284118020957134848
+    m_Localized: Stell eine Frage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284118113177296896
+    m_Localized: Bist du hier?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284120477334495232
+    m_Localized: Wer bist du?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284121213795557376
+    m_Localized: Bist du freundlich?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284487402292244480
+    m_Localized: Geheime unterirdische Anlage „Schlachthaus“
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285529340596449280
+    m_Localized: Man sagt, die Wände und Böden dieses Ortes verbergen unzählige Opfer. Sie nennen ihn das Schlachthaus …
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285529515230490624
+    m_Localized: Manche sagen, wir seien nur Testpersonen – Teil eines Experiments, um herauszufinden, ob Menschen unter schrecklichen Bedingungen Anzeichen paranormaler Aktivitäten erkennen können.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286307073115025408
+    m_Localized: Neues Karten-Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286322501300252672
+    m_Localized: Schlachthaus-Maske
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286334262732382208
+    m_Localized: Ritual mit 3 Beweisen lösen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286334341836955648
+    m_Localized: Ritual mit 4 Beweisen lösen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286335255901626368
+    m_Localized: Handabdrücke mit Ultraviolett im Schlachthaus erkennen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286335479499972608
+    m_Localized: 4. Etage in den Wohnungen erreichen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286335548861177856
+    m_Localized: 2. Etage in den Wohnungen erreichen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286335712208347136
+    m_Localized: Ausgeblasene Kerze als Beweismittel im Schlachthaus einsammeln, während man die Kerze in der Hand hält
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286341262736351232
+    m_Localized: Gefriertemperatur im Schlachthaus erkennen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286341349503918080
+    m_Localized: Statue entkommen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286428736439709696
+    m_Localized: Zertifikatkiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286429533130977280
+    m_Localized: Lila Zertifikat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286629443528814592
+    m_Localized: Blaues Zertifikat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286672730293526528
+    m_Localized: Zertifikat enthält keinen neu veröffentlichten Skin Sammlungen, die jünger als 3 Monate sind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286814340545241088
+    m_Localized: Fehlender Knopf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287524852685856768
+    m_Localized: Rosa Zertifikat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287538970180710400
+    m_Localized: Sie wurden entführt und in eine geheime unterirdische Einrichtung gebracht.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287539034559082496
+    m_Localized: Sie versprechen Freiheit, wenn Sie das „Ritual“ erfolgreich abschließen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287539111981740032
+    m_Localized: Finde die im Buch erwähnten Beweise, um das Ritual abzuschließen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287771065041809408
+    m_Localized: Thermometer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287790088001417216
+    m_Localized: Maske
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287818190257381376
+    m_Localized: Finde alle Beweise.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287818226907209728
+    m_Localized: Schließe das Ritual ab, um zu entkommen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288064581567508480
+    m_Localized: Dynamisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288155388055904256
+    m_Localized: Modul 2 entsperren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289642104310984704
+    m_Localized: Geisterhandabdrücke erscheinen, nachdem der Geist Türen oder Lichtschalter berührt hat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289643818493669376
+    m_Localized: Im Geisterraum liegt die Temperatur bei 5 Grad oder weniger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289644176989220864
+    m_Localized: Lege ein Thermometer in den Raum und hebe es später wieder auf. Es zeigt die korrekte Raumtemperatur an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289647068546592768
+    m_Localized: Achte auf Geräusche. Der Geist wirft Gegenstände um sich, die dir helfen können, den Raum schneller zu finden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289647744165081088
+    m_Localized: Mit einem EMF-Lesegerät herumzulaufen ist die beste Strategie, um den Geisterraum schnell zu finden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289653066011242496
+    m_Localized: Kaufe.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289653804770783232
+    m_Localized: Dein Hauptziel ist es, den Geisterraum zu finden. Er ist kalt und hat höchstens 5 Grad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289653946865414144
+    m_Localized: Lass die Kerze im Geisterraum fallen, damit der Geist sie ausblasen kann. Es dauert eine Weile, bis der Geist mit ihr interagiert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289955308320845824
+    m_Localized: Alle Beweise befinden sich im Geisterraum.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291727152262406144
+    m_Localized: "Dein letztes Spiel ist abgestürzt.\n \n Möchtest du die Grafikqualität auf „Mittel“ ändern?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291468608703291392
+    m_Localized: Nordostasien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291468637711097856
+    m_Localized: Südostasien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294038994502541312
+    m_Localized: Schrotflinte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294039762051784704
+    m_Localized: Kanister
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296464296902123520
+    m_Localized: Osteuropa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299419159883575296
+    m_Localized: durch Spielen auf einer beliebigen Karte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299421119621787648
+    m_Localized: Verdienen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299709005925703680
+    m_Localized: '{} Versuche übrig'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 299811671301414912
+    m_Localized: Eventwährung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300425521839468544
+    m_Localized: Würfel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300425546137071616
+    m_Localized: Würfel {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 300426519026855936
+    m_Localized: Krone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300443387821289472
+    m_Localized: T-Clan-Jubiläumsevent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300759462030860288
+    m_Localized: Dieser Vorteil nimmt keinen Platz weg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300762771118612480
+    m_Localized: Erhalte den Gegenstand mit {} % Chance oder Gold.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 300756038899982336
+    m_Localized: Gegenstand oder Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300756088833171456
+    m_Localized: Skin oder Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300756130520358912
+    m_Localized: Kiste oder Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300756167426039808
+    m_Localized: Vorteil oder Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300826075073601536
+    m_Localized: Möchtest du diesen Vorteil aktivieren?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300826271807430656
+    m_Localized: Möchtest du diesen Vorteil deaktivieren?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300902666982387712
+    m_Localized: Preis oder Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301510862255939584
+    m_Localized: 7. Juli Jahrestag des Tong-Clans
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301867235900911616
+    m_Localized: Preiskiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301945762352193536
+    m_Localized: Außer Kanalisation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317814467963645952
+    m_Localized: 1 von {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 318929043530706944
+    m_Localized: Du konntest entkommen {}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 318929149491408896
+    m_Localized: Du konntest nicht entkommen {}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 333109718772867072
+    m_Localized: Kiste mit <b>{}%</b> Chance auf den Hauptpreis
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 333385868816408576
+    m_Localized: '<b>{0}%</b> Chance auf <b>{1}</b> Preis'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 335320895443689472
+    m_Localized: Knochen finden {}
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 307719489484746752
+    m_Localized: EMF-Leser
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313467585867018240
+    m_Localized: Speedrun-Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313470872964034560
+    m_Localized: Zeit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314293320898568192
+    m_Localized: Konto gesperrt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314294456535736320
+    m_Localized: Validierung...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314294563700203520
+    m_Localized: Spielergebnis wird abgerufen...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314619869220823040
+    m_Localized: Verbindung fehlgeschlagen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318635710036045824
+    m_Localized: Dein Team hat gewonnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318635763760885760
+    m_Localized: Gegnerteam hat gewonnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318649532742365184
+    m_Localized: Sieg
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318649664426733568
+    m_Localized: Niederlage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318926080091353088
+    m_Localized: Du bist später entkommen als die Gegner.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318926242297671680
+    m_Localized: Die Gegner haben länger überlebt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318926564269223936
+    m_Localized: Du bist schneller entkommen als die Gegner.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318926925805645824
+    m_Localized: Du hast länger überlebt als die Gegner.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318927275145031680
+    m_Localized: Die Gegner haben länger überlebt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319025729783459840
+    m_Localized: Im Wettkampfmodus gibt es zwei Teams. Das Team, das zuerst entkommt, gewinnt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319651914565545984
+    m_Localized: 'Du spielst im Wettkampfmodus: Entkomme schneller als das gegnerische Team.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320007121552011264
+    m_Localized: Profil ansehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321464955456188416
+    m_Localized: Du konntest alle Spieler töten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321467466904760320
+    m_Localized: Du konntest nicht alle Spieler töten.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321469889610248192
+    m_Localized: Du hast verloren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321470152093986816
+    m_Localized: Du hast gewonnen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323296565730209792
+    m_Localized: GEGNER SIND ENTKOMMEN!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324347527320301568
+    m_Localized: Dein Ergebnis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324756998819143680
+    m_Localized: Spielinformationen sind nicht mehr verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325107639941066752
+    m_Localized: Alter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325812075306672128
+    m_Localized: Wiedergabe nicht verfügbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326562012999184384
+    m_Localized: Spiel nicht gefunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327341609906860032
+    m_Localized: Wähle deinen zufälligen Spezialvorteil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328449062274854912
+    m_Localized: Gewonnen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328449081212137472
+    m_Localized: Verloren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333166662506242048
+    m_Localized: Unbekannt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333869989523353600
+    m_Localized: Goldener Totenkopf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333870831315972096
+    m_Localized: Jason-Maske
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611341818978304
+    m_Localized: Rückgratknochen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611668374904832
+    m_Localized: Handknochen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611720895979520
+    m_Localized: Beinknochen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611794707341312
+    m_Localized: Schädelknochen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611845873655808
+    m_Localized: Brustkorbknochen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335320937130876928
+    m_Localized: Rückgratknochen finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335320990440480768
+    m_Localized: Beinknochen im Schlachthaus finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335321274101260288
+    m_Localized: Handknochen in der Schule finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335321332095901696
+    m_Localized: Schädelknochen im Krankenhaus finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335321408595812352
+    m_Localized: Beobachte, wie der Geist im Schlachthaus ein Plakat anbringt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335321647994101760
+    m_Localized: Handknochen im Schlachthaus finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335322157425876992
+    m_Localized: Brustkorbknochen finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335322286564302848
+    m_Localized: Beobachte, wie der Geist im Schlachthaus einen Kürbis platziert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335324199762518016
+    m_Localized: Erkenne einen Handabdruck mit ultraviolettem Licht auf einem Halloween-Kürbis im Schlachthaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335324736083976192
+    m_Localized: Erkenne einen Handabdruck mit ultraviolettem Licht auf einem Halloween-Plakat im Schlachthaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336373906102546432
+    m_Localized: Gold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336696842487328768
+    m_Localized: '<b>Aktualisieren</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336697134020816896
+    m_Localized: '<b>Was ist neu</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338117781833637888
+    m_Localized: Ihr Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338502360717586432
+    m_Localized: Nicht überlebt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338502469215842304
+    m_Localized: Als Zweiter entkommen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338502583862947840
+    m_Localized: Lange genug überlebt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338503132519854080
+    m_Localized: Warte auf Ergebnis...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338503330390339584
+    m_Localized: Warte auf Gegner...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338883803146874880
+    m_Localized: Feindliches Team
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346206144650272768
+    m_Localized: Primär
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346206158491475968
+    m_Localized: Sekundär
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343999580464214016
+    m_Localized: Halloween-Medaille 2025
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344699506298974208
+    m_Localized: Tot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348305453675962368
+    m_Localized: Drücken
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348305486437670912
+    m_Localized: Tippen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348305518326964224
+    m_Localized: Mehrfachtippen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348305550866374656
+    m_Localized: Langsam tippen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348310975653339136
+    m_Localized: Gedrückt halten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356610760068296704
+    m_Localized: Neujahrsmedaille
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379276406648832
+    m_Localized: Weihnachtspullover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379391724843008
+    m_Localized: Weihnachtspullover 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379491792547840
+    m_Localized: Weihnachtsleggings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379614207504384
+    m_Localized: Haarreif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379820391100416
+    m_Localized: Goldenes Geschenk 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353380574388547584
+    m_Localized: Hirsch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353380755351793664
+    m_Localized: Hirsch-Haarreif
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354108928699920384
+    m_Localized: Verdient
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354123612807229440
+    m_Localized: Silbernes Geschenk 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357346800164925440
+    m_Localized: Pullover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357346858545442816
+    m_Localized: Weihnachten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360596188127555584
+    m_Localized: Champion-Kiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366413347348799488
+    m_Localized: Finde den Erste-Hilfe-Kasten im Krankenhaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370410538975354880
+    m_Localized: 6. Etage in den Wohnungen erreichen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370410607489310720
+    m_Localized: 3. Etage in den Wohnungen erreichen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366413662110343168
+    m_Localized: Finde den Erste-Hilfe-Kasten im Schlachthof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367141946570043392
+    m_Localized: Entfernung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408302035591168
+    m_Localized: Finde die Anomalie in den Wohnungen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408353214488576
+    m_Localized: Finde die Anomalie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408571205050368
+    m_Localized: Finde Beweise im Schlachthof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408691053092864
+    m_Localized: Finde Beweise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408934700212224
+    m_Localized: Finde Teile in der Schule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408997107261440
+    m_Localized: Finde Teile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370409022558298112
+    m_Localized: Finde Teile im Krankenhaus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370409523479830528
+    m_Localized: Finde die Sicherung in der Schule
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370409682607529984
+    m_Localized: Finde den Erste-Hilfe-Kasten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412144131301376
+    m_Localized: Finde ein Kruzifix im Krankenhaus.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412252268847104
+    m_Localized: Finde ein Kruzifix.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371497842989330432
+    m_Localized: Finde die „Vermissten“-Anomalie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371499036650500096
+    m_Localized: Finde die „Blut“-Anomalie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371499379962671104
+    m_Localized: Meide Godwilla mit einem Kruzifix.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 414728649870139392
+    m_Localized: '{} - Sprachchat'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 437166039438245888
+    m_Localized: Holzkiste 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 437762187131666432
+    m_Localized: KING & TTR-Clan-Event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794320687382528
+    m_Localized: Mehrfarbige Kiste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794480922378240
+    m_Localized: Weiß
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794605325434880
+    m_Localized: Blumenmuster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794678423764992
+    m_Localized: Streifen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794708731805696
+    m_Localized: Vertikale Linien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794782819991552
+    m_Localized: Retro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794809378324480
+    m_Localized: Französisch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794831771713536
+    m_Localized: Mehrfarbig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794869918908416
+    m_Localized: Hawaii-Stil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794974570987520
+    m_Localized: Rot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794992484859904
+    m_Localized: Samt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795022331527168
+    m_Localized: Fensterkaro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795045291147264
+    m_Localized: Schatteneffekt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795174236635136
+    m_Localized: Blau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795283355648000
+    m_Localized: Detektiv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795330105360384
+    m_Localized: Riviera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440796264713732096
+    m_Localized: Schirmmütze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440796602489421824
+    m_Localized: Schiebermütze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440798240822312960
+    m_Localized: Krone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440798346766237696
+    m_Localized: König
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440799213829537792
+    m_Localized: Hemd über der Hose
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443220444709175296
+    m_Localized: Host kann nicht aufgelöst werden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444349865348349952
+    m_Localized: Shorts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445894913141235712
+    m_Localized: Server voll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445895376825737216
+    m_Localized: Verbindung getrennt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445896931448709120
+    m_Localized: Ein anderer Spieler belegt diesen Platz bereits
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445897110105088000
+    m_Localized: Inaktivitäts-Timeout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447301078029221888
+    m_Localized: Jacke mit Kragen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464354721582542848
+    m_Localized: '{} Konto gesperrt'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466821
+  - m_Id: 461369706066210816
+    m_Localized: Schalttafel fehlt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462517975135809536
+    m_Localized: Hilft dir, wichtige Gegenstände auf der Karte zu finden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463262139632840704
+    m_Localized: Brecheisen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462945669149356032
+    m_Localized: Quest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462940969284923392
+    m_Localized: Quest bereits aktiv
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462941015392907264
+    m_Localized: Questgegenstand gesperrt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205924681047683072
+    m_Localized: Öffne die Ventile in der Kanalisation {}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205925846653153280
+    m_Localized: Entsperre den Safe in der Kanalisation {}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463517564601102336
+    m_Localized: Ghostface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463517606862909440
+    m_Localized: Dämon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463858526263177216
+    m_Localized: '<b>Tägliche Halloween-Überraschung!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463858894141386752
+    m_Localized: Bis zum 1. November, 9:00 Uhr UTC, erhältst du einen persönlichen Questgegenstand in deinem Inventar. Die Quest kann exklusive Halloween-Belohnungen enthalten!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463861238870568960
+    m_Localized: Tag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463909748512911360
+    m_Localized: 'Nächste Aktualisierung in:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463937291303514112
+    m_Localized: Halloween-Quest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463965988806979584
+    m_Localized: Sammle {0} Splitter, um den Gegenstand zu erhalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463966047321714688
+    m_Localized: Splitter erhalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463966074731491328
+    m_Localized: Nicht genug Splitter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463970891075940352
+    m_Localized: Goldener Zylinder
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464981182343803306
+    m_Localized: 'Tage bis zur Halloween-Musik: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464981183264322758
+    m_Localized: Die Halloween-Musik ist bis nächstes Jahr vorbei
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465036124215948469
+    m_Localized: Wähle im Filter eine Seltenheit, um eine Kaufanfrage für eine Quest zu erstellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465069782382931968
+    m_Localized: Gewinne ein Wettkampfspiel gegen die Gold-Liga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465069869309882368
+    m_Localized: Gewinne ein Wettkampfspiel gegen die Meister-Liga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070889258295715
+    m_Localized: Eliminiere {0} Kürbismonster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070889789810384
+    m_Localized: Eliminiere {0} Kürbismonster in einem Match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070890379342456
+    m_Localized: Eliminiere genau {0} Kürbismonster in einem Match
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070890945281582
+    m_Localized: Entkomme dem Kürbismonster {0}-mal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070891516705649
+    m_Localized: Überlebe und entkomme aus dem Halloween-Modus ({0}x)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070892084310304
+    m_Localized: Brich eine verschlossene Tür mit einem Brecheisen auf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070892675862933
+    m_Localized: Fliehe aus der Schule unter {1} Minuten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070893226174672
+    m_Localized: Fliehe aus dem Krankenhaus unter {1} Minuten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070893798648416
+    m_Localized: Fliehe aus den Wohnungen unter {1} Minuten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070894381831253
+    m_Localized: Fliehe aus dem Schlachthof unter {1} Minuten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070894970350924
+    m_Localized: Gewinne {0} Wettbewerbs Spiele und fliehe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070895534098510
+    m_Localized: Gewinne {0} Wettbewerbs Spiele nacheinander gegen einen Legendärer und fliehe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070896106639995
+    m_Localized: Gewinne {0} Wettbewerbs Spiele nacheinander gegen einen Goldenen und fliehe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070896669760119
+    m_Localized: Gewinne {0} Wettbewerbs Spiele nacheinander gegen einen Meister und fliehe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070897264465625
+    m_Localized: Finde {0} Beweise im Schlachthof
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070897908705071
+    m_Localized: Entkomme dem Fliegenden Kopf in den Apartments
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070898509885481
+    m_Localized: Entkomme dem Verfolger in den Apartments
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465076224583224959
+    m_Localized: Du hast eine aktive Aufgabe. Möchtest du sie ersetzen?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685859806641090
+    m_Localized: 'Schlüssel: Käfigraum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685860299111537
+    m_Localized: 'Schlüssel: Tor der Tiefen Kreuzung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685860921389366
+    m_Localized: 'Schlüssel: Tiefe Kreuzung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685861457303328
+    m_Localized: 'Schlüssel: Lager der Tiefen Kreuzung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685862011180010
+    m_Localized: 'Schlüssel: Abflussraum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685862553431724
+    m_Localized: 'Schlüssel: Überfluteter Keller'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685863093788829
+    m_Localized: 'Schlüssel: Untere Kreuzung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685863657388429
+    m_Localized: 'Schlüssel: Wartungsraum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685864204483242
+    m_Localized: 'Schlüssel: Modul 4'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685864765841665
+    m_Localized: 'Schlüssel: Druckraum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685865286247838
+    m_Localized: 'Schlüssel: Reservoirraum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685865831624224
+    m_Localized: 'Schlüssel: Lager'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685866428339691
+    m_Localized: 'Schlüssel erforderlich: Käfigraum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685866988155568
+    m_Localized: 'Schlüssel erforderlich: Tor der Tiefen Kreuzung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685867535691627
+    m_Localized: 'Schlüssel erforderlich: Tiefe Kreuzung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685868085030271
+    m_Localized: 'Schlüssel erforderlich: Lager der Tiefen Kreuzung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685868628432546
+    m_Localized: 'Schlüssel erforderlich: Abflussraum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685869173579944
+    m_Localized: 'Schlüssel erforderlich: Eingang'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685869859604319
+    m_Localized: 'Schlüssel erforderlich: Überfluteter Keller'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685870399126086
+    m_Localized: 'Schlüssel erforderlich: Untere Kreuzung'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685870960345885
+    m_Localized: 'Schlüssel erforderlich: Wartungsraum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685871494325874
+    m_Localized: 'Schlüssel erforderlich: Modul 4'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685872027122682
+    m_Localized: 'Schlüssel erforderlich: Reservoirraum'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685872558846072
+    m_Localized: 'Schlüssel erforderlich: Lager'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685873056419479
+    m_Localized: Kompass
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685873602321329
+    m_Localized: Ventil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465696083743928810
+    m_Localized: wurde in diesem Spiel bereits von dir gemeldet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465770199575581282
+    m_Localized: Neue persönliche Quest
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465770200678217325
+    m_Localized: Eine neue persönliche Quest wurde deinem Inventar hinzugefügt
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries: []
+    - rid: 6820423584242466821
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 335320895443689472
+        - id: 264591670013583360
+        - id: 154479298993971200
+        - id: 154479069792034816
+        - id: 154479373619027968
+        - id: 414728649870139392
+        - id: 154479570373828608
+        - id: 154478984249204736
+        - id: 154478881711054848
+        - id: 464354721582542848

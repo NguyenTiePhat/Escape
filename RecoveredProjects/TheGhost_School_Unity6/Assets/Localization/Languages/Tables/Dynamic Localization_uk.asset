@@ -1,0 +1,4205 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Dynamic Localization_uk
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: uk
+  m_SharedData: {fileID: 11400000, guid: bd247c8abbd899544abdf80ed5f11ab1, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 6820423584242466833
+  m_TableData:
+  - m_Id: 5541370781696
+    m_Localized: 'Я зачинився й залишив ключ у сейфі на випадок невдалого експерименту, який збираюся провести. Код для відкриття сейфа виглядає наступним чином:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5743183912960
+    m_Localized: 05 липня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5879968555008
+    m_Localized: 29 жовтня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5923174080512
+    m_Localized: 01 вересня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5962290159616
+    m_Localized: 03 серпня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6005327912960
+    m_Localized: 19 червня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6047572942848
+    m_Localized: 25 травня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6085720137728
+    m_Localized: 10 квітня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6120407031808
+    m_Localized: 22 березня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6155697905664
+    m_Localized: 27 лютого
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6224182501376
+    m_Localized: 30 січня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6245586034688
+    m_Localized: 17 травня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14193423015936
+    m_Localized: Вдарь у три дзвони
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14323928784896
+    m_Localized: Знайди синій ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14364894552064
+    m_Localized: Знайдіть зелений ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14416123781120
+    m_Localized: Знайдіть червоний ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17854165409792
+    m_Localized: Знайдіть ключі від дверей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 19360503554048
+    m_Localized: Немає живлення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20106712178688
+    m_Localized: Знайдіть відмичку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41201007845376
+    m_Localized: Головні ворота відкриті
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63004849725440
+    m_Localized: Замкнено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4753716497342464
+    m_Localized: Увімкніть всі генератори
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4773582931484672
+    m_Localized: Завдання оновлено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4774003188162560
+    m_Localized: Полагодіть блок запобіжників
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4774093231480832
+    m_Localized: Розгадайте головоломку воріт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4781854656815104
+    m_Localized: Відчиніть закриті двері
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5112596523900928
+    m_Localized: Відмичка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5113971110567936
+    m_Localized: Зелений ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5114013527564288
+    m_Localized: Синій ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5114047270739968
+    m_Localized: Червоний ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6214146365317120
+    m_Localized: 4 зверху 4 посередині 7 знизу 3 зверху 3 посередині
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6580402473918464
+    m_Localized: Завдання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 6580435936075776
+    m_Localized: "-Полагодити блок запобіжників\n -Знайдіть токени\n -Відкрийте ворота"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8027875532857344
+    m_Localized: Вирішіть головоломку з дзвонами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8029229286416384
+    m_Localized: Відкрийте модуль 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8029783647576064
+    m_Localized: Знайдіть останню підказку та відкрийте двері
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8034741402984448
+    m_Localized: Відкрийте будівельний майданчик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12823908955709440
+    m_Localized: Меню персонажа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12823941574811648
+    m_Localized: Деякий одяг можна розблокувати під час гри
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12826192146063360
+    m_Localized: Завантаження мапи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12826332890128384
+    m_Localized: Вивантаження ресурсів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12826397633404928
+    m_Localized: Підключення...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12844965863350272
+    m_Localized: Завантаження даних...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 12845013900713984
+    m_Localized: Помилка перевірки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 13933251813957632
+    m_Localized: Синхронізація даних...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14200732679921664
+    m_Localized: Очікуємо на гравців
+    m_Metadata:
+      m_Items: []
+  - m_Id: 14200784609599488
+    m_Localized: Створення гри...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 15715488842637312
+    m_Localized: Початок через
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581316822327296
+    m_Localized: Колесо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581326754439168
+    m_Localized: Паливо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581376238837760
+    m_Localized: Ключі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581401610182656
+    m_Localized: Акумулятор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581674172833792
+    m_Localized: Запобіжник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581779311452160
+    m_Localized: Токен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39581890875744256
+    m_Localized: Ключ від входу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 39582077086064640
+    m_Localized: Молот
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48507501954457600
+    m_Localized: Невдача
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48507551363358720
+    m_Localized: Кімнату вже видалено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76807447166050304
+    m_Localized: 'Перезарядка створення кімнати: 1 хвилина'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84344486077915136
+    m_Localized: Кімната не існує
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84344558840700928
+    m_Localized: Виникла помилка, будь ласка, повторіть спробу через кілька секунд
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85843330917720064
+    m_Localized: 'Причина: матч скасований власником лобі'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85845884896534528
+    m_Localized: 'Причина: власник лобі не зміг надіслати запит на матч'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 85846882159419392
+    m_Localized: Матч скасовано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88125177869623296
+    m_Localized: Час на вашому пристрої налаштовано неправильно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 88347193499443200
+    m_Localized: Очікування доступних серверів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89458527758704640
+    m_Localized: 'Можна розблокувати в лізі:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90637878806175744
+    m_Localized: Купівля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90638162303377408
+    m_Localized: Покупка успішна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30343710779629568
+    m_Localized: Втеча
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3193452392079360
+    m_Localized: Прожити 10 хвилин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192212757569536
+    m_Localized: Вбийте всіх живих
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90944572715163648
+    m_Localized: Час очікування до підключення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385693450362880
+    m_Localized: Надіслати код повторно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: Увійти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92464438689390592
+    m_Localized: Адреса електронної пошти невірна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92464489222365184
+    m_Localized: Довжина пароля має бути не менше 8 символів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92467848566267904
+    m_Localized: Неправильна адреса електронної пошти або пароль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92467948369731584
+    m_Localized: Ми надіслали код на електронну пошту
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92467978933624832
+    m_Localized: Будь ласка, перевірте свою поштову скриньку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92468006465036288
+    m_Localized: Якщо ви не можете знайти імейл, шукайте за ключовим словом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92468066976260096
+    m_Localized: Успіх
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92468110521524224
+    m_Localized: Пароль скинуто
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95727896763555840
+    m_Localized: Потрібна аптечка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 96497186815074304
+    m_Localized: Тег скопійовано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170253684498432
+    m_Localized: Доступне оновлення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170344013029376
+    m_Localized: Будь ласка, оновіть вашу гру до новітньої версії
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97821147687542784
+    m_Localized: Сезон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: Грати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: Ні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: Так
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271202324242432
+    m_Localized: Готовий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271340274900992
+    m_Localized: Скасування
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271416628011008
+    m_Localized: Запит
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271498114949120
+    m_Localized: В черзі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167660795125760
+    m_Localized: Скасувати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55026460497272832
+    m_Localized: Лобі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98276847656099840
+    m_Localized: Запит на дружбу надіслано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98276983631241216
+    m_Localized: Вас вигнали
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277150145110016
+    m_Localized: Лобі видалено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109695964661407744
+    m_Localized: Поточне лобі недоступне
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: Запрошення в лобі надіслано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277334031785984
+    m_Localized: Друг вже наявний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277415753605120
+    m_Localized: Ліміт досягнуто
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277471026143232
+    m_Localized: Гравця не знайдено або гравець вже є у списку друзів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277547698020352
+    m_Localized: Гравець досяг ліміту очікуваних запитів або запит уже надіслано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98281164123398144
+    m_Localized: днів тому
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98633451891056640
+    m_Localized: 'Орієнтовно: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 98646163022929920
+    m_Localized: Недостатньо XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: Мапи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102216725435506688
+    m_Localized: Лобі наразі недоступне, замість цього ви можете грати з друзями в користувацькі ігри або в рейтингові матчі з випадковими гравцями
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170490880778240
+    m_Localized: Зв'язок втрачений
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170587391713280
+    m_Localized: перевірте підключення до Інтернету
+    m_Metadata:
+      m_Items: []
+  - m_Id: 106472316056100864
+    m_Localized: Обробка. Будь ласка, не закривайте гру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107607691889729536
+    m_Localized: Знайдено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108622592783409152
+    m_Localized: 'Тайм-аут через вихід з рейтингового матчу: 10 хвилин'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108669659937497088
+    m_Localized: Запит відправлено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59328057125625856
+    m_Localized: Ви не власник лобі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142819424264192
+    m_Localized: Підсумок матчу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94144757133991936
+    m_Localized: Підсумок ПВП
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: Лікарня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: Каналізація
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: Школа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51105563140096
+    m_Localized: Гардеробна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 51105571528704
+    m_Localized: Вибирайте персонажа, змінюйте вбрання в гардеробні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111944916992
+    m_Localized: Неправильні дані
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152604499968
+    m_Localized: Покупка недійсна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17426342207488
+    m_Localized: IP скопійовано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 43544143991922688
+    m_Localized: Ви не авторизовані
+    m_Metadata:
+      m_Items: []
+  - m_Id: 63456183011237888
+    m_Localized: 'Генераторів увімкнено: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 102208760158609408
+    m_Localized: Знайти по ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107311979918516224
+    m_Localized: межа зносу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111000281985048576
+    m_Localized: '{} запрошує вас у лобі'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 111018472660525056
+    m_Localized: Запросити {} до лобі?
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 112822895611207680
+    m_Localized: '{} таймаут за вихід з рейтингового матчу'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 115611745941184512
+    m_Localized: Досягніть 100 ранг, зробіть одну покупку в магазині або подивіться рекламу, щоб пройти верифікацію і почати отримувати нагороди!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115632057734914048
+    m_Localized: Торгівля #{}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 115649609471090688
+    m_Localized: Закінчується {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 115725278263631872
+    m_Localized: '{} Отримує:'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 116342002486861824
+    m_Localized: '{} Інвентар:'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 117058415333728256
+    m_Localized: Візерунок #{}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 14091804672
+    m_Localized: Ви можете сховатися під столом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109650632704
+    m_Localized: Не шуміть - привид вас чує
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121793142784
+    m_Localized: Зберіть паперці, щоб дізнатися історію лікарні Нью Вайшлі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146858303488
+    m_Localized: Ви можете замкнути статую за дверима
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1299573141135360
+    m_Localized: Ви не можете сховатися в режимі «Виживання»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 8674990290362368
+    m_Localized: Тримайте розп'яття в руках, аби врятуватися від привида
+    m_Metadata:
+      m_Items: []
+  - m_Id: 47462536444895232
+    m_Localized: Рухайтеся повільно, коли Годвілла з'являється поруч із вами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613588736991232
+    m_Localized: Відремонтуйте блок запобіжників, щоб увімкнути живлення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613639693590528
+    m_Localized: Завжди підтримуйте візуальний контакт зі статуєю
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613651655745536
+    m_Localized: Розв'яжіть головоломку воріт, щоб втекти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613881897869312
+    m_Localized: Кравлер може бачити вас з включеним фонаріком
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78613908162600960
+    m_Localized: Увімкніть усі генератори, щоб відкрити головні ворота
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78614076979142656
+    m_Localized: Полагодіть машину, щоб втекти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78614092598730752
+    m_Localized: Деталі для автомобіля розташовані випадковим чином
+    m_Metadata:
+      m_Items: []
+  - m_Id: 78614108767772672
+    m_Localized: Деякі двері можуть бути під ключем
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119385191447781376
+    m_Localized: Залишив гру.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119392568892973056
+    m_Localized: Перк
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119394102913523712
+    m_Localized: Використаний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120748477678346240
+    m_Localized: Врятувався
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121111192766767104
+    m_Localized: Ящик для {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 121551436259516416
+    m_Localized: 'Куплено товарів на ринку: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 121551492597407744
+    m_Localized: 'Продано товарів на ринку: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 122196511440232448
+    m_Localized: 'Плата: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 122966113493442560
+    m_Localized: 'Дивитися: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 123610732598124544
+    m_Localized: Дата невідома {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 101558433671536640
+    m_Localized: Будь-який
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59214284268232704
+    m_Localized: 30 секунд перезарядки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112749752456568832
+    m_Localized: Покинути
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115722762239074304
+    m_Localized: Прийнято
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121808765431656448
+    m_Localized: Інформація акаунта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121523330639454208
+    m_Localized: Обліковий запис успішно перенесено. Ви повинні вручну завершити перенесення інвентарних предметів, створивши торговий запит на новий обліковий запис
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105221500408508416
+    m_Localized: Дії
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123556046335631360
+    m_Localized: Режим Активації
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121470726827925504
+    m_Localized: Рекламна пауза...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121067740153065472
+    m_Localized: Розширені
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113924916720427008
+    m_Localized: Кількість
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102717043529211904
+    m_Localized: Згладжування (MSAA)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98966563497959424
+    m_Localized: Будь-який
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108404938432831488
+    m_Localized: Застосувати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123311935397552128
+    m_Localized: Бажаєте застосувати налаштування?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113553549441359872
+    m_Localized: Середня вартість
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105833453549772800
+    m_Localized: Заблокований
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104899863286636544
+    m_Localized: Чорний костюм
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123318330884874240
+    m_Localized: Блокування
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105106421782142976
+    m_Localized: Кривавий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466212125237248
+    m_Localized: Класичний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105106816080273408
+    m_Localized: Блакитна сфера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104808430659690496
+    m_Localized: Штани
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93242814920384512
+    m_Localized: Кнопка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114552079396102144
+    m_Localized: Запити на покупку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103695013710389248
+    m_Localized: За новітніми
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103695117305503744
+    m_Localized: Ступінь зношеності
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115722782937964544
+    m_Localized: Скасовано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101555975394156544
+    m_Localized: Шорти карго
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119704565845057536
+    m_Localized: Касета
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108404366157799424
+    m_Localized: Змінити нікнейм
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123318753221926912
+    m_Localized: Чат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122903692078735360
+    m_Localized: Вибрати мапу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 117899587102957568
+    m_Localized: Закрити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121087114297552896
+    m_Localized: Якість одягу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101515239810392064
+    m_Localized: Стан
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108405140543758336
+    m_Localized: Підтвердити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103687056251674624
+    m_Localized: Ціна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113514830084694016
+    m_Localized: Ящик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121112226385879040
+    m_Localized: Можна розблокувати в інвентарі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122272865825316864
+    m_Localized: Цей ящик наразі продається на ринку/біржі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110909034238828544
+    m_Localized: Кастомізація
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105107014642819072
+    m_Localized: Дамаст
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104887708990562304
+    m_Localized: По Замовчуванню
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115240155252514816
+    m_Localized: Видалити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119385175639449600
+    m_Localized: Помер.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120384147682222080
+    m_Localized: Складність
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102714351666847744
+    m_Localized: 'Вимкнути чат:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105108667987124224
+    m_Localized: Діско
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112384749681500160
+    m_Localized: Зароблені винагороди
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104898702827577344
+    m_Localized: Електронний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115237687680557056
+    m_Localized: Одягнути
+    m_Metadata:
+      m_Items: []
+  - m_Id: 60867454367162368
+    m_Localized: Втеча з зони
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123318230628425728
+    m_Localized: Кожен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119635730387427328
+    m_Localized: Ознайомтеся з місцевістю
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93244163229736960
+    m_Localized: Статуетка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109816149913362432
+    m_Localized: 'Фільтр чату:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101888036554399744
+    m_Localized: Знайти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101857254880305152
+    m_Localized: Знайти по IP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59455580647972864
+    m_Localized: Знайдіть запобіжник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76866220811345920
+    m_Localized: Знайдіть ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62762695877713920
+    m_Localized: Знайти картину
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108370343444340736
+    m_Localized: Знайти гравця
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59805290059522048
+    m_Localized: Знайдіть токен
+    m_Metadata:
+      m_Items: []
+  - m_Id: 54041408737107968
+    m_Localized: Відремонтуйте фургон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437612046278656
+    m_Localized: Прямо з заводу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108378782920859648
+    m_Localized: 'Запити на дружбу:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123318300195151872
+    m_Localized: Лише друзі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121060036651069440
+    m_Localized: Якість гри
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93241597007749120
+    m_Localized: Садові ножиці
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93244194808651776
+    m_Localized: Фіксатор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105108353292689408
+    m_Localized: Золоті діаманти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466397836435456
+    m_Localized: Надзвичайний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104899600240861184
+    m_Localized: Сірий костюм
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102712779587182592
+    m_Localized: Гіроскоп
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102712962312036352
+    m_Localized: 'Чутливість гіроскопа:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123556311516307456
+    m_Localized: Тримати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111307505924038656
+    m_Localized: У Матчі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110593370806542336
+    m_Localized: Вхідні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108434726442754048
+    m_Localized: Подивитись
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115745964088614912
+    m_Localized: Невірно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101127140643168256
+    m_Localized: Інвентар
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101894052054556672
+    m_Localized: IP:Port/TAG
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101130629427486720
+    m_Localized: Назва та номер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115401411682885632
+    m_Localized: Вибрані товари не є об'єктами торгівлі або вже перебувають на ринку/біржі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115401431064764416
+    m_Localized: Вибрані товари є на ринку/біржі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111363423508357120
+    m_Localized: Ви не можете приєднатися до матчу, якщо перебуваєте в стані очікування
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109467055009292288
+    m_Localized: Не вдалося приєднатися до лобі, будь ласка, повторіть спробу через кілька хвилин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105455843720290304
+    m_Localized: Приєднайтесь до матчу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93242739884285952
+    m_Localized: Ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466151974723584
+    m_Localized: Елементарний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113956281973202944
+    m_Localized: Останні оголошення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109460613493678080
+    m_Localized: Ви не можете приєднатися до лобі, якщо перебуваєте в стані очікування
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93242782641020928
+    m_Localized: Ключ від маєтку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101902256557776896
+    m_Localized: Ринок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112734773015732224
+    m_Localized: Ваш попередній матч все ще активний. Відмовитися чи приєднатися до нього
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98972804131577856
+    m_Localized: Механік
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104895894426476544
+    m_Localized: Сітка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113514790641459200
+    m_Localized: Металевий ящик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556304940621824
+    m_Localized: Мотокуртка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121530109930758144
+    m_Localized: Спочатку ви маєте видалити товари зі свого інвентарю і запити на ринку.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119276529534361600
+    m_Localized: Заглушити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437633462394880
+    m_Localized: Мінімальне зношення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101131180324151296
+    m_Localized: Ім'я
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111687462932176896
+    m_Localized: Нова шапка розблокована!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101880716751527936
+    m_Localized: Кімнат не знайдено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101130404478574592
+    m_Localized: Немає
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114191418740695040
+    m_Localized: Недостатньо золотого XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113424023625392128
+    m_Localized: Нічого не знайдено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111308387562545152
+    m_Localized: Офлайн
+    m_Metadata:
+      m_Items: []
+  - m_Id: 109853846761627648
+    m_Localized: Гаразд
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115367441817657344
+    m_Localized: На утриманні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115369144411480064
+    m_Localized: На ринку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115368882858876928
+    m_Localized: На біржі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111308346533863424
+    m_Localized: Онлайн
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115252153927327744
+    m_Localized: Відкрити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556331448623104
+    m_Localized: Відкрита Мотокуртка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114200383872557056
+    m_Localized: Замовлення успішно оформлено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101131476253270016
+    m_Localized: Екіпірування та Рідкість
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110593479527096320
+    m_Localized: Вихідні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101473384221630464
+    m_Localized: Власник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93243477075156992
+    m_Localized: Живопис
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556075398946816
+    m_Localized: Штанці
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102272560169738240
+    m_Localized: Попередні матчі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101473340705726464
+    m_Localized: Візерунок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466314466254848
+    m_Localized: Елітний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104899043644137472
+    m_Localized: Рожева суміш
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104899989858148352
+    m_Localized: Рожевий костюм
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113446867436560384
+    m_Localized: Розмістити замовлення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108370523749081088
+    m_Localized: 'Ідентифікатор гравця (наприклад: 000aa111-22b2-3333-c4c4-55555d555d55)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101871462078472192
+    m_Localized: Гравці
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104897404740820992
+    m_Localized: Горошків візерунок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105454411067678720
+    m_Localized: Перегляд гравця
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113554200686747648
+    m_Localized: Вартість
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104897736719982592
+    m_Localized: Лінія в'язниць
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466255855050752
+    m_Localized: Особливий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272570279714816
+    m_Localized: '<color=#F23625>Аааах!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272488318820352
+    m_Localized: '<color=#61D1F7>Підбадьорюйте!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98270811931009024
+    m_Localized: '<color=#F4BF75>Будьте обережні!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271672111456256
+    m_Localized: '<color=#61D1F7>Поклади річ!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272048072089600
+    m_Localized: '<color=#61D1F7>Йдемо за мною</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272111213142016
+    m_Localized: '<color=#61D1F7>Йду за тобою</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272205584982016
+    m_Localized: '<color=#61D1F7>Я щось знайшов!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98270768297664512
+    m_Localized: '<color=#F4BF75>Я помітив привида!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271623331700736
+    m_Localized: '<color=#61D1F7>Йдіть сюди!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272412561301504
+    m_Localized: '<color=#61D1F7>Добре</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271727904088064
+    m_Localized: '<color=#F4BF75>Я чув шум!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272010726006784
+    m_Localized: '<color=#61D1F7>Привіт</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271532244000768
+    m_Localized: '<color=#61D1F7>Допоможіть!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98271581149585408
+    m_Localized: '<color=#61D1F7>Тут!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272351458680832
+    m_Localized: '<color=#61D1F7>Ні</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272282563043328
+    m_Localized: '<color=#61D1F7>Гаразд</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272160546545664
+    m_Localized: '<color=#61D1F7>В дорозі</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272459738832896
+    m_Localized: '<color=#F23625>Біжи!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98272383889039360
+    m_Localized: '<color=#61D1F7>Дякую!</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101183940277035008
+    m_Localized: Ранг
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112750880170696704
+    m_Localized: Вас було відключено від рейтингового матчу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112745572501282816
+    m_Localized: Ви отримали штрафний тайм-аут за те, що покинули рейтинговий матч
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101131628879798272
+    m_Localized: Рідкість
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93242648326823936
+    m_Localized: Тріскачка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110632165887172608
+    m_Localized: Бажаєте відновити зв'язок?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121466335307751424
+    m_Localized: Винятковий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105108218798137344
+    m_Localized: Червона лінія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102688966875013120
+    m_Localized: Регіон та Мова
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101127978396672000
+    m_Localized: Реєстр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103683857268596736
+    m_Localized: Запити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105105212350390272
+    m_Localized: Робототехніка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110908776112971776
+    m_Localized: У кімнатах ви можете створити та налаштувати власний матч на свій смак. Ви можете грати в pvp або проти ворожого AI, вирішувати, скільки гравців приєднатися до вашої кімнати, змінювати режим гри та інші корисні налаштування.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93244042928709632
+    m_Localized: Іржавий ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437771610185728
+    m_Localized: Зіпсований
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118595458417287168
+    m_Localized: Результат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104896365966909440
+    m_Localized: Шотландський
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556029089636352
+    m_Localized: Скраби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113555301536358400
+    m_Localized: Вибрати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115242203368906752
+    m_Localized: Вибрати більше
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105879425527394304
+    m_Localized: Вибір персонажа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115240875695529984
+    m_Localized: Продати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115309505363828736
+    m_Localized: Продати речі на ринку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115324320396337152
+    m_Localized: Товари були успішно розміщені на ринку. Гравці зможуть купувати зазначені вами предмети.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 114552005354053632
+    m_Localized: Запити на продаж
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116359603904569344
+    m_Localized: Ви повинні надіслати щонайменше 1 товар
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123350108215435264
+    m_Localized: Чутливість
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120114253719920640
+    m_Localized: Завершення роботи сервера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556162783076352
+    m_Localized: Сорочка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105105471860367360
+    m_Localized: Рожева сорочка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105105114119790592
+    m_Localized: Червона сорочка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104808381330481152
+    m_Localized: Взуття
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101555805298352128
+    m_Localized: Брезентове взуття
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101555927054802944
+    m_Localized: Туфлі оксфорди
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556219645255680
+    m_Localized: З короткими рукавами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 102714519095074816
+    m_Localized: 'Показувати чат у стрічці повідомлень:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 122261235808854016
+    m_Localized: Подібний товар вже є у ваших запитах на продаж
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105134040514813952
+    m_Localized: Соцмережі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119698644163092480
+    m_Localized: Розв'яжіть головоломку з картинками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 62101607892901888
+    m_Localized: Розв'яжіть головоломку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 103694815722463232
+    m_Localized: Сортувати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120751192810708992
+    m_Localized: Статистика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101556254915158016
+    m_Localized: Костюм
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108428555711406080
+    m_Localized: Виживання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120011693164060672
+    m_Localized: Виживіть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118514710918193152
+    m_Localized: Синхронізація стану...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 120304889349791744
+    m_Localized: 'Тег:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104896981615239168
+    m_Localized: Брезент
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112385383432445952
+    m_Localized: Цього дня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 112384865335238656
+    m_Localized: Цього тижня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123556334761140224
+    m_Localized: Перемикати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 107365165282877440
+    m_Localized: ТОП 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 105455683808256000
+    m_Localized: Торгівля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116326528055238656
+    m_Localized: Досягнуто максимального ліміту торгових позицій
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115597330705539072
+    m_Localized: 'Обмежена торгівля: Можна торгувати лише після досягнення топ-100 рангу або здійснення принаймні однієї покупки в магазині'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108378845957054464
+    m_Localized: 'Запити на торгівлю:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101902325226921984
+    m_Localized: Торги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98972840550719488
+    m_Localized: Витривалість пастки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104892033116659712
+    m_Localized: Тип
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123315104299081728
+    m_Localized: Відмінити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115251925107073024
+    m_Localized: Зняти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119700469780045824
+    m_Localized: Відкрийте сейф
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119276543472033792
+    m_Localized: Увімкнути звук
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104808493830103040
+    m_Localized: Верхній Одяг
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98972914076868608
+    m_Localized: Сила потерпілих
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123555499402584064
+    m_Localized: Голосовий чат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119276567383760896
+    m_Localized: Заглушити голос
+    m_Metadata:
+      m_Items: []
+  - m_Id: 119276598039928832
+    m_Localized: Увімкнути голос
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437697366810624
+    m_Localized: Поношений
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118274112307060736
+    m_Localized: Рація
+    m_Metadata:
+      m_Items: []
+  - m_Id: 101473278005075968
+    m_Localized: Зношеність
+    m_Metadata:
+      m_Items: []
+  - m_Id: 104898232109228032
+    m_Localized: Білі смужки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 118312371473080320
+    m_Localized: Лікарня Нью Вішлі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113514763944714240
+    m_Localized: Дерев'яний ящик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93244112814202880
+    m_Localized: Дерев'яний ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 111027798171181056
+    m_Localized: Написати повідомлення...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 113437750894518272
+    m_Localized: Добре поношений
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110926560792403968
+    m_Localized: XP Винагорода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110926599027679232
+    m_Localized: Винагорода обробляється. Ви отримаєте винагороду через кілька секунд.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121542048161456128
+    m_Localized: У вас є очікувані ринкові запити на цьому рахунку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 115725235150381056
+    m_Localized: 'Ви отримуєте:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116352882712764416
+    m_Localized: 'Ви продаєте:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 116014131134324736
+    m_Localized: 'Ваш інвентар:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123558308013400064
+    m_Localized: 'HUD Видимість:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123558783018328064
+    m_Localized: Видимий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123558802903523328
+    m_Localized: Мобільний HUD Прихований
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123558884264632320
+    m_Localized: Невидимий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123579748762771456
+    m_Localized: Відновити покупки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123610985766313984
+    m_Localized: Старша школа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123614333345193984
+    m_Localized: Таємна гренландська лабораторія, Каналізація
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123705392607780864
+    m_Localized: Колесо швидкого чату
+    m_Metadata:
+      m_Items: []
+  - m_Id: 123951309638328320
+    m_Localized: Меню
+    m_Metadata:
+      m_Items: []
+  - m_Id: 124029044842815488
+    m_Localized: Повідомити про відсутність покупки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127272284668813312
+    m_Localized: Ви отримаєте товар із подібним або таким же показником зносу та малюнком
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127272901575434240
+    m_Localized: 'Містить одне з наступного:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 127291495617126400
+    m_Localized: Навчання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 129152205276045312
+    m_Localized: кровоточить.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131225592521547776
+    m_Localized: Прискорення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131255196653182976
+    m_Localized: Полагодив
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131255806341406720
+    m_Localized: Паливний бак
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131255856639500288
+    m_Localized: Заповнив
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131256150844760064
+    m_Localized: Вставив
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131256583197810688
+    m_Localized: Ключі від фургону
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131563588454178816
+    m_Localized: Зона перегляду
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131563988989239296
+    m_Localized: Зона руху
+    m_Metadata:
+      m_Items: []
+  - m_Id: 131606969876209664
+    m_Localized: Кнопки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137487124536483840
+    m_Localized: Що нового
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137489311832465408
+    m_Localized: Останнє оновлення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 137496757988745216
+    m_Localized: Попереднє оновлення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141003720148115456
+    m_Localized: змагальний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140658484830003200
+    m_Localized: Перезарядка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140696149524733952
+    m_Localized: Переглянути оновлення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 140732621611065344
+    m_Localized: Тест мікрофона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141003245147381760
+    m_Localized: Виберіть режим
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141008640565829632
+    m_Localized: Усі карти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 141009424426721280
+    m_Localized: Простий матч
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142040099366187008
+    m_Localized: Увімкнути голосовий чат можна в налаштуваннях головного меню
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142040497997033472
+    m_Localized: Використовуйте епічну якість для реалістичної графіки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142041350506098688
+    m_Localized: Ви можете вибрати індивідуальний режим в кімнатах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142041780195766272
+    m_Localized: Вища ліга дозволяє розблокувати нові бонуси
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142042091991937024
+    m_Localized: 'Змагальний режим: у вищої ліги сильніші вороги'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142042467675746304
+    m_Localized: Досягніть топ-100 у таблиці лідерів, щоб отримати ексклюзивні винагороди
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142043501630402560
+    m_Localized: Зовнішній вигляд одягу залежить від ступеня зносу, він може виглядати бруднішим із вищим показником зносу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142045478271660032
+    m_Localized: Використовуйте торгівлю для обміну речами з друзями
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142045609591123968
+    m_Localized: Створіть лобі, щоб грати в змагальних або простих матчах з друзями
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142046933816782848
+    m_Localized: Ви можете побачити інших гравців на міні-карті
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142049935824510976
+    m_Localized: Аномалія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142054291743432704
+    m_Localized: Багатоповерхівка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142066395999711232
+    m_Localized: Налаштуйте налаштування гри та використовуйте навушники для кращого досвіду
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142070563109593088
+    m_Localized: Колекція
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144010110282227712
+    m_Localized: с
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144009269995364352
+    m_Localized: хв
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144009250709954560
+    m_Localized: г
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144009211761647616
+    m_Localized: д
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144363276853043200
+    m_Localized: Заповнити товаришів по команді
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144272876333510656
+    m_Localized: Мобільний HUD можна вимкнути в налаштуваннях
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143484961328279552
+    m_Localized: 'Слухайте уважно: ви застрягли в проклятій квартирі, яка повна <color=#962433>аномалій.</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143485051363209216
+    m_Localized: Якщо хочеш вибратися – знімай камерою <color=#962433>аномалії</color> і діставайся до <color=#26bf21>ліфта</color>.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143485081356677120
+    m_Localized: Якщо ви пропустите <color=#962433>аномалію</color>, <color=#26bf21>ліфт</color> дасть збій і поверне вас на найвищий поверх.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143485106178568192
+    m_Localized: Майте на увазі, що <color=#962433>монстри</color> не є аномаліями. Удачі.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143488063116750848
+    m_Localized: Проклятий житловий будинок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143488401035046912
+    m_Localized: 30 жовтня 03:00
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143657085470498816
+    m_Localized: Гладкість
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143891920365543424
+    m_Localized: Показати підказки (конкретні карти)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143893999817580544
+    m_Localized: Аномалія пропущена
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143974761577308160
+    m_Localized: Сезонна карта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 143986589309067264
+    m_Localized: Нова карта доступна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144607034555228160
+    m_Localized: Зміщення безпечної зони
+    m_Metadata:
+      m_Items: []
+  - m_Id: 144698724834074624
+    m_Localized: Боб камери (конкретні карти)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 145075970627330048
+    m_Localized: Вихід 8
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146069030895083520
+    m_Localized: Ви впевнені, що хочете видалити цей предмет?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 146543352669876224
+    m_Localized: '<color=#ff0000>Аномаліями</color> можуть бути <color=#ff0000>відсутні</color> або <color=#ff0000>аномальні</color> об’єкти. Живі мешканці, звуки, значні зміни навколишнього середовища, «червона кімната», аптечки чи предмети колекціонування не є <color=#ff0000>аномаліями</color>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 147793826500915200
+    m_Localized: Кожен поверх ідентичний. Пам'ятайте деталі. Будь-яка зміна підлоги є <color=#ff0000>аномалією</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148229115379789824
+    m_Localized: "Натисніть угору, коли на цьому поверсі є <color=#ff0000>аномалія</color>\n Натисніть униз, коли немає <color=#ff0000>аномалії</color>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148229147633987584
+    m_Localized: Якщо є <color=#ff0000>аномалія</color>, зніміть її камерою, щоб усунути її
+    m_Metadata:
+      m_Items: []
+  - m_Id: 148360364716711936
+    m_Localized: (Ви повинні вийти з матчу)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151259120327974912
+    m_Localized: Предмет #
+    m_Metadata:
+      m_Items: []
+  - m_Id: 150837701282619392
+    m_Localized: Предмет респавнився
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151222169319235584
+    m_Localized: Ліхтарик "руки"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 151273093479784448
+    m_Localized: Знайти за #
+    m_Metadata:
+      m_Items: []
+  - m_Id: 152320104228446208
+    m_Localized: Не вдалося створити гру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 153060098597445632
+    m_Localized: Рекомендоване відео
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154011156576460800
+    m_Localized: 'Знайдено аномалій: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 154014535314825216
+    m_Localized: Ви мертві
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154134905975988224
+    m_Localized: Розширена графіка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154437131340603392
+    m_Localized: Назад
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154477862977527808
+    m_Localized: Почати гру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154478881711054848
+    m_Localized: '{} - Присісти'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 154478984249204736
+    m_Localized: '{} - Бігти'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 154479069792034816
+    m_Localized: '{} - Камера'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 154479298993971200
+    m_Localized: '{} - Взаємодія'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 154479373619027968
+    m_Localized: '{} - Чат'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 154479570373828608
+    m_Localized: '{} - Спостерігати'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 154482917361311744
+    m_Localized: Нормальний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154483067920048128
+    m_Localized: Легко (без монстрів)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154483348296687616
+    m_Localized: Створити гру (приватну)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 154483442240708608
+    m_Localized: Приєднатися
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156222931038711808
+    m_Localized: 'Примітка: вимкніть «Постобробку» в налаштуваннях, якщо продуктивність низька'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 156325667126194176
+    m_Localized: Продавайте речі на ринку, щоб отримати золотий XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157646892152381440
+    m_Localized: Дерев'яний ящик 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157646929578156032
+    m_Localized: Токсичний ящик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157646996322115584
+    m_Localized: Гумовий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647027338993664
+    m_Localized: Інтерн
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647080644403200
+    m_Localized: Рожеві смуги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647130229465088
+    m_Localized: Зебра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647224395784192
+    m_Localized: Рожевий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647281270546432
+    m_Localized: Токсичний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647362581323776
+    m_Localized: Повсякденний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647409968570368
+    m_Localized: Офіс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647424078209024
+    m_Localized: Зникати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647453920681984
+    m_Localized: Фарба
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647472820215808
+    m_Localized: Літо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647507700047872
+    m_Localized: Клас
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647524070416384
+    m_Localized: Панк
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647564448980992
+    m_Localized: Золотий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647578466344960
+    m_Localized: Вишня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157647598695473152
+    m_Localized: Леопард
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157648203082096640
+    m_Localized: Чоботи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157648627088482304
+    m_Localized: Легінси
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157648808907366400
+    m_Localized: Джинси
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157648895066759168
+    m_Localized: Спідниця
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157650176300802048
+    m_Localized: Заправлена сорочка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 157650219162394624
+    m_Localized: Плащ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158367844553187328
+    m_Localized: Велосипедні штани
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158502789472837632
+    m_Localized: Вода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 158502805046288384
+    m_Localized: Спорт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 159606422700548096
+    m_Localized: Нова колекція
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167573237078679552
+    m_Localized: '{} голосів'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 168135790653595648
+    m_Localized: День {var}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 168281674175471616
+    m_Localized: Закінчився {} тому
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 167819285407719424
+    m_Localized: Немає доступних голосувань
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167819512327954432
+    m_Localized: Яку карту ви хотіли б замінити в змагальному режимі?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 167901778416754688
+    m_Localized: Дякуємо за голосування! Ваш голос не вплине на рейтинги, оскільки ви використовуєте гостьовий обліковий запис
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168167335384834048
+    m_Localized: Отримати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168174081373364224
+    m_Localized: Щоденний приз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168268333453402112
+    m_Localized: Голосування
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168635929012985856
+    m_Localized: Нагорода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168636119249838080
+    m_Localized: Щоденний візит
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168636417129308160
+    m_Localized: Шанувальник "Привида"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168636461391798272
+    m_Localized: військовий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168636605264814080
+    m_Localized: Мідь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 168935592177950720
+    m_Localized: Скинути прогрес
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169019095804534784
+    m_Localized: Придбати преміальний щоденний візит?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 169021051847565312
+    m_Localized: Ви впевнені, що бажаєте скинути прогрес?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 170314056573726720
+    m_Localized: Ви можете забрати рекламу, купивши будь-що в магазині
+    m_Metadata:
+      m_Items: []
+  - m_Id: 173705600737206272
+    m_Localized: Знищити плісняві краплі {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 171090705147486208
+    m_Localized: Акумулятор повний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 178699836599558144
+    m_Localized: Вам не дозволено приєднатися до цього сервера MM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187715042095214592
+    m_Localized: Якщо ви хочете вибратися - вам потрібно бути уважним до навколишнього середовища, щоб не пропустити <color=#962433>аномалію.</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187715883619397632
+    m_Localized: Якщо ви знайшли <color=#962433>аномалію</color> - натисніть вгору. Якщо аномалії немає - натисніть вниз.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187354463696052224
+    m_Localized: "Ви впевнені, що бажаєте припинити активну гру (<b>{}</b>)?\n \n Ви отримаєте тайм-аут"
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 187362407040933888
+    m_Localized: Відключено користувачем.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187362476045623296
+    m_Localized: Відключено через сервер.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187362518718472192
+    m_Localized: Час очікування минув.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187362694757605376
+    m_Localized: Високий пінг.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 187369502607925248
+    m_Localized: залишив гру
+    m_Metadata:
+      m_Items: []
+  - m_Id: 204511327982444544
+    m_Localized: завершити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200770832919683072
+    m_Localized: Хеллоуін
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205205562511581184
+    m_Localized: 'Закінчується через:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205922613838819328
+    m_Localized: Знайдіть колесо фургона {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205922675776106496
+    m_Localized: Вставте запобіжники в блок запобіжників {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205923104371060736
+    m_Localized: Покладіть жетони в головні ворота {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205923352837435392
+    m_Localized: Задуй свічки в режимі Хелловін {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205925591387811840
+    m_Localized: Знайдіть аптечки в багатоповерхівці {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205925710774480896
+    m_Localized: Поставте колесо фургона {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205923283983740928
+    m_Localized: Використайте червоний ключ {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205923427697373184
+    m_Localized: Знайдіть каністру {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205924534406426624
+    m_Localized: Знайдіть ключ в школі {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205924600256999424
+    m_Localized: Поставте акумулятор фургона {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205924765009260544
+    m_Localized: Використайте зелений ключ {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205925488748998656
+    m_Localized: Використайте синій ключ {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205925878647304192
+    m_Localized: Знайдіть ящик у школі {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205926036235694080
+    m_Localized: Використайте відмичку у лікарні {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205926132989898752
+    m_Localized: Полагодьте блок запобіжників у школі {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205926345557225472
+    m_Localized: Використайте каністру фургона {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 199329411788431360
+    m_Localized: Незабаром
+    m_Metadata:
+      m_Items: []
+  - m_Id: 200773632147841024
+    m_Localized: Подія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203342954768969728
+    m_Localized: Виживіть Хелловін
+    m_Metadata:
+      m_Items: []
+  - m_Id: 203674712630702080
+    m_Localized: Використовуйте голосову команду «викинь предмет», щоб змусити гравців скинути предмет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205203105400217600
+    m_Localized: Закінчився
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205922863307632640
+    m_Localized: Знайдіть ящик у режимі Хелловіну {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 206566222684217344
+    m_Localized: Капелюх
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206566246386229248
+    m_Localized: Маска
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206569845828870144
+    m_Localized: Трофей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206572261013970944
+    m_Localized: Капелюх відьми
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206572312897511424
+    m_Localized: Ghostface
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206572352869228544
+    m_Localized: Капелюх-гарбуз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206572398855577600
+    m_Localized: Хелловін Медаль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206575788880814080
+    m_Localized: Головні убори
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206687681553358848
+    m_Localized: 'Основне завдання:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 206687767062634496
+    m_Localized: 'Підзавдання:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209476885266030592
+    m_Localized: 'Не вдалося захистити обліковий запис, видаліть недійсних друзів: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 208775744718888960
+    m_Localized: Предмети буде видалено через 30 днів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 208780005217394688
+    m_Localized: Про видалення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209158489320185856
+    m_Localized: Синхронізація скінів...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209171765215092736
+    m_Localized: Безпечний обліковий запис
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209178169179103232
+    m_Localized: Захистіть свій обліковий запис, щоб запобігти його крадіжці. Ви хочете продовжити?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209488959664807936
+    m_Localized: Потрібне оновлення безпеки гостя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209532362951745536
+    m_Localized: Переключитися на "незахищений"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 209545275225661440
+    m_Localized: Не знайдено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 212040290661294080
+    m_Localized: Одяг
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213126462129037312
+    m_Localized: Компенсація за дублікати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213126679104577536
+    m_Localized: Шанс на випадання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 213143292138741760
+    m_Localized: Оцінка вільного зносу ящика обмежена 0,26-0,74
+    m_Metadata:
+      m_Items: []
+  - m_Id: 216120912899989504
+    m_Localized: Ви впевнені, що бажаєте придбати цей товар?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229425929914757120
+    m_Localized: Втечіть від м'ясника в апартаментах {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 229426803907047424
+    m_Localized: Вижити та втекти {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 229427222796382208
+    m_Localized: Втечіть від Годвілли в лікарні {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 229427771059023872
+    m_Localized: Втечіть від Кравлера в каналізації {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 229910606974889984
+    m_Localized: Знайти ящик на рівні лікарні {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 226521932035862528
+    m_Localized: Срібний подарунок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 226522954703646720
+    m_Localized: Золотий подарунок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228327251862958080
+    m_Localized: Капелюх Діда Мороза
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228327500580990976
+    m_Localized: Новорічна медаль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 228413983591227392
+    m_Localized: Новий рік
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229429273556934656
+    m_Localized: Крім школи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229777597233356800
+    m_Localized: Преміум XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229787331730595840
+    m_Localized: Тікстер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 229815736068988928
+    m_Localized: 30 грудня річниця клану Тікстер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230197962151899136
+    m_Localized: Оновити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230487347107803136
+    m_Localized: Новорічна подія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230501753216643072
+    m_Localized: залишився 1
+    m_Metadata:
+      m_Items: []
+  - m_Id: 230502295485624320
+    m_Localized: Розпродано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231222558804226048
+    m_Localized: опис
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231260653813575680
+    m_Localized: Подробиці про дроп
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231589672568303616
+    m_Localized: Обміняти XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231638365591560192
+    m_Localized: Обліковий запис преси
+    m_Metadata:
+      m_Items: []
+  - m_Id: 231972309285462016
+    m_Localized: Обміняти предмети на {}?
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 231997774939283456
+    m_Localized: 'Ви нещодавно продали товари:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233536523846279168
+    m_Localized: Північна Америка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233536450466930688
+    m_Localized: Європа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235553816675606528
+    m_Localized: Ви були відключені через гріфінг
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235555640396734464
+    m_Localized: '{} тайм-аут за гріфінг'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 239175955156819968
+    m_Localized: годин(и) назад
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240060250385801216
+    m_Localized: 'Час виконання: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 240344512561405952
+    m_Localized: 'Залишився час: {}'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 22971146240
+    m_Localized: Каналізаційний лабіринт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5831696310272
+    m_Localized: Вхід
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233536386138890240
+    m_Localized: Азія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 233536471526531072
+    m_Localized: Південна Америка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 234974663127588864
+    m_Localized: Репортнути
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235555261047103488
+    m_Localized: 'Ліміт звітів досягнуто:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 235602690563891200
+    m_Localized: на гравця поскаржилися
+    m_Metadata:
+      m_Items: []
+  - m_Id: 236291103801729024
+    m_Localized: Аномалію видалено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239165330775072768
+    m_Localized: Останні покупки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239175599626641408
+    m_Localized: '< 1 години тому'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239687944589271040
+    m_Localized: Шут
+    m_Metadata:
+      m_Items: []
+  - m_Id: 239688056480718848
+    m_Localized: Недостатньо ключів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240055499422162944
+    m_Localized: Особистий квест
+    m_Metadata:
+      m_Items: []
+  - m_Id: 240412291040096256
+    m_Localized: Ворога не видно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241123807093317632
+    m_Localized: '{} Залишилось'
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 241352735089569792
+    m_Localized: Дерев'яний ящик 3
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241352735131512832
+    m_Localized: Вінтажний ящик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241095788358262784
+    m_Localized: Цей пакет містить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747968
+    m_Localized: Білий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747969
+    m_Localized: Вінтаж
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747970
+    m_Localized: світло-блакитний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747971
+    m_Localized: Антикваріат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747972
+    m_Localized: Шкіра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747973
+    m_Localized: листок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747974
+    m_Localized: Лотос
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747975
+    m_Localized: страус
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747976
+    m_Localized: Молескін
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747977
+    m_Localized: Кітті
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747978
+    m_Localized: Синя броня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747979
+    m_Localized: Підтяжки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747980
+    m_Localized: Мемфіс майя
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747981
+    m_Localized: Дракон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747982
+    m_Localized: Cell Web
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747983
+    m_Localized: Трикутники
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241357958545747984
+    m_Localized: Шоко
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241363285471211520
+    m_Localized: Воскресіть гравців
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366533200490496
+    m_Localized: Заробляйте очки в матчах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366582617780224
+    m_Localized: Грайте в матчі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366657490300928
+    m_Localized: Вигравайте змагальні матчі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366689534783488
+    m_Localized: Заробляйте XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241366715417833472
+    m_Localized: Заробляйте трофеї
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241466368448606208
+    m_Localized: Немає сигналу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241479408126255104
+    m_Localized: Крім квартир
+    m_Metadata:
+      m_Items: []
+  - m_Id: 241735174471364608
+    m_Localized: Купіть більше ключів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242457879182827520
+    m_Localized: Куртка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 242926744122839040
+    m_Localized: Останні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247657977009397760
+    m_Localized: Активний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247653997801889792
+    m_Localized: Статус
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247658028997795840
+    m_Localized: Неактивний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247652915369467904
+    m_Localized: Генератор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 264591670013583360
+    m_Localized: '{} - Вихід'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 266439017559482368
+    m_Localized: Досягнуто ліміту {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 268628886704611328
+    m_Localized: розгадав
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268629807777964032
+    m_Localized: головоломку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268631918582423552
+    m_Localized: сейф
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268635955876847616
+    m_Localized: відкрив
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270109032087281664
+    m_Localized: позначив
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270109065155174400
+    m_Localized: підказку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 270109081005449216
+    m_Localized: на карті
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281576585514967040
+    m_Localized: Вийти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 281680875441086464
+    m_Localized: Випуск Карти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269953906680782848
+    m_Localized: Висока
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269953893590360064
+    m_Localized: Епічна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269953978751508480
+    m_Localized: Середня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269954074616520704
+    m_Localized: Низька
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269954116177879040
+    m_Localized: Індивідуальне
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286331772934807552
+    m_Localized: Виявлення ЕМП рівня 2-4 {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286331830648430592
+    m_Localized: Виявлення ЕМП рівня 5 {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286334996844634112
+    m_Localized: Виявіть низьку температуру в бойні {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286334787976683520
+    m_Localized: Втеча від привида бойні {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286331891549724672
+    m_Localized: Втеча від привида в квартирах {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286334120906186752
+    m_Localized: Втеча з квартир {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286334622532362240
+    m_Localized: Втеча з Бійні {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286343702995001344
+    m_Localized: Вижити та втекти з Бійні {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286335194601873408
+    m_Localized: Втеча з лікарні {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286335661805395968
+    m_Localized: Знайти аптечку в школі {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286341496732377088
+    m_Localized: Втеча зі школи {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 286341658334715904
+    m_Localized: Втеча від тіньового монстра в квартирах {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 205922790481932288
+    m_Localized: Полагодьте генератори в каналізації {}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 249713826632556544
+    m_Localized: Тримайте для взаємодії
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258418153152831488
+    m_Localized: Потрібне паливо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 258418441767084032
+    m_Localized: Без палива
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260572344260485120
+    m_Localized: Близький Схід
+    m_Metadata:
+      m_Items: []
+  - m_Id: 260572514062688256
+    m_Localized: Південна Африка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268630954303545344
+    m_Localized: морг
+    m_Metadata:
+      m_Items: []
+  - m_Id: 268637354694008832
+    m_Localized: сховище
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269614673831124992
+    m_Localized: Переміщення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269614818161319936
+    m_Localized: Збільшення/зменшення масштабу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 269953784051916800
+    m_Localized: Безлімітно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278052396657008640
+    m_Localized: Клапан
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278324583334928384
+    m_Localized: Рівень 5 електромагнітної напруги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278325178896736256
+    m_Localized: Ультрафіолет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278325812484104192
+    m_Localized: Скринька духів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278326153753649152
+    m_Localized: Температура замерзання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278334345132892160
+    m_Localized: Доказ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278334813733117952
+    m_Localized: Задута свічка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278351168259743744
+    m_Localized: Ритуал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278807763074670592
+    m_Localized: Відсутній ключ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278807855840092160
+    m_Localized: Відсутній клапан
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278819235406274560
+    m_Localized: Виберіть <color=#B10000>3-4</color> правильних доказів, щоб розпочати ритуал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 278819372585181184
+    m_Localized: Ритуал розв'язано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282664135381999616
+    m_Localized: Сфери-привиди
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282700708018380800
+    m_Localized: Бійня
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284087895121190912
+    m_Localized: Свічка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284118020957134848
+    m_Localized: Задати питання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284118113177296896
+    m_Localized: Ви тут?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284120477334495232
+    m_Localized: Хто ви?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284121213795557376
+    m_Localized: Ви дружелюбні?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 284487402292244480
+    m_Localized: Секретний підземний об'єкт "Бійня"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285529340596449280
+    m_Localized: Кажуть, що стіни та підлога цього місця приховують незліченну кількість жертв. Вони називають це місце Бійнею...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 285529515230490624
+    m_Localized: Дехто каже, що ми просто піддослідні — частина експерименту, щоб перевірити, чи можуть люди виявляти ознаки паранормальної активності за жахливих умов.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286307073115025408
+    m_Localized: Подія нової карти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286322501300252672
+    m_Localized: Маска Бійні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286331951339528192
+    m_Localized: Отримайте відповіді від скриньки зі духами в бойні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286334262732382208
+    m_Localized: Розв'язати ритуал з 3 доказами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286334341836955648
+    m_Localized: Розв'язати ритуал з 4 доказами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286335255901626368
+    m_Localized: Виявіть відбитків рук за допомогою ультрафіолету в бойні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286335479499972608
+    m_Localized: Доберіться до 4-го поверху в квартирах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286335548861177856
+    m_Localized: Доберіться до 2-го поверху в квартирах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286335712208347136
+    m_Localized: Зберіть докази задутої свічки в бойні, тримаючи свічку в руці
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286341262736351232
+    m_Localized: Знайдіть температуру замерзання в бойні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286341349503918080
+    m_Localized: Втеча зі статуї
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286428736439709696
+    m_Localized: Сертифікатний ящик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286429533130977280
+    m_Localized: Фіолетовий сертифікат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286629443528814592
+    m_Localized: Синій сертифікат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286672730293526528
+    m_Localized: Сертифікат не містить нещодавно випущених колекцій скінів, яким менше 3 місяців
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286814340545241088
+    m_Localized: Відсутня кнопка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287524803176292352
+    m_Localized: Червоний сертифікат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287524852685856768
+    m_Localized: Рожевий сертифікат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287538970180710400
+    m_Localized: Тебе викрали та відвезли до секретного підземного об'єкта.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287539034559082496
+    m_Localized: Вони обіцяють свободу, якщо ви успішно завершите «ритуал».
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287539111981740032
+    m_Localized: Знайдіть докази, згадані в книзі, щоб завершити ритуал.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287790088001417216
+    m_Localized: Маска
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287771065041809408
+    m_Localized: Термометр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287818190257381376
+    m_Localized: Знайдіть усі докази.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287818226907209728
+    m_Localized: Виконайте ритуал, щоб втекти.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288064581567508480
+    m_Localized: Динамічний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 288155388055904256
+    m_Localized: Розблокувати модуль 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289642104310984704
+    m_Localized: Відбитки рук привида з'являються після взаємодії привида з дверима або вимикачами світла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289643818493669376
+    m_Localized: У кімнаті з привидами температура становить 5 градусів або нижче
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289644176989220864
+    m_Localized: Опустіть термометр у кімнату та підніміть його пізніше. Він покаже правильну температуру в кімнаті
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289647068546592768
+    m_Localized: Прислухайтеся до звуків. Привиди кидають навколо предметів, що може допомогти вам швидше знайти кімнату
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289647744165081088
+    m_Localized: Бігання зі зчитувачем електромагнітних полів – найкраща стратегія для швидкого пошуку кімнати з привидами
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289653066011242496
+    m_Localized: Купити
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289653804770783232
+    m_Localized: Ваша головна мета — знайти кімнату з привидами. У кімнаті з привидами холодно, температура становить 5 градусів або нижче.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289653946865414144
+    m_Localized: Поставте свічку в кімнату з привидами, щоб привид її задув. Потрібен деякий час, перш ніж привид з нею взаємодіятиме.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 289955308320845824
+    m_Localized: Усі докази знаходяться в кімнаті з привидами.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291727152262406144
+    m_Localized: "Ваша остання гра зависла\n \n Ви хочете змінити якість графіки на середню?"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291468608703291392
+    m_Localized: Північно-Східна Азія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291468637711097856
+    m_Localized: Південно-Східна Азія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294038994502541312
+    m_Localized: Дробовик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 294039762051784704
+    m_Localized: Каністра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 296464296902123520
+    m_Localized: Східна Європа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299419159883575296
+    m_Localized: граючи на будь-якій карті
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299421119621787648
+    m_Localized: Заробляйте
+    m_Metadata:
+      m_Items: []
+  - m_Id: 299709005925703680
+    m_Localized: Залишилося {} спроб
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 299811671301414912
+    m_Localized: Валюта події
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300425521839468544
+    m_Localized: Кубик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300425546137071616
+    m_Localized: Кубик {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 300426519026855936
+    m_Localized: Корона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300443387821289472
+    m_Localized: Ювілейна подія Т-клану
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300759462030860288
+    m_Localized: Цей перк не займає місця
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300762771118612480
+    m_Localized: Отримайте предмет із {}% шансом або золотом
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 300756038899982336
+    m_Localized: Предмет або золото
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300756088833171456
+    m_Localized: Скін або золото
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300756130520358912
+    m_Localized: Ящик або золото
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300756167426039808
+    m_Localized: Перк або золото
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300826075073601536
+    m_Localized: Ви хочете активувати цю перевагу?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300826271807430656
+    m_Localized: Ви хочете вимкнути цю перевагу?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300902666982387712
+    m_Localized: Приз або золото
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301510862255939584
+    m_Localized: 7 липня - річниця клану Тонг
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301867235900911616
+    m_Localized: Призовий ящик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 301945762352193536
+    m_Localized: Крім каналізації
+    m_Metadata:
+      m_Items: []
+  - m_Id: 317814467963645952
+    m_Localized: 1 з {}
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 318929043530706944
+    m_Localized: Ви змогли втекти {}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 318929149491408896
+    m_Localized: Ви не змогли втекти {}.
+    m_Metadata:
+      m_Items:
+      - rid: 0
+  - m_Id: 333109718772867072
+    m_Localized: Ящик з шансом <b>{}%</b> на головний приз
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 333385868816408576
+    m_Localized: '<b>{0}%</b> шанс на приз <b>{1}</b>'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 335320895443689472
+    m_Localized: Знайти кістки {}
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 307719489484746752
+    m_Localized: Зчитувач EMF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313467585867018240
+    m_Localized: Подія Speedrun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 313470872964034560
+    m_Localized: Час
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314293320898568192
+    m_Localized: Обліковий запис заблоковано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314294456535736320
+    m_Localized: Перевірка...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314294563700203520
+    m_Localized: Отримання результатів гри...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 314619869220823040
+    m_Localized: Помилка з'єднання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318635710036045824
+    m_Localized: Ваша команда перемогла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318635763760885760
+    m_Localized: Команда суперників перемогла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318649532742365184
+    m_Localized: Перемога
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318649664426733568
+    m_Localized: Поразка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318926080091353088
+    m_Localized: Ви втекли пізніше за суперників.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318926242297671680
+    m_Localized: Суперники вижили довше.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318926564269223936
+    m_Localized: Ви втекли швидше за суперників.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318926925805645824
+    m_Localized: Ви вижили довше за суперників.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 318927275145031680
+    m_Localized: Суперники вижили довше.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319025729783459840
+    m_Localized: У змагальному режимі є дві команди. Команда, яка втече першою, перемагає.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 319651914565545984
+    m_Localized: 'Ви граєте в змагальному режимі: Втеча швидше за команду суперника.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 320007121552011264
+    m_Localized: Переглянути профіль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321464955456188416
+    m_Localized: Ви змогли вбити всіх гравців.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321467466904760320
+    m_Localized: Ви не змогли вбити всіх гравців.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321469889610248192
+    m_Localized: Ви програли
+    m_Metadata:
+      m_Items: []
+  - m_Id: 321470152093986816
+    m_Localized: Ви перемогли
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323296565730209792
+    m_Localized: СУПЕРНИКИ ВТЕКЛИ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324347527320301568
+    m_Localized: Ваш результат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 324756998819143680
+    m_Localized: Інформація про матч більше недоступна
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325107639941066752
+    m_Localized: Вік
+    m_Metadata:
+      m_Items: []
+  - m_Id: 325812075306672128
+    m_Localized: Повтор недоступний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 326562012999184384
+    m_Localized: Матч не знайдено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 327341609906860032
+    m_Localized: Виберіть свій випадковий спеціальний бонус
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328449062274854912
+    m_Localized: Виграно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 328449081212137472
+    m_Localized: Програно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333166662506242048
+    m_Localized: Невідомо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333869989523353600
+    m_Localized: Золотий череп
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333870831315972096
+    m_Localized: Маска Джейсона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611341818978304
+    m_Localized: Кістка хребта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611668374904832
+    m_Localized: Кістка кисті
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611720895979520
+    m_Localized: Кістка ноги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611794707341312
+    m_Localized: Кістка черепа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334611845873655808
+    m_Localized: Кістка грудної клітки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335320937130876928
+    m_Localized: Знайти кістку хребта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335320990440480768
+    m_Localized: Знайти кістку ноги в Бійні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335321274101260288
+    m_Localized: Знайти кістку кисті в Школі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335321332095901696
+    m_Localized: Знайти кістку черепа в Лікарні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335321408595812352
+    m_Localized: Спостерігати, як привид розміщує плакат у Бійні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335321647994101760
+    m_Localized: Знайти кістку кисті в Бійні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335322157425876992
+    m_Localized: Знайти кістку грудної клітки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335322286564302848
+    m_Localized: Спостерігати, як привид ставить гарбуз у Бійні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335324199762518016
+    m_Localized: Виявити відбиток руки за допомогою ультрафіолетового світла на гарбузі на Хелловін у Бійні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335324736083976192
+    m_Localized: Виявити відбиток руки за допомогою ультрафіолетового світла на плакаті на Хелловін у Бійні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336373906102546432
+    m_Localized: Золото
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336696842487328768
+    m_Localized: '<b>Оновлення</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 336697134020816896
+    m_Localized: '<b>Що нового</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338117781833637888
+    m_Localized: Ваша команда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338502360717586432
+    m_Localized: Не вижив
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338502469215842304
+    m_Localized: Втік 2-м
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338502583862947840
+    m_Localized: Вижив достатньо довго
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338503132519854080
+    m_Localized: Чекаємо на результат...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338503330390339584
+    m_Localized: Чекаємо на суперника...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 338883803146874880
+    m_Localized: Команда противника
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346206144650272768
+    m_Localized: Основне
+    m_Metadata:
+      m_Items: []
+  - m_Id: 346206158491475968
+    m_Localized: Додаткове
+    m_Metadata:
+      m_Items: []
+  - m_Id: 343999580464214016
+    m_Localized: Медаль на Хелловін 2025
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344699506298974208
+    m_Localized: Мертвий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348305453675962368
+    m_Localized: Натисніть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348305486437670912
+    m_Localized: Натисніть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348305518326964224
+    m_Localized: Багаторазове натискання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348305550866374656
+    m_Localized: Повільне натискання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348310975653339136
+    m_Localized: Утримуйте натискання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 356610760068296704
+    m_Localized: Новорічна медаль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379276406648832
+    m_Localized: Різдвяний светр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379391724843008
+    m_Localized: Різдвяний светр 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379491792547840
+    m_Localized: Різдвяні легінси
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379614207504384
+    m_Localized: Пов'язка на голову
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353379820391100416
+    m_Localized: Золотий подарунок 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353380574388547584
+    m_Localized: Олень
+    m_Metadata:
+      m_Items: []
+  - m_Id: 353380755351793664
+    m_Localized: Пов'язка з оленем
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354108928699920384
+    m_Localized: Зароблено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354123612807229440
+    m_Localized: Срібний подарунок 2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357346800164925440
+    m_Localized: Светр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 357346858545442816
+    m_Localized: Різдво
+    m_Metadata:
+      m_Items: []
+  - m_Id: 360596188127555584
+    m_Localized: Ящик чемпіона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366413347348799488
+    m_Localized: Знайти аптечку в лікарні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370410538975354880
+    m_Localized: Доберіться до 6-го поверху в квартирах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370410607489310720
+    m_Localized: Доберіться до 3-го поверху в квартирах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 366413662110343168
+    m_Localized: Знайти аптечку на бойні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 367141946570043392
+    m_Localized: Відстань
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408302035591168
+    m_Localized: Знайти аномалію в квартирах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408353214488576
+    m_Localized: Знайти аномалію
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408571205050368
+    m_Localized: Знайти докази на бойні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408691053092864
+    m_Localized: Знайти докази
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408934700212224
+    m_Localized: Знайти запчастини в школі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370408997107261440
+    m_Localized: Знайти запчастини
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370409022558298112
+    m_Localized: Знайти запчастини в лікарні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370409523479830528
+    m_Localized: Знайти запобіжник у школі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370409682607529984
+    m_Localized: Знайти аптечку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412144131301376
+    m_Localized: Знайти розп'яття в лікарні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412252268847104
+    m_Localized: Знайти розп'яття
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371497842989330432
+    m_Localized: Знайти "відсутню" аномалію
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371499036650500096
+    m_Localized: Знайти "криваву" аномалію
+    m_Metadata:
+      m_Items: []
+  - m_Id: 371499379962671104
+    m_Localized: Уникнути Годвілли за допомогою розп'яття
+    m_Metadata:
+      m_Items: []
+  - m_Id: 414728649870139392
+    m_Localized: '{} - Голосовий чат'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 437166039438245888
+    m_Localized: Дерев'яний ящик 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 437762187131666432
+    m_Localized: Подія кланів KING і TTR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794320687382528
+    m_Localized: Багатобарвний ящик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794480922378240
+    m_Localized: Білий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794605325434880
+    m_Localized: Квітковий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794678423764992
+    m_Localized: Смужки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794708731805696
+    m_Localized: Вертикальні лінії
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794782819991552
+    m_Localized: Ретро
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794809378324480
+    m_Localized: Французький стиль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794831771713536
+    m_Localized: Багатобарвний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794869918908416
+    m_Localized: Гавайський стиль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794974570987520
+    m_Localized: Червоний
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440794992484859904
+    m_Localized: Оксамит
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795022331527168
+    m_Localized: Панель
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795045291147264
+    m_Localized: Тінь
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795174236635136
+    m_Localized: Синій
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795283355648000
+    m_Localized: Детектив
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440795330105360384
+    m_Localized: Рів'єра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440796264713732096
+    m_Localized: Плоска кепка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440796602489421824
+    m_Localized: Кепка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440798240822312960
+    m_Localized: Корона
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440798346766237696
+    m_Localized: Король
+    m_Metadata:
+      m_Items: []
+  - m_Id: 440799213829537792
+    m_Localized: Сорочка навипуск
+    m_Metadata:
+      m_Items: []
+  - m_Id: 443220444709175296
+    m_Localized: Не вдалося розпізнати хост
+    m_Metadata:
+      m_Items: []
+  - m_Id: 444349865348349952
+    m_Localized: Шорти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445894913141235712
+    m_Localized: Сервер переповнений
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445895376825737216
+    m_Localized: Відключено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445896931448709120
+    m_Localized: Інший гравець вже використовує цей слот
+    m_Metadata:
+      m_Items: []
+  - m_Id: 445897110105088000
+    m_Localized: Час очікування неактивності минув
+    m_Metadata:
+      m_Items: []
+  - m_Id: 447301078029221888
+    m_Localized: Куртка з коміром
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464354721582542848
+    m_Localized: '{} Акаунт заблоковано'
+    m_Metadata:
+      m_Items:
+      - rid: 6820423584242466833
+  - m_Id: 461369706066210816
+    m_Localized: Відсутня панель перемикачів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462517975135809536
+    m_Localized: Допомагає знаходити важливі предмети на мапі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463262139632840704
+    m_Localized: Лом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462945669149356032
+    m_Localized: Завдання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462940969284923392
+    m_Localized: Завдання вже активне
+    m_Metadata:
+      m_Items: []
+  - m_Id: 462941015392907264
+    m_Localized: Предмет завдання заблоковано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205924681047683072
+    m_Localized: Відкрийте вентилі в Каналізації {}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 205925846653153280
+    m_Localized: Відкрийте сейф у каналізації {}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463517564601102336
+    m_Localized: Гостфейс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463517606862909440
+    m_Localized: Демон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463858526263177216
+    m_Localized: '<b>Щоденний сюрприз на Гелловін!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463858894141386752
+    m_Localized: До 1 листопада 9:00 UTC ви отримуватимете в інвентарі особистий предмет завдання. Завдання може містити ексклюзивні нагороди на Гелловін!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463861238870568960
+    m_Localized: День
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463909748512911360
+    m_Localized: 'Наступне оновлення через:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463937291303514112
+    m_Localized: Завдання на Гелловін
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463965988806979584
+    m_Localized: Зберіть {0} уламків, щоб отримати предмет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463966047321714688
+    m_Localized: Уламки отримано
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463966074731491328
+    m_Localized: Недостатньо уламків
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463970891075940352
+    m_Localized: Золотий циліндр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464981182343803306
+    m_Localized: 'Днів до музики Хелловіну: {0}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 464981183264322758
+    m_Localized: Музика Хелловіну повернеться наступного року
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465036124215948469
+    m_Localized: Оберіть рідкість у фільтрі, щоб розмістити заявку на купівлю завдання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465069782382931968
+    m_Localized: Виграйте змагальний матч проти Золотої ліги
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465069869309882368
+    m_Localized: Виграйте змагальний матч проти ліги Майстрів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070889258295715
+    m_Localized: Знищіть {0} гарбузових монстрів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070889789810384
+    m_Localized: Знищіть {0} гарбузових монстрів за один матч
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070890379342456
+    m_Localized: Знищіть рівно {0} гарбузових монстрів за один матч
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070890945281582
+    m_Localized: Втечіть від гарбузового монстра {0} разів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070891516705649
+    m_Localized: Виживіть і втечіть із режиму Геловіну ({0}x)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070892084310304
+    m_Localized: Відчиніть замкнені двері ломом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070892675862933
+    m_Localized: Втечіть із школи за {1} хвилин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070893226174672
+    m_Localized: Втечіть із лікарні за {1} хвилин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070893798648416
+    m_Localized: Втечіть з квартири за {1} хвилин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070894381831253
+    m_Localized: Втечіть із м’ясокомбінату за {1} хвилин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070894970350924
+    m_Localized: Виграйте {0} змагальних матчів поспіль і втечіть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070895534098510
+    m_Localized: Виграйте {0} змагальних матчів поспіль проти Легенди і втечіть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070896106639995
+    m_Localized: Виграйте {0} змагальних матчів поспіль проти Золотого і втечіть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070896669760119
+    m_Localized: Виграйте {0} змагальних матчів поспіль проти Майстра і втечіть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070897264465625
+    m_Localized: Знайдіть {0} доказів у М’ясокомбінаті
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070897908705071
+    m_Localized: Втечіть від Літаючої Голови у квартирах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465070898509885481
+    m_Localized: Втечіть від Переслідувача у квартирах
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465076224583224959
+    m_Localized: У вас є активне завдання. Замінити його?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685859806641090
+    m_Localized: Ключ від кімнати з клітками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685860299111537
+    m_Localized: Ключ від воріт глибокого вузла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685860921389366
+    m_Localized: Ключ від глибокого вузла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685861457303328
+    m_Localized: Ключ від складу глибокого вузла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685862011180010
+    m_Localized: Ключ від дренажної кімнати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685862553431724
+    m_Localized: Ключ від затопленого підвалу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685863093788829
+    m_Localized: Ключ від нижнього вузла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685863657388429
+    m_Localized: Ключ від техприміщення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685864204483242
+    m_Localized: Ключ від модуля 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685864765841665
+    m_Localized: Ключ від кімнати тиску
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685865286247838
+    m_Localized: Ключ від кімнати резервуара
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685865831624224
+    m_Localized: Ключ від складу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685866428339691
+    m_Localized: Потрібен ключ від кімнати з клітками
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685866988155568
+    m_Localized: Потрібен ключ від воріт глибокого вузла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685867535691627
+    m_Localized: Потрібен ключ від глибокого вузла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685868085030271
+    m_Localized: Потрібен ключ від складу глибокого вузла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685868628432546
+    m_Localized: Потрібен ключ від дренажної кімнати
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685869173579944
+    m_Localized: Потрібен ключ від входу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685869859604319
+    m_Localized: Потрібен ключ від затопленого підвалу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685870399126086
+    m_Localized: Потрібен ключ від нижнього вузла
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685870960345885
+    m_Localized: Потрібен ключ від техприміщення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685871494325874
+    m_Localized: Потрібен ключ від модуля 4
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685872027122682
+    m_Localized: Потрібен ключ від кімнати резервуара
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685872558846072
+    m_Localized: Потрібен ключ від складу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685873056419479
+    m_Localized: Компас
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465685873602321329
+    m_Localized: Клапан
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465696083743928810
+    m_Localized: ви вже поскаржилися на нього в цій грі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465770199575581282
+    m_Localized: Нове особисте завдання
+    m_Metadata:
+      m_Items: []
+  - m_Id: 465770200678217325
+    m_Localized: До вашого інвентарю додано нове особисте завдання
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries: []
+    - rid: 6820423584242466833
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 335320895443689472
+        - id: 264591670013583360
+        - id: 154479298993971200
+        - id: 154479069792034816
+        - id: 154479373619027968
+        - id: 414728649870139392
+        - id: 154479570373828608
+        - id: 154478984249204736
+        - id: 154478881711054848
+        - id: 464354721582542848

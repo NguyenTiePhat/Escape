@@ -1,0 +1,1345 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_he
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: he
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 388619548772270089
+  m_TableData:
+  - m_Id: 5190169124864
+    m_Localized: לְחַבֵּר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: צא החוצה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: מצב משחק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: מְקוֹמִי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: IP של שרת מקומי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: באינטרנט
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: אוֹ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: לְשַׂחֵק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: הגדרות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: חריצים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: סטָטִיסטִיקָה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: שם ומפה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: הדמות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: צור שרת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: אפשר שרת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: 'אזור שרת: {serverRegion}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Localized: סטטיסטיקה אינה זמינה אם אינך מחובר.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: אוסף
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: משחקים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: 'ניצחונות:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: 'הפסדים:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: פריטים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: נמצאו חלקי רכב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: 'חלקים שתוקנו:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: הרציחות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: 'ניצולים נהרגו:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: (ניתן לפתוח במשחק)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: הַלבָּשָׁה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: 'כובעים ומסכות שנפתחו:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: כללי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: פקדים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: שֶׁמַע
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: גרָפִיקָה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: שחקן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: כינוי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: ממשק משתמש ו- HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: 'גודל UI:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: אחרים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: אזור
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: שפה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: בקר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: רגישות אופקית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: רגישות אנכית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: 'הפוך אופקית:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: 'הפוך אנכי:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: עוצמת קול כללית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: נפח BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: 'עוצמת קול ממשק משתמש:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: נפח אפקט
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: רב משתתפים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: עוצמת קול VoIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: מכשירים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: 'באוזניות:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: כבד על הביצועים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: לאחר עיבוד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: 'אור מהשחקן:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: 'אור נפחי:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: התחברות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: המשך משחק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: צא לתפריט הראשי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: פרימיום
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: 'כובע:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: הדמות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: לִקְנוֹת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: האם אתה בטוח שברצונך לצאת?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: לֹא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: כן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: גודל ממשק המשתמש
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: האם אתה בטוח שברצונך להחיל את השינויים?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: בחר שפה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: האם אתה בטוח שאתה רוצה להצטרף לחדר הזה?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: ליצור חדר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: שם חדר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: 'שחקנים:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PVP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: ליצור
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: חדר פרטי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: חדר IP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: לְהִצְטַרֵף
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: יצירת החדר נכשלה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: יותר מאוחר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: מיזוג חשבונות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: האם אתה רוצה לקשר את נתוני החשבון הקודם שלך לחשבון החדש?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: לקרוא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: הצטרף פרטי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: 'חדר פרטי:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: להמשיך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: עיתונים נמצאו
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: טוען חדר ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: תקן את המכונית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: חלקי מכונית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: גַלגַל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: סוֹלְלָה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: דלק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: מפתחות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: קנה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: 'מצב משחק:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: ווקי טוקי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: איכות מרקם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: 'מפה קבועה:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: רמז
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: לחץ על הכרטיסיה המקוונת לטעינת חדרים מחדש. ניתן לטעון חדרים פעם בחמש שניות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: שילוב נתיכים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: הדרכה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: מַפָּה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: לדלג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: רזולוציית מסך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: מיקרופון
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: איכות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: 'דם:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: שים לב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: ודא שאתה משתמש באוזניות כדי למנוע הד מהמיקרופון. ניתן גם לשנות את המיקרופון בהגדרות שמע
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: שחק לא מקוון
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: לְסַנֵן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: רָאשִׁי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: אַזהָרָה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: מכשיר אייפון 6+ ומטה אינו נתמך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: שחזר נתונים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: חברים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: לִיגָה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: צור לובי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: התחבר מחדש
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: הַתחָלָה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: הגדרות הלובי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: להזמין
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: הזמן שחקנים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: האם אתה בטוח שאתה רוצה לצאת מהלובי?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: אין חברים ברשת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: לְהַסִיר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: הליגה שלי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: נוֹכְחִי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: קודם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: אינך יכול ליצור שרת אם אתה בעל נקודה חמה לנייד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: הגיע ליגה חדשה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: מזהה שיתוף
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: האם אתה בטוח שברצונך לשחזר נתונים ממסד הנתונים הישן?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: שחזר נתונים ישנים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: לְקַבֵּל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: לְהוֹסִיף
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: הוסף חבר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: לחפש
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: ייתכן ש- Discord או אפליקציות אחרות לא יפעלו אם ניתנת הרשאת מיקרופון
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: הרכב מתוקן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: מחכה לאחרים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: כנס למכונית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: הגנרטורים פועלים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: בחירת מפה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: בית חולים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: ביוב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: בית ספר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: אפס זום
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: יעדים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: 'הצג את סצנת הסיום:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: זכה ב-XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: הטבות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: להשתמש
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: הטבות נבחרות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: 'עֲרָפֶל:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: הַדְרָכָה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: חֶברָתִי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: שמור
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: אִתחוּל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: חנות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: רכישה לא מאומתת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: האם אתה רוצה לאמת רכישות עכשיו?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: קושי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: הפעל צ'אט קולי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: השתק צ'אט קולי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: חֶשְׁבּוֹן
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: מידע
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: 'תעודת זהות של המשתמש:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: 'סוג התחברות:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: סיסמה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: הירשם
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: שכחת את הסיסמא?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: שחק עכשיו
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: אימות אימייל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: תאשר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: שחזור סיסמא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: סיסמה חדשה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: איפוס סיסמא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: שחזר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: להתחבר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: העברת נתונים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: הנתונים יועברו מחשבון האורח
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: אפשרות זו אינה זמינה עבורך כעת. עליך להיות פעיל יותר כדי לקבל הרשמה חינם לדוא"ל. אתה יכול להשתמש באפשרויות התחברות אחרות במקום זאת.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: סך הרווחים של xp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: סך הכל גביעים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: פירוט המשחק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: 'משחק שניצח:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: 'שרד:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: 'זמן הישרדות:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: אזור מומלץ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: מפה ותאריך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: גביעים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: פּרוֹפִיל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: העתק מזהה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: העונה הכי טובה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: הכי טוב בכל הזמנים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: הזמנה ללובי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: יציאה ללובי
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: הצג jumpscare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: ההזמנה ללובי נשלחה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: הטבות לא נעולות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: ההתקדמות עלולה ללכת לאיבוד אם אינך מחובר
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: קוד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: 'התאמה אישית של כפתורים:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: התאמה אישית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: העברת נתונים לחשבון קיים כבר אינה זמינה, האם ברצונך להמשיך?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: מפות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: מדריך
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: חיפוש משחק
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "אויב: ליל גודווילה\n סוג: רוח רפאים\n \n ליל גודווילה איטית, אבל היא יכולה להופיע בחדרים. אל תתקרב אליה כדי להימנע מרדיפה - היא מהירה יותר כשהיא במצב רודפים. אל תלך לכיוון של לחישות.\n המטרה: אתה מתחיל באחד משלושה מוסכים של בית חולים. המטרה היא לתקן מכונית כדי לברוח. אתה צריך למצוא את החלקים הבאים כדי לברוח: 4 גלגלים, סוללה, דלק ומפתחות."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "אויב: פסל\n סוג: רוח רפאים\n \n נקודות התורפה של הפסל הן דלתות ופנס. הוא לא זז כשאתה מכוון את הפנס לכיוון שלו, אבל זכור שהפנס לא מחזיק מעמד ללא הגבלת זמן. סגור דלתות מאחוריך - זה יאט את הפסל.\n המטרה: לברוח דרך השער הראשי על ידי פתרון חידות. פתח את חדר הביטחון, תקן את תיבת הנתיכים, פתור את חידת השער"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "אויב: זוחל\n סוג: מפלצת\n \n זחלן יכול לטפס על קירות והוא לא רואה אותך כשאתה מכבה את הפנס שלך. הימנע מלהיכנס למקומות מוארים.\n המטרה: להפעיל 9 גנרטורים כדי להפעיל את השער הראשי. פתור סדרה של חידות כדי להגיע לסוף."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: '- הצבע הבא במהלך המשחק אומר שאתה יכול להשתמש בהטבה על ידי לחיצה עליו'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: '- ההטבה עשויה להיות בלתי זמינה באחד מהמצבים הבאים: 1. נעשה שימוש בהטבה. 2. אין לך כמות מספקת של הטבות. 3.הטבה אינה נתמכת במפה הנוכחית'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: '- הצבע הבא במהלך המשחק אומר שההטבה מופעלת אוטומטית במהלך המשחק (AKA הטבות מצביות)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: אתה יכול לבחור לשחק נגד שחקן אויב. אחד מהשחקנים ייבחר כאויב. האויב צריך לחסל כל שורד כדי לנצח.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: שחקו משחקים מדורגים והגדילו את הליגה שלכם, טפסו במעלה הטבלה כדי לזכות בתגמולים ייחודיים, פתחו הטבות חדשות.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: האם תרצה לקרוא מדריך על המשחק?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: לִפְתוֹחַ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: לקבל
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: שדרוג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: תחילה עליך לבטל את נעילת ההטבה הקודמת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: בְּעִיטָה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: פרס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: עונה הסתיימה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: חדרים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: הצטרף לפי תג
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: מחק חשבון
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: האם אתה בטוח שברצונך למחוק את חשבונך?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: אלפא
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: הצג FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: 'קלט אמולטור:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: איכות דמויות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: Shaders איכות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: בונוס XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: 'פתור DNS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "אויב: מרובה\n סוג: מפלצת/רוח רפאים\n \n אתה לכוד בדירה מקוללת, מצא חריגות כדי להתקדם לקומה הבאה ולברוח על ידי הגעה לקומה הראשונה.\n יש הרבה אויבים. לכל אויב יש את ההתנהגות הייחודית שלו, תצטרך למצוא דרך להתמודד איתה.\n \n המטרה: להגיע לקומה 1 ולברוח מדירות על ידי מציאת חריגות"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: נפח אווירה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: FOV דינמי (שימושי עבור אייפד)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "קורא EMF מזהה נוכחות רוחות רפאים ופעילות רוחות רפאים אחרונה.\n \n השתמש בקורא EMF כדי למצוא במהירות אזור/חדר רוחות רפאים משוערים."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "השתמש בפנס ה-UV שלך\n כדי לזהות ראיות אולטרה סגולות.\n \n רוח רפאים יכולה להשאיר טביעות ידיים לאחר אינטראקציה עם דלתות או מתגי תאורה."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "קבל את התגובה מתיבת הרוחות בתוך אזור הרוחות כראיה.\n \n יש לך סיכוי גבוה יותר לקבל את התגובה במהלך פעילות רוחות."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "השתמש במדחום כדי לאמת את אזור/חדר הרפאים, מתחת ל-5°C.\n \n ראיות טמפרטורת הקיפאון מתחת ל-0°C."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: יש סיכוי שהנר יכבה כאשר הוא מונח בתוך חדר הרוחות.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: כדורי רוחות יופיעו ליד הרוח כאשר יש פעילות רוחות.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "אויב: רוח שחיטה\n סוג: רוח רפאים\n \n נחטפת והובאת למתקן תת-קרקעי סודי. הם מבטיחים חופש אם תצליח למצוא את ראיות הרוח הנכונות.\n הרוח סופגת זרם חשמלי כשהיא מופיעה, מה שגורם לאורות להבהב.\n \n רוח רפאים שוכנת באחד החדרים, ומשם תתחיל את צידה כאשר תתגרה בה.\n תוכל להימנע מקו הראייה של הרוח על ידי הסתתרות מאחורי מכשולים.\n \n מטרה: למצוא ראיות רוח נכונות כדי להשלים את הטקס ולברוח."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: ניתן לפתוח את הנעילה במהלך אירועים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: הצג עוד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: הצג פחות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: הצעת קנייה ראשונה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: הצעת מפתחות בחינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: מבצע XP בחינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: הצעת משאבים בחינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: הצעת חבילת XP!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: מבצע על ארגזים בחינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: הצעת מתנות חינם!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: הצעת תעודות כחולות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: מבצע על ארגזי תעודה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: פתיחת ארגז עץ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: מבצע על ארגזים נדירים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: הצעת תעודות סגולות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: מבצע קומבו לתעודות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: פתיחת ארגזים נדירה!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: הצעת תעודות ורודות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: הצעת תעודות אדומות!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: זמין בקרוב
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: לא זמין באופן זמני
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: האם אתה בטוח שאתה רוצה לקבל עסקת טרייד?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: הטבת "שליטה מוחית"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: האם אתה בטוח שאתה רוצה לתבוע את הפרס?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: הטבת "תחושה מוקדמת"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: הטבת "כלוב רוחות"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: מעיל "שבט טונג"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: המכפיל של היום
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: לא נמלט
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: ברחו פעם אחת ופתחו תחרותיות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: בחירת גיל לא משפיעה על המשחק.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: מה גילך?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: קבלו סך של <color=#FFEF67>250 זהב</color> או סיכוי של <color=#FFEF67>3%</color> לקבל הטבת בובה מקוללת בתוך אחת מארגזי הפרסים!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: מבצע ליל כל הקדושים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>עדכון ליל כל הקדושים!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: עדכון זה מביא נופי ליל כל הקדושים, משימות צד של ליל כל הקדושים, פריטי משימה אישית חדשים, שינויי איזון ושיפורים המיוחלים להם.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>תו כללי</b> - מחליף הטבה אקראית בהתחלה. לאחר המוות, ניתן להשתמש שוב בכל ההטבות שלך.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>הרימייק של הביוב מגיע!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: בעתיד הקרוב נשחרר את הרימייק של הביוב. במהלך ההשקה יתקיים אירוע ייעודי עם תגמולים בלעדיים.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>הטבה בלעדית לליל כל הקדושים</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "עכשיו יש פריטי משימה אישית שאפשר להשיג. הם מאפשרים לך להתחיל כל משימה אישית בכל זמן שתרצה – ולקבל פרס יפה על השלמתן! יש שני סוגי משימות: רגילות וליל כל הקדושים.\n \n <b>פריטי משימה אישית:</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>פריטים חדשים: רסיסים</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>סקינים חדשים:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>שיפורים ושינויי איזון</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>כובע וגביע חדשים:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>לום</b> - מאפשר לך לפרוץ כל דלת נעולה.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: אירוע ליל כל הקדושים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>גִרְסָה</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: התקדמות מקוונת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: בחירת משבצת '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270089
+  - m_Id: 348348179381477376
+    m_Localized: השתמש בהטבה '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270089
+  - m_Id: 344688356441972736
+    m_Localized: HUD נייד
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: קישורי קלט
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: מקלדת
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: גיימפקט
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: מצב כריעה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: רגישות סמן ממשק משתמש
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: פעולה עיקרית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: פעולה משנית
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: פנס
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: שחרור פריט
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: טעינה מחדש
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: ספר טקסים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Localized: לוח תוצאות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: תפריט השהייה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: זוהה גיימפקט
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: האם ברצונך להפעיל קלט גיימפקט?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: הצעה לשנה החדשה
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- משוב טוב יותר עבור דלת נעולה.\n- שיפורים בטיפול ברכישות בתוך האפליקציה.\n- תוקן באג שבו משימות לא נספרו במשחקי סולו בבית המטבחיים.\n- חור שחור: משך הזמן קוצר ב-<color=red>−75%</color> (מקסימום 30 שנ׳, היה 120 שנ׳)\n- תחייה אתרית: משך הזמן קוצר ב-<color=red>−50%</color> (מקסימום 30 שנ׳, היה 60 שנ׳)\n- חיזוק לְקַווֹת, תתעורר, אנחנו נצליח, מציל חיים: <color=green>+50%</color> לטווח חשיפת הפריטים ברמות נמוכות\n- חיזוק מַנהִיג, כוחו של הקורבן: <color=green>+40%</color> לטווח חשיפת הפריטים ברמות נמוכות\n- חיזוק משמר הנשמה: ארוך פי 3 ברמה 1 (15 שנ׳, היה 5 שנ׳)\n- תו כללי מרענן כעת את ההטבות של כולם שנמצאות בהתקררות, כולל אחד קם וטיפול עצמי\n- תוקן באג שבו ההטבה מגפי מהירות איבדה את הבונוס שלה לאחר סיום זריקת אדרנלין, שיקוי התגנבות, גל מרדף או מתנת החלמה, או לאחר שהשחקן קם לתחייה.\n\n- שינויים ושיפורים נוספים"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: ניתן להפעיל את הצגת שמות החדרים בהגדרות
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: הצגת שמות חדרים
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: חליפת "TTR Clan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: תוסף "Adrenaline Shot"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: כתר "King Clan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: לקבלת
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 388619548772270089
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

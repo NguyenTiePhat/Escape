@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_it
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: it
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: Kit medico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: Aumenta la velocità di rianimazione. Questo vantaggio non occupa spazio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: 'Tipo: articolo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: 'Velocità:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: secondi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: 'Portata:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: Metri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: 'Durata:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: 'Opportunità:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: 'Raggio:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: 'Tipo: Abilità'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: 'Tipo: situazionale'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: 'Tipo: regalo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: '% per decesso'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: 'Intervallo di inseguimento:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: Metri per morte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: Sale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: Impedisce al fantasma di entrare nell'area del sale. Alcuni fantasmi potrebbero disattivare manualmente il vantaggio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: Crocifisso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: Previene l'attacco fantasma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: Flashbang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: Quando viene utilizzato, il nemico viene accecato e non si muoverà
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: Nessun blackout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: È possibile che tu non sia più interessato dal blackout a scuola. Questo vantaggio non occupa spazio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: Farmaci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: I farmaci aumentano significativamente la tua capacità di vedere gli oggetti più lontano.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: Salvavita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: Dopo aver rianimato un compagno di squadra, vedrai gli oggetti entro un raggio d'azione più ampio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: Buon inizio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: Prima che il tuo primo compagno di squadra muoia, sei più furtivo e cauto. Il raggio di inseguimento del nemico diminuisce e puoi vedere l'aura del nemico entro il raggio specificato. Si attiva automaticamente all'inizio della partita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: Curatore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: Il raggio di inseguimento del nemico è diminuito per il compagno di squadra rianimato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: Attenzione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: La tua cautela ti consente di vedere l'aura del nemico entro il raggio specificato ogni volta che raccogli un oggetto per la prima volta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: Senso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: 'Dopo aver spento la torcia, vedi l''aura del crawler nel raggio specificato. Recupero: 30 secondi'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: Capo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: Quando sei vicino al tuo compagno di squadra, vedi gli oggetti in un raggio d'azione più ampio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: Prendi appunti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: Gli oggetti importanti che hai attraversato sono contrassegnati sulla mappa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: Per i sopravvissuti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: 'Quando viene attivato, il raggio di inseguimento nemico viene aumentato del 100% per te e ridotto del <color=#17fc03>x%</color> per gli altri. Durata dell''effetto: 1 minuto.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: Guardia dell'Anima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: Dopo essere stato rianimato, vedi l'aura del nemico entro il raggio specificato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: Svegliati
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: Quando uno dei tuoi compagni di squadra entra in stato morente, vedi gli oggetti a un raggio più lungo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: Vendetta di morte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: Inizi a vedere l'aura del nemico dopo che uno dei tuoi compagni di squadra viene ucciso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: Lasciato indietro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: Quando sei a più di 7 metri dai tuoi compagni di squadra, c'è la possibilità che il nemico non ti insegua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: Vendetta di squadra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: Quando rimani solo, sei più furtivo. Il raggio di inseguimento del nemico è diminuito e puoi vedere l'aura del nemico entro un certo raggio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: Shock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: Una volta trovato un cadavere, guadagni un raggio extra nel vedere l'aura del nemico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: Ti ho preso!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: Prendere l'oggetto trovato ti dà la possibilità di vedere gli oggetti in un raggio d'azione più ampio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: Unico sopravvissuto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: Ogni volta che uno dei tuoi compagni di squadra muore, il raggio di inseguimento del nemico viene ridotto del <color=#17fc03>x%</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: Sesto senso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: Quando completi un compito, vedi l'aura del nemico.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: Ce la faremo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: Dopo che uno dei compagni di squadra si è rianimato, sei pieno di entusiasmo e vedi oggetti in un raggio d'azione più ampio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: Empatia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: Vedi l'aura del compagno di squadra che è in stato di morte entro il raggio specificato
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: Legame
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: Stai meglio insieme. Quando sei vicino ai tuoi compagni di squadra entro un raggio di 10 metri, vedi l'aura del nemico nel raggio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: Follia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: Vedi casualmente l'aura del nemico nel raggio per la durata di <color=#17fc03>x</color> secondi (ogni 1-3 minuti)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: Sperare
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: Hai una forte speranza. Vedi in modo casuale gli oggetti in un intervallo più ampio per la durata di <color=#17fc03>x</color> secondi (ogni 1-3 minuti)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: Distorsione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: Lo Spettro non ti sente dietro i muri e non ti inseguirà se ti trovi nel suo raggio di inseguimento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: occhio d'aquila
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: Vedi un oggetto da molto lontano
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: Aumentata la velocità di rimozione delle trappole. Questo vantaggio non occupa spazio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: Hai la possibilità di evitare la trappola per orsi, tempo di recupero 10 secondi. Questo vantaggio non occupa spazio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: Durante l'inseguimento, ogni giocatore riceve la capacità di vedere oggetti entro un raggio più ampio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: Sovraccarico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: Pozione furtiva
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: Muffa nera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: Buco nero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: Dispositivo di ricognizione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: Congelare il filo della trappola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: Aglio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: Teletrasporto oggetti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: Teletrasporto fantasma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: Telecamera di sicurezza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: Impeto di inseguimento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: Grazia Guardiana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: Stato inverso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: Seconda Anima
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: Rinascita Eterea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: Memoria dimenticata
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: Gabbia fantasma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: Specchio oggetto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: Onde di forza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: Muro fantasma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: Telepatia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: Risurrezione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: Controllo mentale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: La tua torcia non si spegne a scuola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: Quando lo usi diventi invisibile al nemico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: La muffa nera rallenta i nemici quando entrano nella muffa. Alcuni fantasmi potrebbero disattivare manualmente il vantaggio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: Gli oggetti accanto ai quali passano i tuoi compagni di squadra saranno visibili a te
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: Riporta in vita tutti i compagni di squadra all'utilizzo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: Trascina i nemici in un buco nero.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: Quando sei inseguito e il nemico entra nel raggio specificato, la tua velocità di movimento aumenta e vedi l'aura nemica.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: Dopo essere stato rianimato, ti vengono concessi <color=#17fc03>x</color> secondi di immunità ai fantasmi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: Hai onde pulsanti che allontanano i nemici. Durata illimitata.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: Genera un muro attraverso il quale il fantasma non sarà in grado di passare. Alcuni fantasmi potrebbero disattivare manualmente il vantaggio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: Trappola di Natale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: Attira i nemici verso la trappola.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: Lettore EMF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: Il dispositivo emette un segnale acustico quando viene puntato nella direzione fantasma entro l'intervallo specificato.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: Guaritore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: Cura ogni giocatore entro 5 metri in <color=green>x</color> secondi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: Le telecamere sono posizionate attorno alla mappa e ti avviseranno quando viene rilevato un movimento nemico. Usa il tuo dispositivo per controllare le telecamere e conoscere la posizione del nemico.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: Maestro della presa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: Raccoglie automaticamente gli oggetti intorno a te, con una portata maggiore.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: Libro Sacro
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: 'Previene la morte una volta. Gittata: 10 metri'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: Come "anima", viaggi 10 volte più velocemente e puoi trovare oggetti. L'effetto rimane attivo per un certo periodo di tempo o finché non vieni attaccato da un fantasma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: Premonizione
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: Ti viene mostrato un giocatore che probabilmente morirà entro i prossimi 5 minuti.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: Stivali della velocità
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: Aumento permanente della velocità di movimento. Questo vantaggio non occupa spazio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: Contorno
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: Oggetti importanti sono visibili dietro i muri. Questo vantaggio non occupa spazio.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: Uno si risveglia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: Verrai rianimato all'istante quando sarai in fin di vita e anche uno dei tuoi compagni di squadra sta morendo.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: Il trasporto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: Quando trasporti oggetti, vedi l'aura nemica nel raggio d'azione.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: Trappola mortale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: Quando sei in fin di vita, la velocità del nemico diminuisce.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: Cura di sé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: Verrai rianimato alla prima morte. Avrai anche la possibilità di rialzarti alla morte successiva.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: Medico
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: La tua competenza medica ti permette di rianimare gli altri senza un kit medico.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: Il fantasma termina l'inseguimento quando ti perde di vista per un po'.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: 'Hai il dono del recupero: dopo essere stato rianimato, la tua velocità di movimento aumenta del <color=green>%</color>, mentre la velocità dei nemici diminuisce del <color=yellow>%</color>. Il vantaggio è attivo per X secondi.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: Per i prossimi secondi controlli il fantasma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: Quando l'attacco avrà inizio, il fantasma rimarrà intrappolato in una gabbia.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: Dono di recupero
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: Bambola maledetta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: La bambola maledetta si muove molto velocemente e attira i nemici.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: Sentiero Fantasma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: Jolly
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: Mostra il movimento previsto del nemico come impronte luminose sul terreno.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: Sostituisce un vantaggio casuale all'inizio. Dopo la morte, i vantaggi di tutti i sopravvissuti possono essere riutilizzati.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: Iniezione di adrenalina
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: Una volta utilizzata, la tua velocità aumenta notevolmente per un periodo di tempo limitato.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: Piede di porco
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: Ti permette di forzare le porte chiuse a chiave
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

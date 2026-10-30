@@ -1,0 +1,1349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_vi
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: vi
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 388619548772270100
+  m_TableData:
+  - m_Id: 5190169124864
+    m_Localized: Kết nối
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: Rời
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: Chế độ chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: Cục bộ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: IP máy chủ cục bộ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: Trực tuyến
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: hoặc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: Chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: Cài đặt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: Chỗ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: Số liệu thống kê
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: Tên và bản đồ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: Nhân vật
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: Tạo máy chủ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: Bật máy chủ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: 'Khu vực máy chủ: {serverRegion}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Localized: Thống kê không có sẵn nếu bạn chưa đăng nhập.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: Bộ sưu tập
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: Trận đấu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: 'Những trận thắng:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: Những trận thua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: Vật phẩm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: Những bộ phận ô tô đã được tìm thấy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: 'Các bộ phận đã sửa:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: Số người đã giết
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: 'Người sống sót bị giết:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: (Có thể được mở khóa thông qua việc chơi)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: Trang phục
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: 'Đã mở khóa mũ và mặt nạ:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: Chung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: Điều khiển
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: Âm thanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: Đồ họa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: Người chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: Tên người dùng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: UI và HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: 'Kích thước UI:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: Khác
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: Khu vực
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: Ngôn Ngữ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: BỘ ĐIỀU KHIỂN
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: Độ nhạy ngang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: Độ nhạy dọc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: 'Đảo chiều ngang:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: 'Đảo chiều dọc:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: Âm Lượng Tổng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: Âm Lượng BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: 'Âm lượng giao diện:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: Âm Lượng Hiệu ứng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: nhiều người chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: Âm Lượng VoIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: THIẾT BỊ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: 'sử dụng tai nghe:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: Nặng về hiệu năng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: Xử lý hậu kỳ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: 'Ánh sáng từ người chơi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: 'Đèn thể tích:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: Đăng nhập
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: Tiếp tục trò chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: Thoát ra giao diện chính
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: Cao cấp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: 'Mũ lưỡi trai:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: Nhân vật
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: Mua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: Bạn có chắc chắn bạn muốn thoát?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: không
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: Có
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: Kích thước giao diện người dùng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: Bạn có chắc chắn muốn áp dụng các thay đổi không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: Chọn ngôn ngữ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: Bạn có chắc chắn muốn tham gia phòng này không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: Tạo phòng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: Tên phòng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: 'Người chơi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PVP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: Tạo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: phòng riêng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: IP phòng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: Tham gia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: Tạo phòng thất bại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: Lát sau
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: Hợp nhất các tài khoản
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: Bạn có muốn liên kết thông tin tài khoản trước của mình với một tài khoản mới không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: đọc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: Vào phòng riêng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: 'phòng riêng:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: Tiếp tục
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: Những mảnh giấy đã được tìm thấy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: Đang tải phòng ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: Sửa xe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: Những bộ phận xe hơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: Bánh xe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: Ắc quy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: Nhiên liệu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: Chìa khóa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: Đã mua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: 'Lựa chọn chế độ chơi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: Bộ đàm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: Chất lượng kết cấu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: 'bản đồ cố định:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: Gợi ý
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: Nhấp vào cửa sổ trực tuyến để tải lại phòng. Bạn có thể tải lại phòng 5 giây một lần
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: Tổ hợp cầu chì
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: Hướng dẫn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: Bản đồ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: Bỏ qua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: Độ phân giải màn hình
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: Micrô
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: chất lượng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: 'máu me:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: Xin lưu ý
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: Đảm bảo rằng bạn đang sử dụng tai nghe để ngăn tiếng vọng từ micrô. Bạn cũng có thể thay đổi micrô trong cài đặt âm thanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: Chơi ngoại tuyến
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: Bộ lọc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: Chính
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: Cảnh báo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: Thiết bị Iphone 6+ trở xuống không được hỗ trợ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: Khôi phục dữ liệu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: Bạn bè
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: Giải đấu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: Tạo sảnh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: Kết nối lại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: Bắt đầu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: Cài đặt sảnh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: Mời
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: Mời người chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: Bạn có chắc chắn muốn thoát khỏi sảnh đợi không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: Không có bạn bè đang trực tuyến
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: Xoá
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: Giải đấu của tôi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: Hiện tại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: Trước
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: Bạn không thể tạo máy chủ nếu bạn là chủ sở hữu điểm phát sóng di động
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: Đã đạt được giải đấu mới
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: Chia sẻ ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: Bạn có chắc chắn muốn khôi phục dữ liệu từ cơ sở dữ liệu cũ không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: Khôi phục dữ liệu cũ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: Chấp nhận
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: Thêm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: Thêm bạn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: Tìm kiếm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: Discord hoặc các ứng dụng khác có thể không hoạt động nếu được cấp quyền cho micrô
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: Xe đã được sửa chữa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: Chờ đợi những người khác
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: Lên xe đi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: Máy phát điện đã bật
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: Lựa chọn bản đồ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: Bệnh viện
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: Cống rãnh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: Trường học
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: Đặt lại thu phóng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: Mục tiêu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: 'hiển thị cảnh kết thúc:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: XP kiếm được
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: Đặc quyền
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: Sử dụng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: Các đặc quyền đã chọn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: 'Sương mù:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: Luyện tập
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: Xã hội
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: Lưu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: đặt lại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: Cửa hàng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: Giao dịch chưa được xác thực
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: Bạn có muốn xác thực giao dịch ngay bây giờ không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: Độ khó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: Bật trò chuyện bằng giọng nói
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: Tắt Tiếng Trò Chuyện Thoại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: Tài khoản
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: Thông tin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: 'ID người dùng:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: 'Các loại đăng nhập:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: Mật khẩu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: Đăng ký
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: Quên mật khẩu?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: Bắt đầu chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: Email xác thực
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: Kiểm chứng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: Khôi phục mật khẩu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: Mật khẩu mới
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: Đặt lại mật khẩu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: Hồi phục
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: Đăng nhập
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: Chuyển đổi dữ liệu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: Dữ liệu sẽ được chuyển từ tài khoản của khách
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: Tùy chọn này hiện bạn không thể sử dụng. Bạn phải tích cực hơn để được đăng ký email miễn phí. Bạn có thể sử dụng các tùy chọn đăng nhập khác để thay thế.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: Tổng xp kiếm được
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: Tổng số cúp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: Phân tích trận đấu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: 'Những trận thắng:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: 'Sống sót:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: 'Thời gian sống sót:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: Khu vực được đề xuất
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: Bản đồ & ngày
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: Cúp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: Hồ sơ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: Sao chép ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: Mùa tốt nhất
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: kỉ lục
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: Thư mời sảnh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: thoát khỏi sảnh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: Hiển thị hù dọa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: Thư mời sảnh đã được gửi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: Các đặc quyền đã được mở khóa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: Tiến trình có thể bị mất nếu bạn không đăng nhập
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: Mã
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: 'Tùy chỉnh các nút:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: Tùy chỉnh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: Không thể chuyển dữ liệu sang tài khoản đã tồn tại, bạn có muốn tiếp tục không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: Bản đồ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: Hướng dẫn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: Tìm trận
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "Kẻ thù: Lil Godwilla\n Loại: Ma\n \n Lil Godwilla di chuyển chậm chạp, nhưng cô ấy có thể xuất hiện trong phòng. Đừng đến gần cô ấy để tránh bị truy đuổi - cô ấy sẽ nhanh hơn khi ở đang đuổi theo. Đừng đi vào hướng của những lời thì thầm.\n Mục tiêu: Bạn bắt đầu ở một trong ba nhà để xe của bệnh viện. Mục đích là sửa xe để tẩu thoát. Bạn cần tìm những bộ phận sau để thoát ra ngoài: 4 bánh xe, pin, nhiên liệu và chìa khóa."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "Kẻ thù: Bức tượng\n Loại: Ma\n \n Điểm yếu của bức tượng là cửa và đèn pin. Nó không thể di chuyển khi bạn hướng đèn pin theo hướng của nó, nhưng hãy nhớ rằng đèn pin không tồn tại vô thời hạn. Đóng cửa sau lưng bạn - nó sẽ làm chậm Tượng.\n Mục tiêu: thoát qua cổng chính bằng cách giải các câu đố. Mở phòng bảo vệ, sửa hộp cầu chì, giải câu đố cửa ải"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "Kẻ thù: Kẻ bò tường\n Loại: Quái vật\n \n Kẻ bò tường có thể trèo lên tường và không nhìn thấy bạn khi bạn tắt đèn pin. Tránh đi vào những nơi có ánh sáng.\n Mục tiêu: bật 9 máy phát điện để cấp điện cho cổng chính trong khi giải một loạt các câu đố để đi đến cùng."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: '- Những màu sau trong quá trình chơi có nghĩa là bạn có thể sử dụng đặc quyền bằng cách nhấn vào nó'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: '- Đặc quyền có thể không khả dụng trong một trong các trường hợp sau 1. Đặc quyền đã được sử dụng. 2. Bạn không có đủ đặc quyền. 3. Đặc quyền không được hỗ trợ trong bản đồ hiện tại'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: '- Những màu sau trong quá trình chơi có nghĩa là đặc quyền được kích hoạt tự động trong khi chơi (hay còn gọi là đặc quyền tình huống)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: Bạn có thể chọn để chơi với người chơi làm ma. Một trong những người chơi sẽ được chọn để làm ma. Ma phải tiêu diệt tất cả người sống sót để thắng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: Chơi các trận đấu xếp hạng và nâng cao giải đấu của bạn, leo lên bảng xếp hạng để kiếm phần thưởng độc đáo, mở khóa những đặc quyền mới.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: Bạn có muốn đọc hướng dẫn không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: Mở khóa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: Nhận
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: Nâng cấp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: Bạn phải mở khóa đặc quyền trước đó
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: Đuổi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: giải thưởng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: Mùa đã kết thúc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: Phòng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: Tham gia bằng thẻ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: Xóa tài khoản
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: Bạn có chắc rằng bạn muốn xóa tài khoản của bạn?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: Alpha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: Hiển thị FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: 'Đầu vào giả lập:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: Chất lượng nhân vật
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: Chất lượng đổ bóng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: Xp thưởng thêm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: 'Giải quyết DNS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "Kẻ thù: Nhiều loại\n Loại: Quái vật/Ma\n \n Bạn bị mắc kẹt trong một căn hộ bị nguyền rủa, tìm các điểm dị thường để tiến lên tầng tiếp theo và trốn thoát bằng cách lên đến tầng 1.\n Có nhiều kẻ thù. Mỗi kẻ thù đều có hành vi riêng, bạn sẽ phải tìm cách khắc chế lại chúng.\n \n Mục tiêu: Đến tầng 1 và thoát khỏi căn hộ bằng cách tìm ra điểm dị thường"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: Âm Lượng Xung Quanh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: FOV động (Hữu ích cho iPad)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "Máy đọc EMF phát hiện sự hiện diện của ma và hoạt động gần đây của ma.\n \n Sử dụng máy đọc EMF để nhanh chóng tìm thấy khu vực/phòng bị ám gần đúng."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "Sử dụng đèn pin UV\n để phát hiện bằng chứng tia cực tím.\n \n Bóng ma có thể để lại dấu tay sau khi tương tác với cửa ra vào hoặc công tắc đèn."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "Lấy phản hồi từ hộp linh hồn bên trong khu vực của ma làm bằng chứng.\n \n Bạn có cơ hội cao hơn để nhận được phản hồi trong hoạt động của ma."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "Sử dụng nhiệt kế để xác định khu vực/phòng bị ám, dưới 5°C.\n \n Bằng chứng về nhiệt độ đóng băng là dưới 0°C."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: Có khả năng ngọn nến sẽ bị thổi tắt khi đặt bên trong phòng bị ám.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: Quả cầu ma sẽ xuất hiện gần ma khi có hoạt động của ma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "Kẻ thù: Ma Tàn Sát\n Loại: Ma\n \n Bạn đã bị bắt cóc và đưa đến một cơ sở bí mật dưới lòng đất. Họ hứa sẽ trả tự do nếu bạn thành công trong việc tìm ra những bằng chứng chính xác.\n Ma hấp thụ dòng điện khi xuất hiện, khiến đèn nhấp nháy.\n \n Con ma trú ngụ trong một trong các phòng và sẽ bắt đầu cuộc săn lùng của mình từ đó khi bị khiêu khích.\n Bạn có thể tránh tầm nhìn của con ma bằng cách ẩn sau các vật cản.\n \n Mục tiêu: Tìm ra những bằng chứng chính xác để hoàn thành nghi lễ và trốn thoát."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: Có thể mở khóa trong các sự kiện
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: Xem thêm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: Xem ít hơn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: Ưu đãi giao dịch đầu tiên!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: Ưu đãi chìa khóa miễn phí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: Ưu đãi XP miễn phí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: Ưu đãi tài nguyên miễn phí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: Ưu đãi Gói XP!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: Ưu đãi thùng miễn phí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: Ưu đãi quà tặng miễn phí!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: Ưu đãi chứng chỉ màu xanh!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: Ưu đãi thùng chứng chỉ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: Ưu đãi thùng gỗ mở!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: Ưu đãi thùng hiếm!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: Ưu đãi chứng chỉ màu tím!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: Ưu đãi combo chứng chỉ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: Ưu đãi thùng hiếm mở!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: Ưu đãi chứng chỉ màu hồng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: Ưu đãi chứng chỉ màu đỏ!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: Sắp có sẵn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: Tạm thời không có sẵn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: Bạn có chắc chắn muốn chấp nhận trao đổi không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: Bạn có chắc chắn muốn nhận phần thưởng không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: Đặc quyền "Chi Phối Nhận Thức"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: Đặc quyền "Điềm báo"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: Đặc quyền "Lồng phong ấn ma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: Áo khoác "Tong Clan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: Hệ số nhân hôm nay
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: Không trốn thoát
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: 'Mở khóa đấu xếp hạng: Trốn thoát ít nhất một lần'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: Lựa chọn tuổi không ảnh hưởng đến quá trình chơi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: Bạn bao nhiêu tuổi?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: Nhận tổng cộng là <color=#FFEF67>250 vàng</color> hoặc là <color=#FFEF67>3%</color> khả năng để nhận đặc quyền búp bê bị nguyền rủa trong một trong những thùng giải thưởng!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: Gói Halloween
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>Cập nhật Halloween!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: Bản cập nhật này mang đến các bối cảnh Halloween, nhiệm vụ phụ Halloween, vật phẩm nhiệm vụ cá nhân mới, điều chỉnh cân bằng và những cải tiến được mong chờ từ lâu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>Đặc quyền Lá bài Bí ẩn</b> - Thay thế một đặc quyền vào đầu trận, tất cả đặc quyền có thể được sử dụng lại sau khi chết.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>Bản làm lại Cống ngầm sắp ra mắt!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: Trong tương lai gần, chúng tôi sẽ phát hành bản làm lại Cống ngầm. Trong thời gian phát hành, sẽ có một sự kiện riêng với phần thưởng độc quyền.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>Đặc quyền độc quyền Halloween</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "Hiện đã có vật phẩm nhiệm vụ cá nhân mà bạn có thể nhận. Chúng cho phép bạn bắt đầu bất kỳ nhiệm vụ cá nhân nào vào bất kỳ lúc nào bạn muốn - và nhận phần thưởng xứng đáng khi hoàn thành! Có hai loại nhiệm vụ: Thường và Halloween.\n \n <b>Vật phẩm nhiệm vụ cá nhân:</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>Vật phẩm mới: Mảnh vỡ</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>Trang phục mới:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>Cải thiện & Thay đổi cân bằng</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>Mũ Mới & Cúp:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>Xà beng</b> - Cho phép bạn bẩy mở bất kỳ cánh cửa bị khóa nào.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: Sự kiện Halloween
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>Phiên bản</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: Tiến độ trực tuyến
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: Chọn ô '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270100
+  - m_Id: 348348179381477376
+    m_Localized: Sử dụng đặc quyền '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270100
+  - m_Id: 344688356441972736
+    m_Localized: Giao diện người dùng di động
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: Liên kết đầu vào
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: Bàn phím
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: Tay cầm chơi game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: Chế độ ngồi xổm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: Độ nhạy con trỏ giao diện người dùng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: Hành động chính
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: Hành động phụ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: Đèn pin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: Thả vật phẩm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: Nạp lại
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: Sách nghi lễ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Localized: Bảng điểm
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: Menu tạm dừng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: Đã phát hiện tay cầm chơi game
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: Bạn có muốn bật đầu vào bằng tay cầm chơi game không?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: Ưu đãi năm mới
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- Cải thiện phản hồi khi cửa bị khóa.\n- Cải thiện xử lý giao dịch mua trong ứng dụng.\n- Sửa lỗi nhiệm vụ không được tính trong chế độ chơi đơn ở Căn Nhà Thảm Sát.\n- Hố đen: giảm thời gian <color=red>−75%</color> (tối đa 30 giây, trước đây 120 giây)\n- Hồi sinh thanh tao: giảm thời gian <color=red>−50%</color> (tối đa 30 giây, trước đây 60 giây)\n- Tăng cường Hy vọng, Tỉnh dậy đi!, Chúng ta sẽ làm được, Cứu sinh: <color=green>+50%</color> phạm vi hiển thị vật phẩm ở cấp độ thấp\n- Tăng cường Người lãnh đạo, Sức mạnh của nạn nhân: <color=green>+40%</color> phạm vi hiển thị vật phẩm ở cấp độ thấp\n- Tăng cường Hộ vệ linh hồn: lâu hơn 3 lần ở cấp 1 (15 giây, trước đây 5 giây)\n- Lá bài đa năng giờ đây sẽ làm mới đặc quyền của tất cả mọi người đang trong thời gian hồi, bao gồm Trỗi dậy từ tro tàn và Tự chữa thương\n- Sửa lỗi đặc quyền Giày tăng tốc mất thưởng sau khi Mũi tiêm Adrenaline, Thuốc tàng hình, Truy đuổi bất ngờ hoặc Phước Lành Tái Sinh kết thúc, hoặc sau khi người chơi được hồi sinh.\n\n- Các thay đổi và cải tiến khác"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: Bạn có thể bật hiển thị tên phòng trong phần cài đặt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: Hiển thị tên phòng
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: Để nhận
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: Bộ trang phục "TTR Clan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: Đặc quyền "Mũi Tiêm Adrenaline"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: Vương miện "King Clan"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Localized: Âm Lượng Nhạc Halloween
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 388619548772270100
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

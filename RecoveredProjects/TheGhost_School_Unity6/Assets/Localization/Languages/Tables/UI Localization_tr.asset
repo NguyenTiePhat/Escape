@@ -1,0 +1,1349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_tr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: tr
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 388619548772270099
+  m_TableData:
+  - m_Id: 5190169124864
+    m_Localized: Bağlan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: Dışarı çıkmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: Oyun modu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: Yerel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: Yerel sunucu IP'si
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: çevrimiçi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: veya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: Oyna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: Ayarlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: yuvalar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: İstatistik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: İsim ve harita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: Karakter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: Sunucu oluştur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: Sunucuyu etkinleştir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: 'Sunucu Bölgesi: {serverRegion}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Localized: Oturum açmadıysanız istatistikler kullanılamaz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: Koleksiyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: Maçlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: 'Galibiyetler:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: 'Yenilgiler:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: Öğeler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: parçaları bulundu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: 'Onarılan parçalar:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: Cinayetler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: 'Hayatta kalanlar öldürüldü:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: (Oynanışta kilidi açılabilir)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: Giyim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: 'Kilidi Açılan Şapkalar ve Maskeler:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: Genel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: Kontroller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: Ses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: Grafikler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: oyuncu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: Takma ad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: UI ve HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: 'UI boyutu:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: Diğerleri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: Bölge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: Dil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: KUMANDA
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: Yatay hassasiyet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: Dikey hassasiyet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: 'Yatay olarak ters çevir:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: 'Dikey Ters Çevir:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: Ana Ses Düzeyi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: BGM Hacmi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: 'UI ses düzeyi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: Efekt Hacmi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: çok oyunculu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: VoIP Ses Düzeyi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: CİHAZLAR
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: 'kulaklıklarda:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: Performans yükü yüksek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: Son işleme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: 'Oyuncudan gelen ışık:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: 'Hacimsel ışık:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: Oturum aç
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: oyuna devam et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: Ana menüye çıkın
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: Premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: 'Şapka:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: karakter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: Satın Al
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: Çıkış yapmak istediğinizden emin misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: Hayır
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: Evet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: UI boyutu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: Değişiklikleri uygulamak istediğinizden emin misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: Dil seçiniz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: Bu odaya katılmak istediğinizden emin misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: Oda Oluştur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: Oda ismi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: 'Oyuncular:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PVP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: Oluştur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: özel oda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: Oda IP'si
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: katılmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: oda yaratılamadı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: sonra
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: Hesapları birleştirin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: Önceki hesap verilerinizi yeni hesapla ilişkilendirmek ister misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: okumak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: özele katıl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: 'özel oda:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: Devam et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: Gazeteler bulundu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: Bir oda yükleniyor ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: Arabayı tamir et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: araba parçaları
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: Tekerlek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: Batarya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: Yakıt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: Anahtarlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: Alınan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: 'Oyun modu:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: Telsiz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: Doku kalitesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: 'sabit harita:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: İpucu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: Odaları yeniden yüklemek için çevrimiçi sekmeye tıklayın. Odaları her 5 saniyede bir yeniden yükleyebilirsiniz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: Sigorta kombinasyonu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: öğretici
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: Harita
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: atla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: Ekran çözünürlüğü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: mikrofon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: kalite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: 'kan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: Lütfen dikkat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: Mikrofondan yankıyı önlemek için kulaklık kullandığınızdan emin olun. Mikrofonu ses ayarlarından da değiştirebilirsiniz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: Çevrimdışı oyna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: Filtre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: Ana
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: Uyarı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: Iphone 6+ veya daha düşük cihaz desteklenmiyor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: Verileri geri yükle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: Arkadaşlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: Lig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: Lobi oluştur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: yeniden bağlan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: Başlangıç
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: lobi ayarları
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: Davet etmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: Oyuncuları davet et
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: Lobiden çıkmak istediğinizden emin misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: çevrimiçi arkadaş yok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: Kaldırmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: benim ligim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: Mevcut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: Öncesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: Mobil erişim noktası sahibiyseniz sunucu oluşturamazsınız
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: Yeni lige ulaşıldı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: ID paylaş
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: Eski veritabanından verileri geri yüklemek istediğinizden emin misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: Eski verileri geri yükle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: Kabul etmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: Ekle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: Arkadaş Ekle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: Arama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: Mikrofon izni verilirse Discord veya diğer uygulamalar çalışmayabilir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: Araba tamir edildi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: başkalarını beklemek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: Arabaya bin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: Jeneratörler açık
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: Harita seçimi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: Hastane
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: kanalizasyon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: Okul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: Yakınlaştırmayı sıfırla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: Hedefler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: 'bitiş sahnesini göster:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: Kazanılan XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: avantajlar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: Kullanmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: Seçilmiş ayrıcalıklar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: 'Sis:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: Eğitim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: Sosyal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: Kayıt etmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: Sıfırla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: Mağaza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: Doğrulanmamış satın alma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: Satın alma işlemlerini şimdi doğrulamak istiyor musunuz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: Zorluk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: Sesli sohbeti etkinleştir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: Sesli Sohbeti Sessize Al
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: Hesap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: Bilgi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: 'Kullanıcı kimliği:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: 'Giriş türü:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: Parola
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: Üye olmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: Parolanızı mı unuttunuz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: Şimdi oyna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: Eposta Doğrulama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: Doğrulayın
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: Şifre kurtarma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: Yeni Şifre
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: Parola sıfırlama
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: Kurtarmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: Giriş yap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: Veri transferi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: Veriler konuk hesabından aktarılacak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: Bu seçenek şu anda sizin için kullanılamıyor. Ücretsiz e-posta kaydı alabilmek için daha aktif olmanız gerekir. Bunun yerine diğer giriş seçeneklerini kullanabilirsiniz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: Kazanılan toplam DP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: Toplam kupa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: Maç dökümü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: 'Maç kazandı:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: 'hayatta kaldı:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: 'Hayatta kalma süresi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: Önerilen bölge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: Harita ve tarih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: kupalar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: Profil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: Kimliği kopyala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: En iyi sezon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: Tüm zamanların en iyisi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: lobi daveti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: Lobiden çık
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: Jumpscare'i göster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: Lobi daveti gönderildi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: Kilidi açılmış ayrıcalıklar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: Giriş yapmadıysanız ilerleme kaybolabilir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: kod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: 'Düğme özelleştirme:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: Özelleştirmek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: Mevcut bir hesaba veri aktarımı yapılamıyor, devam etmek istiyor musunuz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: Haritalar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: Kılavuz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: Eşleştirme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "Düşman: Lil Godwilla\n Tür: Hayalet\n \n Lil Godwilla yavaş ama odalarda görünebilir. Kovalanmamak için ona yaklaşmayın - kovalarken daha hızlıdır. Fısıltıların yönüne gitmeyin.\n Amaç: Üç hastane garajından birinde başlıyorsunuz. Amaç, kaçmak için bir arabayı tamir etmektir. Kaçmak için şu parçaları bulmanız gerekiyor: 4 tekerlek, pil, yakıt ve anahtarlar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "Düşman: Heykel\n Tür: Hayalet\n \n Heykelin zayıf noktaları kapılar ve el feneridir. El fenerinizi kendi yönüne doğrulttuğunuzda hareket etmez, ancak el fenerinin süresiz olarak dayanmadığını unutmayın. Arkanızdaki kapıları kapatın - Heykeli yavaşlatır.\n Amaç: bulmacaları çözerek ana kapıdan kaç. Güvenlik odasını aç, sigorta kutusunu tamir et, kapı bulmacasını çöz"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "Düşman: Crawler\n Tür: Canavar\n \n Crawler duvarlara tırmanabilir ve el fenerinizi kapattığınızda sizi görmez. Aydınlık yerlere girmekten kaçının.\n Amaç: ana kapıya güç sağlamak için 9 jeneratörü açın. Sona ulaşmak için bir dizi bulmacayı çözün."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: '- Oyun sırasında aşağıdaki renk, ona basarak avantajı kullanabileceğiniz anlamına gelir'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: '- Avantaj, aşağıdaki durumlardan birinde kullanılamayabilir. 1. Avantaj kullanıldı. 2. Yetersiz miktarda avantajınız var. 3. Avantaj mevcut haritada desteklenmiyor'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: '- Oyun sırasında aşağıdaki renk, avantajın oyun sırasında otomatik olarak etkinleştirildiği anlamına gelir (AKA durumsal avantajlar)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: Düşman oyuncuya karşı oynamayı seçebilirsiniz. Oyunculardan biri düşman olarak seçilecektir. Düşman kazanmak için hayatta kalan herkesi ortadan kaldırmak zorundadır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: Sıralamalı maçlar oynayın ve liginizi yükseltin, benzersiz ödüller kazanmak için skor tablosunda yükselin, yeni avantajların kilidini açın.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: Oyunla ilgili bir kılavuz okumak ister misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: Kilidini aç
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: Almak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: Geliştir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: Önce önceki avantajın kilidini açmalısın
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: Atmak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: ödül
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: Sezon sona erdi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: Odalar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: Etikete göre katıl
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: Hesabı sil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: Hesabınızı silmek istediğinizden emin misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: Alfa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: FPS'yi göster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: 'Emülatör Girişi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: Karakter Kalitesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: Gölgelendiricilerin Kalitesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: XP Bonusu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: 'DNS''yi çöz:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "Düşman: Çoklu\n Tür: Canavar/Hayalet\n \n Lanetli bir dairede mahsur kaldınız, anormallikleri bularak bir sonraki kata ilerleyin ve 1. kata ulaşarak kurtulun.\n Birden fazla düşman var. Her düşmanın kendine özgü davranışları vardır; onlara karşı koymanın bir yolunu bulmalısınız.\n \n Amaç: 1. kata ulaşın ve anormallikleri bularak dairelerden kaçın"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: Ortam Sesi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: Dinamik FOV (ipad'ler için kullanışlı)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "EMF okuyucu hayalet varlığını ve son hayalet aktivitesini algılar.\n \n Yaklaşık hayalet alanını/odasını hızlıca bulmak için EMF okuyucuyu kullanın."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "UV el fenerinizi kullanarak\n Ultraviyole kanıtlarını tespit edin.\n \n Hayalet, kapılar veya ışık anahtarlarıyla etkileşime girdikten sonra el izleri bırakabilir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "Kanıt olarak hayaletin alanındaki ruh kutusundan gelen yanıtı alın.\n \n Hayalet aktivitesi sırasında yanıtı alma şansınız daha yüksektir."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "Hayaletin alanını/odasını 5°C'nin altında kesinleştirmek için termometreyi kullanın.\n \n Donma sıcaklığı kanıtı 0°C'nin altındadır."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: Hayalet odasına yerleştirildiğinde mumun sönme ihtimali vardır.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: Hayalet aktivitesi olduğunda hayalet küreleri hayaletin yakınında belirecektir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "Düşman: Katliam Hayaleti\n Tür: Hayalet\n \n Kaçırıldın ve gizli bir yeraltı tesisine getirildin. Doğru hayalet kanıtını bulmayı başarırsan sana özgürlük vaat ediyorlar.\n Hayalet tezahür ederken elektrik akımını emer ve ışıkların titremesine neden olur.\n \n Hayalet odalardan birinde ikamet eder ve kışkırtıldığında oradan avlanmaya başlar.\n Engellerin arkasına saklanarak hayaletin görüş alanından kaçınabilirsin.\n \n Amaç: Ritüeli tamamlamak ve kaçmak için doğru hayalet kanıtlarını bul."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: Etkinlikler sırasında kilidi açılabilir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: Daha fazlasını göster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: Daha azını göster
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: İlk satın alma teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: Ücretsiz anahtar teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: Ücretsiz XP teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: Ücretsiz kaynak teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: XP Paketi teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: Ücretsiz sandık teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: Ücretsiz hediye teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: Mavi sertifika teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: Sertifika sandıkları teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: Ahşap sandık açma!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: Nadir sandıklar teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: Mor sertifika teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: Sertifika kombo teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: Nadir sandık açma!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: Pembe sertifika teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: Kırmızı sertifika teklifi!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: Yakında mevcut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: Geçici Olarak Kullanılamıyor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: Ticareti kabul etmek istediğinizden emin misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: Ödülü talep etmek istediğinizden emin misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: Zihin Kontrolü Avantajı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: Önsezi Avantajı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: Hayalet Kafesi Avantajı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: Tong Klanı Paltosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: Bugünün çarpanı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: Kaçmadı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: Bir kez kaçın ve rekabetçi bölümün kilidini açın
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: Yaş seçimi oynanışı etkilemez.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: Yaşınız kaç?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: Toplam <color=#FFEF67>250 altın</color> kazanın veya ödül sandıklarından birinin içinde lanetli bebek avantajı alma şansı için <color=#FFEF67>%3</color> olasılık elde edin!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: Cadılar Bayramı teklifi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>Cadılar Bayramı güncellemesi!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: Bu güncelleme, Cadılar Bayramı sahneleri, Cadılar Bayramı yan görevleri, yeni kişisel görev eşyaları, denge değişiklikleri ve uzun zamandır beklenen iyileştirmeleri getiriyor.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>Joker Kart</b> - Oyunun başında rastgele bir yeteneği değiştirir. Ölümden sonra tüm yetenekleriniz tekrar kullanılabilir.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>Kanalizasyon Yenilemesi Geliyor!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: Yakın gelecekte Kanalizasyon Yenilemesini yayınlayacağız. Yayın sırasında özel ödüllerin olduğu özel bir etkinlik düzenlenecek.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>Cadılar Bayramı Özel Avantajı</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "Artık edinebileceğiniz kişisel görev eşyaları var. Bunlar istediğiniz zaman herhangi bir kişisel görevi başlatmanıza ve tamamladığınızda güzel bir ödül almanıza olanak tanır! İki tür görev vardır: Standart ve Cadılar Bayramı.\n \n <b>Kişisel Görev Eşyaları:</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>Yeni Eşyalar: Parçalar</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>Yeni Kostümler:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>İyileştirmeler ve Denge Değişiklikleri</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>Yeni Şapka ve Kupa:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>Levye</b> - Kilitli herhangi bir kapıyı kırarak açmanızı sağlar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: Cadılar Bayramı Etkinliği
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>Sürüm</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: Çevrimiçi İlerleme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: '{slot}'' Yuvasını Seç'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270099
+  - m_Id: 348348179381477376
+    m_Localized: '{slot}'' Avantajını Kullan'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270099
+  - m_Id: 344688356441972736
+    m_Localized: Mobil HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: Giriş Bağlamaları
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: Klavye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: Oyun Kumandası
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: Çömelme Modu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: Kullanıcı Arayüzü İmleç Hassasiyeti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: Ana Eylem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: İkincil Eylem
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: El Feneri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: Eşya Bırak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: Yeniden Yükle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: Ritüel Kitabı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Localized: Skor Tablosu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: Duraklatma Menüsü
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: Oyun Kumandası Algılandı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: Oyun kumandası girişini etkinleştirmek ister misiniz?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: Yeni yıl teklifi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- Kilitli kapı için daha iyi geri bildirim.\n- Uygulama içi satın alma işlemlerinde iyileştirmeler.\n- Mezbaha'da solo oyunlarda görevlerin sayılmaması sorunu düzeltildi.\n- Kara Delik: süre <color=red>−75%</color> azaltıldı (maks. 30 sn, önceden 120 sn)\n- Ruhani Diriliş: süre <color=red>−50%</color> azaltıldı (maks. 30 sn, önceden 60 sn)\n- Umut, Uyan, Yapacağız, Cankurtaran güçlendirmesi: düşük seviyelerde eşya gösterme menzili <color=green>+50%</color>\n- Önder, Kurbanın Gücü güçlendirmesi: düşük seviyelerde eşya gösterme menzili <color=green>+40%</color>\n- Ruh Koruyucusu güçlendirmesi: 1. seviyede 3 kat daha uzun (15 sn, önceden 5 sn)\n- Joker Özelliği artık bekleme süresindeki herkesin avantajlarını yeniliyor; buna Bir Yükselir ve Kendi Kendine Bakım da dahil\n- Adrenalin İğnesi, Gizli İksir, Takip Dalgası veya İyileşme Hediyesi sona erdikten sonra ya da oyuncu canlandırıldıktan sonra Hız Botları avantajının bonusunu kaybetmesi sorunu düzeltildi.\n\n- Diğer değişiklikler ve iyileştirmeler"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: Ayarlar bölümünden oda adlarının görüntülenmesini etkinleştirebilirsiniz.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: Oda Adlarını Görüntüle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: TTR Klanı Kıyafeti
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: Adrenalin İğnesi Yeteneği
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: Kral Klan Tacı
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: Almak için
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Localized: Cadılar Bayramı Müziği Sesi
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 388619548772270099
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

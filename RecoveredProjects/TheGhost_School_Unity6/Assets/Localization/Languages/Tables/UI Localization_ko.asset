@@ -1,0 +1,1349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_ko
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 388619548772270093
+  m_TableData:
+  - m_Id: 5190169124864
+    m_Localized: 연결
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: 나가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: 게임 모드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: 로컬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: 로컬 서버 IP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: 온라인
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: 또는
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: 플레이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: 설정
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: 슬롯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: 통계
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: 이름과지도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: 캐릭터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: 서버 생성
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: 서버 활성화
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: '서버 지역 : {serverRegion}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Localized: 로그인하지 않은 경우 통계를 사용할 수 없습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: 수집
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: 경기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: '승리 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: '패배:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: 아이템
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: 자동차 부품 발견
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: '수리한 부품:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: 살인
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: '생존자 사망 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: (게임 플레이에서 잠금 해제 가능)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: 의류
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: '잠금 해제 된 모자와 마스크 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: 일반
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: 조작
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: 오디오
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: 그래픽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: 플레이어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: 별명
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: UI 및 HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: 'UI 크기:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: 기타
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: 지역
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: 언어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: 제어 장치
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: 수평 감도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: 수직 감도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: '수평으로 반전 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: '수직 반전 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: 전체 볼륨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: Bgm 볼륨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: 'UI 볼륨 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: 효과 볼륨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: 멀티 플레이어
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: VoIP 볼륨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: 장치
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: '헤드폰 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: 성능 부하 높음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: 후처리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: '플레이어의 빛 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: '체적 조명 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: 로그인
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: 게임 재개
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: 메인 메뉴로 나가기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: 프리미엄
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: '캡:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: 캐릭터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: 구입
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: 종료하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: 아니요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: 예
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: UI 크기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: 변경 사항을 적용 하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: 언어 선택
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: 이 방에 참여하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: 방을 만들다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: 방 이름
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: '플레이어:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PVP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: 만들다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: 사적인 방
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: 방 IP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: 참가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: 방을 만들지 못했습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: 나중
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: 계정 병합
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: 이전 계정 데이터를 새 계정에 연결하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: 읽다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: 비공개 참가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: '사적인 방:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: 계속
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: 신문 발견
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: 방로드 중 ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: 차를 고치다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: 차 부속품
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: 바퀴
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: 배터리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: 연료
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: 키
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: 샀다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: '게임 모드:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: 휴대용 무전기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: 질감 품질
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: '고정지도 :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: 힌트
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: 방을 다시로드하려면 온라인 탭을 클릭하십시오. 5 초마다 한 번씩 방을 재 장전 할 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: 퓨즈 조합
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: 튜토리얼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: 지도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: 건너 뛰기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: 화면 해상도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: 마이크
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: 품질
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: '유혈 표현:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: 참고하세요
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: 마이크에서 에코를 방지하려면 헤드폰을 사용하고 있는지 확인하십시오. 오디오 설정에서 마이크를 변경할 수도 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: 오프라인으로 플레이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: 필터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: 기본
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: 경고
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: 아이폰 6+ 이하 기기는 지원하지 않습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: 데이터 복원
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: 친구
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: 리그
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: 로비 생성
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: 다시 연결
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: 시작
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: 로비 설정
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: 초대
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: 플레이어 초대
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: 로비를 나가시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: 온라인에 친구가 없습니다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: 제거하다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: 내 리그
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: 현재의
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: 이전의
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: 모바일 핫스팟 소유자는 서버를 생성할 수 없습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: 새로운 리그 도달
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: 공유 ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: 이전 데이터베이스에서 데이터를 복원하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: 오래된 데이터 복원
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: 수락
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: 추가하다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: 친구 추가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: 찾다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: 마이크 권한이 부여되면 Discord 또는 기타 앱이 작동하지 않을 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: 자동차가 수리되었습니다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: 남을 기다리며
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: 차에 타라
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: 발전기가 켜져 있습니다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: 지도 선택
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: 병원
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: 하수도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: 학교
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: 확대/축소 재설정
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: 목표
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: '엔딩 장면 표시:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: XP 획득
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: 특전
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: 사용하다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: 선택한 특전
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: '안개:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: 훈련
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: 사회의
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: 저장
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: 초기화
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: 가게
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: 확인되지 않은 구매
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: 지금 구매를 확인하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: 어려움
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: 음성 채팅 활성화
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: 음성 채팅 음소거
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: 계정
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: 정보
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: '사용자 ID:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: '로그인 유형:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: 비밀번호
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: 가입하기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: 비밀번호를 잊으 셨나요?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: 지금 플레이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: 이메일 인증
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: 확인하다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: 비밀번호 복구
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: 새 비밀번호
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: 비밀번호 초기화
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: 복구
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: 로그인
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: 데이터 전송
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: 게스트 계정에서 데이터가 전송됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: 이 옵션은 현재 사용할 수 없습니다. 무료 이메일 등록을 받으려면 더 활동적이어야 합니다. 대신 다른 로그인 옵션을 사용할 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: 총 획득 경험치
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: 총 트로피
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: 경기 분석
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: '경기 승리:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: '생존:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: '생존 시간:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: 추천 지역
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: 지도 및 날짜
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: 트로피
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: 프로필
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: 아이디 복사
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: 최고의 시즌
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: 역대 최고
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: 로비 초대
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: 로비 나가기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: 점프스케어 표시
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: 로비 초대장이 전송되었습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: 잠금 해제된 특전
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: 로그인하지 않으면 진행 상황이 손실될 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: 코드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: '버튼 사용자 정의:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: 사용자 정의
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: 이미 존재하는 계정으로 데이터를 전송할 수 없습니다. 계속하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: 지도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: 설명서
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: 매치메이킹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "적: 릴 고드윌라\n 유형: 유령\n \n Lil Godwilla는 느리지만 방에 나타날 수 있습니다. 쫓기는 것을 피하기 위해 그녀에게 가까이 오지 마십시오. 그녀는 쫓기는 상태일 때 더 빠릅니다. 속삭이는 방향으로 가지 마십시오.\n 목표: 세 개의 병원 차고 중 하나에서 시작합니다. 목표는 탈출하기 위해 자동차를 수리하는 것입니다. 탈출하려면 바퀴 4개, 배터리, 연료 및 키 부품을 찾아야 합니다."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "적: 동상\n 유형: 유령\n \n 동상의 약점은 문과 손전등입니다. 손전등을 그 방향으로 가리킬 때 움직이지 않지만 손전등이 무한정 지속되지 않는다는 점을 명심하십시오. 뒤에 있는 문을 닫으십시오 - 동상이 느려집니다.\n 목표: 퍼즐을 풀고 정문을 탈출하세요. 보안실을 열고, 퓨즈 박스를 수리하고, 게이트 퍼즐을 푸세요."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "적: 크롤러\n 유형: 몬스터\n \n 크롤러는 벽에 올라갈 수 있으며 손전등을 끄면 당신을 보지 못합니다. 조명이 있는 장소에 들어가지 않도록 하십시오.\n 목표: 정문에 전력을 공급하기 위해 9개의 발전기를 켜십시오. 일련의 퍼즐을 풀고 끝까지 가십시오."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: '- 게임 플레이 중 다음 색상은 해당 버튼을 눌러 퍽을 사용할 수 있음을 의미합니다.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: '- 다음 상황 중 하나에서 퍽을 사용하지 못할 수 있습니다. 1. 퍽을 사용했습니다. 2. 퍽이 부족합니다. 3. 현재 맵에서는 퍽이 지원되지 않습니다.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: '- 게임 플레이 중 다음 색상은 게임 플레이 중 특전이 자동으로 활성화됨을 의미합니다(일명 상황 특전).'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: 적 플레이어와 대결하도록 선택할 수 있습니다. 플레이어 중 한 명이 적으로 선택됩니다. 적이 승리하려면 모든 생존자를 제거해야 합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: 순위 경기를 플레이하고 리그를 늘리고, 순위표에 올라 독특한 보상을 획득하고, 새로운 특전을 잠금 해제하세요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: 게임에 대한 설명서를 읽고 싶습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: 잠금 해제
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: 얻다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: 업그레이드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: 먼저 이전 특전을 잠금 해제해야 합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: 발 차기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: 보상
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: 시즌 종료
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: 방
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: 태그로 참가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: 계정 삭제
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: 계정을 삭제하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: 알파
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: FPS 표시
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: '에뮬레이터 입력:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: 캐릭터 품질
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: 셰이더 품질
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: XP 보너스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: 'DNS 확인:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "적: 다중\n 유형: 몬스터/유령\n \n 당신은 저주받은 아파트에 갇혔습니다. 이상 현상을 찾아 다음 층으로 진행하고 1층에 도달하여 탈출하세요.\n 적이 여러 명 있습니다. 모든 적들은 고유한 행동 방식을 가지고 있으므로 이에 대응할 방법을 찾아야 합니다.\n \n 목표: 1층에 도달하고 이상 현상을 찾아 아파트를 탈출하세요."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: 분위기 볼륨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: 동적 FOV(아이패드에 유용함)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "EMF 리더는 유령의 존재와 최근 유령 활동을 감지합니다.\n \n EMF 리더를 사용하면 유령이 있는 대략적인 위치/방을 빠르게 찾을 수 있습니다."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "자외선 손전등을 사용하여\n 자외선 증거를 찾으세요.\n \n 유령은 문이나 전등 스위치를 만진 후 손자국을 남길 수 있습니다."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "유령 구역 안의 영혼 상자에서 답을 얻어 증거로 삼으세요.\n \n 유령 활동 중에는 답을 얻을 확률이 더 높습니다."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "온도계를 사용하여 유령이 있는 지역/방의 온도를 5°C 이하로 확정하세요.\n \n 빙점 증거는 0°C 이하입니다."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: 유령의 방에 두면 양초가 꺼질 확률이 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: 유령 활동이 있을 경우 유령 근처에 유령 구슬이 나타납니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "적: 슬로터 고스트\n 유형: 고스트\n \n 당신은 납치되어 비밀 지하 시설로 끌려갔습니다. 그들은 당신이 올바른 고스트 증거를 찾는 데 성공하면 자유를 약속합니다.\n 고스트는 나타날 때 전류를 흡수하여 불빛이 깜빡이게 합니다.\n \n 고스트는 방 중 하나에 거주하며, 도발을 받으면 그곳에서 사냥을 시작합니다.\n 장애물 뒤에 숨어 고스트의 시야를 피할 수 있습니다.\n \n 목표: 의식을 완료하고 탈출하기 위해 올바른 고스트 증거를 찾으세요."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: 이벤트 기간 동안 잠금 해제 가능
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: 더 보기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: 간단히 보기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: 첫 구매 특가!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: 무료 열쇠 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: 무료 경험치 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: 무료 자원 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: 경험치 번들 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: 무료 상자 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: 무료 선물 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: 파란색 인증서 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: 인증서 상자 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: 나무 상자 개봉!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: 희귀 상자 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: 보라색 인증서 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: 인증서 콤보 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: 희귀 상자 개봉!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: 분홍색 인증서 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: 빨간색 인증서 제공!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: 곧 이용 가능
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: 일시적으로 사용할 수 없음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: 정말로 거래를 수락하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: 정말 보상을 받으시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: 마인드 컨트롤 특전
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: 예감 특전
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: 유령 우리 특전
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: 통 부족 코트
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: 오늘의 배수
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: 미탈출
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: 한 번 탈출하면 경쟁 모드가 잠금 해제됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: 연령 선택은 게임 플레이에 영향을 미치지 않습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: 나이가 어떻게 되시나요?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: 총 <color=#FFEF67>250골드</color>를 획득하거나, 보상 상자 중 하나에서 저주받은 인형 특전을 받을 수 있는 <color=#FFEF67>3%</color> 확률을 획득하세요!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: 할로윈 특별 상품
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>할로윈 업데이트!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: 이번 업데이트에는 할로윈 배경, 할로윈 사이드 퀘스트, 새로운 개인 퀘스트 아이템, 밸런스 조정 및 오랫동안 기다려온 개선 사항이 포함되어 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>와일드카드</b> - 게임 시작 시 무작위 특성을 대체합니다. 사망 후에는 모든 특성을 다시 사용할 수 있습니다.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>하수도 리메이크가 곧 출시됩니다!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: 가까운 시일 내에 하수도 리메이크를 출시합니다. 출시 기간 동안 한정 보상이 주어지는 전용 이벤트가 진행됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>할로윈 한정 특전</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "이제 개인 퀘스트 아이템을 얻을 수 있습니다. 이 아이템으로 원하는 때에 언제든 개인 퀘스트를 시작하고, 완료하면 멋진 보상을 받을 수 있습니다! 퀘스트는 일반과 할로윈, 두 가지 유형이 있습니다.\n \n <b>개인 퀘스트 아이템:</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>새로운 아이템: 조각</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>새로운 스킨:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>개선 사항 및 밸런스 변경</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>새로운 모자 및 트로피:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>쇠지렛대</b> - 잠긴 문을 억지로 열 수 있습니다.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: 할로윈 이벤트
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>버전</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: 온라인 진행
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: 슬롯 '{slot}' 선택
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270093
+  - m_Id: 348348179381477376
+    m_Localized: 특전 '{slot}' 사용
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270093
+  - m_Id: 344688356441972736
+    m_Localized: 모바일 HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: 입력 바인딩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: 키보드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: 게임패드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: 웅크리기 모드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: UI 커서 감도
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: 주요 동작
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: 보조 동작
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: 손전등
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: 아이템 놓기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: 재장전
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: 의식서
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Localized: 점수판
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: 메뉴 일시 정지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: 게임패드 감지됨
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: 게임패드 입력을 활성화하시겠습니까?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: 새해 제안
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- 잠긴 문에 대한 피드백을 개선했습니다.\n- 인앱 결제(IAP) 처리를 개선했습니다.\n- 도살장 솔로 게임에서 퀘스트가 집계되지 않던 문제를 수정했습니다.\n- 블랙홀: 지속 시간 <color=red>−75%</color> 감소 (최대 30초, 기존 120초)\n- 에테르 부활: 지속 시간 <color=red>−50%</color> 감소 (최대 30초, 기존 60초)\n- 희망, 깨우다, 우리가 해낼거야, 생명의 은인 버프: 낮은 레벨에서 아이템 탐지 범위 <color=green>+50%</color>\n- 지도자, 피해자의 힘 버프: 낮은 레벨에서 아이템 탐지 범위 <color=green>+40%</color>\n- 소울 가드 버프: 레벨 1에서 3배 더 오래 지속 (15초, 기존 5초)\n- 와일드카드이(가) 이제 하나의 부활, 자기 관리를 포함하여 재사용 대기시간이 있는 모든 사람의 특전을 갱신합니다\n- 아드레날린 주사, 스텔스 포션, 추격 급증, 회복의 선물 종료 후 또는 플레이어가 소생한 후 스피드 부츠 특전이 보너스를 잃던 문제를 수정했습니다.\n\n- 기타 변경 및 개선 사항"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: 설정에서 방 이름 표시를 활성화할 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: 방 이름 표시
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: TTR 클랜 슈트
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: 아드레날린 샷 퍽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: 킹 클랜 왕관
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: 받으려면
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Localized: 할로윈 음악 볼륨
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 388619548772270093
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

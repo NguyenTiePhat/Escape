@@ -1,0 +1,1344 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -299433217, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization Shared Data
+  m_EditorClassIdentifier:
+  m_TableCollectionName: UI Localization
+  m_TableCollectionNameGuidString: 9af51c53e330849749ce6563703aa996
+  m_Entries:
+  - m_Id: 2166051864305664
+    m_Key: yes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Key: xp_bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Key: wins
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Key: wheel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Key: warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Key: walkie_talkie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Key: waiting_for_others
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Key: volumetric_light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Key: voip_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Key: vertical_sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Key: verify
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Key: validate_purchases
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Key: using_headphones
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Key: username
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Key: 'player_id:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Key: use
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Key: upgrade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Key: unvalidated_purchase
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Key: unlocked_perks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Key: unlock_previous_hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Key: unlock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Key: ui_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Key: ui_scale_select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Key: ui_scale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Key: ui_hud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Key: tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Key: trophies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Key: transfer_data_not_available
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Key: transfer_data_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Key: transfer_data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Key: training
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Key: total_xp_earned
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Key: total_trophies
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Key: title_map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Key: time_survived
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Key: texture_quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Key: target_fps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Key: survivors_killed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Key: survived
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Key: stats
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Key: start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Key: social
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Key: slots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Key: skip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Key: sign_up_vip_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Key: sign_up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Key: sign_in
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Key: 'show_jumpscare:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Key: show_fps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Key: show_ending
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Key: shop
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Key: share_id
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Key: sewers
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Key: settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Key: server_region_multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Key: selected_perks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Key: season_ended
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Key: search
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Key: screen_res
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Key: school
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Key: save
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Key: rooms
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Key: room_tag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Key: room_name
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Key: reward
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Key: resume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Key: restore_old_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Key: restore_old
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Key: restore_data
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Key: reset_zoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Key: reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Key: remove
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Key: reload_rooms_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Key: region
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Key: recover
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Key: reconnect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Key: recommended_region
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Key: read_manual_q
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Key: read
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Key: quality
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Key: profile
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Key: private_room_select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Key: private_room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Key: previous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Key: premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Key: post_processing
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Key: please_note
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Key: players_select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Key: player_point_light
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Key: player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Key: play_offline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Key: play_now
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Key: play
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Key: perks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Key: performance_heavy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Key: password_reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Key: password_recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Key: password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Key: parts_fixed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Key: papers_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Key: outfit_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Key: outfit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Key: other
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Key: or
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Key: online
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Key: objectives
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Key: no_friends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Key: no
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Key: new_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Key: my_league
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Key: mute_everyone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Key: multiplayer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Key: microphone
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Key: mic_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Key: merge_acc_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Key: merge_acc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Key: matchmaking
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Key: matches
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Key: match_won
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Key: match_breakdown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Key: master_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Key: maps
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Key: map_selection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Key: map_date
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Key: map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Key: manual_use_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Key: manual_unavailable_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Key: manual_survival_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Key: manual_situat_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Key: manual_sewers_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Key: manual_school_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Key: manual_pvp_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Key: manual_mm_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Key: manual_hospital_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Key: manual_escape_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Key: manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Key: main_menu_exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Key: main
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Key: losses
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Key: login_type
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Key: login_perks_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Key: login_description
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Key: login
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Key: local_server_ip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Key: local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Key: lobby_settings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Key: lobby_invite_sent
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Key: lobby_invite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Key: loading_room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Key: league_reached
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Key: league
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Key: later
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Key: language
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Key: kills
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Key: kick
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Key: keys
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Key: join_private
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Key: join_by_tag
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Key: join
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Key: items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Key: invite_players
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Key: invite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Key: invert_vertical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Key: invert_horizontal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Key: ingame_voip
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Key: info
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Key: hq_shaders
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Key: hq_characters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Key: hotspot_server_forbidden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Key: hospital
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Key: horizontal_sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Key: hint
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Key: hats_unlocked
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Key: graphics
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Key: gore
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Key: ghost_player
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Key: get_in_car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Key: get
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Key: generators_on
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Key: general
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Key: gamemode_select
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Key: gamemode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Key: fuse_combination
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Key: fuel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Key: friends
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Key: forgot_password
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Key: fog
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Key: fixed_map
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Key: fix_the_car
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Key: filter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Key: failed_create_room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Key: exit_lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Key: exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Key: enable_server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Key: 'emulator_input:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Key: email_verification
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Key: email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Key: effects_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Key: earned_xp
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Key: discord_warning
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Key: difficulty
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Key: devices
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Key: device_not_supported
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Key: delete_account_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Key: delete_account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Key: customize
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Key: current
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Key: create_server
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Key: create_room
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Key: create_lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Key: create
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Key: copy_id
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Key: controls
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Key: controller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Key: continue
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5190169124864
+    m_Key: connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Key: confirm_ui_scale
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Key: confirm_exit_lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Key: confirm_exit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Key: confirm_connect
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Key: collection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Key: code
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Key: choose_lang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Key: character_selector
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Key: character
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Key: car_parts_found
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Key: car_parts
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Key: car_fixed
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Key: cap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Key: buy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Key: buttons_customization
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Key: bought
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Key: bgm_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Key: best_season
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Key: battery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Key: audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Key: alpha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Key: all_time_best
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Key: add_friend
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Key: add
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Key: account
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Key: accept
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Key: 'resolve_dns:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Key: manual_apartments_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Key: ambience_volume
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Key: toreceive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Key: dynamic_fov
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Key: emf_lvl5_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Key: ultraviolet_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Key: spirit_box_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Key: freezing_temp_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Key: candle_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Key: ghost_spores_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Key: manual_slaughterhouse_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Key: can_unlock_during_events
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Key: show_more
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Key: show_less
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Key: first_purchase_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Key: free_keys_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Key: free_xp_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Key: free_resources_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Key: xp_bundle_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Key: free_crates_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Key: free_presents_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Key: blue_certs_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Key: cert_crates_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Key: wooden_opening_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Key: rare_crates_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Key: purple_certs_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Key: certs_combo_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Key: rare_opening_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Key: pink_certs_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Key: red_certs_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Key: available_soon
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Key: temporarily_unavailable
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Key: accept_trade_q
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Key: claim_dice_reward_q
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Key: mind_control_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Key: premonition_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Key: ghost_cage_perk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Key: tong_coat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Key: todays_multiplier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Key: not_escaped
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Key: escape_unlock_competitive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Key: age_selection_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Key: age_selection_title
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Key: cursed_doll_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Key: halloween_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Key: matchmaking_rework
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Key: matchmaking_rework_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Key: matchmaking_desc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Key: league_rewards
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Key: league_rewards_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Key: ranked_reset
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Key: ranked_reset_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Key: replay_system
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Key: replay_system_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Key: perk_replays
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Key: perk_replays_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Key: perk_replays_desc2
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Key: halloween_event
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Key: version_bold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Key: online_progress
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344688356441972736
+    m_Key: mobile_hud
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Key: input_bindings
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Key: keyboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Key: gamepad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Key: crouch_mode
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Key: ui_cursor_sensitivity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Key: main_action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Key: secondary_action
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Key: flashlight
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Key: drop_item
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Key: reload
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Key: ritual_book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Key: select_slot_d
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348348179381477376
+    m_Key: use_perk_d
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Key: scoreboard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Key: pause_menu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Key: gamepad_detected
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Key: enable_gamepad_q
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Key: new_year_offer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Key: gameplay_impr_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Key: display_room_names_desc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Key: display_room_names
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Key: ttr_suit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Key: adrenaline_shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Key: king_crown
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Key: halloween_tune_volume
+    m_Metadata:
+      m_Items: []
+  m_Metadata:
+    m_Items: []
+  m_KeyGenerator:
+    rid: 0
+  references:
+    version: 2
+    RefIds:
+    - rid: 0
+      type: {class: DistributedUIDGenerator, ns: UnityEngine.Localization.Tables, asm: Unity.Localization}
+      data:
+        m_CustomEpoch: 1680591357943

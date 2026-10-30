@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_de
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: de
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: Medkit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: Erhöht die Wiederbelebungsgeschwindigkeit. Dieser Vorteil nimmt keinen Platz weg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: 'Typ: Artikel'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: 'Geschwindigkeit:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: Sekunden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: 'Bereich:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: Meter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: 'Dauer:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: 'Chance:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: 'Radius:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: 'Typ: Fähigkeit'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: 'Typ: Situativ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: 'Typ: Geschenk'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: '% pro Todesfall'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: 'Verfolgungsreichweite:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: Meter pro Tod
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: Salz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: Verhindert, dass der Geist den Salzbereich betritt. Manche Geister können den Vorteil manuell deaktivieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: Kruzifix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: Verhindert den Geisterangriff
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: Blendgranate
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: Bei Verwendung wird der Feind geblendet und bewegt sich nicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: Kein Stromausfall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: Es besteht die Möglichkeit, dass Sie vom Stromausfall in der Schule nicht mehr betroffen sind. Dieser Vorteil nimmt keinen Platz weg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: Medikamente
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: Medikamente erhöhen Ihre Fähigkeit, Gegenstände deutlich weiter zu sehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: Lebensretter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: Nachdem Sie einen Teamkollegen wiederbelebt haben, sehen Sie Gegenstände in größerer Reichweite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: Guter Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: Bevor Ihr erster Teamkamerad stirbt, sind Sie heimlicher und vorsichtiger. Der Verfolgungsradius des Feindes wird verringert und Sie sehen die Aura des Feindes innerhalb der angegebenen Reichweite. Wird automatisch aktiviert, wenn das Spiel beginnt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: Pfleger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: Der Verfolgungsradius des Gegners wird für wiederbelebte Teammitglieder verringert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: Vorsicht
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: Ihre Vorsicht ermöglicht es Ihnen, die Aura des Feindes jedes Mal innerhalb der angegebenen Reichweite zu sehen, wenn Sie zum ersten Mal ein Objekt aufheben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: Sinn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: 'Nachdem Sie Ihre Taschenlampe ausgeschaltet haben, sehen Sie die Aura des Crawlers innerhalb der angegebenen Reichweite. Abklingzeit: 30 Sekunden'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: Führer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: Du siehst Gegenstände in größerer Reichweite, wenn du in der Nähe deines Teamkollegen bist
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: Notizenschreiber
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: Wichtige Objekte, an denen Sie vorbeigelaufen sind, sind auf Ihrer Karte markiert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: Für Überlebende
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: 'Bei Aktivierung wird der feindliche Verfolgungsradius für Sie um 100 % erhöht und für andere um <color=#17fc03>x%</color> verringert. Wirkungsdauer: 1 Minute.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: Seelenwache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: Nach der Wiederbelebung sehen Sie die Aura des Feindes innerhalb der angegebenen Reichweite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: Wach auf
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: Wenn einer Ihrer Teamkameraden in den Sterbezustand gerät, sehen Sie Gegenstände in größerer Entfernung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: Rache des Todes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: Sie beginnen, die Aura des Feindes zu sehen, nachdem einer Ihrer Teamkollegen getötet wurde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: Zurück gelassen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: Wenn Sie mehr als 7 Meter von Ihren Teamkollegen entfernt sind, besteht die Chance, dass der Feind Sie nicht verfolgt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: Team-Rache
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: Wenn Sie allein gelassen werden, sind Sie verstohlener. Der Verfolgungsradius des Feindes wird verringert und Sie können die Aura des Feindes innerhalb einer bestimmten Reichweite sehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: Schock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: Sobald Sie eine Leiche gefunden haben, gewinnen Sie zusätzliche Reichweite, um die Aura des Feindes zu erkennen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: Erwischt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: Durch das Ergreifen gefundener Gegenstände haben Sie die Möglichkeit, Gegenstände in größerer Entfernung zu sehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: Einziger Überlebender
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: Jedes Mal, wenn einer Ihrer Teamkollegen stirbt, wird der Verfolgungsradius des Feindes um <color=#17fc03>x%</color> verringert
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: Sechster Sinn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: Wenn Sie eine Aufgabe abschließen, sehen Sie die Aura des Feindes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: Wir werden es machen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: Nachdem einer der Teamkollegen wiederbelebt wurde, sind Sie voller Begeisterung und sehen Gegenstände in größerer Reichweite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: Empathie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: Sie sehen die Aura eines Teamkollegen, der sich innerhalb der angegebenen Reichweite im Sterbezustand befindet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: Bindung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: Gemeinsam seid ihr besser dran. Wenn Sie sich innerhalb einer Reichweite von 10 Metern in der Nähe Ihrer Teamkollegen befinden, sehen Sie die Aura des Feindes im Radius
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: Wahnsinn
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: Du siehst die Aura des Feindes zufällig im Radius für die Dauer von <color=#17fc03>x</color> Sekunden (alle 1–3 Minuten).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: Hoffen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: Du hast eine starke Hoffnung. Sie sehen für die Dauer von <color=#17fc03>x</color> Sekunden (alle 1–3 Minuten) zufällig Gegenstände in größerer Reichweite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: Verzerrung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: Der Geist spürt Sie nicht hinter den Mauern und wird Sie nicht verfolgen, wenn Sie sich in seinem Verfolgungsradius befinden
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: Adlerauge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: Sie sehen ein Objekt aus weiter Entfernung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: Die Entfernungsgeschwindigkeit von Fallen wurde erhöht. Dieser Vorteil nimmt keinen Platz weg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: Du hast eine Chance, der Bärenfalle auszuweichen, Abklingzeit 10 Sek. Dieser Vorteil nimmt keinen Platz weg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: Während der Verfolgung erhält jeder Spieler die Möglichkeit, Gegenstände in größerer Entfernung zu sehen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: Überladung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: Stealth-Trank
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: Schwarzer Schimmel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: Schwarzes Loch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: Aufklärungsgerät
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: Fangdraht einfrieren
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: Knoblauch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: Gegenstandsteleporter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: Geisterteleporter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: Überwachungskamera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: Verfolgungsschub
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: Wächtergnade
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: Umgekehrter Zustand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: Zweite Seele
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: Ätherisches Wiederaufleben
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: Vergessene Erinnerung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: Geisterkäfig
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: Artikelspiegel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: Kraftwellen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: Geisterwand
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: Telepathie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: Auferstehung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: Gedankenkontrolle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: Deine Taschenlampe lässt sich in der Schule nicht ausschalten
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: Bei Verwendung werden Sie für den Feind unsichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: Schwarzer Schimmel verlangsamt Feinde, wenn sie in den Schimmel treten. Einige Geister können den Vorteil manuell deaktivieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: Gegenstände, an denen Ihre Teamkollegen vorbeigehen, sind für Sie sichtbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: Belebt bei Verwendung alle Teamkameraden wieder.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: Zieht Feinde in ein schwarzes Loch.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: Wenn sich der Feind bei der Verfolgung in die angegebene Reichweite begibt, wird Ihre Bewegungsgeschwindigkeit erhöht und Sie sehen die Aura des Feindes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: Nach der Wiederbelebung erhalten Sie <color=#17fc03>x</color> Sekunden Geisterimmunität.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: Sie haben pulsierende Wellen, die Feinde wegstoßen. Unbegrenzte Dauer.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: Erzeugt eine Wand, durch die der Geist nicht hindurchgehen kann. Einige Geister können den Vorteil manuell deaktivieren.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: Weihnachtsfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: Lockt Feinde zur Falle.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: EMF-Reader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: Das Gerät piept, wenn es innerhalb des angegebenen Bereichs in Geisterrichtung zeigt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: Heiler
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: Heilt jeden Spieler innerhalb von 5 Metern in <color=green>x</color> Sekunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: Rund um die Karte sind Kameras angebracht, die Sie benachrichtigen, wenn eine Feindbewegung erkannt wird. Verwenden Sie Ihr Gerät, um Kameras zu überprüfen und den Standort des Feindes zu ermitteln.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: Greifmeister
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: Nimmt automatisch Gegenstände in Ihrer Nähe auf, mit größerer Reichweite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: Heiliges Buch
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: 'Verhindert den Tod einmal. Reichweite: 10 Meter'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: Du reist 10x schneller als eine „Seele“ und kannst Gegenstände finden. Der Effekt ist für eine gewisse Zeit aktiv oder bis du von einem Geist angegriffen wirst.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: Vorahnung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: Dir wird ein Spieler angezeigt, der wahrscheinlich in den nächsten 5 Minuten sterben wird.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: Schnelligkeitsstiefel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: Dauerhafte Steigerung der Bewegungsgeschwindigkeit. Dieser Vorteil nimmt keinen Platz weg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: Gliederung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: Wichtige Gegenstände sind hinter Wänden sichtbar. Dieser Vorteil nimmt keinen Platz weg.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: Einer erhebt sich
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: Sie werden sofort wiederbelebt, wenn Sie sich im Sterbezustand befinden und einer Ihrer Teamkollegen in den Sterbezustand gerät.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: Der Träger
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: Beim Tragen von Gegenständen siehst du die Aura des Gegners in Reichweite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: Todesfalle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: Wenn Sie im Sterbezustand sind, verringert sich die Geschwindigkeit Ihres Gegners.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: Selbsthilfe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: Beim ersten Tod werden Sie wiederbelebt. Beim nächsten Tod haben Sie außerdem die Chance, aufzustehen.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: Mediziner
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: Deine medizinische Expertise ermöglicht es dir, andere ohne Erste-Hilfe-Kasten wiederzubeleben.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: Der Geist beendet die Verfolgung, sobald er Sie für einige Zeit aus den Augen verliert.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: Du verfügst über die Gabe der Genesung – nach deiner Wiederbelebung erhöht sich deine Bewegungsgeschwindigkeit um <color=green> %</color>, die Geschwindigkeit der Gegner verringert sich um <color=yellow> %</color>. Die Fähigkeit ist X Sekunden lang aktiv.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: Sie kontrollieren den Geist für die nächsten Sekunden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: Der Geist wird in einem Käfig gefangen, wenn der Angriff beginnt.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: Geschenk der Genesung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: Verfluchte Puppe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: Die verfluchte Puppe bewegt sich sehr schnell und zieht Gegner an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: Geisterpfad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: Wildcard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: Zeigt die vorhergesagte Bewegung des Gegners als leuchtende Fußspuren auf dem Boden an.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: Ersetzt zu Beginn einen zufälligen Vorteil. Nach dem Tod können die Vorteile aller Überlebenden erneut verwendet werden.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: Adrenalinspritze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: Nach der Anwendung erhöht sich deine Geschwindigkeit für eine begrenzte Zeit erheblich.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: Brecheisen
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: Ermöglicht dir, verschlossene Türen aufzubrechen
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

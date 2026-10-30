@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_id
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: id
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: Medkit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: Meningkatkan kecepatan revive. Keuntungan ini tidak menggunakan tempat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: 'Jenis : Barang'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: 'Kecepatan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: Detik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: 'Jangkauan:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: Meter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: 'Durasi:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: 'Peluang:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: 'Radius:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: 'Jenis: Keterampilan'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: 'Jenis: Situasional'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: 'Jenis: Hadiah'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: '% per kematian'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: 'Kisaran pengejaran:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: Meter per kematian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: Garam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: Mencegah hantu memasuki area garam. Beberapa hantu dapat mengabaikan perk ini secara manual.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: Salib
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: Mencegah serangan hantu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: Flashbang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: Saat digunakan, musuh menjadi buta dan tidak bisa bergerak
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: Tidak Ada Pemadaman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: Kemungkinan Anda tidak lagi terpengaruh oleh pemadaman listrik di Sekolah. Keuntungan ini tidak menggunakan tempat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: obat-obatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: Obat-obatan meningkatkan kemampuan Anda untuk melihat objek lebih jauh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: Penyelamat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: Setelah menghidupkan kembali rekan satu tim, Anda akan melihat item dalam jangkauan yang lebih besar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: Awal yang baik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: Sebelum rekan setim pertama Anda meninggal, Anda lebih tersembunyi dan berhati-hati. Radius kejaran musuh berkurang dan Anda dapat melihat posisi musuh dalam jangkauan tertentu. Aktif secara otomatis saat pertandingan dimulai
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: Penolong
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: Radius kejaran musuh berkurang untuk rekan satu tim yang dihidupkan kembali
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: Peringatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: Kehati-hatian Anda memungkinkan Anda melihat posisi musuh dalam jangkauan tertentu setiap kali Anda mengambil objek untuk pertama kalinya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: Naluri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: 'Setelah mematikan senter, Anda melihat Posisi Crawler dalam jangkauan tertentu. Waktu Pendinginan : 30 detik'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: Pemimpin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: Anda melihat item dalam jangkauan yang lebih besar ketika Anda berada di dekat rekan satu tim Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: Pencatat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: Objek penting yang Anda lewati ditandai di peta Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: Untuk Survivor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: 'Saat diaktifkan, radius pengejaran musuh meningkat sebesar 100% untuk Anda, dan berkurang <color=#17fc03>x%</color> untuk yang lain. Durasi efek: 1 menit.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: Penjaga Jiwa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: Setelah dihidupkan kembali, Anda melihat aura musuh dalam jangkauan tertentu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: Bangun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: Ketika salah satu rekan satu tim Anda berada dalam kondisi sekarat, Anda akan melihat item dalam jangkauan yang lebih jauh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: Balas dendam kematian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: Anda mulai melihat Posisi musuh setelah salah satu rekan tim Anda terbunuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: Tertinggal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: Jika berjarak lebih dari 7 meter dari rekan satu tim, ada kemungkinan musuh tidak akan mengejarmu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: Balas dendam tim
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: Saat Anda ditinggal sendirian, Anda lebih Tersembunyi. Radius kejaran musuh berkurang dan Anda melihat Posisi musuh dalam jangkauan tertentu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: Terkejut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: Setelah menemukan mayat, Anda mendapatkan jangkauan ekstra dalam melihat posisi musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: Gotcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: Mengambil item yang ditemukan memberi Anda kemampuan untuk melihat item lain dalam jangkauan yang lebih luas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: Satu-satunya yang selamat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: Setiap kali salah satu rekan tim Anda mati, radius kejaran musuh berkurang sebesar <color=#17fc03>x%</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: Indra Keenam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: Saat Anda menyelesaikan tugas, Anda akan melihat posisi musuh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: Kita akan berhasil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: Setelah salah satu rekan tim dihidupkan kembali, Anda dipenuhi dengan antusiasme dan Anda melihat item dalam jangkauan yang lebih besar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: Empati
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: Anda melihat aura rekan satu tim yang berada dalam kondisi sekarat dengan rentang yang ditentukan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: Ikatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: Anda lebih baik bersama-sama. Saat berada di dekat rekan satu tim Anda dalam jarak 10 meter, Anda melihat posisi musuh dalam radius sekitar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: Kegilaan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: Anda secara acak melihat posisi musuh dalam radius selama <color=#17fc03>x</color> detik (setiap 1-3 menit)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: Harapan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: Anda memiliki harapan yang kuat. Anda secara acak melihat item dalam rentang yang lebih besar selama <color=#17fc03>x</color> detik (setiap 1-3 menit)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: Distorsi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: Hantu tidak merasakan Anda berada di balik tembok dan tidak akan mengejar jika Anda berada dalam radius kejarannya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: Mata Elang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: Anda melihat satu objek dari jarak jauh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: Kecepatan melepas jebakan meningkat. Keuntungan ini tidak menggunakan tempat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: Anda berpeluang menghindari jebakan beruang, cooldown selama 10 detik. Keuntungan ini tidak menggunakan tempat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: Saat dalam pengejaran, setiap pemain mendapat kemampuan untuk melihat item dalam jangkauan yang lebih luas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: Kelebihan daya
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: Ramuan siluman
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: Jamur Hitam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: Lubang Hitam
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: Alat Pengintaian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: Perangkap pembeku
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: Bawang putih
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: Teleportasi Barang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: Teleportasi Hantu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: Kamera Keamanan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: Lonjakan Pengejaran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: Anugerah Penjaga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: Keadaan Terbalik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: Jiwa Kedua
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: Kebangkitan Halus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: Memori yang Terlupakan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: Kandang Hantu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: Cermin Barang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: Gelombang Berdenyut
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: Tembok Hantu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: Telepati
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: Kebangkitan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: Mengendali Pikiran
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: Senter Anda tidak akan mati di sekolah
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: Saat digunakan, Anda menjadi tidak terlihat oleh musuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: Jamur hitam memperlambat musuh saat mereka melangkah ke dalam jamur. Beberapa hantu dapat mengabaikan perk ini secara manual.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: Item yang dilewati rekan satu tim Anda akan terlihat oleh Anda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: Hidupkan kembali semua rekan setim saat digunakan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: Menyeret musuh ke dalam lubang hitam.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: Saat mengejar dan musuh berada dalam jangkauan tertentu, kecepatan gerakan Anda ditingkatkan dan Anda melihat posisi musuh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: Setelah dihidupkan kembali, Anda diberikan kekebalan hantu selama <color=#17fc03>x</color> detik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: Anda memiliki gelombang berdenyut yang mendorong musuh menjauh. Durasi tidak terbatas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: Memunculkan dinding yang tidak dapat dilewati oleh hantu. Beberapa hantu dapat mengabaikan perk ini secara manual.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: Perangkap Natal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: Memancing musuh ke arah jebakan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: Pembaca EMF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: Mendeteksi kehadiran musuh dalam jangkauan 50 meter.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: Penyembuh
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: Menyembuhkan setiap pemain dalam jarak 5 meter dalam <color=green>x</color> detik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: Kamera pengintai dipasang di sekitar peta dan akan memberi tahu Anda ketika pergerakan musuh terdeteksi. Gunakan perangkat Anda untuk memeriksa kamera dan mengetahui lokasi musuh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: Peraih Ulung
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: Secara otomatis mengambil item di sekitar Anda, dengan jangkauan yang ditingkatkan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: Kitab Suci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: 'Mencegah kematian sekali. Jangkauan: 10 meter'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: Anda berjalan 10x lebih cepat sebagai "jiwa" dan dapat menemukan item. Efeknya aktif selama beberapa waktu atau sampai Anda diserang oleh hantu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: Firasat
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: Anda diperlihatkan pemain yang kemungkinan akan mati selama 5 menit berikutnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: Sepatu Kecepatan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: Peningkatan kecepatan gerakan permanen. Keuntungan ini tidak menggunakan tempat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: Siluet
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: Item penting terlihat di balik tembok. Keuntungan ini tidak menggunakan tempat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: Yang Bangkit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: Anda langsung dihidupkan kembali saat Anda dan rekan setim Anda dalam kondisi sekarat.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: Sang Pembawa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: Saat membawa item, Anda melihat posisi musuh dalam jangkauan.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: Jebakan Kematian
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: Saat Anda dalam kondisi sekarat, kecepatan musuh berkurang.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: Penyelamatan Sendiri
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: Anda akan dihidupkan kembali secara otomatis pada kematian pertama. Begitu juga memiliki kesempatan untuk bangkit pada kematian berikutnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: Medis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: Keahlian medis Anda memungkinkan Anda menghidupkan kembali orang lain tanpa medkit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: Hantu mengakhiri pengejaran setelah kehilangan jejak Anda selama beberapa waktu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: Anda memiliki hadiah pemulihan - setelah dihidupkan kembali, kecepatan gerak Anda meningkat sebesar <color=green>%</color>, kecepatan musuh berkurang sebesar <color=yellow>%</color>. Manfaat ini aktif selama X detik.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: Anda mengendalikan hantu selama beberapa detik berikutnya.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: Hantu akan terperangkap dalam sangkar saat serangan dimulai.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: Hadiah Pemulihan
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: Boneka Terkutuk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: Boneka Terkutuk bergerak sangat cepat dan menarik perhatian musuh.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: Jejak Hantu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: Wildcard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: Menampilkan prediksi pergerakan musuh sebagai jejak kaki bercahaya di lantai area.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: Menggantikan satu kemampuan khusus secara acak di awal permainan. Setelah mati, kemampuan khusus semua penyintas dapat digunakan kembali.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: Adrenaline Shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: Setelah digunakan, kecepatanmu meningkat drastis untuk sementara waktu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: Linggis
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: Memungkinkan Anda mencongkel pintu terkunci
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

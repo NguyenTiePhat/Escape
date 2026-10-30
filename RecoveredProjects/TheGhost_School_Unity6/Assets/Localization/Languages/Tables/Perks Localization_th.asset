@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_th
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: th
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: เมดคิท
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: เพิ่มความเร็วในการชุบชีวิต. สิทธิพิเศษนี้ไม่ใช้พื้นที่.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: 'ประเภท: Item'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: 'ความเร็ว:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: วินาที
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: 'พิสัย:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: เมตร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: 'ระยะเวลา:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: 'โอกาส:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: 'รัศมี:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: 'ประเภท: ทักษะ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: 'ประเภท: สถานการณ์'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: 'ประเภท: ของขวัญ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: '% ต่อการเสียชีวิต'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: 'ช่วงไล่ล่า:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: เมตรต่อการเสียชีวิต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: เกลือ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: ป้องกันไม่ให้ผีเข้ามาในพื้นที่เกลือ ผีบางตัวอาจปิดการใช้งานความสามารถพิเศษด้วยตนเอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: ไม้กางเขน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: ป้องกันการโจมตีของผี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: Flashbang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: เมื่อใช้ ศัตรูจะตาบอดและจะไม่เคลื่อนไหว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: ไม่มีไฟดับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: มีโอกาสที่คุณจะไม่ได้รับผลกระทบจากไฟดับในโรงเรียนอีกต่อไป. สิทธิพิเศษนี้ไม่ใช้พื้นที่.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: ยา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: ยาช่วยเพิ่มความสามารถในการมองเห็นรายการต่างๆ ได้มากขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: ผู้ช่วยชีวิต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: หลังจากที่เพื่อนร่วมทีมฟื้นคืนชีพแล้ว คุณจะเห็นไอเท็มที่อยู่ในระยะที่ใหญ่ขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: การเริ่มต้นที่ดี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: ก่อนที่เพื่อนร่วมทีมคนแรกของคุณจะเสียชีวิต คุณจะต้องหลบซ่อนและระมัดระวังมากขึ้น รัศมีการไล่ล่าของศัตรูลดลง และคุณจะเห็นออร่าของศัตรูภายในระยะที่กำหนด เปิดใช้งานโดยอัตโนมัติเมื่อการแข่งขันเริ่มต้นขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: คนดูแล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: รัศมีการไล่ล่าของศัตรูลดลงสำหรับเพื่อนร่วมทีมที่ฟื้นคืนชีพ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: คำเตือน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: ความระมัดระวังของคุณจะทำให้คุณมองเห็นออร่าของศัตรูภายในระยะที่กำหนดทุกครั้งที่คุณหยิบวัตถุขึ้นมาเป็นครั้งแรก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: ความรู้สึก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: 'หลังจากปิดไฟฉายแล้ว คุณจะเห็นออร่าของครอว์เลอร์ คูลดาวน์: 30 วินาที'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: หัวหน้า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: คุณจะเห็นสิ่งของต่างๆ ในระยะที่กว้างขึ้นเมื่อคุณอยู่ใกล้เพื่อนร่วมทีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: ผู้จดบันทึก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: วัตถุสำคัญที่คุณเดินผ่านมาจะถูกทำเครื่องหมายบนแผนที่ของคุณ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: สำหรับผู้รอดชีวิต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: 'เมื่อเปิดใช้งาน รัศมีการไล่ล่าของศัตรูจะเพิ่มขึ้น 100% สำหรับคุณ และลดลง <color=#17fc03>x%</color> สำหรับผู้อื่น ระยะเวลาผล: 1 นาที'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: พิทักษ์วิญญาณ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: หลังจากฟื้นคืนชีพแล้ว คุณจะเห็นออร่าของศัตรูภายในระยะที่กำหนด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: ตื่นนอน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: เมื่อเพื่อนร่วมทีมคนหนึ่งของคุณเข้าสู่สภาวะกำลังจะตาย คุณจะเห็นไอเท็มที่อยู่ในระยะที่ไกลกว่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: การแก้แค้นความตาย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: คุณเริ่มเห็นออร่าของศัตรูหลังจากที่เพื่อนร่วมทีมคนหนึ่งของคุณถูกฆ่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: ทิ้งไว้ข้างหลัง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: เมื่ออยู่ห่างจากเพื่อนร่วมทีมมากกว่า 7 เมตร มีโอกาสที่ศัตรูจะไม่ไล่ล่าคุณ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: การแก้แค้นของทีม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: เมื่อคุณถูกทิ้งให้อยู่ตามลำพังคุณจะซ่อนเร้นมากขึ้น รัศมีการไล่ล่าของศัตรูลดลง และคุณจะเห็นออร่าของศัตรูภายในระยะที่กำหนด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: ช็อค
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: เมื่อพบศพแล้ว คุณจะได้รับระยะพิเศษในการมองเห็นออร่าของศัตรู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: Gotcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: การจับสิ่งของที่ค้นพบจะทำให้คุณสามารถดูสิ่งของที่อยู่ในระยะที่กว้างกว่าได้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: ผู้รอดชีวิตเพียงคนเดียว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: ทุกครั้งที่เพื่อนร่วมทีมของคุณเสียชีวิต รัศมีการไล่ล่าของศัตรูจะลดลง <color=#17fc03>x%</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: สัมผัสที่หก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: เมื่อคุณทำภารกิจสำเร็จ คุณจะเห็นออร่าของศัตรู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: พวกเราจะทำให้ได้
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: หลังจากที่เพื่อนร่วมทีมคนหนึ่งฟื้นคืนชีพ คุณจะเต็มไปด้วยความกระตือรือร้นและเห็นไอเท็มที่อยู่ในระยะที่ใหญ่กว่า
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: ความเข้าอกเข้าใจ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: คุณเห็นออร่าเพื่อนร่วมทีมที่อยู่ในสภาพกำลังจะตายภายในระยะที่กำหนด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: บอนด์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: คุณอยู่ด้วยกันดีกว่า เมื่ออยู่ใกล้เพื่อนร่วมทีมของคุณในระยะ 10 เมตร คุณจะเห็นออร่าของศัตรูในรัศมี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: ความวิกลจริต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: คุณจะสุ่มเห็นออร่าของศัตรูในรัศมีเป็นระยะเวลา <color=#17fc03>x</color> วินาที (ทุกๆ 1-3 นาที)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: หวัง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: คุณมีความหวังอันแข็งแกร่ง คุณจะสุ่มเห็นรายการภายในช่วงที่ใหญ่กว่าเป็นระยะเวลา <color=#17fc03>x</color> วินาที (ทุกๆ 1-3 นาที)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: การบิดเบือน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: ผีจะไม่รู้สึกถึงคุณหลังกำแพง และจะไม่ไล่ตามหากคุณอยู่ในรัศมีการไล่ล่าของเธอ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: อีเกิลอาย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: คุณมองเห็นวัตถุชิ้นหนึ่งจากระยะไกล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: ความเร็วในการกำจัดกับดักเพิ่มขึ้น. สิทธิพิเศษนี้ไม่ใช้พื้นที่.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: คุณมีโอกาสหลีกเลี่ยงกับดักหมี คูลดาวน์ 10 วินาที. สิทธิพิเศษนี้ไม่ใช้พื้นที่.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: ในขณะที่ไล่ล่า ผู้เล่นทุกคนจะได้รับความสามารถในการมองเห็นไอเท็มที่อยู่ในระยะที่กว้างขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: ชาร์จเกิน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: ยาพรางตัว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: ราดำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: หลุมดำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: อุปกรณ์รีคอน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: แช่แข็งกับดัก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: กระเทียม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: ไอเทม เครื่องเคลื่อนย้ายมวลสาร
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: ผีเทเลพอร์ตเตอร์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: กล้องรักษาความปลอดภัย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: ไล่ตามไฟกระชาก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: พระคุณของผู้พิทักษ์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: สถานะย้อนกลับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: วิญญาณที่สอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: การฟื้นคืนชีพแบบไม่มีตัวตน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: ความทรงจำที่ถูกลืม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: กรงผี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: กระจกไอเท็ม
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: คลื่นพลัง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: กำแพงผี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: กระแสจิต
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: การฟื้นคืนชีพ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: การควบคุมจิตใจ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: ไฟฉายของคุณจะไม่ปิดในโรงเรียน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: เมื่อใช้ คุณจะมองไม่เห็นศัตรู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: ราดำจะทำให้ศัตรูช้าลงเมื่อพวกเขาก้าวเข้าไปในรา. ผีบางตัวอาจปิดการใช้งานความสามารถพิเศษได้ด้วยตนเอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: รายการที่เพื่อนร่วมทีมของคุณเดินผ่านจะปรากฏให้คุณเห็น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: ชุบชีวิตเพื่อนร่วมทีมทุกคนเมื่อใช้งาน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: ลากศัตรูเข้าสู่หลุมดำ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: เมื่อไล่ล่าและศัตรูอยู่ในระยะที่กำหนด ความเร็วในการเคลื่อนที่ของคุณจะเพิ่มขึ้น และคุณจะเห็นออร่าของศัตรู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: หลังจากฟื้นคืนชีพแล้ว คุณจะได้รับภูมิคุ้มกันผี <color=#17fc03>x</color> วินาที
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: คุณมีคลื่นที่ผลักศัตรูออกไป ไม่จำกัดระยะเวลา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: สร้างกำแพงที่ผีไม่สามารถผ่านไปได้. ผีบางตัวอาจปิดการใช้งานความสามารถพิเศษได้ด้วยตนเอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: กับดักคริสต์มาส
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: ล่อศัตรูเข้าหากับดัก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: เครื่องอ่าน EMF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: อุปกรณ์ส่งเสียงบี๊บเมื่อชี้ไปในทิศทางผีภายในช่วงที่กำหนด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: ผู้รักษา
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: รักษาผู้เล่นทุกคนในระยะ 5 เมตรใน <color=green>x</color> วินาที
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: กล้องถูกติดตั้งไว้รอบๆ แผนที่ และจะแจ้งให้คุณทราบเมื่อตรวจพบการเคลื่อนไหวของศัตรู ใช้อุปกรณ์ของคุณเพื่อตรวจสอบกล้องและทราบตำแหน่งของศัตรู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: ปรมาจารย์การจับ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: หยิบสิ่งของรอบตัวคุณโดยอัตโนมัติด้วยระยะที่เพิ่มขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: หนังสือศักดิ์สิทธิ์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: 'ป้องกันความตายได้ 1 ครั้ง ระยะ: 10 เมตร'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: คุณจะเดินทางได้เร็วขึ้น 10 เท่าในฐานะ "วิญญาณ" และสามารถค้นหาไอเท็มต่างๆ ได้ เอฟเฟกต์จะทำงานเป็นระยะเวลาหนึ่งหรือจนกว่าคุณจะถูกผีโจมตี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: ลางสังหรณ์
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: คุณจะเห็นผู้เล่นที่น่าจะตายภายใน 5 นาทีถัดไป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: รองเท้าความเร็ว
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: เพิ่มความเร็วในการเคลื่อนที่แบบถาวร. สิทธิพิเศษนี้ไม่ใช้พื้นที่.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: โครงร่าง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: ไอเท็มสำคัญสามารถมองเห็นได้หลังกำแพง. สิทธิพิเศษนี้ไม่ใช้พื้นที่.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: หนึ่งผู้ลุกขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: คุณจะฟื้นคืนชีพทันทีเมื่อคุณอยู่ในสภาวะใกล้ตาย และเพื่อนร่วมทีมของคุณคนใดคนหนึ่งอยู่ในสภาวะใกล้ตาย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: ผู้แบก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: เมื่อแบกไอเท็ม คุณจะเห็นออร่าของศัตรูในระยะ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: กับดักแห่งความตาย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: เมื่อคุณอยู่ในสถานะใกล้ตาย ความเร็วของศัตรูจะลดลง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: การดูแลตนเอง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: คุณจะฟื้นคืนชีพเมื่อตายครั้งแรก และคุณยังมีโอกาสที่จะยืนขึ้นเมื่อตายครั้งต่อไปอีกด้วย
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: หมอ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: ความเชี่ยวชาญทางการแพทย์ของคุณช่วยให้คุณฟื้นคืนชีพผู้อื่นได้โดยไม่ต้องใช้ชุดปฐมพยาบาล
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: ผีจะยุติการไล่ล่าเมื่อมันมองไม่เห็นคุณสักพัก
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: คุณมีของขวัญแห่งการฟื้นตัว หลังจากฟื้นคืนชีพแล้ว ความเร็วในการเคลื่อนที่ของคุณจะเพิ่มขึ้น <color=green>%</color> ความเร็วของศัตรูลดลง <color=yellow>%</color> ความสามารถพิเศษนี้จะมีผลเป็นเวลา X วินาที
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: คุณจะควบคุมผีได้ในไม่กี่วินาทีถัดไป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: ผีจะถูกติดอยู่ในกรงเมื่อการโจมตีเริ่มขึ้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: ของขวัญแห่งการฟื้นฟู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: ตุ๊กตาต้องคำสาป
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: ตุ๊กตาต้องคำสาปเคลื่อนไหวได้รวดเร็วและดึงดูดศัตรู
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: เส้นทางผี
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: ไพ่พิเศษ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: แสดงการเคลื่อนไหวที่คาดการณ์ไว้ของศัตรูเป็นรอยเท้าเรืองแสงบนพื้น
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: แทนที่ความสามารถพิเศษแบบสุ่มหนึ่งอย่างเมื่อเริ่มเกม หลังจากตายแล้ว ความสามารถพิเศษทั้งหมดของผู้รอดชีวิตทุกคนสามารถใช้งานได้อีกครั้ง
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: เข็มฉีดยาอะดรีนาลีน
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: เมื่อใช้แล้ว ความเร็วของคุณจะเพิ่มขึ้นอย่างมากในช่วงเวลาจำกัด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: เหล็กงัด
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: ช่วยให้งัดประตูที่ล็อกอยู่ได้
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []
