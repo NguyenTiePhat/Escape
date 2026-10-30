@@ -54,11 +54,10 @@ Nếu Unity bị lỗi đồ họa DX12 trên Windows, đóng Editor và chạy 
 - `RecoveredProjects/TheGhost_School_Unity6`: toàn bộ dự án Unity6 đang chỉnh sửa, gồm asset, scene, script, cấu hình và `RecoveryReports` (báo cáo, ảnh kiểm tra, scene sao lưu).
 - `RecoveredProjects/TheGhost_Original`: bản xuất nguyên trạng cùng `AuxiliaryFiles` để đối chiếu và phục hồi.
 - `ImportSource`: dữ liệu giải nén, các APK thành phần và dữ liệu Unity đầu vào.
-- File `.xapk` ở thư mục gốc: gói đầu vào ban đầu.
 - `Tools`: công cụ AssetRipper và script kiểm tra dữ liệu.
 - `Preview`: các báo cáo, ảnh và log còn lại của quá trình khôi phục.
 - `RESUME.md`: lịch sử công việc và các giới hạn đã ghi nhận.
 
 Chỉ bỏ qua cache/trạng thái máy (`Library`, `Temp`, `Obj`, `Logs`, `UserSettings`, `.vs`, `.idea`) và file thông tin đăng nhập riêng nếu có. Unity tạo lại cache khi mở dự án. Thư mục trống không được Git lưu. Mô hình IUH, dự án Unity gốc của IUH, ảnh render và script dựng IUH đã được xóa khỏi phiên bản hiện tại; lịch sử commit cũ vẫn được giữ.
 
-Các file APK, XAPK, asset bundle, Unity3D và EXE dùng **Git LFS**. Sau khi clone hoặc cập nhật repo, chạy `git lfs pull` để lấy nội dung đầy đủ. Repo chỉ lưu dữ liệu đang có trên máy, không khẳng định đã khôi phục đầy đủ gameplay gốc.
+Gói XAPK đầu vào được giữ riêng trên máy, không nằm trong phiên bản hiện tại của repository. Các file APK, asset bundle, Unity3D và EXE dùng **Git LFS**. Sau khi clone hoặc cập nhật repo, chạy `git lfs pull` để lấy nội dung đầy đủ. Repo không khẳng định đã khôi phục đầy đủ gameplay gốc.
