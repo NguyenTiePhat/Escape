@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_en
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: en
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: Medkit
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: Increases revive speed. This perk doesn't take space.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: 'Type: Item'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: 'Speed:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: seconds
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: 'Range:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: Meters
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: 'Duration:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: 'Chance:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: 'Radius:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: 'Type: Skill'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: 'Type: Situational'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: 'Type: Gift'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: '% per death'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: 'Chase range:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: Meters per death
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: Salt
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: Prevents the ghost from entering the salt area. Some ghosts may deactivate perk manually.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: Crucifix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: Prevents the ghost attack.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: Flashbang
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: When used, enemy gets blinded and won't move.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: No Blackout
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: There's chance that you will no longer be affected by the blackout in School. This perk doesn't take space.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: Medicaments
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: Medicaments increase your ability to see items significantly further.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: Lifesaver
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: After having revived a teammate, you see items within bigger range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: Good Start
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: Before your first teammate dies, you are more stealthy and cautious. Enemy chase radius is decreased and you see enemy's aura. Activates automatically when the match begins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: Care Taker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: Enemy chase radius is decreased for revived teammate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: Caution
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: Your caution allows you to see enemy's aura each time you pick up object for the first time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: Sense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: 'After having turned off your flashlight, you see crawler''s aura. Cooldown: 30 seconds.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: Leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: You see items within bigger range when you're near your teammate.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: Note Taker
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: Important objects that you walked by are marked on your map.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: For Survivors
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: 'When activated, enemy chase radius is increased by 100% for you, decreased <color=#17fc03>x%</color> for others. Effect duration: 1 minute.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: Soul Guard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: After being revived, you see enemy's aura.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: Wake Up
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: When one of your teammate gets into dying state, you see items within longer range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: Death Revenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: You start to see enemy's aura after one of your teammates gets killed.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: Left Behind
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: When away by more than 7 meters from your teammates, there's a chance that the enemy won't chase you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: Team Revenge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: When you are left alone, you are more stealthy. Enemy chase radius is decreased and you see enemy's aura.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: Shock
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: Once finding a dead body, you gain extra range in seeing enemy's aura.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: Gotcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: Grabbing found item gives you ability to see items within bigger range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: Sole Survivor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: Each time one of your teammate dies, enemy's chase radius is decreased by <color=#17fc03>x%</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: Sixth Sense
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: When you complete task, you see enemy aura.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: We'll make it
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: After one of the teammates got revived, you are filled with enthusiasm and you see items within bigger range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: Empathy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: You see teammate aura who is in dying state.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: Bond
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: You are better off together. When near your teammates within 10 meters range, you see enemy's aura.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: Insanity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: You randomly see enemy's aura for the duration of <color=#17fc03>x</color> seconds (every 1-3 minutes).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: Hope
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: You have a strong hope. You randomly see items within bigger range for the duration of <color=#17fc03>x</color> seconds (every 1-3 minutes).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: Distortion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: Ghost doesn't feel you behind walls and won't chase you if you're in ghost's chase radius.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: Eagle Eye
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: You see one object from a great distance.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: Traps removal speed increased. This perk doesn't take space.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: You have a chance of avoiding bear trap, cooldown 10 sec. This perk doesn't take space.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: While in chase, every player receives ability to see items within bigger range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: Overcharge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: Stealth Potion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: Black Mold
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: Black Hole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: Recon Device
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: Freeze Trapwire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: Garlic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: Item Teleporter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: Ghost Teleporter
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: Security Camera
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: Pursuit Surge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: Guardian Grace
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: Reverse State
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: Second Soul
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: Ethereal Resurgence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: Forgotten Memory
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: Ghost Cage
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: Item Mirror
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: Force Waves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: Ghost Wall
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: Telepathy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: Resurrection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: Mind Control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: Your flashlight won't turn off in school.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: When used you become invisible for enemy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: Black mold slows down enemies when they step into the mold. Some ghosts may deactivate perk manually.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: Items that your teammates walk by will be visible for you.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: Revive all teammates on use.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: Drags enemies into a black hole.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: When in chase and enemy gets near, your movement speed is boosted and you see enemy aura.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: After being revived, you are granted <color=#17fc03>x</color> seconds of ghost immunity.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: You have pulsating waves that push enemies away. Unlimited duration.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: Spawns wall through which ghost won’t be able to pass. Some ghosts may deactivate perk manually.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: Christmas Trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: Lurks enemies towards the trap.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: EMF Reader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: Detects enemy's presence when pointed within 50 meters range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: Healer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: Heals every player within 5 meters in <color=green>x</color> seconds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: Cameras are setup around the map, they will notify you when enemy movement is detected. Use your device to check the location of enemy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: Grasp Master
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: Automatically picks up items around you, with increased range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: Holy Book
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: 'Prevents death once. Range: 10 meters'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: You travel 10x faster as a "soul" and can find items. Effect is active for some duration or until you're attacked by ghost.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: Premonition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: You're shown a player who will likely die during the next 5 minutes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: Speed Boots
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: Permanent movement speed boost. This perk doesn't take space.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: Outline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: Important items are visible through walls. This perk doesn't take space.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: One Rises
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: You are instantly revived when you are in dying state and one of your teammates goes into dying state.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: The Carry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: When carrying items, you see enemy aura in range.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: Death Trap
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: When you are in dying state, enemy speed is decreased.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: Self Care
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: You will be revived on first death. You also have a chance to stand up on next death.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: Medic
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: Your medical expertise lets you revive others without a medkit.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: Gift of Recovery
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: The ghost will get trapped in a cage when attack starts.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: Ghost ends the chase once it loses sight of you for some time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: You have a gift of recovery - after being revived, your movement speed is increased by <color=green>%</color>, enemy speed is decreased by <color=yellow>%</color>. The perk is active for X seconds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: You control the ghost for the next few seconds.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: Cursed Doll
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: Cursed doll moves very quickly and attracts enemies.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: Ghost Path
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: Wildcard
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: Shows the enemy’s predicted movement as glowing footsteps on the ground.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: Replaces a random perk at start. After death, the perks of all survivors can be used again.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: Adrenaline Shot
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: Once used, your speed is greatly increased for a limited time.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: Crowbar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: Allows you to pry open locked doors
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

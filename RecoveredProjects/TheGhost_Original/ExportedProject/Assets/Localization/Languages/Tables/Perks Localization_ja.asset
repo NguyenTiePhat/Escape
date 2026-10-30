@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_ja
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ja
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: 救急
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: 蘇生速度が上昇します。この特典は場所を取りません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: タイプ：アイテム
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: スピード：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: 秒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: 範囲：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: メートル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: 持続時間：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: 機会：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: 半径：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: タイプ：スキル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: タイプ：状況
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: タイプ：ギフト
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: 死亡あたりの％
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: 追跡範囲：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: 死亡あたりのメートル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: 塩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: ゴーストが塩のエリアに侵入するのを防ぎます。ゴーストによっては、このパークを手動で解除する場合があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: 十字架
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: ゴースト攻撃を防ぎます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: フラッシュバン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: 使用すると敵は目がくらんで動けなくなる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: 停電なし
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: 学校の停電の影響がなくなる可能性があります。この特典は場所を取りません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: 薬
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: 薬を使用すると、物を見る能力が大幅に向上します
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: 命の恩人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: チームメイトを復活させた後、より広い範囲内にアイテムが表示されます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: 良いスタート
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: 最初のチームメイトが死ぬ前に、あなたはよりこっそりと慎重になります。敵の追跡半径が減少し、指定された範囲内に敵のオーラが表示されます。試合開始時に自動的に発動
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: 介護者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: チームメイトが復活した場合、敵の追跡半径が減少します
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: 注意
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: 慎重になると、初めてオブジェクトを拾うたびに、指定された範囲内で敵のオーラが見えるようになります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: 検出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: '懐中電灯を消すと、指定された範囲内にクローラーのオーラが見えます。クールダウン: 30秒'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: リーダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: チームメイトの近くにいると、より広い範囲内のアイテムが表示されます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: ノートテイカー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: あなたが通りかかった重要なオブジェクトはあなたの地図上にマークされています
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: 生存者のために
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: 発動すると、敵の追跡半径があなたに対しては100％増加し、他の人に対しては<color=#17fc03>x％</color>減少します。効果持続時間：1分
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: ソウルガード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: 復活後、指定範囲内に敵のオーラが見える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: 起きろ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: チームメイトの1人が瀕死の状態になると、より長い範囲内にアイテムが表示されます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: 死の復讐
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: チームメイトの一人が殺された後、敵のオーラが見え始める
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: レフトビハインド
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: チームメイトから7メートル以上離れると、敵があなたを追わなくなる可能性があります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: チームリベンジ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: 一人にしておくと、より隠密になります。敵の追跡半径が減少し、特定の範囲内で敵のオーラが見えるようになります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: ショック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: 死体を見つけると、敵のオーラを確認できる範囲がさらに広がります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: ガッチャ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: 拾ったアイテムを掴むと、より広い範囲内のアイテムを確認できるようになります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: 唯一の生存者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: チームメイトの1人が死亡するたびに、敵の追跡半径が<color=#17fc03>x％</color>減少します
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: 第六感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: タスクを完了すると敵のオーラが見える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: 私たちならできる
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: チームメイトの一人が復活した後、あなたは熱意に満たされ、より広い範囲内にアイテムが表示されます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: 共感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: 指定範囲内で瀕死状態の味方のオーラが見える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: つなぐ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: 一緒にいるほうがいいよ。 10メートル以内のチームメイトの近くにいると、半径内に敵のオーラが見えます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: 狂気
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: '<color=#17fc03>x</color> 秒間、半径内に敵のオーラがランダムに表示されます（1～3 分ごと）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: 望み
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: あなたは強い希望を持っています。 <color=#17fc03>x</color> 秒間（1～3 分ごと）、より広い範囲内のアイテムがランダムに表示されます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: ねじれ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: ゴーストは壁の向こうにいるあなたを感じず、あなたが彼女の追跡半径内にいる場合は追いかけません
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: 鋭い目
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: 遠くから一つの物体が見える
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: トラップの除去速度が増加しました。この特典は場所を取りません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: クマトラップを回避するチャンスがあります。クールダウンは 10 秒です。この特典は場所を取りません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: 追跡中、すべてのプレイヤーはより広い範囲内のアイテムを確認できるようになります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: 過充電
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: ステルスポーション
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: 黒カビ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: ブラックホール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: 偵察装置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: フリーズトラップワイヤー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: ニンニク
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: アイテムテレポーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: ゴーストテレポーター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: 防犯カメラ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: 追跡サージ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: ガーディアングレース
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: 逆状態
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: セカンドソウル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: エーテルの復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: 忘れられた記憶
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: ゴーストケージ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: アイテムミラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: フォースウェーブ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: ゴーストウォール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: テレパシー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: 復活
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: マインドコントロール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: 学校では懐中電灯が消えない
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: 使用すると敵から見えなくなります
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: 黒カビは敵がカビに足を踏み入れると速度を低下させます。一部のゴーストは手動で特典を無効にする場合があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: チームメイトが通り過ぎるアイテムがあなたに表示されます
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: 使用すると、すべてのチームメイトを蘇生させる。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: 敵をブラックホールに引きずり込みます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: 追跡中に敵が指定範囲内に入ると、移動速度が上昇し、敵のオーラが表示されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: 復活後、<color=#17fc03>x</color> 秒間のゴースト耐性が付与されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: 敵を押しのける脈動波があります。期間は無制限。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: ゴーストが通過できない壁が出現します。一部のゴーストは手動で特典を無効にする場合があります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: クリスマスの罠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: 敵を罠に向かっておびき寄せます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: EMFリーダー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: 指定された範囲内でゴースト方向に向けられると、デバイスがビープ音を鳴らします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: ヒーラー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: 5メートル以内にいるすべてのプレイヤーを<color=green>x</color>秒以内に回復します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: マップの周囲にカメラが設置されており、敵の動きを検知すると通知します。デバイスを使用してカメラをチェックし、敵の位置を確認します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: グラスプマスター
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: 周囲のアイテムを自動的に拾い、範囲が広がります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: 聖典
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: 一度だけ死を予防します。範囲：10メートル
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: 「魂」として移動すると10倍の速度で移動でき、アイテムを見つけることができます。効果は一定時間、またはゴーストに攻撃されるまで有効です。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: 予感
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: 今後5分以内に死亡する可能性のあるプレイヤーが表示されます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: スピードブーツ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: 永続的に移動速度をブーストします。この特典は場所を取りません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: アウトライン
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: 重要なアイテムは壁の後ろに隠れて見えます。この特典は場所を取りません。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: ワン・ライゼス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: あなたが瀕死状態で、チームメイトの1人も瀕死状態になると、あなたは即座に復活します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: キャリー
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: アイテムを運んでいる間、範囲内の敵のオーラが見えます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: デストラップ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: 瀕死状態になると敵のスピードが遅くなります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: セルフケア
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: 一度死んだら復活します。また、次の死の際にも立ち上がるチャンスがあります。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: メディック
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: 医療の専門知識により、医療キットなしで他者を蘇生させることができます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: ゴーストは、しばらくあなたを見失うと追跡を終了します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: 回復の才能を持つ。蘇生後、自身の移動速度が<color=green>%</color>増加し、敵の速度が<color=yellow>%</color>減少する。この効果はX秒間有効。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: 次の数秒間、あなたはゴーストをコントロールします。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: 攻撃が始まるとゴーストは檻の中に閉じ込められます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: 回復の贈り物
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: 呪われた人形
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: 呪われた人形は非常に素早く動き、敵を引き寄せます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: ゴーストパス
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: ワイルドカード
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: 敵の予測移動を、地面に光る足跡として表示します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: 開始時にランダムなパークを1つ置き換えます。死亡後、全ての生存者のパークを再び使用できます。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: アドレナリンショット
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: 使用すると、一定時間、移動速度が大幅に上昇します。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: バール
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: 鍵のかかったドアをこじ開けられる
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_ko
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ko
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: 메디킷
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: 소생 속도가 증가합니다. 이 특전은 공간을 차지하지 않습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: '유형: 항목'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: '속도:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: 초
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: '범위:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: 미터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: '지속:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: '가능성:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: '반지름:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: '유형: 기술'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: '유형: 상황별'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: '유형: 선물'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: 사망당 %
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: '추적 범위:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: 사망당 미터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: 소금
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: 유령이 소금 구역에 들어가는 것을 방지합니다. 일부 유령은 특전을 수동으로 비활성화할 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: 십자가
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: 유령 공격 방지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: 플래시뱅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: 사용 시 적은 눈이 멀게 되어 움직이지 않게 됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: 정전 없음
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: 학교 정전으로 인해 더 이상 영향을 받지 않을 가능성이 있습니다. 이 특전은 공간을 차지하지 않습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: 약제
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: 약물은 항목을 훨씬 더 멀리 볼 수 있는 능력을 향상시킵니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: 생명의 은인
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: 팀원을 부활시킨 후 더 넓은 범위의 아이템을 볼 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: 좋은 시작
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: 첫 번째 팀원이 죽기 전에는 더욱 은밀하고 조심스러워집니다. 적의 추격 반경이 줄어들고, 지정된 범위 내에서 적의 오라가 보입니다. 경기가 시작되면 자동으로 활성화됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: 케어 테이커
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: 부활한 팀원의 적 추격 반경이 감소합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: 주의
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: 주의를 기울이면 처음으로 물체를 집을 때마다 지정된 범위 내에서 적의 오라를 볼 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: 감각
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: '손전등을 끈 후에는 지정된 범위 내에서 크롤러의 오라를 볼 수 있습니다. 쿨타임: 30초'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: 지도자
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: 팀원 근처에 있으면 더 넓은 범위 내의 항목이 표시됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: 노트 테이커
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: 당신이 걸었던 중요한 물건은 당신의 지도에 표시됩니다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: 생존자들을 위해
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: '활성화되면 적의 추격 반경이 자신에게는 100% 증가하고 다른 사람에게는 <color=#17fc03>x%</color> 감소합니다. 효과 지속 시간: 1분'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: 소울 가드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: 부활한 후 지정된 범위 내에서 적의 오라를 볼 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: 깨우다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: 팀원 중 한 명이 죽어가는 상태에 빠지면 더 먼 거리에 있는 아이템을 볼 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: 죽음의 복수
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: 팀원 중 한 명이 죽으면 적의 오라가 보이기 시작합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: 뒤에 남겨진
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: 팀원과 7미터 이상 떨어져 있으면 적군이 쫓아오지 않을 가능성이 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: 팀 복수
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: 혼자 남겨지면 더욱 은밀해집니다. 적의 추격 반경이 감소하고 일정 범위 내에서 적의 오라가 보입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: 충격
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: 시체를 찾으면 적의 오라를 볼 수 있는 범위가 추가로 늘어납니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: 갓챠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: 발견된 항목을 잡으면 더 넓은 범위 내의 항목을 볼 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: 유일한 생존자
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: 팀원 중 한 명이 죽을 때마다 적의 추격 반경이 <color=#17fc03>x%</color> 감소합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: 식스센스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: 작업을 완료하면 적의 오라가 보입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: 우리가 해낼거야
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: 팀원 중 한 명이 부활한 후 열정이 넘치고 범위가 더 넓어진 아이템을 볼 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: 공감
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: 특정 범위 내에서 죽어가는 팀원의 오라가 보입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: 유대
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: 당신은 함께하는 것이 더 좋습니다. 10m 범위 내에서 팀원 근처에 있으면 반경 내 적의 오라가 보입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: 광기
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: '<color=#17fc03>x</color>초 동안(1~3분마다) 반경 내에서 무작위로 적의 오라를 볼 수 있습니다.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: 희망
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: 당신은 강한 희망을 가지고 있습니다. <color=#17fc03>x</color>초 동안(1-3분마다) 더 큰 범위 내의 항목을 무작위로 봅니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: 왜곡
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: 고스트는 벽 뒤에 있는 당신을 느끼지 않으며 당신이 그녀의 추격 반경 안에 있다면 추격하지 않을 것입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: 독수리의 눈
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: 멀리서 하나의 물체가 보입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: 함정 제거 속도가 증가했습니다. 이 특전은 공간을 차지하지 않습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: 일정 확률로 곰덫을 피할 수 있습니다. 재사용 대기시간은 10초입니다. 이 특전은 공간을 차지하지 않습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: 추격하는 동안 모든 플레이어는 더 넓은 범위 내의 항목을 볼 수 있는 능력을 얻습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: 과충전
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: 스텔스 포션
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: 검은 곰팡이
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: 블랙홀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: 정찰 장치
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: 트랩와이어 동결
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: 마늘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: 아이템 텔레포터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: 고스트 텔레포터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: 보안 카메라
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: 추격 급증
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: 가디언 그레이스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: 역방향 상태
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: 두 번째 영혼
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: 에테르 부활
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: 잊혀진 기억
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: 고스트 케이지
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: 아이템 거울
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: 힘의 파동
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: 고스트 월
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: 텔레파시
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: 부활
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: 정신 지배
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: 학교에서는 손전등이 꺼지지 않습니다
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: 사용하면 적에게 투명해집니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: 검은 곰팡이는 적들이 곰팡이 안으로 들어갈 때 속도를 늦춥니다. 일부 유령은 특전을 수동으로 비활성화할 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: 팀원이 지나가는 항목이 표시됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: 사용 시 모든 팀원을 부활시킵니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: 적을 블랙홀로 끌어들입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: 추격 중 적이 특정 범위 내에 들어오면 이동 속도가 증가하고 적의 오라를 볼 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: 부활한 후에는 <color=#17fc03>x</color>초 동안 유령 면역이 부여됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: 적을 밀어내는 맥동하는 파도가 있습니다. 기간은 무제한입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: 유령이 통과할 수 없는 벽이 생성됩니다. 일부 유령은 특전을 수동으로 비활성화할 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: 크리스마스 트랩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: 적들을 함정 쪽으로 유인합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: EMF 리더
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: 지정된 범위 내에서 고스트 방향을 가리키면 장치에서 경고음이 울립니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: 치료자
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: 5미터 내의 모든 플레이어를 <color=green>x</color>초 안에 치료합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: 카메라는 지도 주변에 설치되어 적의 움직임이 감지되면 알려줍니다. 장치를 사용하여 카메라를 확인하고 적의 위치를 ​​알아보세요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: 잡기 마스터
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: 범위가 증가하여 주변의 항목을 자동으로 집습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: 성서
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: '사망을 한 번 예방합니다. 사거리: 10미터'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: '"영혼"이 되면 이동 속도가 10배 빨라지고 아이템을 찾을 수 있습니다. 효과는 일정 시간 동안 또는 유령에게 공격받을 때까지 지속됩니다.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: 예감
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: 다음 5분 안에 사망할 가능성이 높은 플레이어가 표시됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: 스피드 부츠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: 영구적으로 이동 속도가 증가합니다. 이 특전은 공간을 차지하지 않습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: 윤곽
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: 중요한 아이템은 벽 뒤에 보입니다. 이 특전은 공간을 차지하지 않습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: 하나의 부활
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: 당신이 빈사 상태에 빠지고 팀원 중 한 명이 빈사 상태에 빠지면 즉시 부활합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: 캐리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: 아이템을 운반하는 동안 범위 내에 적의 오라가 보입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: 데스 트랩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: 죽음의 상태에 빠지면 적의 속도가 감소합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: 자기 관리
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: 첫 번째 사망 시 부활할 수 있으며, 다음 사망 시 일어설 기회도 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: 메딕
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: 의학 전문 지식을 사용하면 구급상자 없이도 다른 사람을 부활시킬 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: 유령은 잠시 당신을 보지 못하게 되면 추격을 끝냅니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: 당신은 회복의 재능을 가지고 있습니다. 부활 후, 이동 속도가 <color=green>%</color> 증가하고, 적의 속도는 <color=yellow>%</color> 감소합니다. 이 특전은 X초 동안 유효합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: 다음 몇 초 동안 유령을 조종하세요.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: 공격이 시작되면 유령은 우리에 갇히게 됩니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: 회복의 선물
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: 저주받은 인형
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: 저주받은 인형은 매우 빠르게 움직이며 적을 끌어들입니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: 고스트 패스
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: 와일드카드
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: 적의 예상 이동 경로를 땅에 빛나는 발자국으로 표시합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: 게임 시작 시 무작위 특성 하나를 대체합니다. 사망 후에는 모든 생존자의 특성을 다시 사용할 수 있습니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: 아드레날린 주사
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: 사용 시 일정 시간 동안 이동 속도가 대폭 증가합니다.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: 쇠지렛대
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: 잠긴 문을 강제로 열 수 있습니다
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

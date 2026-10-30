@@ -1,0 +1,30 @@
+BEFORE
+Walk (24.00, 2.06, 58.00) -> (18.00, 2.06, 58.00): BLOCKED actual=(23.14, 2.02, 58.00)
+Walk (18.00, 2.06, 60.00) -> (32.00, 2.06, 60.00): BLOCKED actual=(22.47, 2.25, 59.98)
+Walk (18.00, 2.06, 61.20) -> (32.00, 2.06, 61.20): BLOCKED actual=(27.98, 2.03, 61.20)
+Disabled invalid scene-batch collider: Level/SchoolModel/Interior/Corridors/CorridorDetails/WetFloorSign_B_LOD1 mesh=Combined Mesh (root: scene) 6
+Disabled invalid scene-batch collider: Level/SchoolModel/Interior/LockerRoom/CeilingTilePieceA mesh=Combined Mesh (root: scene) 9
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/Merge/WallOutside_4m_WindowSingle (2) mesh=Combined Mesh (root: scene) 5
+Disabled invalid scene-batch collider: Level/SchoolPropsContent/LockerRoom1 (1)/CeilingTilePieceB mesh=Combined Mesh (root: scene) 11
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/Merge/WallOutside_CornerInside mesh=Combined Mesh (root: scene) 5
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/WallOutside_CornerOutside_Window mesh=Combined Mesh (root: scene) 7
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/WallOutside_CornerOutside_Window (3) mesh=Combined Mesh (root: scene) 7
+Disabled invalid scene-batch collider: Level/SchoolPropsContent/Toilet04 (1)/ToiletCabinWallEx_1__combined_static mesh=Combined Mesh (root: scene) 9
+Disabled invalid scene-batch collider: Level/SchoolPropsContent/Toilet04 (1)/WetFloorSign_A_LOD1 mesh=Combined Mesh (root: scene) 6
+Disabled invalid scene-batch collider: Level/SchoolModel/Interior/Corridors/CorridorDetails/WallInterior_DoorwayNarrow (16) mesh=Combined Mesh (root: scene) 6
+Disabled invalid scene-batch collider: Level/SchoolPropsContent/EasterEggRoom/WetFloorSign_A_LOD1 mesh=Combined Mesh (root: scene) 8
+Disabled invalid scene-batch collider: Level/SchoolModel/Interior/Toilet01/ToiletCabinWallEx_combined_static mesh=Combined Mesh (root: scene) 6
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/WallOutside_4m (3) mesh=Combined Mesh (root: scene) 6
+Disabled invalid scene-batch collider: Level/SchoolPropsContent/SecurityRoom (1)/CeilingTilePieceA (2) mesh=Combined Mesh (root: scene) 7
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/Merge/WallOutside_4m_WindowSingle mesh=Combined Mesh (root: scene) 7
+Disabled invalid scene-batch collider: Level/SchoolPropsContent/Toilet03 (1)/ToiletCabinWallEx_1__combined_static mesh=Combined Mesh (root: scene) 18
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/Merge/WallOutside_CornerInside (1) mesh=Combined Mesh (root: scene) 6
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/WallOutside_CornerInside (2) mesh=Combined Mesh (root: scene) 5
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/Merge/WallOutside_4m_DoorwayWide mesh=Combined Mesh (root: scene) 5
+Disabled invalid scene-batch collider: Level/SchoolModel/OuterBuilding/WallOutside_4m (4) mesh=Combined Mesh (root: scene) 6
+Disabled invalid scene-batch collider: Level/SchoolModel/Interior/Corridors/CorridorDetails/WetFloorSign_A_LOD1 mesh=Combined Mesh (root: scene) 5
+AFTER
+Walk (24.00, 2.06, 58.00) -> (18.00, 2.06, 58.00): PASS actual=(18.00, 2.03, 58.00)
+Walk (18.00, 2.06, 60.00) -> (32.00, 2.06, 60.00): PASS actual=(32.00, 2.03, 60.00)
+Walk (18.00, 2.06, 61.20) -> (32.00, 2.06, 61.20): PASS actual=(32.00, 2.03, 61.20)
+Movement checks: PASS

@@ -1,0 +1,75 @@
+PLAYER (27.01, 2.10, 57.61) forward=(0.00, 0.00, 1.00)
+RoomWalls(Trace) | Center: (26.01, 7.80, 36.40), Extents: (45.45, 5.85, 37.67) | mesh=RoomWalls | mats= | collider=130
+TeacherTable2 | Center: (13.00, 2.40, 68.52), Extents: (10.36, 0.46, 4.25) | mesh=Combined Mesh (root: scene) 12 | mats=TeacherTable_mtl | collider=0
+BloodDecals | Center: (13.01, 2.48, 62.57), Extents: (10.21, 0.38, 10.07) | mesh=Combined Mesh (root: scene) 2 | mats=M_EasterEgg | collider=0
+Cube.054 | Center: (22.22, 3.01, 56.05), Extents: (0.39, 1.06, 0.01) | mesh=Combined Mesh (root: scene) 12 | mats=M_Rust | collider=1
+Lamps_combined_static | Center: (18.20, 7.19, 46.81), Extents: (2.61, 0.07, 8.68) | mesh=Combined Mesh (root: scene) 5 | mats=LampFluoBuiltin_OFF_mtl | collider=0
+Canopy_MainEntrance | Center: (35.92, 4.58, 65.18), Extents: (4.06, 2.85, 1.52) | mesh=Combined Mesh (root: scene) 21 | mats=ExteriorModules_mtl | collider=0
+DoorNarrowSolid_mesh | Center: (19.50, 3.38, 62.41), Extents: (0.74, 1.44, 0.17) | mesh=Combined Mesh (root: scene) 4 | mats=DoorNarrow_mtl | collider=0
+FloorCorridors_2nd | Center: (49.43, 8.45, 57.20), Extents: (20.80, 0.00, 15.60) | mesh=Combined Mesh (root: scene) 10 | mats=FloorMosaic_mtl | collider=5
+LibraryChair | Center: (19.45, 2.72, 66.90), Extents: (1.89, 0.79, 4.21) | mesh=Combined Mesh (root: scene) 11 | mats=LibraryTable_mtl | collider=0
+LampFluo | Center: (13.43, 7.14, 61.53), Extents: (6.52, 0.01, 7.81) | mesh=Combined Mesh (root: scene) 11 | mats=LampFluoBuiltin_OFF_mtl | collider=0
+Vent | Center: (30.24, 4.47, 47.74), Extents: (6.52, 2.42, 3.94) | mesh=Combined Mesh (root: scene) 10 | mats=Vent_mtl | collider=2
+Cube.054 | Center: (23.86, 3.01, 56.24), Extents: (0.35, 1.06, 0.19) | mesh=Combined Mesh (root: scene) 10 | mats=M_Rust | collider=1
+MyHidingBoxBody_001.027 | Center: (23.07, 3.02, 56.45), Extents: (0.41, 1.06, 0.39) | mesh=Combined Mesh (root: scene) 11 | mats=M_Rust | collider=1
+VentRoom | Center: (31.20, 4.55, 46.17), Extents: (7.80, 2.60, 5.83) | mesh=Combined Mesh (root: scene) 10 | mats=Wall01_mtl | collider=0
+MyHidingBoxBody_001.027 | Center: (22.22, 3.02, 56.45), Extents: (0.41, 1.06, 0.39) | mesh=Combined Mesh (root: scene) 11 | mats=M_Rust | collider=1
+Cube.054 | Center: (23.07, 3.01, 56.04), Extents: (0.39, 1.06, 0.01) | mesh=Combined Mesh (root: scene) 10 | mats=M_Rust | collider=1
+Cube.054 | Center: (21.39, 2.99, 56.44), Extents: (0.41, 1.03, 0.28) | mesh=Combined Mesh (root: scene) 10 | mats=M_Rust | collider=1
+MyHidingBoxBody_001.027 | Center: (23.91, 3.02, 56.45), Extents: (0.41, 1.06, 0.39) | mesh=Combined Mesh (root: scene) 10 | mats=M_Rust | collider=5
+GameObject_combined_static | Center: (49.99, 0.01, 55.57), Extents: (32.06, 0.00, 26.03) | mesh=GameObject_combined_static | mats=M_PavingStone | collider=0
+SecondHallwayEntries(NoTrace) | Center: (46.80, 11.05, 52.00), Extents: (18.20, 2.60, 5.20) | mesh=SecondHallwayEntries | mats= | collider=3
+WallOutside_4m_WindowSingle | Center: (31.29, 3.99, 63.68), Extents: (2.68, 3.99, 1.33) | mesh=Combined Mesh (root: scene) 7 | mats=ExteriorModules_mtl | collider=6
+Map | Center: (23.22, 4.51, 66.47), Extents: (0.17, 0.86, 1.30) | mesh=Combined Mesh (root: scene) | mats=GlobeMap_mtl | collider=0
+Stairs_MainEntrance (1) | Center: (35.93, 1.35, 67.19), Extents: (4.00, 1.40, 3.51) | mesh=Stairs_MainEntrance | mats=M_MainEntranceStairs | collider=0
+FirstHallwayWalls | Center: (31.85, 4.55, 50.05), Extents: (39.65, 2.60, 13.65) | mesh=Combined Mesh (root: scene) 10 | mats=WallWithTiles_mtl | collider=0
+Cube.054 | Center: (22.21, 1.95, 55.51), Extents: (1.10, 0.01, 0.51) | mesh=Combined Mesh (root: scene) 10 | mats=M_Rust | collider=1
+CeilingTilePiece | Center: (12.98, 2.41, 59.11), Extents: (10.40, 0.46, 6.65) | mesh=Combined Mesh (root: scene) 11 | mats=CeilingAcoustic_mtl | collider=0
+MyHidingBoxBody_001.027 | Center: (22.22, 2.36, 55.51), Extents: (1.10, 0.39, 0.52) | mesh=Combined Mesh (root: scene) 11 | mats=M_Rust | collider=1
+CeilingTilePieceA.002 | Center: (36.40, 2.02, 56.48), Extents: (2.28, 0.07, 3.39) | mesh=Combined Mesh (root: scene) 10 | mats=CeilingAcoustic_mtl | collider=0
+WallOutside_CornerInside | Center: (26.74, 3.99, 65.66), Extents: (2.04, 3.99, 1.96) | mesh=Combined Mesh (root: scene) 5 | mats=ExteriorModules_mtl | collider=2
+SecondHallwayWithoutEntries(Trace) | Center: (50.02, 11.05, 52.00), Extents: (21.42, 2.60, 11.67) | mesh=SecondHallwayWithoutEntries | mats= | collider=40
+1stFloorBarricade (2) | Center: (28.47, 3.84, 54.60), Extents: (2.40, 1.90, 2.29) | mesh=Combined Mesh (root: scene) 11 | mats=ArchiveDrawers_mtl,TeacherTable_mtl,Bookcase_mtl,Rostrums_mtl | collider=0
+2ndHallwayWalls | Center: (50.02, 11.05, 52.00), Extents: (21.42, 2.60, 11.67) | mesh=Combined Mesh (root: scene) 11 | mats=WallWithTiles_mtl | collider=0
+FirstCeiling (1) | Center: (26.00, 7.26, 54.60), Extents: (44.20, 0.41, 18.20) | mesh=Combined Mesh (root: scene) 11 | mats=CeilingAcoustic_mtl | collider=7
+HallwayRoom1 | Center: (13.00, 4.55, 62.98), Extents: (15.60, 2.60, 11.09) | mesh=Combined Mesh (root: scene) 10 | mats=Wall01_mtl | collider=33
+MyTerrain | Center: (33.93, 0.00, 52.13), Extents: (81.68, 0.00, 81.68) | mesh=Combined Mesh (root: scene) 14 | mats=M_Ground | collider=6
+TeacherTable02_static (8) | Center: (22.89, 2.40, 65.25), Extents: (0.47, 0.46, 0.98) | mesh=TeacherTable | mats=TeacherTable_mtl | collider=1
+MyHidingBoxBody_001.027 | Center: (21.38, 3.02, 56.45), Extents: (0.41, 1.06, 0.39) | mesh=Combined Mesh (root: scene) 10 | mats=M_Rust | collider=1
+WallOutside_2f_4m_WindowSingle_B (1) | Center: (31.29, 11.09, 63.22), Extents: (2.68, 3.39, 0.87) | mesh=Combined Mesh (root: scene) 6 | mats=ExteriorModules_mtl | collider=0
+WallOutside_2f_CornerInside_B | Center: (26.74, 11.10, 65.66), Extents: (2.04, 3.39, 1.96) | mesh=Combined Mesh (root: scene) 5 | mats=ExteriorModules_mtl | collider=0
+FirstFloor (1) | Center: (26.65, 1.95, 54.60), Extents: (44.85, 0.00, 18.20) | mesh=FirstFloor | mats=FloorMosaic_mtl | collider=4
+Lamps_combined_static | Center: (38.13, 6.56, 54.60), Extents: (14.74, 1.11, 0.88) | mesh=Combined Mesh (root: scene) 5 | mats=LampFluoBuiltin_OFF_mtl | collider=0
+Glass_WindowSingle_BrokenB | Center: (30.75, 4.32, 63.65), Extents: (0.58, 1.20, 0.01) | mesh=Combined Mesh (root: scene) 6 | mats=DoorMain_Glass_mtl | collider=0
+COL FirstFloor (1) Center: (20.73, 1.13, 56.40), Extents: (2.83, 0.84, 16.40) trigger=False
+COL Mặt bàn Center: (27.01, 2.80, 58.81), Extents: (0.63, 0.04, 0.33) trigger=False
+COL FirstFloor (1) Center: (36.66, 1.30, 52.04), Extents: (13.46, 0.68, 11.79) trigger=False
+COL MyHidingBoxBody_001.027 Center: (24.31, 3.02, 56.45), Extents: (0.01, 1.06, 0.39) trigger=False
+COL Chân bàn Center: (26.49, 2.37, 58.57), Extents: (0.03, 0.39, 0.03) trigger=False
+COL Rotated Box Collider Center: (27.92, 3.80, 53.99), Extents: (0.82, 1.24, 1.22) trigger=False
+COL Chân bàn Center: (27.53, 2.37, 58.57), Extents: (0.03, 0.39, 0.03) trigger=False
+COL MyHidingBoxBody_001.027 Center: (23.91, 4.08, 56.45), Extents: (0.41, 0.01, 0.39) trigger=False
+COL Đầu đèn pin Center: (27.29, 2.89, 58.97), Extents: (0.06, 0.06, 0.03) trigger=False
+COL Dòng chữ Center: (26.77, 2.85, 58.75), Extents: (0.00, 0.00, 0.00) trigger=False
+COL Dòng chữ Center: (26.77, 2.85, 58.72), Extents: (0.00, 0.00, 0.00) trigger=False
+COL Rotated Box Collider Center: (26.62, 2.81, 53.69), Extents: (0.54, 0.86, 0.64) trigger=False
+COL Rotated Box Collider Center: (28.84, 2.60, 54.41), Extents: (0.35, 0.65, 1.19) trigger=False
+COL Kính đèn pin Center: (27.29, 2.89, 59.01), Extents: (0.04, 0.04, 0.00) trigger=False
+COL GFX Center: (24.22, 2.01, 56.68), Extents: (0.07, 0.09, 0.07) trigger=False
+COL Đèn pin — E để nhặt Center: (27.29, 2.89, 58.81), Extents: (0.04, 0.04, 0.15) trigger=False
+COL Cube.054 Center: (23.86, 3.01, 56.24), Extents: (0.35, 1.06, 0.20) trigger=False
+COL Chân bàn Center: (26.49, 2.37, 59.05), Extents: (0.03, 0.39, 0.03) trigger=False
+COL Dòng chữ Center: (26.77, 2.85, 58.83), Extents: (0.00, 0.00, 0.00) trigger=False
+COL Dòng chữ Center: (26.77, 2.85, 58.87), Extents: (0.00, 0.00, 0.00) trigger=False
+COL Dòng chữ Center: (26.77, 2.85, 58.90), Extents: (0.00, 0.00, 0.00) trigger=False
+COL Dòng chữ Center: (26.77, 2.85, 58.68), Extents: (0.00, 0.00, 0.00) trigger=False
+COL Chân bàn Center: (27.53, 2.37, 59.05), Extents: (0.03, 0.39, 0.03) trigger=False
+COL FirstHallwayWithoutEntries(Trace) Center: (24.70, 4.55, 56.87), Extents: (7.80, 2.60, 0.00) trigger=False
+COL Rotated Box Collider Center: (27.63, 3.81, 54.64), Extents: (0.44, 1.93, 2.33) trigger=False
+COL MyHidingBoxBody_001.027 Center: (23.91, 3.02, 56.84), Extents: (0.41, 1.06, 0.00) trigger=False
+COL Dòng chữ Center: (26.77, 2.85, 58.79), Extents: (0.00, 0.00, 0.00) trigger=False
+COL Rotated Box Collider Center: (28.90, 3.51, 54.85), Extents: (0.39, 0.26, 0.66) trigger=False
+COL MyHidingBoxBody_001.027 Center: (23.91, 1.95, 56.45), Extents: (0.41, 0.00, 0.39) trigger=False
+COL Tờ giấy — E để đọc Center: (26.77, 2.85, 58.81), Extents: (0.16, 0.01, 0.19) trigger=False
+COL RECOVERY — School Explorer Center: (27.01, 3.00, 57.61), Extents: (0.28, 0.90, 0.28) trigger=False
+COL WindHowling (3) Center: (35.97, 10.41, 83.38), Extents: (26.00, 26.00, 26.00) trigger=True

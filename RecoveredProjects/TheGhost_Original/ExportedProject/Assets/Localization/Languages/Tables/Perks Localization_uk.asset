@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_uk
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: uk
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: Аптечка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: Збільшує швидкість оживлення. Цей перк не займає місця.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: 'Тип: Річ'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: 'швидкість:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: секунд
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: 'Діапазон:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: Метри
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: 'Тривалість:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: 'Шанс:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: 'Радіус:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: 'Тип: Майстерність'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: 'Тип: Ситуаційний'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: 'Тип: Дар'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: '% за смерть'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: 'Дальність переслідування:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: Метрів за смерть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: Сіль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: Запобігає потраплянню привида в зону солі. Деякі привиди можуть деактивувати здібність вручну.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: Розп'яття
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: Запобігає нападу привида
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: Світлозвукова граната
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: При використанні ворог засліплюється і не рухається
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: Без блекауту
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: Є ймовірність, що відключення світла в школі більше не вплине на вас. Цей перк не займає місця.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: Ліки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: Ліки покращують вашу здатність бачити предмети значно далі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: Рятівник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: Після оживлення товариша по команді ви бачите предмети в більшому діапазоні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: Файний початок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: Перш ніж помре ваш перший товариш по команді, ви більш непомітні та обережні. Радіус переслідування ворога зменшується, і ви бачите ауру ворога в межах зазначеного діапазону. Активується автоматично, коли починається матч
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: Ангел охоронець
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: Радіус переслідування ворога зменшено для ожилого товариша по команді
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: Обережність
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: Ваша обережність дозволяє бачити ауру ворога в межах заданого діапазону кожного разу, коли ви берете предмет вперше
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: Відчуття
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: 'Вимкнувши ліхтарик, ви бачите ауру Краулера. Час відновлення: 30 секунд.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: Лідер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: Ви бачите предмети в більшій радіусі, коли перебуваєте поруч зі своїм товаришем по команді
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: Нотаток
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: Важливі об'єкти, повз які ви проходили, позначені на вашій мапі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: Заради інших
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: 'При активації радіус переслідування ворогом збільшується на 100% для вас і зменшується на <color=#17fc03>x%</color> для інших. Тривалість ефекту: 1 хвилина.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: Страж душі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: Після оживлення ви бачите ауру ворога в межах заданого діапазону
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: Прокидайся
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: Коли один із ваших товаришів по команді вмирає, ви бачите предмети на більшій відстані
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: Смертельна помста
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: Ви починаєте бачити ауру ворога після того, як одного з ваших товаришів по команді вбивають
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: Покинутий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: Коли ви знаходитесь на відстані більше 7 метрів від ваших товаришів по команді, є ймовірність, що ворог не переслідуватиме вас
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: Кровна помста
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: Коли ви залишаєтесь наодинці, ви більш непомітні. Радіус переслідування ворога зменшено, і ви бачите ауру ворога в певному діапазоні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: Шок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: Знайшовши мертве тіло, ви отримуєте додаткову дальність бачення аури ворога
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: Попався!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: Захоплення знайденого предмета дає вам можливість бачити предмети в більшому діапазоні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: Вцілілий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: Кожного разу, коли один із ваших товаришів по команді гине, радіус переслідування ворогом зменшується на <color=#17fc03>x%</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: Шосте почуття
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: Коли ви виконуєте завдання, ви бачите ауру ворога
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: Ми впораємось
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: Після оживлення одного з товаришів по команді ви сповнюєтеся ентузіазмом і бачите предмети в більшому діапазоні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: Емпатія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: Ви бачите ауру товариша по команді, який помирає, у вказаному діапазоні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: Союз
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: Вам краще разом. Коли ваші товариші по команді знаходяться в радіусі 10 метрів, ви бачите ауру ворога в радіусі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: Божевілля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: Ви випадково бачите ауру ворога в радіусі протягом <color=#17fc03>x</color> секунд (кожні 1-3 хвилини)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: Надія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: Ви маєте сильну надію. Ви випадково бачите елементи у більшому діапазоні протягом <color=#17fc03>x</color> секунд (кожні 1-3 хвилини)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: Ілюзія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: Привид не відчуває вас за стінами і не буде переслідувати, якщо ви перебуваєте в радіусі його погоні
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: Орлине око
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: Ви бачите один предмет здалеку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: Збільшена швидкість на видалення пасток. Цей перк не займає місця.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: У вас є шанс уникнути ведмежої пастки, час відновлення 10 секунд. Цей перк не займає місця.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: Під час погоні кожен гравець отримує можливість бачити предмети на більшій відстані
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: Перезаряд
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: Стелс-зілля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: Чорна цвіль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: Чорна діра
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: Розвідувальний пристрій
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: Заморозити пастку
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: часник
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: Телепорт предмета
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: Телепорт привидів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: Камера безпеки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: Сплеск переслідування
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: Милість охоронця
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: Зворотний стан
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: Друга душа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: Ефірне відродження
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: Забута пам'ять
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: Клітка-привид
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: Дзеркало предмета
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: Силові хвилі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: Стіна привидів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: Телепатія
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: Воскресіння
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: Контроль розуму
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: Ваш ліхтарик не вимикається в школі
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: При використанні ви стаєте невидимим для ворога
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: Чорна цвіль уповільнює ворогів, коли вони ступають у цвіль. Деякі привиди можуть деактивувати здібність вручну.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: Ви побачите предмети, повз які проходять ваші товариші по команді
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: Відроджує всіх товаришів по команді під час використання.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: Затягує ворогів у чорну діру.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: Коли ворог переслідує вас і наближається до заданої відстані, ваша швидкість пересування збільшується, і ви бачите ауру ворога.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: Після відродження ви отримуєте <color=#17fc03>x</color> секунд імунітету до привидів.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: У вас пульсуючі хвилі, які відштовхують ворогів. Необмежений термін дії.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: Створює стіну, через яку привид не зможе пройти. Деякі привиди можуть деактивувати здібність вручну.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: Різдвяна пастка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: Заманює ворогів до пастки.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: Зчитувач EMF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: Пристрій подає звуковий сигнал, коли його спрямовано в напрямку привида в межах зазначеного діапазону.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: Цілитель
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: Лікує кожного гравця в радіусі 5 метрів за <color=green>x</color> секунд.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: Навколо карти встановлено камери, які сповіщатимуть вас, коли буде виявлено рух ворога. Використовуйте свій пристрій, щоб перевірити камери та дізнатися місцезнаходження ворога.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: Майстер хвату
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: Автоматично підбирає предмети навколо вас із збільшеною дальністю.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: Священна книга
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: 'Запобігає смерті один раз. Дальність: 10 метрів'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: Ви подорожуєте в 10 разів швидше як "душа" та можете знаходити предмети. Ефект активний певний час або доки на вас не нападе привид.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: Передчуття
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: Вам показано гравця, який, ймовірно, помре протягом наступних 5 хвилин.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: Швидкісні чоботи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: Постійне підвищення швидкості руху. Цей перк не займає місця.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: Контур
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: Важливі предмети видно за стінами. Цей перк не займає місця.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: Один повстає
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: Ви миттєво відроджуєтеся, коли перебуваєте у стані смерті, і один з ваших товаришів по команді переходить у стан смерті.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: Перенесення предметів
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: Під час перенесення предметів ви бачите ворожу ауру в радіусі дії.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: Смертельна пастка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: Коли ви вмираєте, швидкість ворога зменшується.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: Самодогляд
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: Ви будете оживлені після першої смерті. У вас також буде шанс встати після наступної смерті.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: Медик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: Ваша медична експертиза дозволяє вам відроджувати інших без аптечки.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: Привид припиняє погоню, як тільки на деякий час втрачає вас з поля зору.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: У вас є дар відновлення — після відродження ваша швидкість руху збільшується на <color=green>%</color>, а швидкість ворога зменшується на <color=yellow>%</color>. Здібність активна протягом X секунд.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: Ви керуєте привидом протягом наступних кількох секунд.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: Привид потрапить у клітку, коли почнеться атака.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: Дар відновлення
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: Проклята лялька
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: Проклята лялька рухається дуже швидко та приваблює ворогів.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: Стежка привида
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: Джокер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: Показує передбачуваний рух ворога у вигляді сяючих слідів на землі.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: Замінює випадковий перк на початку. Після смерті перки всіх вцілілих можна використовувати знову.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: Ін'єкція адреналіну
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: Після використання ваша швидкість значно зростає на обмежений час.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: Лом
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: Дозволяє зламувати зачинені двері
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

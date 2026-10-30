@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_fr
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: fr
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: Kit médical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: Augmente la vitesse de réanimation. Cet avantage ne prend pas de place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: 'Genre : article'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: 'Vitesse:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: secondes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: 'Portée:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: Mètres
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: 'Durée:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: 'Chance:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: 'Rayon:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: 'Type : Compétence'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: 'Type : Situationnel'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: 'Genre: Cadeau'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: '% par décès'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: 'Gamme de poursuite :'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: Mètres par décès
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: Le sel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: Empêche le fantôme d'entrer dans la zone de sel. Certains fantômes peuvent désactiver l'avantage manuellement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: Crucifix
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: Empêche l'attaque fantôme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: Coup de flash
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: Lorsqu'il est utilisé, l'ennemi est aveuglé et ne bouge pas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: Pas de panne d'électricité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: Il est possible que vous ne soyez plus concerné par la panne d'électricité à l'école. Cet avantage ne prend pas de place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: Médicaments
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: Les médicaments augmentent votre capacité à voir les objets beaucoup plus loin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: Sauveur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: Après avoir réanimé un coéquipier, vous voyez des objets dans une plus grande portée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: Bon départ
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: Avant la mort de votre premier coéquipier, vous êtes plus furtif et plus prudent. Le rayon de poursuite de l'ennemi est réduit et vous voyez l'aura de l'ennemi dans la portée spécifiée. S'active automatiquement lorsque le match commence
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: Le concierge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: Le rayon de poursuite de l'ennemi est réduit pour le coéquipier réanimé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: Mise en garde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: Votre prudence vous permet de voir l'aura de l'ennemi dans une plage spécifiée chaque fois que vous ramassez un objet pour la première fois.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: Sens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: 'Après avoir éteint votre lampe de poche, vous voyez l''aura du Crawler. Temps de recharge : 30 secondes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: Leader
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: Vous voyez des objets dans une plus grande portée lorsque vous êtes près de votre coéquipier
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: Preneur de notes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: Les objets importants que vous avez croisés sont marqués sur votre carte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: Pour les survivants
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: 'Lorsqu''il est activé, le rayon de poursuite de l''ennemi est augmenté de 100 % pour vous, réduit de <color=#17fc03>x %</color> pour les autres. Durée de l''effet : 1 minute.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: Garde de l'âme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: Après avoir été réanimé, vous voyez l'aura de l'ennemi dans une portée spécifiée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: Se réveiller
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: Lorsqu'un de vos coéquipiers entre en état de mourir, vous voyez des objets à plus longue portée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: Mort Vengeance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: Vous commencez à voir l'aura de l'ennemi après la mort d'un de vos coéquipiers.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: Laissé pour compte
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: Lorsque vous êtes à plus de 7 mètres de vos coéquipiers, il est possible que l'ennemi ne vous poursuive pas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: Vengeance d'équipe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: Lorsque vous êtes seul, vous êtes plus furtif. Le rayon de poursuite de l'ennemi est réduit et vous voyez l'aura de l'ennemi dans une certaine portée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: Choc
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: Une fois que vous avez trouvé un cadavre, vous gagnez une portée supplémentaire pour voir l'aura de l'ennemi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: Je t'ai eu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: Saisir un objet trouvé vous donne la possibilité de voir les objets dans une plus grande portée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: Seul survivant
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: Chaque fois qu'un de vos coéquipiers meurt, le rayon de poursuite de l'ennemi est réduit de <color=#17fc03>x %</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: Sixième sens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: Lorsque vous accomplissez une tâche, vous voyez l'aura de l'ennemi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: Nous allons le faire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: Après qu'un de vos coéquipiers ait été réanimé, vous êtes rempli d'enthousiasme et vous voyez des objets dans une plus grande portée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: Empathie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: Vous voyez l'aura d'un coéquipier qui est en train de mourir dans une plage spécifiée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: Lien
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: Vous êtes mieux ensemble. Lorsque vous êtes à proximité de vos coéquipiers dans un rayon de 10 mètres, vous voyez l'aura de l'ennemi dans un rayon.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: Folie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: Vous voyez aléatoirement l'aura de l'ennemi dans un rayon pendant une durée de <color=#17fc03>x</color> secondes (toutes les 1 à 3 minutes).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: Espoir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: Vous avez un grand espoir. Vous voyez aléatoirement des éléments dans une plus grande portée pendant une durée de <color=#17fc03>x</color> secondes (toutes les 1 à 3 minutes).
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: Distorsion
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: Le Fantôme ne vous sent pas derrière les murs et ne vous poursuivra pas si vous êtes dans son rayon de poursuite.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: Œil de lynx
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: Vous voyez un objet de loin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: La vitesse de suppression des pièges a été augmentée. Cet avantage ne prend pas de place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: Vous avez une chance d'éviter le piège à ours, temps de recharge 10 sec. Cet avantage ne prend pas de place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: Pendant la poursuite, chaque joueur a la possibilité de voir les objets dans une plus grande portée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: Surcharge
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: Potion furtive
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: Moisissure noire
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: Trou noir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: Appareil de reconnaissance
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: Geler le fil-piège
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: Ail
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: Téléporteur d'objets
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: Téléporteur fantôme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: Caméra de sécurité
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: Déferlement de poursuite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: Grâce gardienne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: État inversé
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: Deuxième âme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: Résurgence éthérée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: Mémoire oubliée
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: Cage fantôme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: Miroir d'article
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: Vagues de force
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: Mur fantôme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: Télépathie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: Résurrection
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: Contrôle mental
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: Votre lampe de poche ne s'éteint pas à l'école
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: Lorsqu'il est utilisé, vous devenez invisible pour l'ennemi
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: La moisissure noire ralentit les ennemis lorsqu'ils entrent dans la moisissure. Certains fantômes peuvent désactiver l'avantage manuellement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: Les éléments devant lesquels vos coéquipiers passent seront visibles pour vous
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: Réanime tous les coéquipiers lors de l'utilisation.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: Entraîne les ennemis dans un trou noir.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: Lorsque vous êtes en poursuite et que l'ennemi se trouve à portée spécifiée, votre vitesse de déplacement est augmentée et vous voyez l'aura de l'ennemi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: Après avoir été réanimé, vous bénéficiez de <color=#17fc03>x</color> secondes d'immunité contre les fantômes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: Vous avez des vagues pulsées qui repoussent les ennemis. Durée illimitée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: Crée un mur à travers lequel le fantôme ne pourra pas passer. Certains fantômes peuvent désactiver l'avantage manuellement.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: Piège de Noël
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: Attire les ennemis vers le piège.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: Lecteur EMF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: L'appareil émet un bip lorsqu'il est pointé dans une direction fantôme dans la plage spécifiée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: Guérisseur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: Soigne tous les joueurs dans un rayon de 5 mètres en <color=green>x</color> secondes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: Les caméras sont installées autour de la carte et vous avertiront lorsqu'un mouvement ennemi est détecté. Utilisez votre appareil pour vérifier les caméras et connaître l'emplacement de l'ennemi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: Maître de la prise
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: Ramasse automatiquement les objets autour de vous, avec une portée accrue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: Livre sacré
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: 'Empêche la mort une fois. Portée : 10 mètres'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: En tant qu'« âme », vous voyagez 10 fois plus vite et pouvez trouver des objets. L'effet est actif pendant une certaine durée ou jusqu'à ce que vous soyez attaqué par un fantôme.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: Prémonition
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: Un joueur est présenté et risque de mourir dans les 5 prochaines minutes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: Bottes de vitesse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: Augmentation permanente de la vitesse de déplacement. Cet avantage ne prend pas de place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: Présentation
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: Les objets importants sont visibles derrière les murs. Cet avantage ne prend pas de place.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: L'Éveil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: Vous êtes instantanément réanimé lorsque vous êtes en état de mort et qu'un de vos coéquipiers entre en état de mort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: Le Porteur
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: Lorsque vous transportez des objets, vous voyez l'aura ennemie à portée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: Piège mortel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: Lorsque vous êtes en état de mort, la vitesse de l'ennemi diminue.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: Soins personnels
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: Vous serez ressuscité à votre première mort. Vous aurez également la possibilité de vous relever à votre prochaine mort.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: Médecin
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: Votre expertise médicale vous permet de réanimer d'autres personnes sans trousse de premiers soins.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: Le fantôme met fin à la poursuite une fois qu'il vous a perdu de vue pendant un certain temps.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: 'Vous disposez d''un don de récupération : après avoir été réanimé, votre vitesse de déplacement augmente de <color=green>%</color> et la vitesse de déplacement de vos ennemis diminue de <color=yellow>%</color>. Cet avantage est actif pendant X secondes.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: Vous contrôlez le fantôme pendant les prochaines secondes.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: Le fantôme sera piégé dans une cage lorsque l'attaque commencera.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: Don de rétablissement
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: Poupée maudite
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: La poupée maudite se déplace très rapidement et attire les ennemis.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: Chemin fantôme
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: Atout bonus
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: Affiche les mouvements prévus de l'ennemi sous forme d'empreintes lumineuses au sol.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: Remplace un atout aléatoire au début. Après votre mort, les atouts de tous les survivants sont de nouveau disponibles.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: Injection d'adrénaline
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: Une fois utilisée, votre vitesse est considérablement augmentée pendant une durée limitée.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: Pied-de-biche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: Permet de forcer les portes verrouillées
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

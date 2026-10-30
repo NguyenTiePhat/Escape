@@ -1,0 +1,1349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_es
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: es
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 388619548772270097
+  m_TableData:
+  - m_Id: 5190169124864
+    m_Localized: Conectar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: Salir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: Modo de juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: Local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: IP del servidor local
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: En línea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: o
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: Jugar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: Ajustes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: Ranuras
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: Estadísticas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: Nombre y mapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: Personaje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: Crear servidor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: Encender servidor
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: 'Región del servidor: {serverRegion}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Localized: Las estadísticas no están disponibles si no ha iniciado sesión.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: Colección
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: Partidas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: 'Victorias:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: 'Derrotas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: Items
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: Piezas encontradas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: 'Piezas arregladas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: Bajas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: 'Supervivientes muertos:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: (Se puede desbloquear en el juego)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: Ropa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: 'Sombreros y máscaras desbloqueados:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: General
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: Controles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: Audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: Gráficos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: Jugador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: Nombre de usuario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: UI y HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: 'Tamaño UI:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: Otros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: Región
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: Control
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: Sensibilidad horizontal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: Sensibilidad vertical
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: 'Invertir horizontalmente:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: 'Invertir vertical:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: Volumen Total
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: Volumen de BGM
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: 'Volumen de la interfaz de usuario:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: Volumen del Efectos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: Multijugador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: Volumen de VoIP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: DISPOSITIVOS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: 'usando auriculares:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: Rendimiento pesado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: Postprocesamiento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: 'Luz del jugador:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: 'Luz volumétrica:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: Acceso
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: Reanudar juego
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: Salir al menú principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: Premium
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: 'Gorra:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: Personaje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: Comprar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: ¿Está seguro de que desea salir?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: No
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: Sí
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: Tamaño de la interfaz de usuario
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: ¿Está seguro de que desea aplicar los cambios?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: Selecciona tu Idioma
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: ¿Estás seguro de que quieres unirte a esta sala?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: Crear una Sala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: Nombre de la partida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: 'Jugadores:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PVP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: Crear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: Partida privada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: IP de la sala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: Unirse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: Error al crear la sala
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: Más tarde
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: Fusionar cuentas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: ¿Quieres asociar la información de tu cuenta previa con una nueva?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: Leer
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: Unirse a privada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: 'partida privada:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: Continuar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: Notas encontrados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: Cargando una habitación ...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: Arreglar el coche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: Piezas del auto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: Rueda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: Batería
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: Combustible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: Llaves
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: Adquirió
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: 'Modo de juego:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: Walkie talkie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: Calidad de texturas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: 'Mapa fijo:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: Pista
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: Haga clic en la pestaña en línea para recargar las habitaciones. Puedes recargar habitaciones una vez cada 5 segundos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: Combinación de fusibles
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: Tutorial
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: Mapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: Saltar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: Resolución de la pantalla
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: Micrófono
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: Calidad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: 'Sangre:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: Tenga en cuenta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: Asegúrate de usar auriculares para evitar el eco del micrófono. También puede cambiar el micrófono en la configuración de audio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: Jugar sin conexión
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: Filtrar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: Principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: Advertencia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: Iphone 6+ o un dispositivo inferior no es compatible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: Restaurar datos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: Amigos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: Liga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: Crear Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: Vuelva a conectar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: Iniciar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: Configuración del lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: Invitar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: Invitar jugadores
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: ¿Está seguro de que desea salir del vestíbulo?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: Amigos no encontrados
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: Eliminar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: Mi liga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: Actual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: Anterior
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: No puede crear un servidor si es propietario de un punto de acceso móvil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: Nueva liga alcanzada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: Compartir ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: ¿Está seguro de que desea restaurar los datos de la base de datos anterior?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: Restaurar datos antiguos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: Aceptar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: Agregar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: Añadir amigo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: Buscar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: Es posible que Discord u otras aplicaciones no funcionen si se otorga el permiso del micrófono
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: El coche está arreglado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: Esperando a otros
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: Entrar en el coche
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: Los generadores están encendidos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: Selección de mapa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: Hospital
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: Alcantarillas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: Colegio
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: Restablecer zoom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: Objetivos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: 'Mostrar cinemática final:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: EXP ganado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: Ventajas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: Usar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: Ventajas seleccionadas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: 'Niebla:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: Entrenamiento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: Social
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: Guardar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: Reiniciar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: Tienda
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: Compra no validada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: ¿Quieres validar las compras ahora?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: Dificultad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: Activar chat de voz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: Silenciar Chat de Voz
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: Cuenta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: Información
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: 'ID de usuario:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: 'Tipo de inicio de sesión:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: Email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: Contraseña
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: Registrarse
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: ¿Se te olvidó tu contraseña?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: Jugar ahora
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: Verificacion de email
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: Verificar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: Recuperación de contraseña
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: Nueva contraseña
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: Restablecimiento de contraseña
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: Recuperar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: Iniciar Sesión
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: Transferir datos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: Los datos se transferirán desde la cuenta de invitado.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: Esta opción no está disponible actualmente para usted. Debes ser más activo para poder registrarte por correo electrónico de forma gratuita. Puede utilizar otras opciones de inicio de sesión en su lugar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: EXP total recibido
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: Trofeos totales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: Desglose de la partida
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: 'Partidas ganadas:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: 'Sobrevivió:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: 'Tiempo sobrevivido:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: Región recomendada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: Mapa y fecha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: Trofeos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: Perfil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: Copiar ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: Mejor temporada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: Mejor de todos los tiempos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: Invitación al lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: Salir al Lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: Mostrar Sustos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: Se envió la invitación al lobby
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: Ventajas Desbloqueadas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: El progreso puede perderse si no ha iniciado sesión
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: Código
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: 'Personalización de botones:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: Personalizar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: La transferencia de datos a una cuenta ya existente no está disponible, ¿quieres continuar?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: Mapas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: Manual
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: Emparejamiento
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "Enemigo: Lil Godwilla\n Tipo: Fantasma\n \n Lil Godwilla es lenta, pero puede aparecer en las habitaciones. No te acerques a ella para evitar que te persiga; es más rápida cuando está persiguiendo. No vayas en la dirección de los susurros.\n Objetivo: Comienzas en uno de los tres garajes del hospital. El objetivo es reparar un coche para escapar. Necesitas encontrar las siguientes partes para escapar: 4 ruedas, batería, combustible y llaves."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "Enemigo: Estatua\n Tipo: Fantasma\n \n Los puntos débiles de la estatua son las puertas y la linterna. No se mueve cuando apuntas tu linterna en su dirección, pero ten en cuenta que la linterna no dura indefinidamente. Cierra las puertas detrás de ti, esto ralentizará la estatua.\n Objetivo: escapar por la puerta principal resolviendo acertijos. Abre la sala de seguridad, arregla la caja de fusibles, resuelve el rompecabezas de la puerta."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "Enemigo: rastreador\n Tipo: Monstruo\n \n Crawler puede trepar por las paredes y no te ve cuando apagas la linterna. Evite meterse en lugares iluminados.\n Objetivo: encender 9 generadores para alimentar la puerta principal. Resuelve una serie de acertijos para llegar al final."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: '- El siguiente color durante el juego significa que puedes usar la ventaja presionándolo'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: '- La ventaja podría dejar de estar disponible en una de las siguientes situaciones 1. Se ha utilizado la ventaja. 2. Tienes una cantidad insuficiente de ventajas. 3.La ventaja no es compatible con el mapa actual'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: '- El siguiente color durante el juego significa que la ventaja se activa automáticamente durante el juego (también conocidas como ventajas situacionales)'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: Puedes elegir jugar contra un jugador enemigo. Uno de los jugadores será elegido como enemigo. El enemigo tiene que eliminar a todos los supervivientes para ganar.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: Juega partidas clasificatorias y aumenta tu liga, sube en la clasificación para ganar recompensas únicas y desbloquea nuevas ventajas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: ¿Te gustaría leer un manual sobre el juego?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: Desbloquear
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: Obtener
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: Mejorar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: Primero debes desbloquear el beneficio anterior.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: Expulsar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: Recompensa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: Temporada Finalizada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: Partidas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: Unirse por identificador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: Borrar cuenta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: ¿Está seguro de que desea eliminar su cuenta?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: Alfa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: Mostrar FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: 'Entrada de emulador:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: Calidad de los personajes
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: Calidad de shaders
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: Bonificación de EXP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: 'Resolver DNS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "Enemigo: Múltiple\n Tipo: Monstruo/Fantasma\n \n Estás atrapado en un apartamento maldito, encuentra anomalías para avanzar al siguiente piso y escapa llegando al primer piso.\n Hay múltiples enemigos. Cada enemigo tiene su propio comportamiento único, tendrás que encontrar una manera de contrarrestarlos.\n \n Objetivo: llegar al piso 1 y escapar de los apartamentos encontrando anomalías"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: Volumen Ambiental
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: Campo de visión dinámico (útil para iPads)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "El lector EMF detecta la presencia de fantasmas y su actividad reciente.\n \n Utilice el lector EMF para localizar rápidamente la zona o habitación fantasma."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "Usa tu linterna ultravioleta\n para detectar evidencia ultravioleta.\n \n Los fantasmas pueden dejar huellas de manos tras interactuar con puertas o interruptores de luz."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "Obtén la respuesta de la caja espiritual dentro del área fantasmal como evidencia.\n \n Tienes mayor probabilidad de obtener la respuesta durante la actividad fantasmal."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "Use un termómetro para determinar la temperatura de la zona/habitación del fantasma: por debajo de 5 °C.\n \n La temperatura de congelación es inferior a 0 °C."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: Existe la posibilidad de que la vela se apague al colocarla dentro de la habitación fantasma.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: Aparecerán orbes fantasmales cerca del fantasma cuando haya actividad fantasmal.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "Enemigo: Fantasma de la Matanza\n Tipo: Fantasma\n \n Te secuestraron y te llevaron a una instalación subterránea secreta. Te prometen libertad si encuentras la evidencia fantasmal correcta.\n El fantasma absorbe corriente eléctrica al manifestarse, lo que provoca que las luces parpadeen.\n \n El fantasma reside en una de las habitaciones y comenzará su caza desde allí si se le provoca.\n Puedes evitar la línea de visión del fantasma escondiéndote tras obstáculos.\n \n Objetivo: Encontrar la evidencia fantasmal correcta para completar el ritual y escapar."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: Se puede desbloquear durante eventos.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: Mostrar más
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: Mostrar menos
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: ¡Oferta de primera compra!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: ¡Oferta de llaves gratis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: ¡Oferta de EXP gratis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: ¡Oferta de recursos gratis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: ¡Oferta de paquete de EXP!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: ¡Oferta de cajas gratis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: ¡Oferta de regalos gratis!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: ¡Oferta de certificados azules!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: ¡Oferta de cajas de certificados!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: ¡Apertura de caja de madera!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: ¡Oferta de cajas raras!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: ¡Oferta de certificados morados!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: ¡Oferta de combo de certificados!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: ¡Apertura de cajas raras!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: ¡Oferta de certificados rosas!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: ¡Oferta de certificados rojos!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: Disponible pronto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: Temporalmente no disponible
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: ¿Estás seguro de que quieres aceptar el intercambio?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: ¿Seguro que quieres reclamar la recompensa?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: Ventaja "Control Mental"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: Ventaja "Premonición"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: Ventaja "Jaula Fantasma"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: Abrigo "Clan Tong"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: El multiplicador de hoy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: No escapaste
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: Escapa al menos una vez y desbloquea el modo competitivo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: La selección de edad no afecta la jugabilidad.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: ¿Cuantos años tienes?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: ¡Consigue un total de <color=#FFEF67>250 de oro</color> o un <color=#FFEF67>3%</color> de probabilidad de recibir la ventaja de muñeca maldita dentro de una de las cajas de premios!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: Oferta de Halloween
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>¡Actualización de Halloween!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: Esta actualización trae escenarios de Halloween, misiones secundarias de Halloween, nuevos objetos de misiones personales, cambios de equilibrio y mejoras largamente esperadas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>Comodín</b> - Reemplaza una ventaja aleatoria al inicio. Tras morir, todas tus ventajas se pueden volver a usar.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>¡Se acerca el remake de las Alcantarillas!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: En un futuro próximo lanzaremos el remake de las Alcantarillas. Durante el lanzamiento, habrá un evento especial con recompensas exclusivas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>Ventaja exclusiva de Halloween</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "Ahora hay objetos de misiones personales que puedes conseguir. Te permiten iniciar cualquier misión personal cuando quieras y recibir una buena recompensa por completarlas. Hay dos tipos de misiones: estándar y de Halloween.\n \n <b>Objetos de misiones personales:</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>Nuevos objetos: Fragmentos</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>Nuevos aspectos:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>Mejoras y cambios de equilibrio</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>Nuevo sombrero y trofeo:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>Palanca</b> - Te permite forzar cualquier puerta cerrada.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: Evento de Halloween
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>Versión</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: Progreso en línea
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: Seleccionar ranura '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270097
+  - m_Id: 348348179381477376
+    m_Localized: Usar ventaja '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270097
+  - m_Id: 344688356441972736
+    m_Localized: HUD móvil
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: Configuración de entrada
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: Teclado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: Gamepad
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: Modo agachado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: Sensibilidad del cursor de la IU
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: Acción principal
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: Acción secundaria
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: Linterna
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: Soltar objeto
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: Recargar
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: Libro de rituales
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Localized: Marcador
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: Menú de pausa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: Gamepad detectado
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: ¿Quieres activar la entrada del gamepad?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: Oferta de Año Nuevo
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- Mejor respuesta visual para las puertas cerradas.\n- Mejoras en la gestión de compras dentro de la aplicación.\n- Corregido un error por el que las misiones no contaban en partidas en solitario en el Matadero.\n- Agujero negro: duración reducida un <color=red>−75%</color> (máx. 30 s, antes 120 s)\n- Resurgimiento etéreo: duración reducida un <color=red>−50%</color> (máx. 30 s, antes 60 s)\n- Mejora de Esperanza, Despierta, Lo haremos, Salvavidas: <color=green>+50%</color> de alcance de revelación de objetos en niveles bajos\n- Mejora de Líder, El poder de la víctima: <color=green>+40%</color> de alcance de revelación de objetos en niveles bajos\n- Mejora de Guardian del alma: 3 veces más duradero en el nivel 1 (15 s, antes 5 s)\n- Comodín ahora restablece las ventajas de todos los jugadores que están en enfriamiento, incluidas Uno se Levanta y Autocuidado\n- Corregido un error por el que la ventaja Botas de Velocidad perdía su bonificación tras terminar Inyección de adrenalina, Poción sigilosa, Oleada de persecución o Regalo de recuperación, o tras revivir al jugador.\n\n- Otros cambios y mejoras"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: Puedes habilitar la visualización de los nombres de las salas en la configuración.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: Mostrar nombres de las salas
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: Traje «Clan TTR»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: Ventaja «Inyección de adrenalina»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: Corona «Clan King»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: Para recibir
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Localized: Volumen de la Melodía de Halloween
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 388619548772270097
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

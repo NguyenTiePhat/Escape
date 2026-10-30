@@ -1,37 +1,12 @@
-/Library/
-/Temp/
-/Obj/
-/Logs/
-/UserSettings/
-/Builds/
-*.csproj
-*.sln
-*.blend1
-Preview/*.log
-/ImportSource/
-/*.xapk
-/*.apk
-/Tools/AssetRipper/
-/RecoveredProjects/*
-!/RecoveredProjects/README-VI.md
-!/RecoveredProjects/TheGhost_School_Unity6/
-/RecoveredProjects/TheGhost_School_Unity6/*
-!/RecoveredProjects/TheGhost_School_Unity6/Assets/
-!/RecoveredProjects/TheGhost_School_Unity6/Packages/
-!/RecoveredProjects/TheGhost_School_Unity6/ProjectSettings/
-!/RecoveredProjects/TheGhost_School_Unity6/*.cmd
-!/RecoveredProjects/TheGhost_School_Unity6/*.md
-
-# Local caches, editor state, and credentials (including nested projects).
+# Unity-generated cache and machine state; source data and tools are included.
 **/[Ll]ibrary/
 **/[Tt]emp/
 **/[Oo]bj/
 **/[Ll]ogs/
 **/[Uu]serSettings/
-**/[Bb]uild/
-**/[Bb]uilds/
 .vs/
 .idea/
+# Local credentials are not project assets.
 .env
 .env.*
 !.env.example

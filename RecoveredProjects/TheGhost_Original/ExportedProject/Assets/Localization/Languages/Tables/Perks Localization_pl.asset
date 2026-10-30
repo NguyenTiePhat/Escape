@@ -1,0 +1,635 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: Perks Localization_pl
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: pl
+  m_SharedData: {fileID: 11400000, guid: b08dad84b549bab408e51a0990ebd828, type: 2}
+  m_Metadata:
+    m_Items: []
+  m_TableData:
+  - m_Id: 283349344256
+    m_Localized: Apteczka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 315309940736
+    m_Localized: Zwiększa prędkość ożywiania. Ten bonus nie zajmuje miejsca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 49629382041600
+    m_Localized: 'Typ: przedmiot'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498379483209728
+    m_Localized: 'Prędkość:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5498460529745920
+    m_Localized: sekundy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515030190612480
+    m_Localized: 'Zakres:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515049660571648
+    m_Localized: Metry
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5515924202315776
+    m_Localized: 'Czas trwania:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516726228738048
+    m_Localized: 'Szansa:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 5516976561577984
+    m_Localized: 'Promień:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112023566344192
+    m_Localized: 'Typ: Umiejętność'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112095221833728
+    m_Localized: 'Typ: sytuacyjny'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22112159025586176
+    m_Localized: 'Typ: prezent'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22117739005992960
+    m_Localized: '% na śmierć'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22122496789569536
+    m_Localized: 'Zasięg pościgu:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22142452302340096
+    m_Localized: Metry na śmierć
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154363693686784
+    m_Localized: Sól
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154378675740672
+    m_Localized: Zapobiega przedostawaniu się ducha do obszaru solnego. Niektóre duchy mogą dezaktywować perk ręcznie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154425832300544
+    m_Localized: Krucyfiks
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154457302163456
+    m_Localized: Zapobiega atakowi ducha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154494929264640
+    m_Localized: Granat błyskowy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154532678000640
+    m_Localized: Po użyciu wróg zostaje oślepiony i nie może się ruszyć
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154566865772544
+    m_Localized: Brak zaciemnienia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154624453566464
+    m_Localized: Istnieje szansa, że przerwa w dostawie prądu w szkole nie będzie już Cię dotyczyć. Ten bonus nie zajmuje miejsca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154681273802752
+    m_Localized: Leki
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154724861009920
+    m_Localized: Leki znacznie zwiększają twoją zdolność widzenia przedmiotów z większej odległości.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154745622814720
+    m_Localized: Ratownik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154805643304960
+    m_Localized: Po ożywieniu członka drużyny widzisz przedmioty w większym zasięgu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154836043620352
+    m_Localized: Dobry początek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154889156091904
+    m_Localized: Zanim twój pierwszy członek drużyny umrze, jesteś bardziej skryty i ostrożny. Promień pościgu za wrogiem jest zmniejszony, a aura wroga jest widoczna w określonym zasięgu. Aktywuje się automatycznie po rozpoczęciu meczu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154913957011456
+    m_Localized: Opiekun
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154949566652416
+    m_Localized: Zasięg pościgu za wrogiem jest zmniejszony w przypadku ożywionego członka drużyny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22154971372838912
+    m_Localized: Ostrożność
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155067451760640
+    m_Localized: Twoja ostrożność pozwala zobaczyć aurę wroga w określonym zasięgu za każdym razem, gdy podnosisz przedmiot po raz pierwszy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22155093037015040
+    m_Localized: Sens
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156070620225536
+    m_Localized: 'Po wyłączeniu latarki widzisz aurę pełzacza w określonym zasięgu. Czas odnowienia: 30 sekund'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156102782148608
+    m_Localized: Lider
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156129495670784
+    m_Localized: Widzisz przedmioty w większym zasięgu, gdy jesteś blisko swojego członka drużyny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156149309562880
+    m_Localized: Notatnik
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156197300789248
+    m_Localized: Ważne obiekty, które mijałeś, są zaznaczone na Twojej mapie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156225696227328
+    m_Localized: Dla ocalałych
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156297368494080
+    m_Localized: 'Po aktywacji promień pościgu wroga jest zwiększony o 100% dla ciebie i zmniejszony o <color=#17fc03>x%</color> dla innych. Czas trwania efektu: 1 minuta.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156430613143552
+    m_Localized: Strażnik duszy
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156488372903936
+    m_Localized: Po ożywieniu widzisz aurę wroga w określonym zasięgu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22156964065697792
+    m_Localized: Obudź się
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157011054485504
+    m_Localized: Kiedy jeden z członków twojej drużyny przejdzie w stan umierania, widzisz przedmioty w większym zasięgu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157035318534144
+    m_Localized: Zemsta śmierci
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157080449245184
+    m_Localized: Zaczynasz widzieć aurę wroga po tym jak jeden z twoich towarzyszy zostaje zabity
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157109339611136
+    m_Localized: Pozostawiony w tyle
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157160245878784
+    m_Localized: Jeśli będziesz oddalony od swoich towarzyszy o więcej niż 7 metrów, istnieje szansa, że ​​wróg nie będzie Cię ścigał
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157187403997184
+    m_Localized: Zemsta drużynowa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157233201602560
+    m_Localized: Kiedy zostajesz sam, jesteś bardziej skryty. Promień pościgu za wrogiem jest zmniejszony, a w pewnym zasięgu widać aurę wroga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157273185902592
+    m_Localized: Szok
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157309797982208
+    m_Localized: Po znalezieniu martwego ciała zyskujesz dodatkowy zasięg widzenia aury wroga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157337778184192
+    m_Localized: Gotcha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157371856904192
+    m_Localized: Chwytanie znalezionego przedmiotu daje możliwość zobaczenia przedmiotów w większym zasięgu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157398012583936
+    m_Localized: Jedyny ocalały
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157456598622208
+    m_Localized: Za każdym razem, gdy zginie jeden z członków twojej drużyny, promień pościgu wroga zmniejsza się o <color=#17fc03>x%</color>
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157482217431040
+    m_Localized: Szósty zmysł
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157534663008256
+    m_Localized: Kiedy wykonasz zadanie, zobaczysz aurę wroga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157564610338816
+    m_Localized: uda nam się
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157612257632256
+    m_Localized: Gdy jeden z członków drużyny zostanie wskrzeszony, jesteś pełen entuzjazmu i widzisz przedmioty w większym zasięgu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157649419165696
+    m_Localized: Empatia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157694633762816
+    m_Localized: Widzisz aurę członka drużyny, który znajduje się w stanie umierania w określonym zasięgu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157726493696000
+    m_Localized: Więź
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157778867970048
+    m_Localized: Lepiej będzie wam razem. Gdy znajdziesz się w pobliżu członków swojej drużyny w promieniu 10 metrów, zobaczysz aurę wroga w promieniu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157801001312256
+    m_Localized: Niepoczytalność
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157841627340800
+    m_Localized: Losowo widzisz aurę wroga w promieniu przez <color=#17fc03>x</color> sekund (co 1-3 minuty)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157870513512448
+    m_Localized: Nadzieja
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157901601693696
+    m_Localized: Masz silną nadzieję. Losowo widzisz przedmioty w większym zasięgu przez <color=#17fc03>x</color> sekund (co 1-3 minuty)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157926121594880
+    m_Localized: Zniekształcenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157971759816704
+    m_Localized: Duch nie wyczuwa Cię za ścianami i nie będzie gonił, jeśli znajdziesz się w jego promieniu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22157999828099072
+    m_Localized: Sokole oko
+    m_Metadata:
+      m_Items: []
+  - m_Id: 22158040366047232
+    m_Localized: Widzisz jeden obiekt z dużej odległości
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797773596876800
+    m_Localized: Zwiększona prędkość usuwania pułapek. Ten bonus nie zajmuje miejsca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797793138139136
+    m_Localized: Masz szansę uniknąć pułapki na niedźwiedzie, czas odnowienia 10 sek. Ten bonus nie zajmuje miejsca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 279797822892531712
+    m_Localized: Podczas pościgu każdy gracz otrzymuje możliwość widzenia przedmiotów w większym zasięgu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154348361998336
+    m_Localized: Przeciążenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154398534262784
+    m_Localized: Eliksir Ukrycia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154449704771584
+    m_Localized: Czarna pleśń
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154475566850048
+    m_Localized: Czarna dziura
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154507762327552
+    m_Localized: Urządzenie zwiadowcze
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154538946977792
+    m_Localized: Zamrozić pułapkę
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154575684886528
+    m_Localized: Czosnek
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154630596714496
+    m_Localized: Teleporter przedmiotów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154664746737664
+    m_Localized: Teleport Duchów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154706001911808
+    m_Localized: Kamera bezpieczeństwa
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154845932281856
+    m_Localized: Fala pościgu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154891562115072
+    m_Localized: Łaska Strażnicza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154929809973248
+    m_Localized: Stan odwrotny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380154961065926656
+    m_Localized: Druga Dusza
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155012517453824
+    m_Localized: Eteryczne odrodzenie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155084219080704
+    m_Localized: Zapomniana pamięć
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155147183972352
+    m_Localized: Klatka Duchów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155197448511488
+    m_Localized: Lustro przedmiotu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155236128382976
+    m_Localized: Fale siłowe
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155278671208448
+    m_Localized: Ściana Duchów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155310187208704
+    m_Localized: Telepatia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155339882881024
+    m_Localized: Zmartwychwstanie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 380155393309925376
+    m_Localized: Kontrola umysłu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154197999857664
+    m_Localized: Twoja latarka nie wyłączy się w szkole
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154237149491200
+    m_Localized: Po użyciu stajesz się niewidzialny dla wroga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154323124334592
+    m_Localized: Czarna pleśń spowalnia wrogów, gdy wejdą w pleśń. Niektóre duchy mogą dezaktywować profit ręcznie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154858715983872
+    m_Localized: Przedmioty, obok których przechodzą Twoi koledzy z drużyny, będą dla Ciebie widoczne
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154891754516480
+    m_Localized: Wskrzesza wszystkich członków drużyny po użyciu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154363553230848
+    m_Localized: Wciąga wrogów do czarnej dziury.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154572261797888
+    m_Localized: Kiedy jesteś w pościgu, a wróg znajdzie się w określonym zasięgu, twoja prędkość ruchu zostanie zwiększona i zobaczysz aurę wroga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154685390565376
+    m_Localized: Po ożywieniu otrzymujesz <color=#17fc03>x</color> sekund odporności na duchy.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154803598635008
+    m_Localized: Masz pulsujące fale, które odpychają wrogów. Nieograniczony czas trwania.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154831050354688
+    m_Localized: Tworzy ścianę, przez którą duch nie będzie mógł przejść. Niektóre duchy mogą dezaktywować profit ręcznie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255897056849920
+    m_Localized: Świąteczna pułapka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410255922163953664
+    m_Localized: Przyciąga wrogów do pułapki.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256233104486400
+    m_Localized: Czytnik EMF
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410256257041379328
+    m_Localized: Urządzenie wydaje sygnał dźwiękowy, gdy jest skierowane w kierunku ducha w określonym zakresie.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710839915786240
+    m_Localized: Uzdrowiciel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 410710870286741504
+    m_Localized: Leczy każdego gracza w promieniu 5 metrów w <color=green>x</color> sekund.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154542528376832
+    m_Localized: Kamery są rozmieszczone wokół mapy i powiadamiają Cię o wykryciu ruchu wroga. Użyj swojego urządzenia, aby sprawdzić kamery i poznać lokalizację wroga.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761337286656
+    m_Localized: Mistrz chwytu
+    m_Metadata:
+      m_Items: []
+  - m_Id: 421602761387618304
+    m_Localized: Automatycznie podnosi przedmioty wokół ciebie ze zwiększonym zasięgiem.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014805194432512
+    m_Localized: Święta Księga
+    m_Metadata:
+      m_Items: []
+  - m_Id: 466014829231988736
+    m_Localized: 'Zapobiega śmierci raz. Zasięg: 10 metrów'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154658832232448
+    m_Localized: Podróżujesz 10x szybciej jako „dusza” i możesz znaleźć przedmioty. Efekt jest aktywny przez jakiś czas lub do momentu ataku ducha.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197601389342720
+    m_Localized: Przeczucie
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197620532146176
+    m_Localized: Pokazano ci gracza, który prawdopodobnie umrze w ciągu następnych 5 minut.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197673795612672
+    m_Localized: Buty szybkości
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197696054784000
+    m_Localized: Stałe zwiększenie szybkości ruchu. Ten bonus nie zajmuje miejsca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197835196624896
+    m_Localized: Zarys
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197853701894144
+    m_Localized: Ważne przedmioty są widoczne za ścianami. Ten bonus nie zajmuje miejsca.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197895993061376
+    m_Localized: Jeden powstaje
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197912346652672
+    m_Localized: Zostajesz natychmiast ożywiony, gdy jesteś w stanie umierania, a jeden z twoich towarzyszy również znajduje się w stanie umierania.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197956508479488
+    m_Localized: Nosiciel
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480197974531403776
+    m_Localized: Podczas noszenia przedmiotów widzisz wrogą aurę w zasięgu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198018387046400
+    m_Localized: Śmiertelna pułapka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198032249221120
+    m_Localized: Gdy umierasz, prędkość przeciwnika spada.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198071621152768
+    m_Localized: Samoopieka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198084845793280
+    m_Localized: Zostaniesz wskrzeszony przy pierwszej śmierci. Masz również szansę na powstanie przy następnej śmierci.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198179842584576
+    m_Localized: Medyk
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480198191662133248
+    m_Localized: Twoja wiedza medyczna pozwala ci ożywić innych bez apteczki.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154714687778816
+    m_Localized: Duch kończy pościg, gdy na jakiś czas traci cię z oczu.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894447495667712
+    m_Localized: Posiadasz dar regeneracji - po przywróceniu do życia, twoja prędkość ruchu wzrasta o <color=green>%</color>, prędkość wroga spada o <color=yellow>%</color>. Perk jest aktywny przez X sekund.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154919256567808
+    m_Localized: Przez następne kilka sekund kontrolujesz ducha.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 387154744228261888
+    m_Localized: Duch zostanie uwięziony w klatce, gdy rozpocznie się atak.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 480894370425331712
+    m_Localized: Dar zdrowienia
+    m_Metadata:
+      m_Items: []
+  - m_Id: 514693282663755776
+    m_Localized: Przeklęta Lalka
+    m_Metadata:
+      m_Items: []
+  - m_Id: 515683144200089600
+    m_Localized: Przeklęta Lalka porusza się bardzo szybko i przyciąga wrogów.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534924261118439424
+    m_Localized: Ścieżka Duchów
+    m_Metadata:
+      m_Items: []
+  - m_Id: 534931523098636288
+    m_Localized: Dzika Karta
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161340308779008
+    m_Localized: Pokazuje przewidywany ruch wroga jako świecące ślady na ziemi.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 538161409179250688
+    m_Localized: Zastępuje losowy atut na początku. Po śmierci atuty wszystkich ocalałych mogą zostać ponownie użyte.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616059259338752
+    m_Localized: Zastrzyk adrenaliny
+    m_Metadata:
+      m_Items: []
+  - m_Id: 621616091551285248
+    m_Localized: Po użyciu twoja prędkość znacznie wzrasta na określony czas.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086898430832640
+    m_Localized: Łom
+    m_Metadata:
+      m_Items: []
+  - m_Id: 644086930890551296
+    m_Localized: Pozwala wyważać zamknięte drzwi
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds: []

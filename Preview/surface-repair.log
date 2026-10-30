@@ -1,0 +1,545 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.7f1 (017862109af0) revision 96354'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-admin doesn't exist
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 11995 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-10-28T17:44:12Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 14428)
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.5.7f1\Editor\Unity.exe
+-batchmode
+-projectPath
+D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+-executeMethod
+FixRoomSurfaces.Run
+-quit
+-logFile
+D:/UnityProjects/theghost/Preview/surface-repair.log
+Successfully changed project path to: D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [3376]  Target information:
+
+Player connection [3376]  * "[IP] 192.168.1.21 [Port] 55504 [Flags] 2 [Guid] 2128154574 [EditorId] 2128154574 [Version] 1048832 [Id] WindowsEditor(7,PCcuaPhat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [3376] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [3376] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin" at "2026-10-28T17:44:12.9058964Z"
+[Package Manager] Connected to IPC stream "Upm-5956" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 14428, path: "D:/Unity/6000.5.7f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              b299cc1eb5b249d7a48355b0e6a552a4
+  Correlation Id:          4944ea7b3b30132d52d56493ac743016
+  External correlation Id: 1244946355960533253
+  Machine Id:              Lhf/sAuseKZLr3d/xUxfAzPNncs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-admin" (connect: 0.57s, validation: 0.12s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin-notifications" at "2026-10-28T17:44:13.1321344Z"
+[Licensing::Module] Connected to LicensingClient (PId: 14428, launch time: 0.01, total connection time: 0.79s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968478618703-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.88s
+[Licensing::Module] Licensing is initialized (took 0.27s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Artifact Garbage Collection - Removed 1 unused hashed content files
+Initialize engine version: 6000.5.7f1 (017862109af0)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.5.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+d3d12: failed to query info queue interface (0x80004002).
+Direct3D:
+    Version:         Direct3D 12 [level 12.2]
+    Renderer:        NVIDIA GeForce RTX 3050 6GB Laptop GPU (ID=0x25ec)
+    Vendor:          NVIDIA
+    VRAM:            6002 MB
+    App VRAM Budget: 5234 MB
+    Driver:          32.0.15.8186
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.5.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.5.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/Unity/6000.5.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.5.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56956
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.5.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003452 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.501 seconds
+Domain Reload Profiling: 1118ms
+	BeginReloadAssembly (180ms)
+		CreateAndSetChildDomain (21ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (18ms)
+	initialDomainReloadingComplete (81ms)
+	LoadAllAssembliesAndSetupDomain (330ms)
+		LoadAssemblies (158ms)
+		AnalyzeDomain (244ms)
+			TypeCache.Refresh (243ms)
+				TypeCache.ScanAssembly (224ms)
+	FinalizeReload (505ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (103ms)
+			ProcessInitializeOnLoadAttributes (126ms)
+			ProcessInitializeOnLoadMethodAttributes (188ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 37 packages:
+  Built-in packages:
+    com.unity.multiplayer.center@1.0.1 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.modules.accessibility@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: D:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: D:\Unity\6000.5.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+DisplayProgressbar: Compiling Scripts
+Starting: D:\Unity\6000.5.7f1\Editor\Data\netcorerun\netcorerun.exe "D:\Unity\6000.5.7f1\Editor\Data\Tools\BuildPipeline\ScriptCompilationBuildProgram.exe" "Library/Bee/1900b0aE.dag.json" "Library/Bee/1900b0aE-inputdata.json" "Library\Bee\buildprogram0.traceevents"
+WorkingDir: D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+ExitCode: 4 Duration: 0s555ms
+Rebuilding DAG because FileSignature timestamp changed: Library/Bee/1900b0aE-inputdata.json
+[182/185    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Recovery\Editor\HandsPreview.cs(7,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\RoomGeometryAudit.cs(10,8): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\RoomGeometryAudit.cs(11,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\RoomGeometryAudit.cs(11,19): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\RoomGeometryAudit.cs(13,54): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\RoomGeometryAudit.cs(13,19): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\BuildStartRoom.cs(12,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\FixRoomSurfaces.cs(10,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\FixRoomSurfaces.cs(11,55): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\FixRoomSurfaces.cs(11,16): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\FinishSchool.cs(36,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\FinishSchool.cs(51,58): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(93,81): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(93,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(96,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(96,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(97,89): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(97,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(98,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+*** Tundra requires additional run (0.50 seconds), 1 items updated, 181 evaluated
+ExitCode: 0 Duration: 4s485ms
+Starting: D:\Unity\6000.5.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --dagfilejson="Library\Bee\1900b0aE.dag.json" --profile="Library/Bee/backend2.traceevents" ScriptAssemblies
+WorkingDir: D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+ExitCode: 0 Duration: 0s98ms
+Finished compiling graph: 188 nodes, 1016 flattened edges (984 ToBuild, 8 ToUse), maximum node priority 46
+[183/185    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+[184/185    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+*** Tundra build success (0.05 seconds), 2 items updated, 185 evaluated
+Assets\Recovery\Editor\HandsPreview.cs(7,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\RoomGeometryAudit.cs(10,8): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\RoomGeometryAudit.cs(11,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\RoomGeometryAudit.cs(11,19): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\RoomGeometryAudit.cs(13,54): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\RoomGeometryAudit.cs(13,19): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\BuildStartRoom.cs(12,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\FixRoomSurfaces.cs(10,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\FixRoomSurfaces.cs(11,55): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\FixRoomSurfaces.cs(11,16): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\FinishSchool.cs(36,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\FinishSchool.cs(51,58): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\SchoolRecovery.cs(93,81): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\SchoolRecovery.cs(93,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\SchoolRecovery.cs(96,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\SchoolRecovery.cs(96,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\SchoolRecovery.cs(97,89): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\SchoolRecovery.cs(97,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\SchoolRecovery.cs(98,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+AssetDatabase: script compilation time: 5.779613s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.637 seconds
+Domain Reload Profiling: 1422ms
+	BeginReloadAssembly (498ms)
+		DisableScriptedObjects (48ms)
+		CreateAndSetChildDomain (165ms)
+	RebuildCommonClasses (16ms)
+	RebuildNativeTypeToScriptingClass (28ms)
+	initialDomainReloadingComplete (74ms)
+	LoadAllAssembliesAndSetupDomain (165ms)
+		LoadAssemblies (201ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (10ms)
+				TypeCache.ScanAssembly (3ms)
+			BuildScriptInfoCaches (7ms)
+	FinalizeReload (641ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (102ms)
+			ProcessInitializeOnLoadAttributes (134ms)
+			ProcessInitializeOnLoadMethodAttributes (135ms)
+			AfterProcessingInitializeOnLoad (3ms)
+		AwakeInstancesAfterBackupRestoration (50ms)
+Importing 'GUID: 259ffff0e93d3964ab12e697b53bcb86 - Path: Assets/Recovery/OpaqueTwoSided.shader' with importer (ShaderImporter)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+There are inconsistent line endings in the 'Assets/Recovery/OpaqueTwoSided.shader' script. Some are Mac OS X (UNIX) and some are Windows.
+This might lead to incorrect line numbers in stacktraces and compiler errors. Many text editors can fix this using Convert Line Endings menu commands.
+Imported 'GUID: 259ffff0e93d3964ab12e697b53bcb86' -> (Import Result ID: '4a44ed15487f0a3e7b33f552c30917de') in 0.410 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c4e54ad29863fac35921daf66113566f DependenciesID=660bb43faf897cc98eadf74c3e030152 StaticDependenciesID=19f1ddd6af1bfea04900eadf981dd906 
+Starting new worker id: 0 with log in D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6/Logs/AssetImportWorkerHW0.log
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+
+Asset Pipeline Refresh (id=b25f145bbe11e914bae36abd515b9300): Total: 8.450 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=1 (actual=1, local cache=0, cache server=0)
+		Asset DB Process Time: managed=2 ms, native=1467 ms
+		Asset DB Callback time: managed=273 ms, native=89 ms
+		Scripting: domain reloads=1, domain reload time=827 ms, compile time=5784 ms, other=5 ms
+		Project Asset Count: scripts=237, non-scripts=8843
+		Asset File Changes: new=1, changed=2, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 30.674ms
+	ApplyChangesToAssetFolders: 0.755ms
+	Scan: 117.368ms
+	Collect global state as custom dependencies: 15.273ms
+	OnSourceAssetsModified: 1.883ms
+	CategorizeScriptCompilationAssets: 0.394ms
+	ProcessAssetsWithTransientArtifactChanges: 4.447ms
+	CategorizeAssets: 70.707ms
+	CompileScripts: 5783.947ms
+	ImportOutOfDateAssets: 1198.477ms (648.217ms without children)
+		ImportManagerImport: 412.948ms (1.964ms without children)
+			UpdateCategorizedAssets: 0.064ms
+		UnloadImportedAssets: 0.275ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.214ms
+		ImportSchedulerStart: 135.803ms
+	PostProcessAllAssets: 332.894ms
+		ShaderAssetModifiedCallback 59.035ms
+		PostProcessCallbackCreateDeferredMaterials 0.100ms
+		MonoPostProcessAllAssets: 272.677ms
+			AssetPostprocessor.OnPostprocessAllAssets 117.800ms
+			SyncVS.PostprocessSyncProject 67.891ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 31.623ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 16.571ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 9.366ms
+			AssetChangedListener.OnPostprocessAllAssets 3.470ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.538ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.937ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.542ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.414ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.220ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.799ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.674ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.605ms
+			AssetEvents.OnPostprocessAllAssets 0.600ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.407ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.325ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.273ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.259ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.219ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.151ms
+	PostAssetChangesProfiler: 0.943ms
+	UnloadStreamsBegin: 1.593ms
+	PersistCurrentRevisions: 0.824ms
+	GenerateScriptTypeHashes: 0.605ms
+	GenerateScriptTypeSerializationHashes: 1.293ms
+	Untracked: 882.907ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 2.331ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-TheGhost_School_Unity6
+Unloading 132 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 214 unused Assets / (6.0 MB). Loaded Objects now: 744.
+Memory consumption went from 257.9 MB to 251.9 MB.
+Total: 8.952400 ms (FindLiveObjects: 0.080200 ms CreateObjectMapping: 0.039700 ms MarkObjects: 5.577400 ms  DeleteObjects: 3.248100 ms)
+
+Opening scene 'Assets/Recovery/Scenes/School_Explore.unity'
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string)
+FixRoomSurfaces:Run () (at Assets/Recovery/Editor/FixRoomSurfaces.cs:9)
+
+[Assets/Recovery/Editor/FixRoomSurfaces.cs line 9]
+
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 after 2244 ms: Could not connect to server
+Worker ready: AssetImportWorkerHW0 0
+Loaded scene 'Assets/Recovery/Scenes/School_Explore.unity'
+	Deserialize:            824.012 ms
+	Integration:            2136.670 ms
+	Integration of assets:  0.205 ms
+	Thread Wait Time:       -0.180 ms
+	Total Operation Time:   2960.708 ms
+Unloading 4 unused Assets / (6.3 KB). Loaded Objects now: 33637.
+Memory consumption went from 366.7 MB to 366.7 MB.
+Total: 9.804200 ms (FindLiveObjects: 2.862400 ms CreateObjectMapping: 0.256800 ms MarkObjects: 6.546700 ms  DeleteObjects: 0.136500 ms)
+
+Importing 'GUID: 88267c09a528b764c97beb739a1ae19d - Path: Assets/Recovery/StartRoomFloor.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 88267c09a528b764c97beb739a1ae19d' -> (Import Result ID: '804e168b50fed9b0df78e333770e8d77') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=b340298872b934c54585891ece41bb3e DependenciesID=662ff7be546a9f46c9f0347b18d46cf9 StaticDependenciesID=20256a9ea912de796aa37b4a5cd601a7 
+Asset Pipeline Refresh (id=44e842c19b744f34f8869671c8c72eee): Total: 0.127 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 4051a64e6538afa48a050766a7965de7 - Path: Assets/Material/WallWithTiles_mtl_0.mat' with importer (NativeFormatImporter)
+Main Object Name 'WallWithTiles_mtl' does not match filename 'WallWithTiles_mtl_0'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene)
+FixRoomSurfaces:Run () (at Assets/Recovery/Editor/FixRoomSurfaces.cs:41)
+
+[Assets/Recovery/Editor/FixRoomSurfaces.cs line 41]
+
+Imported 'GUID: 4051a64e6538afa48a050766a7965de7' -> (Import Result ID: 'f5da6378c0417ee54eca6ac3420bf1c3') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=678de2088a591f3ff4260ebda7fe562c DependenciesID=c1dc15f4f29651797ef43179099438c8 StaticDependenciesID=2a38c554b3670d20d73991671cca40ad 
+Importing 'GUID: d02a1b96c7cb7774d88a0752b2d12529 - Path: Assets/Material/Wall02_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: d02a1b96c7cb7774d88a0752b2d12529' -> (Import Result ID: 'f2f68e63813c297511e8b9788a72eaef') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=2a45d896b4d911e558e9210c4cfc98f0 DependenciesID=70bff0d7ac8e7b0f2dd5951afccc6e1f StaticDependenciesID=a0026fe35633568924e5a01ac0c1a74d 
+Importing 'GUID: 61880992270d53d46b86a80d1e2d0ae2 - Path: Assets/Material/CeilingTilesBack_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 61880992270d53d46b86a80d1e2d0ae2' -> (Import Result ID: 'eb18e3afe5e42360bd7b1d933e1de722') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=5bd50c9800b5dd47a996500695329cab DependenciesID=dea17aa2631e40d3c696e99e7b66ba8f StaticDependenciesID=3e9334e64bc8f3af0d2a6ef69ba81251 
+Importing 'GUID: f1333c44e04e04b4eb21ed506a525742 - Path: Assets/Material/FloorMosaic_mtl_0.mat' with importer (NativeFormatImporter)
+Main Object Name 'FloorMosaic_mtl' does not match filename 'FloorMosaic_mtl_0'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene)
+FixRoomSurfaces:Run () (at Assets/Recovery/Editor/FixRoomSurfaces.cs:41)
+
+[Assets/Recovery/Editor/FixRoomSurfaces.cs line 41]
+
+Imported 'GUID: f1333c44e04e04b4eb21ed506a525742' -> (Import Result ID: 'b6ea8a9bd13b01d8b389b8325f28aa50') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=274d777910bd36116d850238d15c9d9e DependenciesID=e4b4f7c9464a124f0fb5817cf55d158f StaticDependenciesID=416be7d44db3c12fbbfb850cb2f77f7f 
+Importing 'GUID: 93b570d401745af4d9d9bfb9621e5ecd - Path: Assets/Material/TeacherTable_mtl_0.mat' with importer (NativeFormatImporter)
+Main Object Name 'TeacherTable_mtl' does not match filename 'TeacherTable_mtl_0'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene)
+FixRoomSurfaces:Run () (at Assets/Recovery/Editor/FixRoomSurfaces.cs:41)
+
+[Assets/Recovery/Editor/FixRoomSurfaces.cs line 41]
+
+Imported 'GUID: 93b570d401745af4d9d9bfb9621e5ecd' -> (Import Result ID: 'a1cb931cec30ddce0817b124d9e0d689') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=2d6e8744ed10639750c825301426f6c7 DependenciesID=caf1acfaea10dbc86a88969a1643e5a0 StaticDependenciesID=1970fca19e9d428594fb5c4101c7c9f0 
+Importing 'GUID: f49fe7dff009c554d8bf3761dbfa34e7 - Path: Assets/Material/TrashCans_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: f49fe7dff009c554d8bf3761dbfa34e7' -> (Import Result ID: '200a9fca3af6a7380eb09bf28f382592') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=5b0ef1eeae80af0aa19d60bce663e13a DependenciesID=b8317bd68f83a02a5c51acaecb47ff8d StaticDependenciesID=dc11c5a1b0f7387d47244d08f5db173b 
+Importing 'GUID: 054713bffd8166a45a6148d0d8fe93d5 - Path: Assets/Material/ParquetGym_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 054713bffd8166a45a6148d0d8fe93d5' -> (Import Result ID: 'a1daa206934eaf43afc48ca93a46f442') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=8c880b44925e848b0be746c7a0e1eeb6 DependenciesID=da6f2affaeecfe38d73f980c4c7d7174 StaticDependenciesID=ea0ef87f6941cb0180b4fd767f240657 
+Importing 'GUID: 5596f3079b511b14297b019cfccb4ac9 - Path: Assets/Material/StudentDesk_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 5596f3079b511b14297b019cfccb4ac9' -> (Import Result ID: '1aae7a161effd6f5561ed7bd05588a2f') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=b97270fbf61586ec6039dab1bc5ade78 DependenciesID=04d19f230a0b2b5dda378769fd0bd181 StaticDependenciesID=e4dd73c9636410f70d325bcdc4250053 
+Importing 'GUID: b5b36420beb6ac4438f218935c6866bc - Path: Assets/Material/2ndHallwayCeiling_CeilingTilesBack_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b5b36420beb6ac4438f218935c6866bc' -> (Import Result ID: '1a98c6fb5c51ab4fa2c0ff364e8a1a03') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=aa3c8f049ead06267cff6e9391d16acf DependenciesID=f5e0736a7570cd010e7d65b0b87f08f9 StaticDependenciesID=64ef9b9062399c90c4dbc43eff709f17 
+Importing 'GUID: b5ab2116271d4164db33d1a77815ba04 - Path: Assets/Material/Bookcase_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b5ab2116271d4164db33d1a77815ba04' -> (Import Result ID: '60afbda54f378edf2324313cc72d4201') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=fb78a17164b54fb5d783bfb7400774e6 DependenciesID=733bb6e8a867cf0c473e244111b430ec StaticDependenciesID=7b68928f730ec0ae477e133abf6e6d78 
+Importing 'GUID: e51829ec72f9be34f9b96034ba508a72 - Path: Assets/Material/ArchiveDrawers_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: e51829ec72f9be34f9b96034ba508a72' -> (Import Result ID: '643537b6ed2eef3c33f58fbf153b6c69') in 0.015 seconds [static dependencies only]. Details - ImportResultOutputID=a72091b955f628fac9411b0dab1f8c9e DependenciesID=5092457c0f3feffb700f7d0c84848bb5 StaticDependenciesID=3829dfb970e04257f8534de3d34a4d07 
+Importing 'GUID: 86e6299b9657ade4da57e9101398ec8a - Path: Assets/Material/2ndHallwayCeiling_CeilingTiles_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 86e6299b9657ade4da57e9101398ec8a' -> (Import Result ID: '3c17df56c41df221ce3c367fc98065aa') in 0.015 seconds [static dependencies only]. Details - ImportResultOutputID=d9b9e260057b2bc42e1ea672af47c8b3 DependenciesID=21c720516a19dbc3d3515bd758f32926 StaticDependenciesID=1ca6c22a568a60385b17d154b2c763d8 
+Importing 'GUID: 96874bb828b512d4fa7be8817b66da1c - Path: Assets/Material/Jalousie_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 96874bb828b512d4fa7be8817b66da1c' -> (Import Result ID: 'c46e8bce7eea8aa410285aea27b80917') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=2367b02d4b1d76a593e683e4d86d837c DependenciesID=741fa71f9cb850b88ac61c9b43c0463d StaticDependenciesID=23ed588b6985923319ccc3a9232ece34 
+Importing 'GUID: b6666c560b5e0d14db212c9af0a1b5b9 - Path: Assets/Material/ElectrisityProps_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: b6666c560b5e0d14db212c9af0a1b5b9' -> (Import Result ID: 'af2044c4a822aca7bbfadc8a68af44fa') in 0.013 seconds [static dependencies only]. Details - ImportResultOutputID=eb607965981212ff9b315d5254e7915e DependenciesID=9bf0b5fbae9662d439e11220cfc1ef21 StaticDependenciesID=a7bcf508a82fb0d6093fb8e02b9b7351 
+Importing 'GUID: 57bec849655d5044cbc63494bce11ca2 - Path: Assets/Material/CeilingAcoustic_mtl_1.mat' with importer (NativeFormatImporter)
+Main Object Name 'CeilingAcoustic_mtl' does not match filename 'CeilingAcoustic_mtl_1'
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:SaveSceneInternal (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene,string,bool)
+UnityEditor.SceneManagement.EditorSceneManager:SaveScene (UnityEngine.SceneManagement.Scene)
+FixRoomSurfaces:Run () (at Assets/Recovery/Editor/FixRoomSurfaces.cs:41)
+
+[Assets/Recovery/Editor/FixRoomSurfaces.cs line 41]
+
+Imported 'GUID: 57bec849655d5044cbc63494bce11ca2' -> (Import Result ID: '1e0a3e644848dd4b896600562ac5e449') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=9c0a885fadd6d18ca2fc6ffcbd95d805 DependenciesID=e11cc31393521cadcb590ac286033cdc StaticDependenciesID=3f56d39d08df3320ed01dd84ad5690eb 
+Importing 'GUID: 581c157537ff5cf4b86c3af6179d739e - Path: Assets/Material/Rostrums_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 581c157537ff5cf4b86c3af6179d739e' -> (Import Result ID: 'a6d1f954b51fba0c42fafb2cc30969fa') in 0.015 seconds [static dependencies only]. Details - ImportResultOutputID=9f200ee88c64d44e9ebe1ced69b0fa07 DependenciesID=c6b549b04aca4532a749626807dfddd3 StaticDependenciesID=6c668e7914d22625470cc27b8502679d 
+Importing 'GUID: 88062616aa7116e488c3dd87e6f4164e - Path: Assets/Material/FloorMolding_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 88062616aa7116e488c3dd87e6f4164e' -> (Import Result ID: '4c0e0ab6819e57cf07b66deb8f6cd778') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=3ed57eb0e7dede86c3dae041d57bf615 DependenciesID=c26a529b569bceb5bff5eeb41b19931c StaticDependenciesID=21b96a0ad97c5e39258cd093bf2f9731 
+Importing 'GUID: 19606103fe2291243a329e12a8397cf2 - Path: Assets/Material/Frames_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 19606103fe2291243a329e12a8397cf2' -> (Import Result ID: '7d4229e60bff1cd11aef8f4a17729739') in 0.009 seconds [static dependencies only]. Details - ImportResultOutputID=5104ab237a6af97595e8c1e7774dc01b DependenciesID=418c9e10ee1fbbe4a20c80fea56e4886 StaticDependenciesID=811342dce34262561dc842404d5fe1d4 
+Importing 'GUID: 395deb66f2c9ff94a902890e9b8763eb - Path: Assets/Material/FramesGlass_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 395deb66f2c9ff94a902890e9b8763eb' -> (Import Result ID: 'fa0c8fadccb00f9fb184b9f43e35dfd0') in 0.008 seconds [static dependencies only]. Details - ImportResultOutputID=1b551f62d1ebeb49c987daa8f6ec1b56 DependenciesID=31a3c1be9ceab1b31b52b19e06d0595f StaticDependenciesID=2de96e3fd20f1271f48a42bd3aa4b383 
+Importing 'GUID: 3acf6962a02660b49b9472e852e94382 - Path: Assets/Material/LampFluoHanging_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 3acf6962a02660b49b9472e852e94382' -> (Import Result ID: '0bb3f8727d83d2efb9c9fc0b5bd62aaa') in 0.014 seconds [static dependencies only]. Details - ImportResultOutputID=fc74c014cbf3865378dba8a3de968002 DependenciesID=dedc356cdc2f79428adba4a6d13f4306 StaticDependenciesID=4fb58776531bedd9f3d0b3acc405fa90 
+Importing 'GUID: aaac911f4839ecf4786dac3c6ce9d312 - Path: Assets/Material/Towels_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: aaac911f4839ecf4786dac3c6ce9d312' -> (Import Result ID: '8edb5912bc88429eed62e4bb63a0b22e') in 0.010 seconds [static dependencies only]. Details - ImportResultOutputID=339b9412cf664d2dceb3c4be7536a0a7 DependenciesID=1629b349c8927002659a614d0590a6a1 StaticDependenciesID=2620e563763a7e534201c57c0e6f0eda 
+Importing 'GUID: daf63d1220d2f47449eec0c5b5fe9882 - Path: Assets/Material/CeilingTiles_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: daf63d1220d2f47449eec0c5b5fe9882' -> (Import Result ID: 'bdf19c354b95a1af49cdb36d91697494') in 0.018 seconds [static dependencies only]. Details - ImportResultOutputID=5b86795b64d98cbde71f8374911188c0 DependenciesID=adf2dac406b337a90251af71de36d995 StaticDependenciesID=58458119797c149596c8b85915740b34 
+Importing 'GUID: cb9a5623fbfd51141b51794648946521 - Path: Assets/Material/ToiletCabin_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: cb9a5623fbfd51141b51794648946521' -> (Import Result ID: 'ebe93ec8b96259613e9aebb7219569bb') in 0.007 seconds [static dependencies only]. Details - ImportResultOutputID=8c59908691d0acb38eb17e8f2803b1cb DependenciesID=9ad995d66cad14a85c7ec54fdcef5db1 StaticDependenciesID=b1c4ed28358aefbfbd57cc833431381a 
+Importing 'GUID: ebfcd6d94e1ba6344b7138a755330535 - Path: Assets/Material/Wall01_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: ebfcd6d94e1ba6344b7138a755330535' -> (Import Result ID: '73969315ef22f24b051a86c59d476001') in 0.012 seconds [static dependencies only]. Details - ImportResultOutputID=25a6930b4fb532235801a99e1ed6600c DependenciesID=e08394ee266ae388a410b2d935e4315f StaticDependenciesID=e9795b829774b369bc200f01c585b3f2 
+Importing 'GUID: 5e90603cea72f1045a78b225d4f458f1 - Path: Assets/Material/ExteriorModules_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 5e90603cea72f1045a78b225d4f458f1' -> (Import Result ID: '34300c9b7cc949eb820430578a92afe2') in 0.017 seconds [static dependencies only]. Details - ImportResultOutputID=bd9ff4a6d8c87f6517404f4376538d5b DependenciesID=6f01c748604287cd5c6af0b43a36d07a StaticDependenciesID=f36cae2d76d052ff27d73863cb7aedac 
+Importing 'GUID: ef80b236498a17542942320b2634d3ef - Path: Assets/Material/StairsMain_mtl.mat' with importer (NativeFormatImporter)
+Imported 'GUID: ef80b236498a17542942320b2634d3ef' -> (Import Result ID: 'c3ff6fcdde6cb7bcea911e3135b8a5f3') in 0.011 seconds [static dependencies only]. Details - ImportResultOutputID=a22a7f212a5e03a4af0212e5e0e2bbb1 DependenciesID=9ec6910ab93c9cfbf633b7c74aa4029f StaticDependenciesID=2ef604e8875011560014d88b796d19a5 
+
+Asset Pipeline Refresh (id=82172edd815035c419d31c19049cf519): Total: 0.432 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=26 (actual=26, local cache=0, cache server=0)
+		Asset DB Process Time: managed=1 ms, native=428 ms
+		Asset DB Callback time: managed=0 ms, native=1 ms
+		Scripting: domain reloads=0, domain reload time=0 ms, compile time=0 ms, other=0 ms
+		Project Asset Count: scripts=237, non-scripts=8844
+		Asset File Changes: new=0, changed=26, moved=0, deleted=0
+		Scan Filter Count: 28
+	ApplyChangesToAssetFolders: 0.065ms
+	Scan: 9.238ms
+	Collect global state as custom dependencies: 0.262ms
+	OnSourceAssetsModified: 0.121ms
+	CategorizeScriptCompilationAssets: 0.339ms
+	CategorizeAssets: 3.951ms
+	ImportOutOfDateAssets: 411.340ms (1.496ms without children)
+		ImportManagerImport: 370.682ms (5.427ms without children)
+			UpdateCategorizedAssets: 0.138ms
+		ReloadNativeAssets: 0.395ms
+		UnloadImportedAssets: 0.220ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.961ms
+		ImportSchedulerStart: 37.575ms
+	PostProcessAllAssets: 1.297ms
+		PostProcessCallbackCreateDeferredMaterials 0.055ms
+		MonoPostProcessAllAssets: 0.774ms
+			AssetChangedListener.OnPostprocessAllAssets 0.332ms
+			AssetPostprocessor.OnPostprocessAllAssets 0.153ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 0.080ms
+	PostAssetChangesProfiler: 0.641ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.345ms
+	PersistCurrentRevisions: 0.484ms
+	UnloadStreamsEnd: 0.199ms
+	Untracked: 3.502ms
+
+Importing 'GUID: fa5a0436bb7d597458e07400e94d1712 - Path: Assets/Recovery/Scenes/School_Explore.unity' with importer (DefaultImporter)
+Imported 'GUID: fa5a0436bb7d597458e07400e94d1712' -> (Import Result ID: '8c068553ad271fd56581e0af8139c65d') in 0.015 seconds [static dependencies only]. Details - ImportResultOutputID=e971df79d9e6686c46e6072de620bed8 DependenciesID=6dddb7fdb3d4321c558e824c76ffebd9 StaticDependenciesID=8b7989ff02e5adbac0a93a8375fdc098 
+Asset Pipeline Refresh (id=a496f5f5376ac4b40b9387f9e9cbd84e): Total: 0.092 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Batchmode quit successfully invoked - shutting down!
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-admin-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-admin channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

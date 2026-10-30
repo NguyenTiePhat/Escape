@@ -1,0 +1,261 @@
+<linker>
+  <assembly fullname="Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="AnimatorCullingFixComponent" preserve="all" />
+    <type fullname="AppendText" preserve="all" />
+    <type fullname="AudioSourceHelper" preserve="all" />
+    <type fullname="AudioSourceUtil" preserve="all" />
+    <type fullname="AutoFlashlight" preserve="all" />
+    <type fullname="CharacterSkinType" preserve="all" />
+    <type fullname="CustomCommsNetwork" preserve="all" />
+    <type fullname="Dissonance.Audio.Capture.CustomMicrophoneCapture" preserve="all" />
+    <type fullname="EventTimer" preserve="all" />
+    <type fullname="FollowTransformFixedUpdate" preserve="all" />
+    <type fullname="GameClient.VoicePlaybackPlayerController" preserve="all" />
+    <type fullname="GameServer.AdrenalinePerk" preserve="all" />
+    <type fullname="GameServer.AdrenalineShotPerk" preserve="all" />
+    <type fullname="GameServer.AIAlertTrigger" preserve="all" />
+    <type fullname="GameServer.BearTrapsLimit" preserve="all" />
+    <type fullname="GameServer.BearTrapTrigger" preserve="all" />
+    <type fullname="GameServer.BondPerk" preserve="all" />
+    <type fullname="GameServer.CareTakerPerk" preserve="all" />
+    <type fullname="GameServer.CautionPerk" preserve="all" />
+    <type fullname="GameServer.CursedDollPerk" preserve="all" />
+    <type fullname="GameServer.DeathImmunityComponent" preserve="all" />
+    <type fullname="GameServer.DeathRevengePerk" preserve="all" />
+    <type fullname="GameServer.DeathTrapPerk" preserve="all" />
+    <type fullname="GameServer.DistortionPerk" preserve="all" />
+    <type fullname="GameServer.EagleEyePerk" preserve="all" />
+    <type fullname="GameServer.EmpathyPerk" preserve="all" />
+    <type fullname="GameServer.EmptyStaticPerk" preserve="all" />
+    <type fullname="GameServer.EntitySimulationSync" preserve="all" />
+    <type fullname="GameServer.EntityToggleComponent" preserve="all" />
+    <type fullname="GameServer.EntityVelocityLimitCheck" preserve="all" />
+    <type fullname="GameServer.EtherealResurgencePerk" preserve="all" />
+    <type fullname="GameServer.FlashbangPerk" preserve="all" />
+    <type fullname="GameServer.FlashbangProp" preserve="all" />
+    <type fullname="GameServer.ForceWavesPerk" preserve="all" />
+    <type fullname="GameServer.ForgottenMemoryPerk" preserve="all" />
+    <type fullname="GameServer.ForSurvivorsPerk" preserve="all" />
+    <type fullname="GameServer.FreezeTrapWire" preserve="all" />
+    <type fullname="GameServer.GhostCagePerk" preserve="all" />
+    <type fullname="GameServer.GhostPathPerk" preserve="all" />
+    <type fullname="GameServer.GhostReaderComponent" preserve="all" />
+    <type fullname="GameServer.GoodStartPerk" preserve="all" />
+    <type fullname="GameServer.GotchaPerk" preserve="all" />
+    <type fullname="GameServer.GraspMasterPerk" preserve="all" />
+    <type fullname="GameServer.HealerPerk" preserve="all" />
+    <type fullname="GameServer.HoldInteractableDespawn" preserve="all" />
+    <type fullname="GameServer.HopePerk" preserve="all" />
+    <type fullname="GameServer.InsanityPerk" preserve="all" />
+    <type fullname="GameServer.InteractableEvent" preserve="all" />
+    <type fullname="GameServer.ItemDropComponent" preserve="all" />
+    <type fullname="GameServer.ItemTeleporter" preserve="all" />
+    <type fullname="GameServer.LeaderPerk" preserve="all" />
+    <type fullname="GameServer.LeftBehindPerk" preserve="all" />
+    <type fullname="GameServer.LifesaverPerk" preserve="all" />
+    <type fullname="GameServer.MechanicPerk" preserve="all" />
+    <type fullname="GameServer.MedicPerk" preserve="all" />
+    <type fullname="GameServer.MedkitPerk" preserve="all" />
+    <type fullname="GameServer.MedsPerk" preserve="all" />
+    <type fullname="GameServer.MindOwnerPerk" preserve="all" />
+    <type fullname="GameServer.NoBlackoutPerk" preserve="all" />
+    <type fullname="GameServer.OneRisesPerk" preserve="all" />
+    <type fullname="GameServer.OverchargePerk" preserve="all" />
+    <type fullname="GameServer.PickUpComponent" preserve="all" />
+    <type fullname="GameServer.PickUpMessageComponent" preserve="all" />
+    <type fullname="GameServer.PlayerTeleporter" preserve="all" />
+    <type fullname="GameServer.PrefabsManager" preserve="all" />
+    <type fullname="GameServer.PremonitionPerk" preserve="all" />
+    <type fullname="GameServer.PursuitSurgePerk" preserve="all" />
+    <type fullname="GameServer.ReconDevice" preserve="all" />
+    <type fullname="GameServer.RecoveryGiftPerk" preserve="all" />
+    <type fullname="GameServer.ResurrectionPerk" preserve="all" />
+    <type fullname="GameServer.ReverseStatePerk" preserve="all" />
+    <type fullname="GameServer.SecurityCameraPerk" preserve="all" />
+    <type fullname="GameServer.SelfCarePerk" preserve="all" />
+    <type fullname="GameServer.SensePerk" preserve="all" />
+    <type fullname="GameServer.ServerNetworkManager" preserve="all" />
+    <type fullname="GameServer.ShockPerk" preserve="all" />
+    <type fullname="GameServer.SoleSurvivorPerk" preserve="all" />
+    <type fullname="GameServer.SoulGuardPerk" preserve="all" />
+    <type fullname="GameServer.SpawnerPerk" preserve="all" />
+    <type fullname="GameServer.SpeedBootsPerk" preserve="all" />
+    <type fullname="GameServer.StealthPotionPerk" preserve="all" />
+    <type fullname="GameServer.SyncColliderComponent" preserve="all" />
+    <type fullname="GameServer.TeamRevengePerk" preserve="all" />
+    <type fullname="GameServer.TelepathyPerk" preserve="all" />
+    <type fullname="GameServer.TheCarryPerk" preserve="all" />
+    <type fullname="GameServer.ThreadManager" preserve="all" />
+    <type fullname="GameServer.TrapEndurancePerk" preserve="all" />
+    <type fullname="GameServer.UVHandprintComponent" preserve="all" />
+    <type fullname="GameServer.VictimPowerPerk" preserve="all" />
+    <type fullname="GameServer.VisibilityTrigger" preserve="all" />
+    <type fullname="GameServer.WakeUpPerk" preserve="all" />
+    <type fullname="GameServer.WildcardPerk" preserve="all" />
+    <type fullname="GameServer.WillMakeItPerk" preserve="all" />
+    <type fullname="GlitchTextSign" preserve="all" />
+    <type fullname="KinematicCharacterController.PhysicsMover" preserve="all" />
+    <type fullname="LightUtil" preserve="all" />
+    <type fullname="LocalAnimation" preserve="all" />
+    <type fullname="MaterialsQualityComponent" preserve="all" />
+    <type fullname="MenuRadio" preserve="all" />
+    <type fullname="Michsky.UI.Dark.UIElementSound" preserve="all" />
+    <type fullname="NetworkEntity" preserve="all" />
+    <type fullname="NetworkEntityElevator" preserve="all" />
+    <type fullname="OnEnableDisableEvent" preserve="all" />
+    <type fullname="QuickPerkReplay" preserve="all" />
+    <type fullname="RandomParticlePlayer" preserve="all" />
+    <type fullname="ReassignBones" preserve="all" />
+    <type fullname="RenderSettingsUtil" preserve="all" />
+    <type fullname="RotateTween" preserve="all" />
+    <type fullname="SceneryComponent" preserve="all" />
+    <type fullname="SceneryCountdownComponent" preserve="all" />
+    <type fullname="SurfaceComponent" preserve="all" />
+    <type fullname="ToggleLightmaps" preserve="all" />
+    <type fullname="VelocityTrigger" preserve="all" />
+    <type fullname="WorldSpaceCanvasCamAssigner" preserve="all" />
+    <type fullname="MaterialsQualityComponent/CustomShaderMapping" preserve="nothing" serialized="true" />
+    <type fullname="RandomParticlePlayer/Effect" preserve="nothing" serialized="true" />
+    <type fullname="Util.EntityPrefab" preserve="nothing" serialized="true" />
+    <type fullname="Util.MinMaxF" preserve="nothing" serialized="true" />
+    <type fullname="Util.PerkPrefab" preserve="nothing" serialized="true" />
+    <type fullname="Util.ServerQuest" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="DissonanceVoip, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Dissonance.Audio.Playback.SamplePlaybackComponent" preserve="all" />
+    <type fullname="Dissonance.Audio.Playback.VoicePlayback" preserve="all" />
+    <type fullname="Dissonance.DissonanceComms" preserve="all" />
+    <type fullname="Dissonance.TokenSet" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.Addressables, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.AddressableAssets.Addressables" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.AI.Navigation, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="Unity.AI.Navigation.NavMeshModifier" preserve="all" />
+    <type fullname="Unity.AI.Navigation.NavMeshModifierVolume" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.Localization, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Localization.Components.LocalizeStringEvent" preserve="all" />
+    <type fullname="UnityEngine.Localization.Locale" preserve="all" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData" preserve="all" />
+    <type fullname="UnityEngine.Localization.Tables.StringTable" preserve="all" />
+    <type fullname="UnityEngine.Localization.LocaleIdentifier" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.MetadataCollection" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.SmartFormatTag" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryData" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Events.UnityEventString" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.LocalizedString" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableEntryReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.TableReference" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Metadata.Comment" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.DistributedUIDGenerator" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Localization.Tables.SharedTableData/SharedTableEntry" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="Unity.ResourceManager, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null" preserve="all">
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.AssetBundleProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.BundledAssetProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.InstanceProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.LegacyResourcesProvider" preserve="all" />
+    <type fullname="UnityEngine.ResourceManagement.ResourceProviders.SceneProvider" preserve="all" />
+  </assembly>
+  <assembly fullname="Unity.TextMeshPro, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="TMPro.TextMeshProUGUI" preserve="all" />
+    <type fullname="TMPro.TMP_FontAsset" preserve="all" />
+    <type fullname="TMPro.FaceInfo_Legacy" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.FontAssetCreationSettings" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.KerningTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_Character" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontFeatureTable" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_FontWeightPair" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphPairAdjustmentRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.TMP_GlyphValueRecord" preserve="nothing" serialized="true" />
+    <type fullname="TMPro.VertexGradient" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEditor.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEditor.Audio.AudioMixerSnapshotController" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.AI.NavMeshObstacle" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.AudioModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Audio.AudioMixer" preserve="all" />
+    <type fullname="UnityEngine.Audio.AudioMixerGroup" preserve="all" />
+    <type fullname="UnityEngine.AudioClip" preserve="all" />
+    <type fullname="UnityEngine.AudioLowPassFilter" preserve="all" />
+    <type fullname="UnityEngine.AudioSource" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.GameObject" preserve="all" />
+    <type fullname="UnityEngine.Light" preserve="all" />
+    <type fullname="UnityEngine.LightProbeGroup" preserve="all" />
+    <type fullname="UnityEngine.LODGroup" preserve="all" />
+    <type fullname="UnityEngine.Material" preserve="all" />
+    <type fullname="UnityEngine.Mesh" preserve="all" />
+    <type fullname="UnityEngine.MeshFilter" preserve="all" />
+    <type fullname="UnityEngine.MeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Object" preserve="all" />
+    <type fullname="UnityEngine.RectTransform" preserve="all" />
+    <type fullname="UnityEngine.ReflectionProbe" preserve="all" />
+    <type fullname="UnityEngine.RenderTexture" preserve="all" />
+    <type fullname="UnityEngine.Shader" preserve="all" />
+    <type fullname="UnityEngine.SkinnedMeshRenderer" preserve="all" />
+    <type fullname="UnityEngine.Sprite" preserve="all" />
+    <type fullname="UnityEngine.TextAsset" preserve="all" />
+    <type fullname="UnityEngine.Texture2D" preserve="all" />
+    <type fullname="UnityEngine.Transform" preserve="all" />
+    <type fullname="UnityEngine.U2D.SpriteAtlas" preserve="all" />
+    <type fullname="UnityEngine.Events.ArgumentCache" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentCallGroup" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.PersistentListenerMode" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[GameServer.NetworkEntityPlayer]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.Boolean]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.Events.UnityEvent`1[System.UInt16]" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.RectOffset" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.ParticleSystemModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.ParticleSystem" preserve="all" />
+    <type fullname="UnityEngine.ParticleSystemRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.PhysicsModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.BoxCollider" preserve="all" />
+    <type fullname="UnityEngine.MeshCollider" preserve="all" />
+    <type fullname="UnityEngine.Rigidbody" preserve="all" />
+    <type fullname="UnityEngine.SphereCollider" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextRenderingModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Font" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.UI.Button" preserve="all" />
+    <type fullname="UnityEngine.UI.CanvasScaler" preserve="all" />
+    <type fullname="UnityEngine.UI.ContentSizeFitter" preserve="all" />
+    <type fullname="UnityEngine.UI.HorizontalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.Image" preserve="all" />
+    <type fullname="UnityEngine.UI.LayoutElement" preserve="all" />
+    <type fullname="UnityEngine.UI.RawImage" preserve="all" />
+    <type fullname="UnityEngine.UI.RectMask2D" preserve="all" />
+    <type fullname="UnityEngine.UI.Scrollbar" preserve="all" />
+    <type fullname="UnityEngine.UI.ScrollRect" preserve="all" />
+    <type fullname="UnityEngine.UI.VerticalLayoutGroup" preserve="all" />
+    <type fullname="UnityEngine.UI.AnimationTriggers" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Button/ButtonClickedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ColorBlock" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.MaskableGraphic/CullStateChangedEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Navigation" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.ScrollRect/ScrollRectEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.Scrollbar/ScrollEvent" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.UI.SpriteState" preserve="nothing" serialized="true" />
+  </assembly>
+  <assembly fullname="UnityEngine.UIModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null">
+    <type fullname="UnityEngine.Canvas" preserve="all" />
+    <type fullname="UnityEngine.CanvasRenderer" preserve="all" />
+  </assembly>
+  <assembly fullname="UnityEngine.TextCoreFontEngineModule">
+    <type fullname="UnityEngine.TextCore.FaceInfo" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.Glyph" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphMetrics" preserve="nothing" serialized="true" />
+    <type fullname="UnityEngine.TextCore.GlyphRect" preserve="nothing" serialized="true" />
+  </assembly>
+</linker>

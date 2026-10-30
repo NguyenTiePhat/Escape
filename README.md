@@ -1,18 +1,21 @@
-# The Ghost — IUH abandoned campus
+# Escape — The Ghost
 
 ## Bản trường học đang chỉnh sửa
 
 ### Mở và chạy game trong Unity
 
 1. Cài **Unity Hub** và Unity Editor **6000.5.7f1** (phiên bản đang dùng của dự án).
-2. Tải dự án về máy bằng Git:
+2. Cài Git và Git LFS, rồi tải dự án về máy (dùng clone để lấy đủ các file lớn qua LFS):
 
    ```powershell
+   git lfs install
    git clone https://github.com/NguyenTiePhat/Escape.git
+   cd Escape
+   git lfs pull
    ```
 
    Nếu đã có dự án trên máy thì bỏ qua bước tải lại.
-3. Mở **Unity Hub → Projects → Add → Add project from disk**, chọn thư mục `Escape/RecoveredProjects/TheGhost_School_Unity6`. Trên máy hiện tại, đường dẫn là `D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6`. Chọn thư mục này để mở bản trường học; thư mục gốc của repo chứa bản blockout IUH riêng.
+3. Mở **Unity Hub → Projects → Add → Add project from disk**, chọn thư mục `Escape/RecoveredProjects/TheGhost_School_Unity6`. Trên máy hiện tại, đường dẫn là `D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6`. Chọn đúng thư mục này; mô hình và dự án blockout IUH cũ đã được xóa.
 4. Bấm vào dự án trong Unity Hub để mở bằng **6000.5.7f1**. Lần đầu cần đợi Unity import tài nguyên và biên dịch script; dữ liệu khá lớn nên có thể mất vài phút hoặc lâu hơn tùy máy.
 5. Trong cửa sổ **Project** của Unity, vào `Assets → Recovery → Scenes`, nhấp đúp **School_Test** (`School_Test.unity`).
 6. Bấm nút **▶ Play** ở thanh công cụ phía trên. Chọn tab **Game**, rồi click vào hình game để điều khiển nhân vật.
@@ -34,41 +37,28 @@ Nếu Unity bị lỗi đồ họa DX12 trên Windows, đóng Editor và chạy 
 
 Đây là bản thử nghiệm môi trường và tương tác phòng bắt đầu, chưa phải game hoàn chỉnh; gameplay gốc như multiplayer và AI chưa được phục hồi.
 
-Repository chứa mã nguồn, scene và tài nguyên của bản Unity6. Unity sẽ tạo lại Library khi mở lần đầu. Gói APK/XAPK, dữ liệu giải nén, bản xuất nguyên trạng và báo cáo tạm không được đưa vào Git. Dự án ở thư mục gốc là bản blockout IUH riêng, được mô tả bên dưới.
+## Dữ liệu có trong repository
 
-Bản blockout 3D cho Unity PC, lấy cảm hứng từ IUH. Đây là khối giảng đường hư cấu hai tầng, không mô phỏng chính xác trường thật. Phạm vi hiện tại: môi trường và đi bộ góc nhìn thứ nhất; chưa có quái vật, jumpscare hoặc nhiệm vụ nhặt đồ.
+Để làm việc nhóm, mở trực tiếp `RecoveredProjects/TheGhost_School_Unity6`: `Assets` (kèm `.meta`), `Packages` và `ProjectSettings` là dữ liệu cần giữ đồng bộ. Không cần chạy AssetRipper hoặc giải nén APK để mở dự án này; các thư mục nguồn/khôi phục khác được giữ để sao lưu và đối chiếu.
 
-## Mở bản đồ
+## Làm việc nhóm
 
-1. Unity Hub → Add project from disk → chọn thư mục này. Unity đã tìm thấy trên máy: **6000.5.7f1**. Dùng Built-in Render Pipeline.
-2. Mở scene có sẵn `Assets/Scenes/IUH_Preview.unity`. Khi cần dựng lại, chọn menu **The Ghost → Build IUH Preview** để tạo scene, vật liệu và nhân vật từ dữ liệu.
-3. Nhấn Play rồi click vào Game view. WASD di chuyển, chuột nhìn, Shift chạy, F đèn pin, L đổi sáng, Esc thả chuột, R về sân.
-4. Nếu dự án được mở bằng cấu hình Input System mới, đặt Player → Active Input Handling thành **Input Manager (Old)** hoặc **Both**.
+1. Dùng cùng Unity **6000.5.7f1**. Trước khi làm, lưu/commit thay đổi đang có, rồi cập nhật bằng `git pull --ff-only` và `git lfs pull`.
+2. Mỗi người tạo nhánh riêng, ví dụ `git switch -c feature/ten-cong-viec`, và mở đúng scene `Assets/Recovery/Scenes/School_Test.unity`.
+3. Di chuyển/đổi tên asset trong cửa sổ Project của Unity để giữ liên kết `.meta`. Commit cả asset và `.meta`; lưu scene trước khi commit.
+4. Tránh cùng sửa một scene hoặc prefab trong cùng thời điểm. Thống nhất người phụ trách hoặc tách công việc sang scene/prefab riêng.
+5. Sau khi kiểm tra trong Unity, chạy `git add .`, `git commit -m "Describe changes"`, rồi `git push -u origin HEAD`. Tạo Pull Request trên GitHub để nhóm xem và gộp vào `main`.
 
-Menu Build sẽ dựng lại scene từ dữ liệu; lưu thay đổi thủ công sang scene khác trước khi dựng lại.
+## Nội dung lưu trữ bổ sung
 
-## Bố cục và định hướng
+- `RecoveredProjects/TheGhost_School_Unity6`: toàn bộ dự án Unity6 đang chỉnh sửa, gồm asset, scene, script, cấu hình và `RecoveryReports` (báo cáo, ảnh kiểm tra, scene sao lưu).
+- `RecoveredProjects/TheGhost_Original`: bản xuất nguyên trạng cùng `AuxiliaryFiles` để đối chiếu và phục hồi.
+- `ImportSource`: dữ liệu giải nén, các APK thành phần và dữ liệu Unity đầu vào.
+- File `.xapk` ở thư mục gốc: gói đầu vào ban đầu.
+- `Tools`: công cụ AssetRipper và script kiểm tra dữ liệu.
+- `Preview`: các báo cáo, ảnh và log còn lại của quá trình khôi phục.
+- `RESUME.md`: lịch sử công việc và các giới hạn đã ghi nhận.
 
-- Tầng 1 (cốt 0 m): A101/A102 giảng đường, A103 y tế, A104 giáo vụ, A105 kho, A106 vệ sinh.
-- Tầng 2 (cốt 4,2 m): A201 giảng đường, A202 thư viện, A203 máy tính, A204 thí nghiệm, A205 kỹ thuật, A206 vệ sinh.
-- Hành lang rộng 4 m, cửa rộng 2 m, hai cầu thang rộng 3,2 m, bậc cao 0,2 m. Hai cầu thang dẫn ra sân; các phòng mở trực tiếp ra hành lang.
-- Cây, ghế đá, nhà bảo vệ, hàng rào, cổng phụ, mái che xe và cột cờ tạo bối cảnh. Nhà bảo vệ là khối ngoại cảnh, chưa có nội thất.
-- Mảng xanh lam, tường bạc màu, vệt ẩm, mảnh vụn và nội thất giản lược. Đây là blockout có màu, chưa phải đồ họa hiện thực hoặc asset hoàn thiện.
+Chỉ bỏ qua cache/trạng thái máy (`Library`, `Temp`, `Obj`, `Logs`, `UserSettings`, `.vs`, `.idea`) và file thông tin đăng nhập riêng nếu có. Unity tạo lại cache khi mở dự án. Thư mục trống không được Git lưu. Mô hình IUH, dự án Unity gốc của IUH, ảnh render và script dựng IUH đã được xóa khỏi phiên bản hiện tại; lịch sử commit cũ vẫn được giữ.
 
-## Ảnh xem trước
-
-`Preview/01-courtyard.png`, `02-gallery.png`, `03-classroom.png` được render bằng Blender từ cùng dữ liệu hình học xuất cho Unity. Ánh sáng và vật liệu giữa hai phần mềm có thể khác. File Blender: `Preview/IUH-campus.blend`.
-
-Nguồn tham khảo kiến trúc: https://iuh.edu.vn/ và https://iuh.edu.vn/vi/co-so-vat-chat.html . Các mô hình trong dự án được dựng bằng hình học thủ tục, không trích xuất asset của IUH hoặc Panicore.
-
-## Tạo lại dữ liệu / ảnh
-
-Chạy Blender ở chế độ background với `--python Tools/build_campus.py`. Script tạo `Assets/Resources/campus.json` và ảnh xem trước. Sau đó chạy menu Build trong Unity. Kích thước dùng mét.
-
-Chưa tối ưu mesh batching, light bake, LOD hoặc occlusion culling. Bản thử hiện tại dành cho duyệt bố cục và hướng mỹ thuật.
-
-## Kiểm tra đã thực hiện
-
-- Blender đã tạo 1.518 thành phần hình học và ba ảnh render; đã xem ảnh, chỉnh lại ánh sáng nội thất.
-- Unity 6000.5.7f1 đã biên dịch C# và chạy CampusBuilder.Build thành công, lưu scene cùng vật liệu; batchmode kết thúc với mã 0.
-- Chưa kiểm thử trực tiếp di chuyển trong Play Mode hoặc build bản Windows standalone.
+Các file APK, XAPK, asset bundle, Unity3D và EXE dùng **Git LFS**. Sau khi clone hoặc cập nhật repo, chạy `git lfs pull` để lấy nội dung đầy đủ. Repo chỉ lưu dữ liệu đang có trên máy, không khẳng định đã khôi phục đầy đủ gameplay gốc.

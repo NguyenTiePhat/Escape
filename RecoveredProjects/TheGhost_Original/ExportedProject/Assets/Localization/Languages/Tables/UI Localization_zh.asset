@@ -1,0 +1,1349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_zh
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: zh
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 388619548772270085
+  m_TableData:
+  - m_Id: 5190169124864
+    m_Localized: 连接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: 退出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: 游戏模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: 局域网
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: 本地服务器IP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: 在线
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: 或者
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: 游玩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: 设置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: 人数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: 统计数据
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: 房间名称&地图
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: 角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: 创建服务器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: 启用服务器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: 服务器区域：{serverRegion}
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Localized: 统计数据仅在登录后启用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: 收藏品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: 对局
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: 胜利：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: 失败：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: 物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: 获得汽车零件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: 修复零件：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: 击杀
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: 生者击杀数：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: (可以在游戏中解锁)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: 服装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: 帽子&面具 解锁数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: 一般
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: 控制
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: 音频
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: 图形
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: 玩家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: 用户名称
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: UI和HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: UI尺寸：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: 其他
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: 地区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: 语言
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: 控制器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: 横向灵敏度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: 纵向灵敏度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: '反转X轴:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: '反转Y轴:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: 总音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: 背景音乐音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: 'UI音量:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: 效果音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: 多人游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: 语音音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: 设备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: 使用耳机：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: 对性能影响较大的功能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: 后期处理
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: '玩家光源:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: 体积光：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: 登录
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: 继续游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: 退出到主界面
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: 高级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: 帽子：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: 角色
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: 购买
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: 您确定要退出吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: 否
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: 是
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: UI尺寸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: 您确定要应用更改吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: 选择语言
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: 您确定要进入这个房间吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: 创建房间
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: 房间名称
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: 玩家数量：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PVP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: 创建
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: 私人房间
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: 房间IP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: 加入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: 房间创建失败
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: 稍后
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: 账户迁移
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: 您确定要把账户数据迁移到新账户上吗?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: 阅读
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: 加入私人游戏
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: 私人房间：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: 继续
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: 找到的报纸
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: 加载房间中...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: 修复车辆
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: 汽车零件
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: 车轮
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: 电池
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: 汽油
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: 车钥匙
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: 已购买
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: 游戏模式：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: 对讲机
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: 材质品质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: 固定地图：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: 提示
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: 单击在线选项卡以重新加载房间。您可以每 5 秒重新加载一次房间
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: 保险丝组合
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: 教程
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: 地图
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: 跳过
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: 屏幕分辨率
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: 麦克风
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: 质量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: 血迹：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: 请注意
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: 最好使用耳机以防止产生回声。您还可以在音频设置中更改麦克风设备。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: 游玩离线模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: 筛选
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: 主要
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: 警告
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: 不支持 IPhone 6 Plus 或配置更低的设备
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: 段位等级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: 恢复数据
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: 好友
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: 创建大厅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: 重新连接
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: 开始
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: 大厅设置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: 邀请
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: 邀请玩家
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: 您确定要退出大厅吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: 没有好友在线
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: 删除
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: 我的段位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: 当前
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: 上一个
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: 如果你的手机开启了移动热点，则无法创建服务器
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: 达到新段位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: 分享ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: 你确定要恢复旧数据吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: 恢复旧数据
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: 接受
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: 添加
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: 添加好友
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: 搜索
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: 如果授予麦克风权限，Discord 或其他应用程序可能无法运行
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: 车子修好了
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: 等待他人
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: 上车
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: 发电机已开启
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: 地图选择
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: 医院
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: 下水道
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: 学校
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: 重置缩放
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: 目标
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: 显示结束场景：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: 获得的 XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: 技能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: 使用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: 精选福利
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: 迷雾：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: 训练
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: 社交
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: 保存
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: 重置
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: 商店
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: 未经验证的购买
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: 您想现在验证购买吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: 难度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: 启用语音聊天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: 静音语音聊天
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: 帐户
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: 信息
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: 用户ID：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: 登录类型：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: 电子邮箱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: 密码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: 注册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: 忘记密码？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: 立即游玩
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: 电子邮件验证
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: 验证
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: 找回密码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: 新密码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: 重设密码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: 恢复
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: 登录
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: 转移数据
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: 数据将从游客账号转移
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: 您目前无法使用此选项。您必须更加活跃才能获得免费电子邮件注册。您可以使用其他登录选项。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: 获得的经验总值
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: 奖杯总数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: 对局详情
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: 对局获胜：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: 生者：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: 生存时间：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: 推荐地区
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: 地图&日期
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: 奖杯
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: 档案
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: 复制ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: 当前赛季最高段位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: 往期赛季最高段位
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: 大厅邀请
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: 退出大厅
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: 显示死亡动画
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: 大厅邀请已发送
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: 解锁“天赋”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: 如果您未登录，进度可能会丢失
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: 代码
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: 按钮自定义：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: 自定义
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: 无法将你的游客数据传输到这个帐户，您确定要继续吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: 地图
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: 手册
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: 匹配
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "敌人：莉-戈威拉（Lil Godwilla）\n 类型：鬼\n \n 莉-戈威拉很慢，但她可以瞬移到房间里。 不要靠近她以免被她盯上——她在猎杀状态下跑得更快。 不要朝有窃窃私语的方向走。\n 目标：你将会在医院的三个车库中的一个车库里醒来。 目标是修好一辆车以逃跑。 你需要找到以下零件：4 个轮子、电池、燃料和钥匙。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "敌人：雕像\n 类型：鬼\n \n 雕像的弱点是门和手电筒。 当你将手电筒指向它所的方向时，它将无法移动，但请记住，手电筒无法一直亮着。 请随手关门——它会减慢雕像追赶你的速度。\n 目标：通过解决谜题打开大门。 打开保安室，修好保险丝盒，解开大门上的拼图谜题"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "敌人：卡罗尔（Crawler）\n 类型：怪物\n \n 卡罗尔可以在墙壁上爬行，当你关掉手电筒时，他将无法看到你。 因此请避免进入明亮的地方。\n 目标：打开 9 台发电机为大门供电。 解开一系列谜题以到达终点。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: '- 游戏过程中的以下颜色表示您可以通过按下它来使用“天赋”'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: '- 如果有以下情况之一，“天赋”可能会变得不可用 1.“天赋”已被使用。 2.您的“天赋”数量不足。 3.当前地图不支持“天赋”'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: '- 游戏过程中的以下颜色表示在游戏过程中自动激活的天赋（AKA 情景特权）'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: 您可以选择与敌方玩家对战。其中一名玩家将被选为敌人。敌人必须消灭所有幸存者才能获胜。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: 参加排名比赛并提高您的联赛水平，登上排行榜以获得独特的奖励，解锁新的福利。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: 您想阅读游戏手册吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: 解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: 获取
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: 升级
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: 您必须先解锁上一个“天赋”
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: 踢出
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: 奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: 赛季结束
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: 房间
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: 按标签加入
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: 删除账号
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: 您确定要删除您的帐户吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: Alpha
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: 显示帧率
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: 模拟器输入：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: 人物品质
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: 着色器质量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: 经验值奖励
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: 解析DNS：
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "敌人:多个\n 类型:怪物/鬼\n \n 你被困在一个被诅咒的公寓，找到异常进展到下一层，并通过到达一楼逃脱。\n 这里有多个敌人。每个敌人都有自己独特的行为，你必须找到对付他们的方法。\n \n 目标:到达1层并通过发现异常逃离公寓。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: 环境音量
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: 动态视野 (适用于 iPad)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "EMF 读取器可检测鬼魂的存在和近期的鬼魂活动。\n \n 使用 EMF 读取器快速找到大致的鬼魂区域/房间。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "使用你的紫外线手电筒\n 来探测紫外线证据。\n \n 鬼魂在与门或电灯开关互动后可能会留下手印。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "获取鬼魂所在区域灵盒的回应作为证据。\n \n 鬼魂活动期间，获得回应的几率更高。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "使用温度计确定鬼魂所在区域/房间，温度低于5°C。\n \n 冰冻温度证据低于0°C。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: 蜡烛放在鬼屋里有几率会被吹灭。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: 当有鬼魂出没时，鬼魂附近会出现鬼魂球。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "敌人：屠杀幽灵\n 类型：幽灵\n \n 你被绑架并带到一个秘密的地下设施。他们承诺，如果你成功找到正确的幽灵证据，你就能获得自由。\n 幽灵在显现时会吸收电流，导致灯光闪烁。\n \n 幽灵居住在其中一个房间里，一旦被激怒，就会从那里开始狩猎。\n 你可以躲在障碍物后面，避开幽灵的视线。\n \n 目标：找到正确的幽灵证据，完成仪式并逃脱。"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: 可在活动期间解锁
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: 显示更多
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: 显示更少
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: 首次购买优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: 免费钥匙优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: 免费经验值优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: 免费资源优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: 经验值礼包优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: 免费宝箱优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: 免费礼物优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: 蓝色证书优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: 证书宝箱优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: 木质宝箱开启！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: 稀有宝箱优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: 紫色证书优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: 证书组合优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: 稀有宝箱开启！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: 粉色证书优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: 红色证书优惠！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: 即将上市
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: 暂时不可用
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: 您确定要接受交易吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: “精神控制”技能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: 您确定要领取奖励吗？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: “预感”技能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: “幽灵牢笼”技能
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: “通氏族”外套
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: 今日乘数
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: 没有逃脱
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: 逃脱一次即可解锁竞技
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: 年龄选择不会影响游戏体验。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: 你的年龄是多少？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: 赢取总计 <color=#FFEF67>250 金币</color>，或有 <color=#FFEF67>3%</color> 的几率在其中一个奖品箱中获得诅咒娃娃奖励！
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: 万圣节优惠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>万圣节更新！</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: 本次更新带来了万圣节场景、万圣节支线任务、新的个人任务道具、平衡性调整以及期待已久的改进。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>万能牌</b> - 初始时随机替换一个技能。死亡后，所有技能均可再次使用。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>下水道重制版即将到来！</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: 在不久的将来，我们将发布下水道重制版。发布期间将有专属活动，并提供专属奖励。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>万圣节专属技能</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "现在可以获得个人任务道具。它们可以让你随时开始任意个人任务，完成后还能获得丰厚奖励！任务分为两种类型：普通和万圣节。\n \n <b>个人任务道具：</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>新道具：碎片</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>全新皮肤：</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>优化与平衡性调整</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>全新帽子和奖杯：</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>撬棍</b> - 可以撬开任何上锁的门。'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: 万圣节活动
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>版本</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: 线上进度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: 选择槽位“{slot}”
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270085
+  - m_Id: 348348179381477376
+    m_Localized: 使用技能“{slot}”
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270085
+  - m_Id: 344688356441972736
+    m_Localized: 移动端HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: 输入绑定
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: 键盘
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: 游戏手柄
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: 蹲伏模式
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: UI光标灵敏度
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: 主要动作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: 次要动作
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: 手电筒
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: 丢弃物品
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: 装弹
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: 仪式书
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Localized: 记分板
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: 暂停菜单
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: 检测到游戏手柄
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: 是否启用游戏手柄输入？
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: 新年优惠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- 优化了上锁门的反馈提示。\n- 优化了内购处理。\n- 修复了在屠宰场单人游戏中任务不计数的问题。\n- 黑洞：持续时间缩短<color=red>−75%</color>（最长30秒，原为120秒）\n- 空灵复苏：持续时间缩短<color=red>−50%</color>（最长30秒，原为60秒）\n- 希望、如梦初醒、我们会成功的、救生员增益：低等级时物品显示范围<color=green>+50%</color>\n- 领导者、逃生者技能增益：低等级时物品显示范围<color=green>+40%</color>\n- 灵魂守卫增益：1级时持续时间延长3倍（15秒，原为5秒）\n- 万能牌现在会刷新所有处于冷却中的技能，包括复活和自我护理\n- 修复了加速鞋技能在肾上腺素注射剂、隐形药水、追击潮或恢复的礼物结束后，或玩家被复活后失去加成的问题。\n\n- 其他变更与优化"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: 您可以在设置中启用房间名称显示。
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: 显示房间名称
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: “TTR战队”套装
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: “肾上腺素注射”特长
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: “王者战队”皇冠
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: 接收
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Localized: 万圣节曲调音量
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 388619548772270085
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

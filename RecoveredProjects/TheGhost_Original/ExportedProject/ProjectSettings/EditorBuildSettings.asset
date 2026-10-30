@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/LaunchScreen.unity
+    guid: 1e20c50e7fc49f6439f0baa8c6af3894
+  - enabled: 1
+    path: Assets/Scenes/MainScene.unity
+    guid: a02d7ae88d5587e419782b7257e29c75
+  - enabled: 1
+    path: Assets/Scenes/HospitalLevel.unity
+    guid: 925f985eab03542fa8ae47bc71c461c6
+  - enabled: 1
+    path: Assets/Scenes/Server/HospitalLevel_server.unity
+    guid: 925f985eab03542fa8ae47bc71c461c6
+  - enabled: 1
+    path: Assets/Scenes/SchoolLevel.unity
+    guid: ffc44fdbb451a40ac83c0c2f70ebb426
+  - enabled: 1
+    path: Assets/Scenes/Server/SchoolLevel_server.unity
+    guid: ffc44fdbb451a40ac83c0c2f70ebb426
+  - enabled: 1
+    path: Assets/Scenes/ApartmentsLevel.unity
+    guid: cb0d626726e448340960bfdcbed55e67
+  - enabled: 1
+    path: Assets/Scenes/Server/ApartmentsLevel_server.unity
+    guid: dc7f43e45107aac408ca59e503d2a317
+  - enabled: 1
+    path: Assets/Scenes/SlaughterhousePhasmoLevel.unity
+    guid: 4ba6a8ac8a2d77b4a8f279fee1f491f1
+  - enabled: 1
+    path: Assets/Scenes/Server/SlaughterhousePhasmoLevel_server.unity
+    guid: 6c631bd42f5a1bf42b17e4b6cafeca78
+  m_configObjects: {}

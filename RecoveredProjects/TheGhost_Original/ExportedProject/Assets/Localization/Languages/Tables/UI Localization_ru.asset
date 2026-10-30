@@ -1,0 +1,1349 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: -622809992, guid: 76ad3cbe9d98d83f7de53e0a92768023, type: 3}
+  m_Name: UI Localization_ru
+  m_EditorClassIdentifier:
+  m_LocaleId:
+    m_Code: ru
+  m_SharedData: {fileID: 11400000, guid: 66f6fdf7eddad20448881bb9476a2102, type: 2}
+  m_Metadata:
+    m_Items:
+    - rid: 388619548772270096
+  m_TableData:
+  - m_Id: 5190169124864
+    m_Localized: Подключиться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3241944276992
+    m_Localized: Выйти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4328969461760
+    m_Localized: Игровой режим
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3668756652032
+    m_Localized: Локальный
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2669740548096
+    m_Localized: IP-адрес локального сервера
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3813330116608
+    m_Localized: Онлайн
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4827810619392
+    m_Localized: или
+    m_Metadata:
+      m_Items: []
+  - m_Id: 927011430400
+    m_Localized: Играть
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3095726645248
+    m_Localized: Настройки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4442370859008
+    m_Localized: Слоты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2849923653632
+    m_Localized: Статистика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 4249948774400
+    m_Localized: Название и карта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 16818801467392
+    m_Localized: Персонаж
+    m_Metadata:
+      m_Items: []
+  - m_Id: 17275275960320
+    m_Localized: Создать сервер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1826986837139456
+    m_Localized: Включить сервер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1827734450855936
+    m_Localized: 'Регион сервера: {serverRegion}'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829868118466560
+    m_Localized: Статистика недоступна, нужно войти в аккаунт.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830077779140608
+    m_Localized: Коллекция
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830222499405824
+    m_Localized: Матчи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830381861986304
+    m_Localized: 'Победы:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830488590245888
+    m_Localized: 'Проигрыши:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830587282219008
+    m_Localized: Предметы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830673554857984
+    m_Localized: Запчастей найдено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830790424944640
+    m_Localized: 'Запчастей восстановлено:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830869416271872
+    m_Localized: Убийства
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1830962429157376
+    m_Localized: 'Убито выживших:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831661988732928
+    m_Localized: (Можно разблокировать во время игры)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1831788384083968
+    m_Localized: Одежда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832003447021568
+    m_Localized: 'Разблокировано шляп и масок:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832261883256832
+    m_Localized: Общее
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832382591131648
+    m_Localized: Управление
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832482935660544
+    m_Localized: Звук
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832574765752320
+    m_Localized: Графика
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832721859993600
+    m_Localized: Игрок
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832810523385856
+    m_Localized: никнейм
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1832903368499200
+    m_Localized: UI и HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833011753508864
+    m_Localized: 'Размер UI:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833101696163840
+    m_Localized: другое
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833265081081856
+    m_Localized: Регион
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833473122754560
+    m_Localized: Язык
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833629394132992
+    m_Localized: КОНТРОЛЛЕР
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833718267240448
+    m_Localized: Горизонтальная чувствительность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833820872499200
+    m_Localized: Вертикальная чувствительность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1833919249899520
+    m_Localized: 'Инвертировать по горизонтали:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834004578820096
+    m_Localized: 'Инвертировать по вертикали:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834207960621056
+    m_Localized: Общая громкость
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834366308179968
+    m_Localized: Громкость фоновой музыки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834445962207232
+    m_Localized: 'Громкость UI:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834523972067328
+    m_Localized: Громкость эффектов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834647997636608
+    m_Localized: Мультиплеер
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834757452193792
+    m_Localized: Громкость голосового чата
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834862582423552
+    m_Localized: УСТРОЙСТВА
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1834938964893696
+    m_Localized: 'в наушниках:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835185170538496
+    m_Localized: FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835258805739520
+    m_Localized: Сильно нагружает производительность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835365282340864
+    m_Localized: Постобработка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835460140720128
+    m_Localized: 'Свет от игрока:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1835558098690048
+    m_Localized: 'Объёмный свет:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 1829653013585920
+    m_Localized: Авторизоваться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163077574287360
+    m_Localized: Возобновить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163167005237248
+    m_Localized: Выйти в главное меню
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163525853110272
+    m_Localized: Премиум
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2163858855682048
+    m_Localized: 'Кепка:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164082290450432
+    m_Localized: Персонаж
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2164507496407040
+    m_Localized: Купить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165759705866240
+    m_Localized: Вы уверены, что хотите выйти?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2165980674383872
+    m_Localized: Нет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166051864305664
+    m_Localized: Да
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166249919340544
+    m_Localized: Размер UI
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166352172277760
+    m_Localized: Вы уверены, что хотите применить изменения?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2166782029717504
+    m_Localized: Выберите язык
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167442766815232
+    m_Localized: Вы уверены, что хотите подключиться к этой комнате?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167825815822336
+    m_Localized: Создать комнату
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2167920728727552
+    m_Localized: Название комнаты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168114568486912
+    m_Localized: 'Игроки:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168680048746496
+    m_Localized: 'PvP:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2168855345487872
+    m_Localized: Создать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169029304246272
+    m_Localized: Приватная комната
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169691387715584
+    m_Localized: IP комнаты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2169852633538560
+    m_Localized: Присоединиться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170098193260544
+    m_Localized: Не удалось создать комнату
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170849120477184
+    m_Localized: Позже
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2170963994075136
+    m_Localized: Объединить учетные записи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171048328945664
+    m_Localized: Вы хотите привязать данные вашей предыдущей учетной записи к новой?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2171306681294848
+    m_Localized: читать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2187634213380096
+    m_Localized: присоединиться к приватному
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2189203516416000
+    m_Localized: 'приватная комната:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191205864562688
+    m_Localized: Продолжить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191540670685184
+    m_Localized: Найдено бумаг
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2191989360549888
+    m_Localized: Загрузка комнаты...
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192409164242944
+    m_Localized: Почините машину
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192762261725184
+    m_Localized: Запчасти машины
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192942742626304
+    m_Localized: Колесо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2192995251118080
+    m_Localized: Аккумулятор
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193065459572736
+    m_Localized: Топливо
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2193124880277504
+    m_Localized: Ключи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 2603024122896384
+    m_Localized: куплено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3505584526581760
+    m_Localized: 'Игровой режим:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 7284442782490624
+    m_Localized: Рация
+    m_Metadata:
+      m_Items: []
+  - m_Id: 10477008382320640
+    m_Localized: Качество текстур
+    m_Metadata:
+      m_Items: []
+  - m_Id: 20311363166396416
+    m_Localized: 'Фиксированная карта:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265123105955840
+    m_Localized: Подсказка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 25265622316212224
+    m_Localized: Нажмите на вкладку онлайн, чтобы перезагрузить комнаты. Вы можете перезагружать комнаты каждые 5 секунд.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 29055218124578816
+    m_Localized: Комбинация предохранителей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 30820859307352064
+    m_Localized: Обучение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31066436402143232
+    m_Localized: Карта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31827953749843968
+    m_Localized: Пропустить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 31853139790389248
+    m_Localized: Разрешение экрана
+    m_Metadata:
+      m_Items: []
+  - m_Id: 38362415807586304
+    m_Localized: Микрофон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41264337099153408
+    m_Localized: Качество
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41362084196245504
+    m_Localized: 'Кровь:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230346424705024
+    m_Localized: Обратите внимание
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44230469821128704
+    m_Localized: Убедитесь, что вы используете наушники, чтобы предотвратить эхо от микрофона. Вы также можете изменить источник микрофона в настройках звука
+    m_Metadata:
+      m_Items: []
+  - m_Id: 44624266132447232
+    m_Localized: Играть оффлайн
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48111994799120384
+    m_Localized: Фильтр
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48168988063031296
+    m_Localized: Главное
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803529039536128
+    m_Localized: Предупреждение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 48803597930979328
+    m_Localized: Iphone 6+ и ранее не поддерживаются
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53197978553278464
+    m_Localized: Восстановить данные
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53203385761914880
+    m_Localized: Друзья
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53325664466493440
+    m_Localized: Лига
+    m_Metadata:
+      m_Items: []
+  - m_Id: 53327463772577792
+    m_Localized: Создать лобби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55013960921899008
+    m_Localized: Переподключиться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55028706010193920
+    m_Localized: Начать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55029028162101248
+    m_Localized: Настройки лобби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55038865591754752
+    m_Localized: Пригласить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55042379973910528
+    m_Localized: Пригласить игроков
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55134029777723392
+    m_Localized: Вы уверены, что хотите выйти из лобби?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 55351346377777152
+    m_Localized: Друзья не найдены
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56082443474558976
+    m_Localized: Удалить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56899615633432576
+    m_Localized: Моя лига
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946805164728320
+    m_Localized: Текущий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 56946905819635712
+    m_Localized: Предыдущий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 57152041938575360
+    m_Localized: Вы не можете создать сервер, если являетесь владельцем мобильной точки доступа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58060544953802752
+    m_Localized: Достигнута новая лига
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58325869054124032
+    m_Localized: Поделиться ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345630710358016
+    m_Localized: Вы уверены, что хотите восстановить данные из старой базы данных?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 58345791448670208
+    m_Localized: Восстановить старые данные
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376049224409088
+    m_Localized: Принять
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59376425814188032
+    m_Localized: Добавить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377534800748544
+    m_Localized: Добавить в друзья
+    m_Metadata:
+      m_Items: []
+  - m_Id: 59377683937615872
+    m_Localized: Поиск
+    m_Metadata:
+      m_Items: []
+  - m_Id: 65593373354876928
+    m_Localized: Discord или другие приложения могут не работать, если вы дали разрешение на использование микрофона.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069253809430528
+    m_Localized: Автомобиль отремонтирован
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069375335194624
+    m_Localized: Ожидание других
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68069534454505472
+    m_Localized: Забирайтесь в машину
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68116347052089344
+    m_Localized: Генераторы включены
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885574516203520
+    m_Localized: Выбор карты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68885719093862400
+    m_Localized: Больница
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886005455773696
+    m_Localized: Канализация
+    m_Metadata:
+      m_Items: []
+  - m_Id: 68886101916377088
+    m_Localized: Школа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 69496765336772608
+    m_Localized: Сбросить масштаб
+    m_Metadata:
+      m_Items: []
+  - m_Id: 72771787161591808
+    m_Localized: Задачи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 76813152946216960
+    m_Localized: 'Показывать концовку:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77598921596067840
+    m_Localized: Заработано XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77903435549106176
+    m_Localized: Перки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77926522504077312
+    m_Localized: Использовать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 77956706577932288
+    m_Localized: Избранные перки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 82326563322847232
+    m_Localized: 'Туман:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84067930466148352
+    m_Localized: Обучение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 84370199107592192
+    m_Localized: Соцсети
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89503797317984256
+    m_Localized: Сохранить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89504051509583872
+    m_Localized: Сбросить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 89540622464049152
+    m_Localized: Магазин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90141348500332544
+    m_Localized: Неподтвержденная покупка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90142197595234304
+    m_Localized: Подтвердить покупку сейчас?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90674318181130240
+    m_Localized: Сложность
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90893773251272704
+    m_Localized: Включить голосовой чат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90925301930909696
+    m_Localized: Заглушить голосовой чат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950583148601344
+    m_Localized: Аккаунт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90950791953637376
+    m_Localized: Информация
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90955665445478400
+    m_Localized: 'ID игрока:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 90956141012443136
+    m_Localized: 'Тип входа:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090622280720384
+    m_Localized: Электронная почта
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92090673962934272
+    m_Localized: Пароль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92093924217184256
+    m_Localized: Зарегистрироваться
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92097453560422400
+    m_Localized: Забыли пароль?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92101252622573568
+    m_Localized: Играть сейчас
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121412855128064
+    m_Localized: Подтверждение электронной почты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92121623782481920
+    m_Localized: Подтвердить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92337230809391104
+    m_Localized: Восстановление пароля
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92350567404265472
+    m_Localized: Новый пароль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92384724046045184
+    m_Localized: Сбросить пароль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92385099041988608
+    m_Localized: Восстановить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92430902343229440
+    m_Localized: Войти
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832589176365056
+    m_Localized: Передача данных
+    m_Metadata:
+      m_Items: []
+  - m_Id: 92832664518647808
+    m_Localized: Данные будут перенесены из гостевой учетной записи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 93176902435463168
+    m_Localized: Эта опция в настоящее время для вас недоступна. Вы должны быть более активными, чтобы получить бесплатную регистрацию по электронной почте. Вместо этого вы можете использовать другие варианты входа.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142363981570048
+    m_Localized: Всего заработано XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142448563904512
+    m_Localized: Всего трофеев
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94142574510465024
+    m_Localized: Итоги матча
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94158000237830144
+    m_Localized: 'Выигранный матч:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170203049418752
+    m_Localized: 'Выжил:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 94170346108739584
+    m_Localized: 'Время выживания:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 95260747632730112
+    m_Localized: Предпочитаемый регион
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97399711927885824
+    m_Localized: Карта и дата
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97402523680235520
+    m_Localized: Трофеи
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97535115016527872
+    m_Localized: Профиль
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97781042281177088
+    m_Localized: Скопировать ID
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97790464814473216
+    m_Localized: Лучший сезон
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97889890807570432
+    m_Localized: Лучшее за все время
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97900132069007360
+    m_Localized: Приглашение в лобби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 97903510752845824
+    m_Localized: Выход из лобби
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98122468776992768
+    m_Localized: Показывать скримеры
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98277266486714368
+    m_Localized: Приглашение в лобби отправлено
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98285372524453888
+    m_Localized: Разблокированные перки
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98286171421925376
+    m_Localized: Прогресс может быть утерян, если вы не войдёте в систему
+    m_Metadata:
+      m_Items: []
+  - m_Id: 98482213153136640
+    m_Localized: Код
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972484864925696
+    m_Localized: 'Настройка кнопок:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 99972948041916416
+    m_Localized: Настроить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100295910125199360
+    m_Localized: Перенос данных в уже существующий аккаунт недоступен, хотите продолжить?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100413200485310464
+    m_Localized: Карты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100416777903661056
+    m_Localized: Руководство
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100417677053386752
+    m_Localized: Матчмейкинг
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442683820990464
+    m_Localized: "Враг: Лил Годвилла\n Тип: Призрак\n \n Лил Годвилла двигается медленно, но в состоянии погони она намного быстрее — лучше держать дистанцию, чтобы избежать погони.\n \n - Годвилла может появляться в комнатах.\n - Не идите в сторону шепота.\n \n Цель: вы начинаете в одном из трёх гаражей больницы. Нужно починить машину, чтобы сбежать. Для этого необходимо найти следующие детали: 4 колеса, аккумулятор, канистру с топливом и ключи."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442765878353920
+    m_Localized: "Враг: Статуя\n Тип: Призрак\n \n Слабые места статуи — двери и фонарик. Статуя не двигается, когда вы направляете фонарик в её сторону, но имейте в виду, что фонарик не работает бесконечно. Закройте за собой двери — это замедлит Статую.\n Цель: сбежать через главные ворота, открыв комнату охраны, затем починив блок предохранителей в ней и далее решив головоломку с воротами."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442806256918528
+    m_Localized: "Враг: Краулер\n Тип: Монстр\n \n Краулер может лазить по стенам. Он не видит вас когда вы находитесь в темноте с отключённым фонариком. Избегайте попадания в освещенные места.\n Цель: включить 9 генераторов для питания главных ворот. Решите ряд головоломок, чтобы добраться до конца."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442893364224000
+    m_Localized: '- Этот цвет во время игры означает, что вы можете использовать перк, нажав на него'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442948401881088
+    m_Localized: '- Перк может стать недоступным в одной из следующих ситуаций: 1. Перк был использован. 2. У вас недостаточно перков. 3. Перк не работает на текущей карте.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100442990726602752
+    m_Localized: '- Этот цвет во время игры означает, что перк активируется автоматически во время игры (также известные как перки "По ситуации").'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443079041867776
+    m_Localized: С этой настройкой один из игроков будет выбран в качестве врага. Его задачей будет убить всех выживших, задачей выживших - выжить.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443123220471808
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443167579430912
+    m_Localized: '-'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100443264916643840
+    m_Localized: Играйте в рейтинговые матчи и повышайте свою лигу, поднимайтесь вверх по таблице лидеров, чтобы заработать уникальные награды и разблокировать новые перки.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100651811931676672
+    m_Localized: Хотите прочитать руководство по игре?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705586801270784
+    m_Localized: Разблокировать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705722398924800
+    m_Localized: Получить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705800501059584
+    m_Localized: Прокачать
+    m_Metadata:
+      m_Items: []
+  - m_Id: 100705914619682816
+    m_Localized: Сначала вы должны разблокировать предыдущий перк
+    m_Metadata:
+      m_Items: []
+  - m_Id: 108671702144114688
+    m_Localized: Исключить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110199398779052032
+    m_Localized: Награда
+    m_Metadata:
+      m_Items: []
+  - m_Id: 110200392724242432
+    m_Localized: Сезон закончился
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188422864329760768
+    m_Localized: Комнаты
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188424197275377664
+    m_Localized: Присоединиться по тегу
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716159131967488
+    m_Localized: Удалить аккаунт
+    m_Metadata:
+      m_Items: []
+  - m_Id: 188716218191962112
+    m_Localized: Вы уверены, что хотите удалить свой аккаунт?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 246848449577738240
+    m_Localized: Альфа
+    m_Metadata:
+      m_Items: []
+  - m_Id: 247078453767036928
+    m_Localized: Показывать FPS
+    m_Metadata:
+      m_Items: []
+  - m_Id: 248595421548503040
+    m_Localized: 'Ввод эмулятора:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042222537695232
+    m_Localized: Качество персонажей
+    m_Metadata:
+      m_Items: []
+  - m_Id: 3042575907807232
+    m_Localized: Качество шейдеров
+    m_Metadata:
+      m_Items: []
+  - m_Id: 41458658725322752
+    m_Localized: Бонус XP
+    m_Metadata:
+      m_Items: []
+  - m_Id: 121930765510369280
+    m_Localized: 'Разрешить DNS:'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142834375297675264
+    m_Localized: "Враг: Несколько\n Тип: Монстр/Призрак\n \n Вы оказались в ловушке в проклятой многоэтажке, найдите аномалии, чтобы попасть на этаж ниже, и спаситесь, добравшись до первого этажа.\n Есть несколько врагов. У каждого врага своё уникальное поведение, и вам придется найти способ противостоять каждому.\n \n Цель: добраться до первого этажа и сбежать из многоэтажки, найдя все аномалии."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 142945805277323264
+    m_Localized: Громкость окружения
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276883785015877632
+    m_Localized: "ЭМП-детектор фиксирует присутствие призрака и недавнюю активность.\n \n Используй ЭМП-детектор, чтобы быстро определить примерную область или комнату, где находится призрак."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884345370697728
+    m_Localized: "Используй УФ-фонарик для поиска улик.\n \n Призрак оставляет отпечатки на дверях и выключателях."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276885054124187648
+    m_Localized: "Используй термометр, чтобы точно определить область или комнату призрака – температура должна быть ниже 5 °C.\n \n Улика «температура замерзания» фиксируется при температуре ниже 0 °C."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 276884748233596928
+    m_Localized: "Ответ в рации в зоне призрака считается уликой.\n \n Во время активности призрака вероятность получить ответ выше."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 237495895343837184
+    m_Localized: Динамический FOV (полезно для iPad)
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282648870095151104
+    m_Localized: Свеча погаснет, если она находится в комнате с призраком.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 282650206387822592
+    m_Localized: Призрачные сферы появляются рядом с призраком во время его активности.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283047612266831872
+    m_Localized: "Враг: Призрак Скотобойни\n Тип: Призрак\n \n Вас похитили и привезли в секретное подземное сооружение. Вам обещают свободу, если вы найдёте правильные улики существования призрака.\n Призрак поглощает электрический ток во время проявления, из-за чего мерцает свет.\n \n Призрак обитает в одной из комнат и начнёт охоту оттуда, если его спровоцировать.\n Вы можете покинуть его поле зрения, прячась за препятствиями.\n \n Цель: найти правильные улики призрака, чтобы завершить ритуал и сбежать."
+    m_Metadata:
+      m_Items: []
+  - m_Id: 283166627928727552
+    m_Localized: Может быть разблокировано во время событий
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066406253912064
+    m_Localized: Показать больше
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286066430610235392
+    m_Localized: Показать меньше
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328918765727744
+    m_Localized: Предложение за первую покупку!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328953649754112
+    m_Localized: 'Предложение: бесплатные ключи!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286328994426777600
+    m_Localized: 'Предложение: бесплатные XP!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329043789541376
+    m_Localized: 'Предложение: бесплатные ресурсы!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329076555444224
+    m_Localized: 'Предложение: набор XP!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329122051059712
+    m_Localized: 'Предложение: бесплатные ящики!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329172068134912
+    m_Localized: 'Предложение: бесплатные подарки!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329229500739584
+    m_Localized: 'Предложение: синие сертификаты!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329277995282432
+    m_Localized: 'Предложение: ящики с сертификатами!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329319275622400
+    m_Localized: Открытие деревянных ящиков!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329357817081856
+    m_Localized: 'Предложение: редкие ящики!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329419213303808
+    m_Localized: 'Предложение: фиолетовые сертификаты!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329467380690944
+    m_Localized: 'Предложение: комбо сертификатов!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329525018816512
+    m_Localized: Открытие редких ящиков!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329601061548032
+    m_Localized: 'Предложение: розовые сертификаты!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286329640357982208
+    m_Localized: 'Предложение: красные сертификаты!'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 286409574166028288
+    m_Localized: Скоро будет доступно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 287385208132460544
+    m_Localized: Временно недоступно
+    m_Metadata:
+      m_Items: []
+  - m_Id: 291146396477677568
+    m_Localized: Вы уверены, что хотите принять сделку?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298036986389716992
+    m_Localized: Вы уверены, что хотите получить награду?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298271126900957184
+    m_Localized: Перк «Контроль разума»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298272332125822976
+    m_Localized: Перк «Провидец»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298273417381011456
+    m_Localized: Перк «Призрачная клетка»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 298986213903429632
+    m_Localized: Пальто «Клан Тонг»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 225181801500717056
+    m_Localized: Получить
+    m_Metadata:
+      m_Items: []
+  - m_Id: 300093729030529024
+    m_Localized: Сегодняшний множитель
+    m_Metadata:
+      m_Items: []
+  - m_Id: 323024566042484736
+    m_Localized: Не сбежал
+    m_Metadata:
+      m_Items: []
+  - m_Id: 332377376705994752
+    m_Localized: Сбегите хотя бы один раз, чтобы открыть соревновательный режим
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170405301805056
+    m_Localized: Выбор возраста не влияет на игровой процесс.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333170525242122240
+    m_Localized: Сколько вам лет?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436126523289600
+    m_Localized: Получите <color=#FFEF67>250 золота</color> или <color=#FFEF67>3-процентный</color> шанс получить перк «Проклятая кукла» в одном из ящиков с призами!
+    m_Metadata:
+      m_Items: []
+  - m_Id: 333436520313909248
+    m_Localized: Предложение на Хэллоуин
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334158882109911040
+    m_Localized: '<b>Хэллоуинское обновление!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159067712057344
+    m_Localized: Это обновление включает в себя хэллоуинские локации, хэллоуинские побочные задания, новые предметы личных заданий, изменения баланса и долгожданные улучшения.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159223740166144
+    m_Localized: '<b>Джокер</b> – заменяет случайный перк в начале игры. После смерти все Ваши перки можно использовать снова.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159342065676288
+    m_Localized: '<b>Ремейк «Канализации» скоро выйдет!</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159425653960704
+    m_Localized: В ближайшем будущем мы выпустим ремейк «Канализации». Во время релиза пройдёт специальное событие с эксклюзивными наградами.
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159535779606528
+    m_Localized: '<b>Эксклюзивный перк Хэллоуина</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159602901053440
+    m_Localized: "Теперь можно получить предметы личных заданий. Они позволяют начать любое личное задание в любое время и получить достойную награду за его выполнение! Есть два типа заданий: обычные и хэллоуинские.\n \n <b>Предметы личных заданий:</b>"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159755850543104
+    m_Localized: '<b>Новые предметы: Осколки</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159819700432896
+    m_Localized: '<b>Новые скины:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159913132748800
+    m_Localized: '<b>Улучшения и изменения баланса</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334159970821206016
+    m_Localized: '<b>Новая шляпа и трофей:</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334160049946750976
+    m_Localized: '<b>Лом</b> – позволяет взломать любую запертую дверь.'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 334971811566710784
+    m_Localized: Хэллоуинское событие
+    m_Metadata:
+      m_Items: []
+  - m_Id: 335303634578567168
+    m_Localized: '<b>Версия</b>'
+    m_Metadata:
+      m_Items: []
+  - m_Id: 337066737175621632
+    m_Localized: Онлайн прогресс
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347666602647552
+    m_Localized: Выбрать слот '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270096
+  - m_Id: 348348179381477376
+    m_Localized: Использовать перк '{slot}'
+    m_Metadata:
+      m_Items:
+      - rid: 388619548772270096
+  - m_Id: 344688356441972736
+    m_Localized: Мобильный HUD
+    m_Metadata:
+      m_Items: []
+  - m_Id: 344692737233117184
+    m_Localized: Назначения ввода
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345007871700754432
+    m_Localized: Клавиатура
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345008120292958208
+    m_Localized: Геймпад
+    m_Metadata:
+      m_Items: []
+  - m_Id: 345781354399522816
+    m_Localized: Режим приседания
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348282291013804032
+    m_Localized: Чувствительность курсора интерфейса
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348341839900696576
+    m_Localized: Основное действие
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348342020142522368
+    m_Localized: Дополнительное действие
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348346898885632000
+    m_Localized: Фонарик
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347035456364544
+    m_Localized: Выбросить предмет
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347111381655552
+    m_Localized: Перезарядка
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348347441360134144
+    m_Localized: Книга ритуалов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348349027587186688
+    m_Localized: Таблица результатов
+    m_Metadata:
+      m_Items: []
+  - m_Id: 348350222196269056
+    m_Localized: Меню паузы
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816440215920640
+    m_Localized: Обнаружен геймпад
+    m_Metadata:
+      m_Items: []
+  - m_Id: 350816474860871680
+    m_Localized: Хотите включить управление с геймпада?
+    m_Metadata:
+      m_Items: []
+  - m_Id: 354816595961307136
+    m_Localized: Новогоднее предложение
+    m_Metadata:
+      m_Items: []
+  - m_Id: 355568583187886080
+    m_Localized: "- Улучшена обратная связь при взаимодействии с запертой дверью.\n- Улучшена обработка внутриигровых покупок.\n- Исправлена ошибка, из-за которой задания не засчитывались в одиночной игре на Скотобойне.\n- Черная дыра: длительность уменьшена на <color=red>−75%</color> (макс. 30 с, было 120 с)\n- Эфирное возрождение: длительность уменьшена на <color=red>−50%</color> (макс. 30 с, было 60 с)\n- Усиление Надежда, Проснись, Вместе мы - сила, Палочка-выручалочка: <color=green>+50%</color> к радиусу обнаружения предметов на низких уровнях\n- Усиление Лидер, Мощь жертвы: <color=green>+40%</color> к радиусу обнаружения предметов на низких уровнях\n- Усиление Страж души: в 3 раза дольше на 1 уровне (15 с, было 5 с)\n- Джокер теперь обновляет перки всех игроков, находящиеся на перезарядке, включая Воля к жизни и Самопомощь\n- Исправлена ошибка, из-за которой перк Скороходы терял бонус после окончания действия Инъекция адреналина, Зелье скрытности, Всплеск погони или Дар восстановления, а также после воскрешения игрока.\n\n- Другие изменения и улучшения"
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370412545522266112
+    m_Localized: Вы можете включить отображение названий комнат в настройках
+    m_Metadata:
+      m_Items: []
+  - m_Id: 370413503778123776
+    m_Localized: Отображать названия комнат
+    m_Metadata:
+      m_Items: []
+  - m_Id: 435720762898563072
+    m_Localized: Костюм «TTR Clan»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 438993651303235584
+    m_Localized: Перк «Укол адреналина»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 439356990625726464
+    m_Localized: Корона «King Clan»
+    m_Metadata:
+      m_Items: []
+  - m_Id: 463280092919099392
+    m_Localized: Громкость мелодии Хэллоуина
+    m_Metadata:
+      m_Items: []
+  references:
+    version: 2
+    RefIds:
+    - rid: 388619548772270096
+      type: {class: SmartFormatTag, ns: UnityEngine.Localization.Metadata, asm: Unity.Localization}
+      data:
+        m_Entries:
+        m_SharedEntries:
+        - id: 348347666602647552
+        - id: 348348179381477376

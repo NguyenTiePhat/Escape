@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Surface
+  - Ladder
+  - Button
+  - VelocityTrigger
+  - Water
+  - Teleport
+  - EntityTrap
+  - Interactable
+  - InventoryItem
+  - Inspect
+  - Info
+  - VelocityMultiplier
+  - ClientPlayer
+  - PerkTrigger
+  - UIWheelItem
+  - Penetrable
+  - Door
+  - RoomTrigger
+  - ButtonFlagsOverride
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - HumanPlayer
+  - EnemyPlayer
+  - Dead
+  - PlayerOverlap
+  - RaycastTrap
+  - Decollision
+  - IgnoreGhostCollision
+  - 
+  - 
+  - 
+  - 
+  - Minimap
+  - 
+  - 
+  - 
+  - JumpscareLayer
+  - AuraTriggerLayer
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - WeaponHands
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 788040023
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Foreground
+    uniqueID: 3922283465
+    locked: 0

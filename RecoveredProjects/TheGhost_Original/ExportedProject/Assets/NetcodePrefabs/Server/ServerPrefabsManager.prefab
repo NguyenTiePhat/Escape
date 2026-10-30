@@ -1,0 +1,248 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1709254077376921
+GameObject:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Component:
+  - component: {fileID: 4730242686860875}
+  - component: {fileID: 114724804207875695}
+  m_Layer: 0
+  m_Name: ServerPrefabsManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4730242686860875
+Transform:
+  serializedVersion: 2
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
+--- !u!114 &114724804207875695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1709254077376921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 1080103700, guid: 06dd3d5416bf43ea368cc39ff96e6d5a, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  entityPrefabs:
+  - prefabId: 0
+    prefab: {fileID: 114703437598541787, guid: 2b8d5fd50ac1a45439aaa7bb0f30bba3, type: 2}
+  - prefabId: 100
+    prefab: {fileID: 114703437598541787, guid: e1f9568792f879545b7a3c753522261a, type: 2}
+  - prefabId: 130
+    prefab: {fileID: 114618682377417806, guid: 4aae80ade9451ce44ba5d20d9dc0dbcc, type: 2}
+  - prefabId: 1001
+    prefab: {fileID: 114044625135789424, guid: d58586903d62f7140ac4a091d8307a12, type: 2}
+  - prefabId: 1004
+    prefab: {fileID: 114618682377417806, guid: 6ade6f6dbdd8d9548a0cc3e267ea4591, type: 2}
+  - prefabId: 1027
+    prefab: {fileID: 114618682377417806, guid: d37d15e1456cf3044a411776d3a5b523, type: 2}
+  - prefabId: 3000
+    prefab: {fileID: 114884547391421755, guid: 99feb67fda3b8b44f84aae428995bd79, type: 2}
+  - prefabId: 3001
+    prefab: {fileID: 114884547391421755, guid: f300cfb6859879049abe16023256caa6, type: 2}
+  - prefabId: 1016
+    prefab: {fileID: 114618682377417806, guid: 549b574a291ad6849a7d7e87abf4ba46, type: 2}
+  - prefabId: 1017
+    prefab: {fileID: 114618682377417806, guid: 308a56b0cc29ada4c84c8c57fb00586c, type: 2}
+  - prefabId: 1020
+    prefab: {fileID: 114618682377417806, guid: 22c00357786b20d4aa1e0be92bde816c, type: 2}
+  - prefabId: 1021
+    prefab: {fileID: 114618682377417806, guid: b97e52e77b55a1f44b63b3277766125f, type: 2}
+  - prefabId: 1018
+    prefab: {fileID: 114618682377417806, guid: 2146c3784fb230a42926bbd63de869cc, type: 2}
+  - prefabId: 1019
+    prefab: {fileID: 114618682377417806, guid: 088fd17abb22d6248857334f4d2f2277, type: 2}
+  - prefabId: 3002
+    prefab: {fileID: 114884547391421755, guid: 5c34f899b63f6c643afb384153653241, type: 2}
+  - prefabId: 3003
+    prefab: {fileID: 114884547391421755, guid: 45e6b96d4ad611c4db5c3646aa8fe388, type: 2}
+  - prefabId: 1022
+    prefab: {fileID: 114618682377417806, guid: e149694f70c5ee847974e1abab8f345a, type: 2}
+  - prefabId: 1023
+    prefab: {fileID: 114618682377417806, guid: 5a81122f4fd29084b8dd9c36f6259b29, type: 2}
+  - prefabId: 1024
+    prefab: {fileID: 114618682377417806, guid: 956365a59be56d045bb0570fb2d165af, type: 2}
+  - prefabId: 1025
+    prefab: {fileID: 114618682377417806, guid: cd4a9f6e7ab04f1488ab904c9c238cf7, type: 2}
+  - prefabId: 1026
+    prefab: {fileID: 114618682377417806, guid: e825ee561c369e54e8d30adc8d178780, type: 2}
+  - prefabId: 3004
+    prefab: {fileID: 114884547391421755, guid: 414314b52aadaf548951b18dadc69221, type: 2}
+  - prefabId: 3005
+    prefab: {fileID: 114884547391421755, guid: 32bfa3eb9e8eb6d4384fe6da2cec577d, type: 2}
+  - prefabId: 142
+    prefab: {fileID: 114618682377417806, guid: cbdb4076fc821cf4a9561485de083e17, type: 2}
+  - prefabId: 146
+    prefab: {fileID: 114618682377417806, guid: 782bdfe82f0273d4798a75637e711538, type: 2}
+  - prefabId: 1037
+    prefab: {fileID: 114724804207875695, guid: be4272f272574974b8cdf10df47668e4, type: 2}
+  - prefabId: 1029
+    prefab: {fileID: 114724804207875695, guid: f45a201aeccff3d4aae0b9ebee89b619, type: 2}
+  - prefabId: 1030
+    prefab: {fileID: 114724804207875695, guid: e6f89b724f935af48a5f6b1ed3fb4799, type: 2}
+  - prefabId: 1031
+    prefab: {fileID: 114724804207875695, guid: 86028b48e574a744fbe035c5111790a8, type: 2}
+  - prefabId: 1032
+    prefab: {fileID: 114724804207875695, guid: e9445f561e2d2ef4bacb1a2459387d98, type: 2}
+  - prefabId: 1033
+    prefab: {fileID: 114724804207875695, guid: 719f92695b176f948b5a58c714c0b415, type: 2}
+  - prefabId: 1034
+    prefab: {fileID: 114724804207875695, guid: a6be07eb2f308814ba079d5a26f19bf5, type: 2}
+  - prefabId: 1028
+    prefab: {fileID: 114724804207875695, guid: 63268e44d277b014aa48c80d705431d9, type: 2}
+  - prefabId: 1036
+    prefab: {fileID: 114724804207875695, guid: dde0c3df9682bca48ad2d51cd49be8b3, type: 2}
+  - prefabId: 1038
+    prefab: {fileID: 114724804207875695, guid: 2a3fb461b82443b469975715be1167a2, type: 2}
+  - prefabId: 1040
+    prefab: {fileID: 114724804207875695, guid: c37a3991f0963f74d8128af113c09098, type: 2}
+  - prefabId: 1039
+    prefab: {fileID: 114724804207875695, guid: ebe246a548015c44fadcb4eec994c2f2, type: 2}
+  - prefabId: 1035
+    prefab: {fileID: 114724804207875695, guid: b0d2b72a8dbd05b48b35e45f33751e28, type: 2}
+  - prefabId: 1041
+    prefab: {fileID: 114618682377417806, guid: 58271b45d0e9bad4c9fe67cc2d583d31, type: 2}
+  - prefabId: 1042
+    prefab: {fileID: 114618682377417806, guid: 3811292f964d90f4b911939a3d5621a2, type: 2}
+  - prefabId: 3006
+    prefab: {fileID: 114884547391421755, guid: 612e3242599295448a697c308608aedc, type: 2}
+  - prefabId: 3007
+    prefab: {fileID: 114884547391421755, guid: 72244c5f8d1917143b81d1ca64815d7f, type: 2}
+  perkPrefabs:
+  - perkId: lifesaver
+    prefab: {fileID: 114724804207875695, guid: b5e899994d73f224d95d0e2a389640f3, type: 2}
+  - perkId: meds
+    prefab: {fileID: 114724804207875695, guid: 322377003b6478b468d863ccfbb3afb7, type: 2}
+  - perkId: empathy
+    prefab: {fileID: 114724804207875695, guid: 75ba0e1a3513ce04793fc54cc6d43ea5, type: 2}
+  - perkId: bond
+    prefab: {fileID: 114724804207875695, guid: e1d981d84356aa34e80b2a031e30ac43, type: 2}
+  - perkId: hope
+    prefab: {fileID: 114724804207875695, guid: e84e1ea17122eba4199cf1b5c62132f1, type: 2}
+  - perkId: insanity
+    prefab: {fileID: 114724804207875695, guid: 5c502e6d37e8c0e41889600b6a942071, type: 2}
+  - perkId: distortion
+    prefab: {fileID: 114724804207875695, guid: 1b320e832ebee8a43904fdf5372433eb, type: 2}
+  - perkId: eagle_eye
+    prefab: {fileID: 114724804207875695, guid: 64281e777d4abf14e9c940e512809d93, type: 2}
+  - perkId: good_start
+    prefab: {fileID: 114724804207875695, guid: f7ca1a79f3993a34d9a9144ab3622440, type: 2}
+  - perkId: caution
+    prefab: {fileID: 114724804207875695, guid: 43697717aeca827499bbf95985ecce88, type: 2}
+  - perkId: care_taker
+    prefab: {fileID: 114724804207875695, guid: 75cbc613632af4c469c220cf4d1236d1, type: 2}
+  - perkId: sense
+    prefab: {fileID: 114724804207875695, guid: 239981e90f6a5f042994bdbd11d4f886, type: 2}
+  - perkId: leader
+    prefab: {fileID: 114724804207875695, guid: 23b56d159e0342b4b80a856d6b191d79, type: 2}
+  - perkId: sole_survivor
+    prefab: {fileID: 114724804207875695, guid: e65559390f397064f96dcee308dc5342, type: 2}
+  - perkId: adrenaline
+    prefab: {fileID: 114724804207875695, guid: fc5304cd1e39177498c3eb7118200352, type: 2}
+  - perkId: will_make_it
+    prefab: {fileID: 114724804207875695, guid: 33ebccf5ed101534faf1a5759e9e9a73, type: 2}
+  - perkId: salt
+    prefab: {fileID: 114724804207875695, guid: febec3dff9a045a49a0c21b1f6b06386, type: 2}
+  - perkId: soul_guard
+    prefab: {fileID: 114724804207875695, guid: 15dd647f25445b64ba6bd434820039dd, type: 2}
+  - perkId: wake_up
+    prefab: {fileID: 114724804207875695, guid: 918aaa9586d0f3242b8d7cfeb945a941, type: 2}
+  - perkId: for_survivors
+    prefab: {fileID: 114724804207875695, guid: 341ef1b05b195f44b8fc7a70414f3a74, type: 2}
+  - perkId: death_revenge
+    prefab: {fileID: 114724804207875695, guid: aa439eaa9a680dc4494b6415e06caf6a, type: 2}
+  - perkId: left_behind
+    prefab: {fileID: 114724804207875695, guid: 69eaf2f726438364aa20a43620e46809, type: 2}
+  - perkId: team_revenge
+    prefab: {fileID: 114724804207875695, guid: 483764fbee7ade24e9e5960528c468c8, type: 2}
+  - perkId: shock
+    prefab: {fileID: 114724804207875695, guid: 0cd404982c76a744091713c04dc28817, type: 2}
+  - perkId: gotcha
+    prefab: {fileID: 114724804207875695, guid: 3dab969c0d812b942bb743cfee90b682, type: 2}
+  - perkId: victim_power
+    prefab: {fileID: 114724804207875695, guid: cd7b7b93998f1ff458bf873c1dc5754b, type: 2}
+  - perkId: reverse_state
+    prefab: {fileID: 114724804207875695, guid: c10136faed715c0438e9a191f783b4f8, type: 2}
+  - perkId: stealth_potion
+    prefab: {fileID: 114724804207875695, guid: fc42eb79e979bed4ea98040655b7cbd4, type: 2}
+  - perkId: resurrection
+    prefab: {fileID: 114724804207875695, guid: 909cfe44917db0e45a6978adda526fe0, type: 2}
+  - perkId: flashbang
+    prefab: {fileID: 114724804207875695, guid: 0c11776c3f4ab0448b4d1a3b4500f622, type: 2}
+  - perkId: overcharge
+    prefab: {fileID: 114724804207875695, guid: c12d3724319bf624f9117cd17ee10b8c, type: 2}
+  - perkId: black_mold
+    prefab: {fileID: 114724804207875695, guid: a1c3ad2a5cf986e4ebb802325a621129, type: 2}
+  - perkId: telepathy
+    prefab: {fileID: 114724804207875695, guid: 2a7c400d5f9cbc9428fffd00fb32c000, type: 2}
+  - perkId: black_hole
+    prefab: {fileID: 114724804207875695, guid: 908087d975c0f5043b88e9a46698eb01, type: 2}
+  - perkId: force_waves
+    prefab: {fileID: 114724804207875695, guid: b98b17e6bed8c4148b92abb53152ea9f, type: 2}
+  - perkId: ghost_wall
+    prefab: {fileID: 114724804207875695, guid: 53968b3e31f3b3c4fa36348f63ba1fbb, type: 2}
+  - perkId: ethereal_resurgence
+    prefab: {fileID: 114724804207875695, guid: 49c744f22176f494786b809e61887506, type: 2}
+  - perkId: pursuit_surge
+    prefab: {fileID: 114724804207875695, guid: cc357792ee97ccb4688ee0d1dcdfda70, type: 2}
+  - perkId: emf_reader
+    prefab: {fileID: 114724804207875695, guid: 8f3a1dca1927caf48982a61245f4822e, type: 2}
+  - perkId: healer
+    prefab: {fileID: 114724804207875695, guid: f5bf58d1574794549895149b70231a43, type: 2}
+  - perkId: christmas_trap
+    prefab: {fileID: 114724804207875695, guid: 29fb45baf9184b145a091959eb2a06bc, type: 2}
+  - perkId: security_camera
+    prefab: {fileID: 114724804207875695, guid: 507e3edaa64e2894788424f2d8f55899, type: 2}
+  - perkId: graspmaster
+    prefab: {fileID: 114724804207875695, guid: b4f8a1a6250661247a6ba07ef1236cb6, type: 2}
+  - perkId: holy_book
+    prefab: {fileID: 114724804207875695, guid: 712551f8239d4c6428309b0eef79de58, type: 2}
+  - perkId: recovery_gift
+    prefab: {fileID: 114724804207875695, guid: 4d41132f5e526e84fbba7f7b8d120478, type: 2}
+  - perkId: medic
+    prefab: {fileID: 114724804207875695, guid: 550777ddb4e4a344488e7656d47c31f0, type: 2}
+  - perkId: death_trap
+    prefab: {fileID: 114724804207875695, guid: 8e48f44d9d484234786acb9ecc7a3a4f, type: 2}
+  - perkId: the_carry
+    prefab: {fileID: 114724804207875695, guid: 0f467e60b4867e74799c4057fc420c3d, type: 2}
+  - perkId: one_rises
+    prefab: {fileID: 114724804207875695, guid: f2df7edb869ad7d4798f617c05159b2a, type: 2}
+  - perkId: self_care
+    prefab: {fileID: 114724804207875695, guid: b9f2dc896ab14194490bda04ac13a98f, type: 2}
+  - perkId: forgotten_memory
+    prefab: {fileID: 114724804207875695, guid: 6689506c7e46ec44c84402c6b4650ffb, type: 2}
+  - perkId: ghost_cage
+    prefab: {fileID: 114724804207875695, guid: 603a300d1c71fdb4fbfe48ffaec43d39, type: 2}
+  - perkId: premonition
+    prefab: {fileID: 114724804207875695, guid: 5f778533e4aa9a14a8f9db952d651d85, type: 2}
+  - perkId: mind_owner
+    prefab: {fileID: 114724804207875695, guid: 5c358a2effd9b8b498a28df086a7e90c, type: 2}
+  - perkId: cursed_doll
+    prefab: {fileID: 114724804207875695, guid: 92eeede44923ef74581eed4b498b06eb, type: 2}
+  - perkId: ghost_path
+    prefab: {fileID: 114724804207875695, guid: 78c80b28ee9f87f468417d7626b948a8, type: 2}
+  - perkId: adrenaline_shot
+    prefab: {fileID: 114724804207875695, guid: 2cfa9bdbec6b8f34aa8a91ad6d4bdf97, type: 2}
+  - perkId: crowbar
+    prefab: {fileID: 114724804207875695, guid: 2550e9cb7adcb4f4db3b63eb649e97a7, type: 2}
