@@ -2,7 +2,37 @@
 
 ## Bản trường học đang chỉnh sửa
 
-Mở thư mục `RecoveredProjects/TheGhost_School_Unity6` bằng Unity **6000.5.7f1**, sau đó mở scene `Assets/Recovery/Scenes/School_Test.unity`. Trên máy gặp lỗi đồ họa DX12, dùng `Open-Unity-DX11.cmd` trong thư mục dự án này (kiểm tra đường dẫn Unity trong file nếu dùng máy khác).
+### Mở và chạy game trong Unity
+
+1. Cài **Unity Hub** và Unity Editor **6000.5.7f1** (phiên bản đang dùng của dự án).
+2. Tải dự án về máy bằng Git:
+
+   ```powershell
+   git clone https://github.com/NguyenTiePhat/Escape.git
+   ```
+
+   Nếu đã có dự án trên máy thì bỏ qua bước tải lại.
+3. Mở **Unity Hub → Projects → Add → Add project from disk**, chọn thư mục `Escape/RecoveredProjects/TheGhost_School_Unity6`. Trên máy hiện tại, đường dẫn là `D:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6`. Chọn thư mục này để mở bản trường học; thư mục gốc của repo chứa bản blockout IUH riêng.
+4. Bấm vào dự án trong Unity Hub để mở bằng **6000.5.7f1**. Lần đầu cần đợi Unity import tài nguyên và biên dịch script; dữ liệu khá lớn nên có thể mất vài phút hoặc lâu hơn tùy máy.
+5. Trong cửa sổ **Project** của Unity, vào `Assets → Recovery → Scenes`, nhấp đúp **School_Test** (`School_Test.unity`).
+6. Bấm nút **▶ Play** ở thanh công cụ phía trên. Chọn tab **Game**, rồi click vào hình game để điều khiển nhân vật.
+7. Bấm **▶ Play** lần nữa để dừng. Các chỉnh sửa thực hiện khi đang Play thường không được giữ lại sau khi dừng; hãy dừng Play trước khi chỉnh sửa và lưu scene.
+
+### Điều khiển bản trường học
+
+| Phím | Chức năng |
+| --- | --- |
+| W / A / S / D | Di chuyển |
+| Chuột | Nhìn xung quanh |
+| Shift trái | Chạy |
+| E | Tương tác với đèn pin hoặc tờ giấy khi đứng gần và nhìn vào vật |
+| L | Bật/tắt đèn pin sau khi nhặt |
+| R | Trở về điểm bắt đầu |
+| Esc | Thả con trỏ chuột |
+
+Nếu Unity bị lỗi đồ họa DX12 trên Windows, đóng Editor và chạy `Open-Unity-DX11.cmd` trong thư mục dự án trường học. File này dùng đường dẫn Unity trên máy hiện tại; sửa đường dẫn trong file cho phù hợp nếu mở trên máy khác.
+
+Đây là bản thử nghiệm môi trường và tương tác phòng bắt đầu, chưa phải game hoàn chỉnh; gameplay gốc như multiplayer và AI chưa được phục hồi.
 
 Repository chứa mã nguồn, scene và tài nguyên của bản Unity6. Unity sẽ tạo lại Library khi mở lần đầu. Gói APK/XAPK, dữ liệu giải nén, bản xuất nguyên trạng và báo cáo tạm không được đưa vào Git. Dự án ở thư mục gốc là bản blockout IUH riêng, được mô tả bên dưới.
 
