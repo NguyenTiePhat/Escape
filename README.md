@@ -32,7 +32,6 @@
 | 1–5 / Cuộn chuột | Chọn ô trên thanh vật phẩm (tối đa 5 ô) |
 | E | Nhặt vật đang nhìn ở gần; nếu không nhắm vật nhặt, sử dụng món đang cầm (bật/tắt đèn pin hoặc đọc giấy) |
 | F | Mở/đóng cửa khi đứng gần (tối đa 2,2 m) |
-| L | Bật/tắt đèn pin khi đang cầm đèn |
 | R | Trở về điểm bắt đầu |
 | Esc | Thả con trỏ chuột |
 
