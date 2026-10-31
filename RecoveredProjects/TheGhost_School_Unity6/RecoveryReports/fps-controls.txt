@@ -1,0 +1,13 @@
+FPS controls (2026-10-31)
+
+PlayerLook and PlayerMotor use Unity Input System 1.20.1. Active Input Handling remains Both for existing inventory/door scripts. Restart Unity if requested after package import.
+
+SchoolExplorer now attaches the two components at runtime and passes its camera reference; it no longer processes movement or mouse input. For persistent Inspector tuning, add PlayerLook and PlayerMotor to the existing player before Play and assign the camera Transform to view. The bridge reuses those components. On a new TestRoom player, add CharacterController + PlayerLook + PlayerMotor and parent the camera to the player (unit scale).
+
+Click locks cursor; Esc releases. WASD 3.5 m/s; Shift while moving on the ground 6 m/s; C toggles crouch at 1.8 m/s. Height and camera interpolate with fixed feet. Standing checks the capsule headroom, ignores triggers/self, and rechecks clearance throughout the rise. Mouse sensitivity is degrees per pixel, pitch clamped to -80/+80.
+
+Stamina starts at 100, consumes 20/s during sprint, regenerates 12/s after 1 second without sprinting. Exhaustion locks sprint until stamina is strictly above 25. Holding Shift while idle does not consume stamina. Reading a note or releasing the cursor blocks movement/look input; gravity and stamina continue. Space jump and inspection flight are superseded by this FPS specification.
+
+FpsControllerCheck.Run: isolated deterministic Unity checks of movement, gravity, look clamps, posture and stamina. PlayerMovementCheck retains a separate School_Test scene check for crouching/ceiling clearance. No TestRoom scene or URP conversion was created; the scripts are renderer-independent and existing room geometry is unchanged.
+Verified live input after Editor restart: native Keyboard and Mouse present, School_Test Play Mode input check PASS. If migrating Input Handling while Unity is open, restart the Editor once; changing the serialized setting alone does not initialize native devices in that running session. Click inside Game to capture the cursor; Esc releases it.
+Head bob: PlayerMotor.headBobEnabled (bool) and headBobIntensity (float 0..1) are the Settings hooks. Default walk amplitude .012m / frequency 1.8 cycles/s; sprint .02m / 2.6 cycles/s. Vertical oscillation is twice the horizontal cycle. Camera position only; PlayerLook unchanged. Posture base and bob offset are independent; idle/crouch/blocked input/airborne/disabled/zero intensity settle smoothly to the posture base. Movement is measured after CharacterController.Move, so pressing into a wall does not bob without displacement. Unity batch regression PASS; fps-headbob-check.txt.

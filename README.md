@@ -27,9 +27,12 @@
 | --- | --- |
 | W / A / S / D | Di chuyển |
 | Chuột | Nhìn xung quanh |
-| Shift trái | Chạy |
-| E | Tương tác với đèn pin hoặc tờ giấy khi đứng gần và nhìn vào vật |
-| L | Bật/tắt đèn pin sau khi nhặt |
+| Shift | Chạy 6 m/s, tiêu hao thể lực |
+| C | Ngồi / đứng (nhấn để đổi trạng thái) |
+| 1–5 / Cuộn chuột | Chọn ô trên thanh vật phẩm (tối đa 5 ô) |
+| E | Nhặt vật đang nhìn ở gần; nếu không nhắm vật nhặt, sử dụng món đang cầm (bật/tắt đèn pin hoặc đọc giấy) |
+| F | Mở/đóng cửa khi đứng gần (tối đa 2,2 m) |
+| L | Bật/tắt đèn pin khi đang cầm đèn |
 | R | Trở về điểm bắt đầu |
 | Esc | Thả con trỏ chuột |
 
@@ -61,3 +64,5 @@ Nếu Unity bị lỗi đồ họa DX12 trên Windows, đóng Editor và chạy 
 Chỉ bỏ qua cache/trạng thái máy (`Library`, `Temp`, `Obj`, `Logs`, `UserSettings`, `.vs`, `.idea`) và file thông tin đăng nhập riêng nếu có. Unity tạo lại cache khi mở dự án. Thư mục trống không được Git lưu. Mô hình IUH, dự án Unity gốc của IUH, ảnh render và script dựng IUH đã được xóa khỏi phiên bản hiện tại; lịch sử commit cũ vẫn được giữ.
 
 Gói XAPK đầu vào được giữ riêng trên máy, không nằm trong phiên bản hiện tại của repository. Các file APK, asset bundle, Unity3D và EXE dùng **Git LFS**. Sau khi clone hoặc cập nhật repo, chạy `git lfs pull` để lấy nội dung đầy đủ. Repo không khẳng định đã khôi phục đầy đủ gameplay gốc.
+
+

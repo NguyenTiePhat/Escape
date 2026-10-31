@@ -1,6 +1,16 @@
 using UnityEngine;
 public class FirstPersonHands : MonoBehaviour {
  Transform rig; Light beam; float phase; bool equipped=true; public void SetEquipped(bool value){equipped=value; if(rig)rig.gameObject.SetActive(value);}
+ bool holdingNote;
+ public bool FlashlightOn => beam && beam.enabled;
+ public void ToggleFlashlight(){if(equipped&&!holdingNote&&beam)beam.enabled=!beam.enabled;}
+ public void SetHeldItem(bool hasItem,bool note){
+ holdingNote=note;SetEquipped(hasItem);if(!rig)return;
+ foreach(Transform child in rig){
+ if(child.name.StartsWith("Flashlight"))child.gameObject.SetActive(!note);
+ if(child.name=="Held note")child.gameObject.SetActive(note);
+ }
+ }
  Material skin,cloth,metal,lens;
  public void Build(){
   if(transform.Find("First person arms"))return;
@@ -14,7 +24,15 @@ public class FirstPersonHands : MonoBehaviour {
   var existing=GetComponent<Light>();if(existing)existing.enabled=false;
   var beamObject=new GameObject("Flashlight beam");beamObject.transform.SetParent(rig,false);beamObject.transform.localPosition=new Vector3(.24f,-.17f,.74f);beam=beamObject.AddComponent<Light>();beam.type=LightType.Spot;beam.range=28;beam.spotAngle=58;beam.intensity=2;beam.color=new Color(.9f,.96f,1);beam.transform.localRotation=Quaternion.identity;
  }
- void Start(){Build();rig=transform.Find("First person arms");beam=rig.GetComponentInChildren<Light>();rig.gameObject.SetActive(equipped);}
+ void Start(){Build();rig=transform.Find("First person arms");beam=rig.GetComponentInChildren<Light>();rig.gameObject.SetActive(equipped);
+ if(!rig.Find("Held note")){
+ var paper=Part("Held note",PrimitiveType.Cube,new Vector3(.05f,-.25f,.53f),new Vector3(.27f,.32f,.008f),Mat("Held paper",new Color(.85f,.80f,.65f)));
+ paper.localRotation=Quaternion.Euler(18,-8,0);
+ var ink=Mat("Note ink",new Color(.16f,.14f,.12f));
+ for(int i=0;i<7;i++){var line=GameObject.CreatePrimitive(PrimitiveType.Cube);line.name="Writing";line.transform.SetParent(paper,false);line.transform.localPosition=new Vector3(-.03f,.34f-i*.09f,-.6f);line.transform.localScale=new Vector3(i==6?.45f:.75f,.012f,.1f);line.GetComponent<Renderer>().sharedMaterial=ink;var col=line.GetComponent<Collider>();col.enabled=false;Destroy(col);}
+ paper.gameObject.SetActive(false);
+ }
+ }
  Material Mat(string n,Color c){var m=new Material(Shader.Find("Standard"));m.name=n;m.color=c;m.SetFloat("_Glossiness",.25f);return m;}
  Transform Part(string n,PrimitiveType type,Vector3 pos,Vector3 size,Material mat){var g=GameObject.CreatePrimitive(type);g.name=n;g.transform.SetParent(rig,false);g.transform.localPosition=pos;g.transform.localScale=size;g.GetComponent<Renderer>().sharedMaterial=mat;var col=g.GetComponent<Collider>();col.enabled=false;if(Application.isPlaying)Destroy(col);else DestroyImmediate(col);return g.transform;}
  void Arm(string side,Vector3 elbow,Vector3 wrist,bool grip){
@@ -23,7 +41,7 @@ public class FirstPersonHands : MonoBehaviour {
   for(int i=0;i<4;i++){var pos=wrist+new Vector3((i-1.5f)*.019f,-.012f,.055f);var finger=Part(side+" finger "+i,PrimitiveType.Capsule,pos,new Vector3(.018f,.035f,.018f),skin);finger.localRotation=Quaternion.Euler(grip?35:70,0,0);}
   Part(side+" thumb",PrimitiveType.Capsule,wrist+new Vector3(grip?-.043f:.043f,.005f,.015f),new Vector3(.023f,.035f,.023f),skin).localRotation=Quaternion.Euler(45,0,35);
  }
- void LateUpdate(){if(!rig||!equipped||Cursor.lockState!=CursorLockMode.Locked)return;if(Input.GetKeyDown(KeyCode.L)&&beam)beam.enabled=!beam.enabled;
+ void LateUpdate(){if(!rig||!equipped||Cursor.lockState!=CursorLockMode.Locked)return;if(Input.GetKeyDown(KeyCode.L))ToggleFlashlight();
   bool moving=Cursor.lockState==CursorLockMode.Locked&&(Mathf.Abs(Input.GetAxisRaw("Vertical"))+Mathf.Abs(Input.GetAxisRaw("Horizontal"))>.1f);
   phase+=Time.deltaTime*(moving?(Input.GetKey(KeyCode.LeftShift)?12:8):1.8f);
   float amp=moving?.012f:.002f;var target=new Vector3(Mathf.Sin(phase)*amp,Mathf.Cos(phase*2)*amp,0);
@@ -31,5 +49,6 @@ public class FirstPersonHands : MonoBehaviour {
   rig.localRotation=Quaternion.Slerp(rig.localRotation,Quaternion.Euler(-Input.GetAxis("Mouse Y")*.6f,Input.GetAxis("Mouse X")*.6f,Mathf.Sin(phase)*amp*35),Time.deltaTime*10);
  }
 }
+
 
 
