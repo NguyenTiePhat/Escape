@@ -3,7 +3,7 @@ public class FirstPersonHands : MonoBehaviour {
  Transform rig; Light beam; float phase; bool equipped=true; public void SetEquipped(bool value){equipped=value; if(rig)rig.gameObject.SetActive(value);}
  bool holdingNote;
  public bool FlashlightOn => beam && beam.enabled;
- public void ToggleFlashlight(){if(equipped&&!holdingNote&&beam)beam.enabled=!beam.enabled;}
+ public void ToggleFlashlight(){if(equipped&&!holdingNote&&beam){var battery=GetComponent<Flashlight>();if(beam.enabled || !battery || battery.Battery>0)beam.enabled=!beam.enabled;}}
  public void SetHeldItem(bool hasItem,bool note){
  holdingNote=note;SetEquipped(hasItem);if(!rig)return;
  foreach(Transform child in rig){
@@ -49,6 +49,3 @@ public class FirstPersonHands : MonoBehaviour {
   rig.localRotation=Quaternion.Slerp(rig.localRotation,Quaternion.Euler(-Input.GetAxis("Mouse Y")*.6f,Input.GetAxis("Mouse X")*.6f,Mathf.Sin(phase)*amp*35),Time.deltaTime*10);
  }
 }
-
-
-

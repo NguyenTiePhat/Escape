@@ -1,0 +1,9 @@
+PAIR movable=Gameplay/Doors/RDoor width=1.3 decorative=Level/SchoolModel/Interior/Corridors/WideDoor (1)/LDoor width=0.6263232
+PAIR movable=Gameplay/Doors/RDoor (2) width=1.3 decorative=Level/SchoolModel/Doors/WideDoor (2)/LDoor width=0.6263232
+PAIR movable=Gameplay/Doors/DoorP/RDoor1 (1) width=1.26 decorative=Level/SchoolModel/Interior/Corridors/WideDoor (2)/LDoor width=0.6263233
+PAIR movable=Gameplay/Doors/RDoor1 width=1.3 decorative=Level/SchoolModel/Interior/Corridors/WideDoor/LDoor width=0.6263232
+SWING RDoor1 positive clearance=64.77886 negative clearance=100 chosen=-100
+SWING RDoor (2) positive clearance=100 negative clearance=100 chosen=100
+SWING RDoor1 (1) positive clearance=91.25638 negative clearance=8.313559 chosen=91
+SWING RDoor positive clearance=59.10081 negative clearance=100 chosen=-100
+Movable=13 decorative=4; E=60 deg/s, Shift+E=160 deg/s. F input disabled.

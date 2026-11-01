@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae2a71570bdfc6459e48b26926d9e56, type: 3}
+  m_Name: room_1_key
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  id: room_1_key
+  itemName: "Ch\xECa kh\xF3a ph\xF2ng 1"
+  icon: {fileID: 21300000, guid: 0816a8f56c5adcb48ab07b9869a5a8e7, type: 3}
+  description: "M\u1EDF kh\xF3a c\u1EEDa ph\xF2ng 1. Ch\u1ECDn ch\xECa kh\xF3a, nh\xECn
+    v\xE0o c\u1EEDa v\xE0 nh\u1EA5n E."
+  type: 0
+  stackable: 0
+  maxStack: 1
+  weight: 0.08
+  batteryAmount: 25
+  pickupPrefab: {fileID: 8617721967585992776, guid: 05d37443cab3fcc4e8a2c71366627152, type: 3}

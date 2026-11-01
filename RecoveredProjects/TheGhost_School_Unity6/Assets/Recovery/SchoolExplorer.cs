@@ -9,6 +9,7 @@ public sealed class SchoolExplorer : MonoBehaviour
     public bool IsCrouching => motor && motor.IsCrouching;
     PlayerMotor motor;
     PlayerLook look;
+    PlayerInteractor interactor;
     StartRoom startRoom;
     void Awake()
     {
@@ -18,12 +19,15 @@ public sealed class SchoolExplorer : MonoBehaviour
         if (!look) look = gameObject.AddComponent<PlayerLook>();
         if (!view) view = GetComponentInChildren<Camera>();
         motor.view = look.view = view ? view.transform : null;
+        interactor = GetComponent<PlayerInteractor>();
+        if (!interactor) interactor = gameObject.AddComponent<PlayerInteractor>();
+        interactor.view = view;
         startRoom = FindFirstObjectByType<StartRoom>();
         if (view && !view.GetComponent<FirstPersonHands>()) view.gameObject.AddComponent<FirstPersonHands>();
     }
-    void Update() { motor.InputBlocked = look.InputBlocked = startRoom && startRoom.Reading; }
-    void OnEnable() { if (motor) motor.enabled = true; if (look) look.enabled = true; }
-    void OnDisable() { if (motor) motor.enabled = false; if (look) look.enabled = false; }
+    void Update() { motor.InputBlocked = look.InputBlocked = interactor.InputBlocked = startRoom && startRoom.Reading; }
+    void OnEnable() { if (motor) motor.enabled = true; if (look) look.enabled = true; if (interactor) interactor.enabled = true; }
+    void OnDisable() { if (motor) motor.enabled = false; if (look) look.enabled = false; if (interactor) interactor.enabled = false; }
     public bool SetCrouching(bool value) => motor.SetCrouching(value);
     public void MoveGrounded(Vector3 velocity, bool jump, float deltaTime) => motor.MoveGrounded(velocity, deltaTime);
 }

@@ -6,9 +6,9 @@ public sealed class DoorInteraction : MonoBehaviour
 {
     public float reach = 2.2f;
     SchoolExplorer player;
-    StartRoom room;
-    SchoolDoor target;
-    void Start() { player = GetComponent<SchoolExplorer>(); room = FindFirstObjectByType<StartRoom>(); }
+
+
+    void Start() { player = GetComponent<SchoolExplorer>(); }
     public SchoolDoor FindNearby()
     {
         var origin = player.view.transform.position;
@@ -29,15 +29,5 @@ public sealed class DoorInteraction : MonoBehaviour
         }
         return best;
     }
-    void Update()
-    {
-        target = null;
-        if (Cursor.lockState != CursorLockMode.Locked || (room && room.Reading)) return;
-        target = FindNearby();
-        if (target && Input.GetKeyDown(KeyCode.F)) target.Toggle();
-    }
-    void OnGUI()
-    {
-        if (target) GUI.Box(new Rect(Screen.width / 2 - 130, Screen.height * .8f, 260, 36), target.IsOpen ? "[F] Đóng cửa" : "[F] Mở cửa");
-    }
+    // Legacy proximity query retained for old editor audits. Runtime input is PlayerInteractor/E.
 }

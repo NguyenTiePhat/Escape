@@ -1,4 +1,3 @@
-using System.Linq;
 using UnityEngine;
 [DefaultExecutionOrder(100)]
 public sealed class StartRoom : MonoBehaviour {
@@ -9,22 +8,16 @@ public sealed class StartRoom : MonoBehaviour {
  public bool HasFlashlight => inventory && inventory.HasFlashlight; public bool HasReadNote {get;private set;}
  public bool Reading {get;private set;}
  public PlayerInventory inventory;
- StartRoomItem target; Vector2 scroll; string message; float messageUntil;
- void Start(){hands=view.GetComponent<FirstPersonHands>(); if(hands)hands.SetEquipped(false); inventory=GetComponent<PlayerInventory>(); if(!inventory)inventory=gameObject.AddComponent<PlayerInventory>(); inventory.Initialize(this);}
+ PlayerInteractor interactor; int noteOpenedFrame; Vector2 scroll; string message; float messageUntil;
+ void Start(){hands=view.GetComponent<FirstPersonHands>(); if(hands)hands.SetEquipped(false); inventory=GetComponent<PlayerInventory>(); if(!inventory)inventory=gameObject.AddComponent<PlayerInventory>(); inventory.Initialize(this); interactor=view.GetComponentInParent<PlayerInteractor>(); if(interactor)interactor.OnInteractWithoutTarget+=inventory.UseSelected;}
  void Update(){
- if(Reading){if(Input.GetKeyDown(KeyCode.Escape)||Input.GetKeyDown(KeyCode.E))CloseNote();return;}
- target=null;
- if(Cursor.lockState!=CursorLockMode.Locked)return;
- var hits=Physics.RaycastAll(view.ViewportPointToRay(new Vector3(.5f,.5f,0)),2.6f,~0,QueryTriggerInteraction.Ignore).Where(h=>!h.collider.GetComponentInParent<SchoolExplorer>()).OrderBy(h=>h.distance).ToArray(); if(hits.Length>0)target=hits[0].collider.GetComponentInParent<StartRoomItem>();
- if(Input.GetKeyDown(KeyCode.E)){
- if(target){
-
- if(inventory.TryAdd(target)){target=null;}
- else {message="Thanh vật phẩm đã đầy (5/5)";messageUntil=Time.time+2;}
- } else inventory.UseSelected();
+ if(Reading && Time.frameCount!=noteOpenedFrame && (Input.GetKeyDown(KeyCode.Escape)||Input.GetKeyDown(KeyCode.E)))CloseNote();
  }
+ void OnDestroy(){if(interactor && inventory)interactor.OnInteractWithoutTarget-=inventory.UseSelected;}
+ public void TryPickup(StartRoomItem item){
+ if(!inventory.TryAdd(item)){message="Thanh vật phẩm đã đầy (5/5)";messageUntil=Time.time+2;}
  }
- public void OpenNote(){Reading=true;HasReadNote=true;scroll=Vector2.zero;Cursor.lockState=CursorLockMode.None;Cursor.visible=true;}
+ public void OpenNote(){noteOpenedFrame=Time.frameCount;Reading=true;HasReadNote=true;scroll=Vector2.zero;Cursor.lockState=CursorLockMode.None;Cursor.visible=true;}
  public void CloseNote(){Reading=false;Cursor.lockState=CursorLockMode.Locked;Cursor.visible=false;}
  void OnGUI(){
  var label=new GUIStyle(GUI.skin.label){fontSize=18,wordWrap=true};
@@ -33,10 +26,9 @@ public sealed class StartRoom : MonoBehaviour {
  string objective=!HasFlashlight?"Nhặt đèn pin trên bàn":!HasReadNote?"Đọc tờ giấy trên bàn":"Khám phá trường học và tìm đường thoát";
  inventory.DrawBar();
  GUI.Label(new Rect(18,110,430,44),objective);
- if(target)GUI.Box(new Rect(Screen.width/2-150,Screen.height*.72f,300,40),target.flashlight?"[E] Nhặt đèn pin":"[E] Nhặt tờ giấy");
- if(!target && inventory.Selected)GUI.Box(new Rect(Screen.width/2-150,Screen.height*.72f,300,40),inventory.Selected.flashlight?"[E] Bật / tắt đèn pin":"[E] Đọc tờ giấy");
+ if(interactor && interactor.Target==null && inventory.Selected)GUI.Box(new Rect(Screen.width/2-150,Screen.height*.72f,300,40),inventory.Selected.flashlight?"[E] Bật / tắt đèn pin":"[E] Đọc tờ giấy");
  if(Time.time<messageUntil)GUI.Box(new Rect(Screen.width/2-150,Screen.height*.64f,300,36),message);
  GUI.Label(new Rect(18,Screen.height-54,Screen.width-36,24),"WASD: đi  |  Shift: chạy  |  C: ngồi/đứng  |  Esc: thả chuột");
- GUI.Label(new Rect(18,Screen.height-30,Screen.width-36,24),"1–5 / cuộn chuột: chọn đồ  |  E: nhặt/dùng  |  F: cửa  |  L: đèn pin");
+ GUI.Label(new Rect(18,Screen.height-30,Screen.width-36,24),"1–5 / cuộn chuột: chọn đồ  |  E: nhặt/dùng  |  F: cửa (Shift: mạnh)  |  G: thả  |  L: đèn pin");
  }
 }
