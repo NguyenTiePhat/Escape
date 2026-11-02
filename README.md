@@ -33,7 +33,6 @@
 | G | Thả một vật phẩm đang chọn ra trước mặt |
 | E | Nhặt vật đang nhìn ở gần; nếu không nhắm vật nhặt, sử dụng món đang cầm (bật/tắt đèn pin hoặc đọc giấy) |
 | F / Shift+F | Nhìn vào cánh lớn để mở/đóng cửa chậm / mạnh (raycast 2,5 m) |
-| L | Bật/tắt đèn pin khi đang cầm đèn |
 | R | Trở về điểm bắt đầu |
 | Esc | Thả con trỏ chuột |
 
