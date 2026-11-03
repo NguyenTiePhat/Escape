@@ -11,6 +11,7 @@ public sealed class SchoolExplorer : MonoBehaviour
     PlayerLook look;
     PlayerInteractor interactor;
     StartRoom startRoom;
+    MicSettingsPanel micSettings;
     void Awake()
     {
         motor = GetComponent<PlayerMotor>();
@@ -23,9 +24,10 @@ public sealed class SchoolExplorer : MonoBehaviour
         if (!interactor) interactor = gameObject.AddComponent<PlayerInteractor>();
         interactor.view = view;
         startRoom = FindFirstObjectByType<StartRoom>();
+        micSettings = GetComponent<MicSettingsPanel>();
         if (view && !view.GetComponent<FirstPersonHands>()) view.gameObject.AddComponent<FirstPersonHands>();
     }
-    void Update() { motor.InputBlocked = look.InputBlocked = interactor.InputBlocked = startRoom && startRoom.Reading; }
+    void Update() { motor.InputBlocked = look.InputBlocked = interactor.InputBlocked = (startRoom && startRoom.Reading) || (micSettings && micSettings.IsOpen); }
     void OnEnable() { if (motor) motor.enabled = true; if (look) look.enabled = true; if (interactor) interactor.enabled = true; }
     void OnDisable() { if (motor) motor.enabled = false; if (look) look.enabled = false; if (interactor) interactor.enabled = false; }
     public bool SetCrouching(bool value) => motor.SetCrouching(value);

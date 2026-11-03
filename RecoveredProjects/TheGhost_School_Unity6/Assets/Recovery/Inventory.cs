@@ -137,6 +137,7 @@ public sealed class Inventory : MonoBehaviour
             legacyBody.isKinematic = false; legacyBody.useGravity = true; legacyBody.mass = legacy.flashlight ? .5f : .05f;
             legacyBody.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
             legacyBody.linearVelocity = direction * .8f;
+            NoiseOnImpact.Prepare(legacyBody, gameObject);
             float legacyWeight = legacyBody.mass;
             Clear(slot); OnInventoryChanged?.Invoke(); OnItemDropped?.Invoke(position, legacyWeight); return true;
         }
@@ -147,6 +148,7 @@ public sealed class Inventory : MonoBehaviour
         body.isKinematic = false; body.useGravity = true; body.mass = Mathf.Max(.01f, slot.Item.weight);
         body.collisionDetectionMode = CollisionDetectionMode.ContinuousDynamic;
         body.linearVelocity = direction * .8f;
+        NoiseOnImpact.Prepare(body, gameObject);
         float weight = slot.Item.weight;
         ConsumeSelected(); OnItemDropped?.Invoke(position, weight); return true;
     }

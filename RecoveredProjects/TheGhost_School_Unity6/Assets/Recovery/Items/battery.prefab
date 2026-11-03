@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8962337375784838310}
   - component: {fileID: 3417854364731952097}
   - component: {fileID: 6860964685822524883}
+  - component: {fileID: 1392278763202349495}
   m_Layer: 13
   m_Name: battery
   m_TagString: Untagged
@@ -98,6 +99,21 @@ MonoBehaviour:
   item: {fileID: 11400000, guid: e2fdeb0f197b7b74fab9763377876261, type: 2}
   quantity: 1
   dropRadius: 0.15
+--- !u!114 &1392278763202349495
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1795568030205529436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3997b631d642a41b4634672ec32081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NoiseOnImpact
+  minimumSpeed: 0.2
+  cooldown: 0.12
+  owner: {fileID: 0}
 --- !u!1 &4036522906502552080
 GameObject:
   m_ObjectHideFlags: 0

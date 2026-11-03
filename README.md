@@ -35,6 +35,7 @@
 | F / Shift+F | Nhìn vào cánh lớn để mở/đóng cửa chậm / mạnh (raycast 2,5 m) |
 | R | Trở về điểm bắt đầu |
 | Esc | Thả con trỏ chuột |
+| F2 | Mở/đóng cài đặt micro: chọn thiết bị, độ nhạy, hiệu chỉnh, bật/tắt phát hiện giọng nói |
 
 Nếu Unity bị lỗi đồ họa DX12 trên Windows, đóng Editor và chạy `Open-Unity-DX11.cmd` trong thư mục dự án trường học. File này dùng đường dẫn Unity trên máy hiện tại; sửa đường dẫn trong file cho phù hợp nếu mở trên máy khác.
 

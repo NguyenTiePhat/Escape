@@ -2,7 +2,7 @@
 %TAG !u! tag:unity3d.com,2011:
 --- !u!78 &1
 TagManager:
-  serializedVersion: 2
+  serializedVersion: 3
   tags:
   - Surface
   - Ladder
@@ -23,6 +23,14 @@ TagManager:
   - Door
   - RoomTrigger
   - ButtonFlagsOverride
+  - Tile
+  - Wood
+  - Metal
+  - Carpet
+  - "G\u1EA1ch"
+  - "G\u1ED7"
+  - "Kim lo\u1EA1i"
+  - "Th\u1EA3m"
   layers:
   - Default
   - TransparentFX
@@ -66,3 +74,6 @@ TagManager:
   - name: Foreground
     uniqueID: 3922283465
     locked: 0
+  m_RenderingLayers:
+  - Default
+  m_MigratedRenderPipelines: []

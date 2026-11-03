@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 163000793630075230}
   - component: {fileID: 6156926101825742186}
   - component: {fileID: 3259517639285971301}
+  - component: {fileID: 771170324885321273}
   m_Layer: 13
   m_Name: fuse
   m_TagString: Untagged
@@ -98,6 +99,21 @@ MonoBehaviour:
   item: {fileID: 11400000, guid: 0a4a93a6dfc33d44da9c4ee209e809c0, type: 2}
   quantity: 1
   dropRadius: 0.15
+--- !u!114 &771170324885321273
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 426522665258581922}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3997b631d642a41b4634672ec32081, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::NoiseOnImpact
+  minimumSpeed: 0.2
+  cooldown: 0.12
+  owner: {fileID: 0}
 --- !u!1 &3401687512907089020
 GameObject:
   m_ObjectHideFlags: 0
