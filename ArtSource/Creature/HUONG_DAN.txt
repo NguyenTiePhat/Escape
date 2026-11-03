@@ -1,0 +1,20 @@
+BỘ ANIMATION NHÂN VẬT
+
+Mở Creature_Animations.blend bằng Blender. Chọn Creature_Rig, vào Dope Sheet > Action Editor để chọn Idle, Walk, Alert, Investigate, Run, Lunge hoặc Search, rồi đặt khoảng frame tương ứng và nhấn Space.
+
+Clip             Thời gian     Frame ở 30 fps   Loop
+Idle             4 giây        1–121            Có
+Walk             2,4 giây      1–73             Có
+Alert            1 giây        1–31             Không
+Investigate      3,2 giây      1–97             Có
+Run              0,8 giây      1–25             Có
+Lunge            1 giây        1–31             Không
+Search           4 giây        1–121            Có
+
+Mỗi clip có một file FBX riêng, gồm mesh, rig và chuyển động đã bake. Model gốc không có rig nên bộ xương và skin weights được tạo mới.
+
+Unity: dùng Animation Type = Generic. Bật Loop Time cho 5 clip lặp; tắt cho Alert và Lunge. Walk, Investigate và Run chạy tại chỗ để gameplay điều khiển vị trí. Lunge có dịch chuyển trên root; nếu gameplay cũng di chuyển nhân vật, cần chọn một nguồn điều khiển vị trí để tránh cộng chuyển động hai lần.
+
+Hướng nhìn khi dựng là -Y trong Blender; FBX xuất theo -Z forward, Y up. Kích thước giữ theo model gốc, cao khoảng 1,019 đơn vị. Khoảng cách kích hoạt vồ 2 m là điều kiện của gameplay, cần cấu hình trong mã điều khiển AI.
+
+Alert và Run dùng hướng tiếng động minh họa cố định. Để hướng đầu bám nguồn âm thanh thực tế, cần điều khiển thêm xương head/neck bằng animation layer hoặc script trong game. Các điều kiện chuyển trạng thái trong tài liệu cũng cần triển khai trong AI của game.
