@@ -1,0 +1,12 @@
+PASS: skeletal boss with 7 requested clips + retained Roar.
+Boss_LOD0: 50000 triangles, 20 bound bones
+Boss_LOD1: 20000 triangles, 20 bound bones
+Boss_LOD2: 7000 triangles, 20 bound bones
+Alert: duration=1.000s loop=False mesh movement=0.211m seam=0.0000m
+Idle: duration=3.600s loop=True mesh movement=0.031m seam=0.0000m
+Investigate: duration=1.600s loop=True mesh movement=0.325m seam=0.0002m
+Lunge: duration=1.000s loop=False mesh movement=0.370m seam=0.0000m
+Roar: duration=1.800s loop=False mesh movement=0.190m seam=0.0000m
+Run: duration=0.900s loop=True mesh movement=0.672m seam=0.0003m
+Search: duration=4.000s loop=True mesh movement=0.256m seam=0.0000m
+Walk: duration=2.000s loop=True mesh movement=0.232m seam=0.0002m

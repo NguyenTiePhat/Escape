@@ -37,6 +37,8 @@
 | Esc | Thả con trỏ chuột |
 | F2 | Mở/đóng cài đặt micro: chọn thiết bị, độ nhạy, hiệu chỉnh, bật/tắt phát hiện giọng nói |
 
+Boss mới tự tuần tra theo bốn waypoint, dừng 2–4 giây mỗi điểm. Chỉnh tốc độ ở `Assets/Recovery/Boss/MonsterConfig.asset`; chọn boss trong Scene view để xem state. Các phím xem thử animation F6–F9 thuộc bản prototype và đã tắt khi AI tuần tra hoạt động.
+
 Nếu Unity bị lỗi đồ họa DX12 trên Windows, đóng Editor và chạy `Open-Unity-DX11.cmd` trong thư mục dự án trường học. File này dùng đường dẫn Unity trên máy hiện tại; sửa đường dẫn trong file cho phù hợp nếu mở trên máy khác.
 
 Đây là bản thử nghiệm môi trường và tương tác phòng bắt đầu, chưa phải game hoàn chỉnh; gameplay gốc như multiplayer và AI chưa được phục hồi.

@@ -1,0 +1,11 @@
+PASS: real NavMeshAgent Play Mode patrol.
+Live patrolSpeed edits applied to both agents without re-enable/reload.
+Scene reached 0, pause=2.248s
+Obstacle fixture reached 2, pause=3.527s
+Scene reached 1, pause=3.902s
+Scene reached 2, pause=2.152s
+Obstacle fixture reached 3, pause=2.527s
+Scene reached 3, pause=2.967s
+Scene reached 0, pause=3.216s
+Obstacle fixture reached 2, pause=2.699s
+PASS: complete scene circuit; wall detour both directions; 2–4s waits respected; null/unreachable skipped; empty list stops; only Patrol implemented. Test config clones used; original asset unchanged. Mic disabled for test.

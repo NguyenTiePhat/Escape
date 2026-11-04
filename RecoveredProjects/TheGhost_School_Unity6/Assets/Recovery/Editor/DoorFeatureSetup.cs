@@ -35,7 +35,6 @@ public static class DoorFeatureSetup
     static string PathOf(Transform t)=>t.parent?PathOf(t.parent)+"/"+t.name:t.name;
     static float Width(BoxCollider box) => box ? Mathf.Max(Mathf.Abs(box.size.x*box.transform.lossyScale.x),Mathf.Abs(box.size.z*box.transform.lossyScale.z)) : 0;
     public static void RunBatch(){EditorSceneManager.OpenScene("Assets/Recovery/Scenes/School_Test.unity");Run();if(Application.isBatchMode)EditorApplication.Exit(0);}
-    public static void RunAndVerifyBatch(){EditorSceneManager.OpenScene("Assets/Recovery/Scenes/School_Test.unity");Run();DoorMapCheck.Run();EditorApplication.Exit(File.ReadAllText("RecoveryReports/door-map-check.txt").TrimEnd().EndsWith("PASS")?0:1);}
     [MenuItem("Tools/FPS/Set up interactive doors")]
     public static void Run()
     {

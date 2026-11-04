@@ -1,0 +1,5 @@
+PASS: four embedded PBR images extracted, linear R metallic/A inverse roughness, normal map, 2K mipmaps.
+Pipeline=Built-in (existing map); packed textures also match URP Lit
+node_0 LOD triangles: 50000 26608 13818 7034
+Height=2.2; states Idle/Walk/Roar/Attack; CharacterController; F6 preview, F7 roar, F8 attack. No rig, chase AI or health damage yet.
+Motion checks PASS: actual CC displacement, roar pose/end, lunge blocked by wall, attack recovery.

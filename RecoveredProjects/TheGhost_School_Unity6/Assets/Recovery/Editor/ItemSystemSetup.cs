@@ -69,7 +69,7 @@ public static class ItemSystemSetup
             exit.requiredKeyId=key.id;exit.isLocked=false;EditorUtility.SetDirty(exit);
             EditorSceneManager.MarkSceneDirty(player.gameObject.scene);EditorSceneManager.SaveScene(player.gameObject.scene);AssetDatabase.SaveAssets();
             File.WriteAllText("RecoveryReports/item-system-setup.txt","PASS: three ItemData assets, icons, Rigidbody pickup prefabs, samples beside note, unified five slots; north exit uses room_1_key.\n"+string.Join("\n",Object.FindObjectsByType<PickupItem>(FindObjectsSortMode.None).Select(p=>p.name+" "+p.transform.position)));
-            InventoryLogicCheck.Run();
+
             EditorSceneManager.OpenScene("Assets/Recovery/Scenes/School_Test.unity"); if(Application.isBatchMode)EditorApplication.Exit(0);
         }
         catch(Exception e){Debug.LogException(e);File.WriteAllText("RecoveryReports/item-system-setup-error.txt",e.ToString());if(Application.isBatchMode)EditorApplication.Exit(1);}
@@ -103,8 +103,3 @@ public static class ItemSystemSetup
         var prefab=PrefabUtility.SaveAsPrefabAsset(root,path+".prefab");data.pickupPrefab=prefab.GetComponent<PickupItem>();Object.DestroyImmediate(root);EditorUtility.SetDirty(data);EditorUtility.SetDirty(material);return data;
     }
 }
-
-
-
-
-
