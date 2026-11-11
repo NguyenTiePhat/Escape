@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae2a71570bdfc6459e48b26926d9e56, type: 3}
+  m_Name: saw_handle
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  id: saw_handle
+  itemName: "Tay c\u1EA7m c\u01B0a"
+  icon: {fileID: 21300000, guid: 118f57e8d5a98cd4fb2ebea742ecfb3f, type: 3}
+  description: "M\u1ED9t b\u1ED9 ph\u1EADn \u0111\u1EC3 l\u1EAFp c\u01B0a. Gi\u1EEF
+    l\u1EA1i \u0111\u1EC3 d\xF9ng \u1EDF b\u01B0\u1EDBc sau."
+  type: 3
+  stackable: 0
+  maxStack: 1
+  weight: 0.2
+  batteryAmount: 25
+  pickupPrefab: {fileID: 9192014089841529964, guid: 3bf55ab321ab7e04cbe0dd304273020d, type: 3}

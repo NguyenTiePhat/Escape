@@ -1,0 +1,22 @@
+PASS
+Scene station recipe and output references persist
+Machine uses 10 seconds and .9 noise
+Missing ingredients prevent work and identify both missing items
+One ingredient cannot start crafting
+Release preserves crafting progress
+Holding again resumes crafting
+Ingredient can be dropped through actual Inventory.Drop
+Dropping ingredient resets progress and interrupts immediately
+Still-held E cannot bypass interruption
+Inventory full before completion
+Completes once and places a pickup on machine
+Consumes both ingredients; does not auto-add output key
+Finished key rests on output tray
+Full inventory leaves finished key on tray
+Finished key can be picked up after freeing a slot
+Repeated hold cannot duplicate finished key
+24 seeded-by-runtime runs: five distinct items, valid regions, random variation, no duplicates
+All five items have icons and actual model meshes
+Actual School_Test boss hears machine and begins Investigate
+Boss has complete path to machine noise point
+Boss physically traverses School_Test to inspect machine

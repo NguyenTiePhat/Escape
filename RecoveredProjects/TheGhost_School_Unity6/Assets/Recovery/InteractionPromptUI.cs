@@ -21,7 +21,7 @@ public sealed class InteractionPromptUI : MonoBehaviour
     void ShowTarget(IInteractable target)
     {
         bool valid = target is MonoBehaviour behaviour && behaviour && behaviour.isActiveAndEnabled;
-        label.text = valid ? (target is Door ? "[F] " : "[E] ") + target.Prompt : "";
+        label.text = valid ? (target is Door door && !door.isLocked ? "[F] " : "[E] ") + target.Prompt : "";
         label.enabled = valid;
     }
 }

@@ -11,6 +11,8 @@ public class Door : MonoBehaviour, IInteractable
     [Min(1)] public float strongSpeed = 160f;
     public bool isLocked;
     public string requiredKeyId = "";
+    public bool consumeKeyOnUnlock = true;
+    [TextArea] public string lockedPrompt = "";
     public bool decorative;
     [Tooltip("Hinge pin offset in this leaf's local coordinates; the closed mesh stays in place.")]
     public Vector3 hingeOffset;
@@ -26,7 +28,7 @@ public class Door : MonoBehaviour, IInteractable
     public float CurrentSpeed { get; private set; }
     public bool IsFullyOpen => Mathf.Abs(angle - openAngle) < .01f;
     public bool IsFullyClosed => Mathf.Abs(angle) < .01f;
-    public string Prompt => isLocked ? "Cửa đã khóa (chọn chìa khóa, E: mở khóa)" : IsOpen ? "Đóng cửa (Shift: đóng mạnh)" : "Mở cửa (Shift: mở mạnh)";
+    public string Prompt => isLocked ? (string.IsNullOrEmpty(lockedPrompt) ? "Cửa đã khóa (chọn chìa khóa, E: mở khóa)" : lockedPrompt) : IsOpen ? "Đóng cửa (Shift: đóng mạnh)" : "Mở cửa (Shift: mở mạnh)";
 
     Quaternion closed;
     Vector3 closedPosition, pivotInParent, scaledHingeOffset;
@@ -77,6 +79,12 @@ public class Door : MonoBehaviour, IInteractable
         var keyboard = Keyboard.current;
         bool strong = keyboard != null && (keyboard.leftShiftKey.isPressed || keyboard.rightShiftKey.isPressed);
         Toggle(strong ? strongSpeed : speed);
+    }
+    // Monster interaction uses the same swept motion and noise event as player interaction.
+    public bool Open(float duration = 1f)
+    {
+        if (!float.IsFinite(duration) || duration <= 0) return false;
+        return TrySetOpen(true, Mathf.Max(1f, Mathf.Abs(openAngle - angle) / duration));
     }
     public void Toggle() => Toggle(speed);
     public bool Toggle(float angularSpeed) => TrySetOpen(!IsOpen, angularSpeed);

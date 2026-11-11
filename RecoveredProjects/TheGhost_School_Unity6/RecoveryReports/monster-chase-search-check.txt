@@ -1,0 +1,23 @@
+PASS
+Nearest visible player starts Chase
+Chase plays one roar
+Nearly equal distances do not swap targets
+Substantially closer visible player replaces target
+Wall blocks vision; Chase retains 1.5 second grace
+Lost sight transitions to Search after 1.5 seconds
+Search preserves last observed position
+Search generates 3-5 points
+Search point lies on NavMesh within 8m
+Search point lies on NavMesh within 8m
+Search point lies on NavMesh within 8m
+Search point lies on NavMesh within 8m
+Search point lies on NavMesh within 8m
+Silent hidden players: search expires into Patrol
+Below-threshold noise does not interrupt Search
+New audible noise interrupts Search with Investigate
+Visible player during Search restarts Chase
+Reacquisition within cooldown does not repeat roar
+Chase moves on NavMesh and reads config live
+Chase destination refresh timer is 0.2 seconds
+Loudest audible player wins; weaker noise cannot swap target (state=Chase, visible=False, target=A (PlayerMotor), position=(2.00, 0.00, 6.00))
+School_Test: active AI, config, vision, waypoints, NavMeshAgent and existing roar audio references verified

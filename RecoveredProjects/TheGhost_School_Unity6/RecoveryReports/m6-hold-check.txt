@@ -1,0 +1,24 @@
+PASS
+Raycast selects hold object
+Noise uses object position and .85 loudness
+Noise uses object position and .85 loudness
+Holding advances progress and emits ongoing Action noise
+Monster hears action and investigates object position
+WASD and sprint cannot move player during work
+Crouch remains available during work
+Crouch changes controller height while position stays locked
+Standing back up remains available
+Release preserves progress, stops noise, releases movement
+Looking away preserves progress and produces no noise
+Noise uses object position and .85 loudness
+Looking back and holding resumes progress
+Monster hit interrupts; held E cannot immediately restart
+Noise uses object position and .85 loudness
+Fresh press after hit resumes retained progress
+Forced movement cancels and preserves progress
+Out of range loses interaction target
+Noise uses object position and .85 loudness
+Progress reaches half circle
+Noise uses object position and .85 loudness
+Full circle completes once and unlocks movement
+Completed action cannot produce duplicate completion or noise

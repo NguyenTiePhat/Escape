@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public enum NoiseSource { Footstep, Door, Drop, Voice, Impact }
+public enum NoiseSource { Footstep, Door, Drop, Voice, Impact, Action }
 
 public struct NoiseEvent
 {

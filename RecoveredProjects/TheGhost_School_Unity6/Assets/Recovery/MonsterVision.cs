@@ -12,7 +12,8 @@ public sealed class MonsterVision : MonoBehaviour
     CharacterController body;
     Light beam;
     PlayerMotor cachedPlayer;
-    public bool CanSee(MonsterConfig config)
+    public bool CanSee(MonsterConfig config) => CanSee(config, player);
+    public bool CanSee(MonsterConfig config, PlayerMotor player)
     {
         if (!config || !player || !player.gameObject.activeInHierarchy) return false;
         if (cachedPlayer != player) { cachedPlayer = player; body = player.GetComponent<CharacterController>(); beam = null; }
@@ -27,9 +28,9 @@ public sealed class MonsterVision : MonoBehaviour
         // Bone orientation is import-dependent; the actor's forward defines its cone.
         Vector3 torso = body ? body.bounds.center : player.transform.position + Vector3.up;
         Vector3 head = player.view ? player.view.position : torso + Vector3.up * .6f;
-        return VisiblePoint(origin, head, config.sightAngle) || VisiblePoint(origin, torso, config.sightAngle);
+        return VisiblePoint(origin, head, config.sightAngle, player) || VisiblePoint(origin, torso, config.sightAngle, player);
     }
-    bool VisiblePoint(Vector3 origin, Vector3 point, float angle)
+    bool VisiblePoint(Vector3 origin, Vector3 point, float angle, PlayerMotor player)
     {
         Vector3 delta = point - origin; float distance = delta.magnitude;
         if (distance > EffectiveRange || EffectiveRange <= 0) return false;

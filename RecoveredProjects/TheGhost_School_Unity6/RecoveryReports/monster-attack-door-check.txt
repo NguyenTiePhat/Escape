@@ -1,0 +1,10 @@
+PASS
+Attack stops and does not hit before 0.6s
+One Kill fallback after 0.6s; monster remains stationary
+Player escaping during windup is not hit
+Opening normal door emits one Door noise event
+Monster waits while the one-second door swing is in progress
+Monster passes normal door after opening, without repeated noise
+Locked corridor door remains closed; monster cannot cross it (z=2.425, angle=0, noises=1)
+Locked door installs NavMesh carving for alternative routes
+Unlocking restores traversal and opening

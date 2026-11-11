@@ -1,0 +1,37 @@
+PASS Station, barrier and saw icon configured
+PASS Installation order 0,1,2
+PASS Completed station cannot duplicate output
+PASS Installation order 0,2,1
+PASS Completed station cannot duplicate output
+PASS Installation order 1,0,2
+PASS Completed station cannot duplicate output
+PASS Installation order 1,2,0
+PASS Completed station cannot duplicate output
+PASS Installation order 2,0,1
+PASS Completed station cannot duplicate output
+PASS Installation order 2,1,0
+PASS Completed station cannot duplicate output
+PASS Recipe panel can be targeted from landing
+PASS Empty selection installs nothing
+PASS E installs selected screws immediately
+PASS Only installed ingredient icon lights up
+PASS Duplicate installation rejected without consuming item
+PASS Leaving station preserves installed parts
+PASS Third installation spawns physical saw, not automatic inventory grant
+PASS Assembly emits no noise
+PASS Completed saw falls under gravity
+PASS Falling saw settles on workbench
+PASS Dropped saw is visible to pickup raycast
+PASS E picks up finished saw
+PASS Cannot cut wood without selected saw
+PASS Wood barrier is raycast target
+PASS Selected saw advances cutting progress
+PASS Cutting continuously emits Action noise .7
+PASS Nearby hearing listener receives cutting noise
+PASS Release and look-away preserve cutting progress
+PASS Switching away from saw pauses progress
+PASS 18 seconds removes wood and unlocks door
+PASS Saw remains available after cutting
+PASS Opened roof door still respects physical obstructions
+PASS Roof door finishes opening after obstruction is removed
+PASS Player-sized controller crosses cleared doorway

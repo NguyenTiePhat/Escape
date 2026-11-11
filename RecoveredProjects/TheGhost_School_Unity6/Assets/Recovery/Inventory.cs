@@ -68,6 +68,30 @@ public sealed class Inventory : MonoBehaviour
         }
         OnInventoryChanged?.Invoke(); return true;
     }
+    // Consume a recipe atomically: listeners never see only half the recipe removed.
+    public bool RemoveRecipe(ItemData[] ingredients)
+    {
+        if (ingredients == null || ingredients.Length == 0) return false;
+        var counts = new System.Collections.Generic.Dictionary<string, int>();
+        foreach (var item in ingredients)
+        {
+            if (!item || string.IsNullOrEmpty(item.id)) return false;
+            counts.TryGetValue(item.id, out int count); counts[item.id] = count + 1;
+        }
+        foreach (var pair in counts) if (CountItem(pair.Key) < pair.Value) return false;
+        foreach (var pair in counts)
+        {
+            int remaining = pair.Value;
+            foreach (var slot in slots)
+            {
+                if (!slot.Item || slot.Item.id != pair.Key) continue;
+                int remove = Mathf.Min(remaining, slot.Quantity); slot.Quantity -= remove; remaining -= remove;
+                if (slot.Quantity == 0) Clear(slot);
+                if (remaining == 0) break;
+            }
+        }
+        OnInventoryChanged?.Invoke(); return true;
+    }
     static void Clear(Slot slot) { slot.Item = null; slot.LegacyItem = null; slot.Quantity = 0; }
     public void SelectSlot(int index)
     {
@@ -102,8 +126,17 @@ public sealed class Inventory : MonoBehaviour
             case ItemType.Key:
                 if (interactor) interactor.RefreshTarget();
                 var door = interactor ? interactor.Target as Door : null;
+                var exit = door ? door.GetComponent<MainExitDoor>() : null;
+                if (exit)
+                {
+                    if (!exit.TryOpenWithKey(slot.Item.id)) Notify("Cửa thoát hiểm cần chìa vàng được chế tạo từ khuôn.");
+                    else Notify("Đang mở cửa thoát hiểm...");
+                    break;
+                }
                 if (!door || !door.isLocked || !door.UnlockDoor(slot.Item.id)) { Notify("Chìa khóa không dùng được ở đây."); return; }
-                ConsumeSelected(); Notify("Đã mở khóa cửa."); break;
+                if (door.consumeKeyOnUnlock) ConsumeSelected();
+                bool opening = door.Open();
+                Notify(opening ? "Đã mở cửa." : "Đã mở khóa. Cửa đang bị vật cản."); break;
             case ItemType.Battery:
                 if (!flashlight || (room && !room.HasFlashlight) || !flashlight.AddBattery(slot.Item.batteryAmount)) { Notify("Đèn pin đã đầy hoặc chưa có đèn pin."); return; }
                 ConsumeSelected(); break;

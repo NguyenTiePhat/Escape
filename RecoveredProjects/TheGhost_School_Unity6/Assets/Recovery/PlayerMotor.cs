@@ -21,6 +21,7 @@ public sealed class PlayerMotor : MonoBehaviour
     public bool IsCrouching { get; private set; }
     public bool Exhausted { get; private set; }
     public bool InputBlocked { get; set; }
+    public bool ActionMovementLocked { get; set; }
     CharacterController body;
     float standingHeight, fallSpeed, restTime;
     Vector3 standingCenter, standingView;
@@ -70,7 +71,7 @@ public sealed class PlayerMotor : MonoBehaviour
     public void Tick(Vector2 input, bool sprintHeld, float deltaTime)
     {
         if (deltaTime <= 0 || !body.enabled) return;
-        input = Vector2.ClampMagnitude(input, 1);
+        input = ActionMovementLocked ? Vector2.zero : Vector2.ClampMagnitude(input, 1);
         if (!IsCrouching && body.height < standingHeight - .001f && !CanStand()) IsCrouching = true;
         float targetHeight = IsCrouching ? Mathf.Clamp(crouchHeight, body.radius * 2, standingHeight) : standingHeight;
         float blend = 1 - Mathf.Exp(-crouchLerpSpeed * deltaTime);

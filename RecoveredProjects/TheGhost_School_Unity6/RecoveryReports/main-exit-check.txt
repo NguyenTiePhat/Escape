@@ -1,0 +1,17 @@
+PASS Both key assets and icons exist
+PASS Silver key is placed in scene
+PASS All playable ordinary doors require reusable silver key
+PASS Raycast targets Exit door hinge
+PASS Gold cannot unlock ordinary door
+PASS Silver unlocks ordinary door and remains in inventory
+PASS Raycast targets DoorMain_L
+PASS E with silver cannot unlock main exit
+PASS E with selected gold unlocks both main leaves
+PASS Blocked main door does not grant victory
+PASS Opening both leaves wins exactly once and pauses game
+PASS Player and monster stop on victory
+PASS Victory releases cursor
+PASS Repeated Win call is ignored
+PASS Play again reloads and resets victory/time
+PASS Play again relocks main exit
+PASS Play again clears crafted key inventory

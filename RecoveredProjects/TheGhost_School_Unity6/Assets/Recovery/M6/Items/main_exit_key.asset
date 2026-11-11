@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae2a71570bdfc6459e48b26926d9e56, type: 3}
+  m_Name: main_exit_key
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  id: main_exit_key
+  itemName: "Ch\xECa kh\xF3a v\xE0ng"
+  icon: {fileID: 21300000, guid: 3e8e64ff29d051945ab6b0c41d2af2fb, type: 3}
+  description: "Ch\xECa \u0111\u01B0\u1EE3c ch\u1EBF t\u1EA1o t\u1EEB khu\xF4n v\xE0
+    ph\xF4i. Ch\u1EC9 m\u1EDF c\u1EEDa tho\xE1t hi\u1EC3m ch\xEDnh."
+  type: 0
+  stackable: 0
+  maxStack: 1
+  weight: 0.2
+  batteryAmount: 25
+  pickupPrefab: {fileID: 3985282034636772847, guid: fd93b0c83589a2043951be6ff89df625, type: 3}
