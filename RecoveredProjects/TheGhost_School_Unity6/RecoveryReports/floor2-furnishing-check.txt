@@ -1,0 +1,33 @@
+ADDED Locker bank 1 at (29.350, 8.476, 52.900) mesh=Lockers material=Lockers_mtl
+ADDED Locker bank 2 at (29.350, 8.476, 54.300) mesh=Lockers material=Lockers_mtl
+ADDED Locker bank 3 at (29.350, 8.476, 55.700) mesh=Lockers material=Lockers_mtl
+ADDED Waiting bench at (29.350, 8.476, 50.150) mesh=Bench_LOD0 material=Bench_mtl
+ADDED Wastebasket at (30.100, 8.476, 56.150) mesh=TrashCanSmall_LOD1 material=TrashCans_mtl
+ADDED Reading table 38.4 at (38.400, 8.476, 60.000) mesh=LibraryTable material=LibraryTable_mtl
+ADDED Reading chair west 38.4 at (37.200, 8.477, 60.000) mesh=LibraryChair_LOD1 material=LibraryTable_mtl
+ADDED Reading chair east 38.4 at (39.600, 8.477, 60.000) mesh=LibraryChair_LOD1 material=LibraryTable_mtl
+ADDED Books on reading table 38.4 at (38.580, 9.367, 60.100) mesh=BookStack03 material=Books_mtl
+ADDED Reading table 44.2 at (44.200, 8.476, 60.000) mesh=LibraryTable material=LibraryTable_mtl
+ADDED Reading chair west 44.2 at (43.000, 8.477, 60.000) mesh=LibraryChair_LOD1 material=LibraryTable_mtl
+ADDED Reading chair east 44.2 at (45.400, 8.477, 60.000) mesh=LibraryChair_LOD1 material=LibraryTable_mtl
+ADDED Books on reading table 44.2 at (44.380, 9.367, 60.100) mesh=BookStack03 material=Books_mtl
+SKIPPED North wall bench: occupied by SecondHallwayWithoutEntries(Trace)
+ADDED Reading alcove wastebasket at (47.400, 8.476, 61.750) mesh=TrashCanSmall_LOD1 material=TrashCans_mtl
+ADDED Bench west of library approach at (58.000, 8.476, 52.800) mesh=Bench_LOD0 material=Bench_mtl
+ADDED Bench east of library approach at (67.100, 8.476, 52.800) mesh=Bench_LOD0 material=Bench_mtl
+ADDED Library approach wastebasket at (69.000, 8.476, 52.850) mesh=TrashCanSmall_LOD1 material=TrashCans_mtl
+SKIPPED Window landing bench: occupied by SecondHallwayWithoutEntries(Trace),WallOutside_2f_CornerOutside_Window_A
+Pre-existing unreachable sample (64.00, 58.00)
+Pre-existing unreachable sample (64.00, 67.00)
+Pre-existing unreachable sample (58.50, 67.00)
+PASS: 10 previously reachable destinations remain connected for player-radius capsules (0.34m); hall, stairs, reading alcove and library approach.
+PASS: 16435 pre-existing objects/components unchanged before save.
+PASS: 17 new mesh objects; original materials/meshes reused without edits; original NavMesh preserved, new furniture uses carving obstacles.
+Pre-existing unreachable sample (64.00, 58.00)
+Pre-existing unreachable sample (64.00, 67.00)
+Pre-existing unreachable sample (58.50, 67.00)
+PASS: 10 previously reachable destinations remain connected for player-radius capsules (0.34m); hall, stairs, reading alcove and library approach.
+PASS actual CharacterController traversal (31.00, 8.52, 49.00) -> (31.00, 8.52, 54.00) -> (52.00, 8.52, 54.00) -> (68.00, 8.52, 54.00)
+PASS actual CharacterController traversal (40.00, 8.52, 54.00) -> (40.00, 8.52, 58.00) -> (41.00, 8.52, 60.00)
+PASS actual CharacterController traversal (52.00, 8.52, 54.00) -> (52.00, 8.52, 44.00)
+PASS saved scene reloaded: all 17 meshes, materials and textures resolve.

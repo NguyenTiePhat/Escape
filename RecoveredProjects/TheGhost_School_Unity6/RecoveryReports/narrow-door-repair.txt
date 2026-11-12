@@ -1,0 +1,5 @@
+Swing 100 accepted=True reached=99.99996 blocker=none
+Swing -100 accepted=True reached=99.99996 blocker=none
+Closed blocks=True full swept opening=True traversal forward=True reverse=True
+PASS silver key only, reusable key, locked on scene load, F open/close; existing frame and other doors untouched.
+PASS saved-scene readback; interaction ray selects door from both sides; F respects lock and opens after silver-key unlock.
