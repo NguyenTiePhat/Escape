@@ -1,0 +1,19 @@
+PASS saved scene starts Playing with one health
+PASS real monster attack hit invokes Kill and Lost
+PASS death/result events occur once; dead player cannot escape
+PASS death locks movement, look and inventory
+PASS result freezes game and releases cursor
+PASS camera falls and rolls using unscaled time
+PASS restart announces Loading
+PASS restart restores fresh living player and controls
+PASS one dead with another alive does not lose
+PASS all surviving players escaped wins even with a dead teammate
+PASS escaped player cannot be killed
+PASS all players dead loses
+PASS one escaped while another remains does not win
+PASS all living players escaped wins
+PASS silver key cannot authorize main exit
+PASS gold key authorizes exit
+PASS fully opened doors alone do not win
+PASS CharacterController walks through actual main doorway into outside zone and wins
+All M7 step 1 checks complete.

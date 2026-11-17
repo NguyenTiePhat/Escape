@@ -16,6 +16,8 @@ public sealed class MonsterVision : MonoBehaviour
     public bool CanSee(MonsterConfig config, PlayerMotor player)
     {
         if (!config || !player || !player.gameObject.activeInHierarchy) return false;
+        var health = player.GetComponent<PlayerHealth>();
+        if (health && !health.CanParticipate) return false;
         if (cachedPlayer != player) { cachedPlayer = player; body = player.GetComponent<CharacterController>(); beam = null; }
         if (!beam)
         {

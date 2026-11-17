@@ -34,6 +34,7 @@
 | E | Nhặt vật đang nhìn ở gần; nếu không nhắm vật nhặt, sử dụng món đang cầm (bật/tắt đèn pin hoặc đọc giấy) |
 | F / Shift+F | Nhìn vào cánh lớn để mở/đóng cửa chậm / mạnh (raycast 2,5 m) |
 | R | Trở về điểm bắt đầu |
+| K | Bật/tắt bất tử để test khi đang chơi; mặc định tắt mỗi lượt |
 | Esc | Thả con trỏ chuột |
 | F2 | Mở/đóng cài đặt micro: chọn thiết bị, độ nhạy, hiệu chỉnh, bật/tắt phát hiện giọng nói |
 

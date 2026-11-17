@@ -8,11 +8,12 @@ public sealed class MainExitDoor : MonoBehaviour
     Door leaf;
     bool armed;
     public bool OpeningAuthorized => armed;
+    public bool IsExitReady => (armed || (partner && partner.GetComponent<MainExitDoor>() && partner.GetComponent<MainExitDoor>().OpeningAuthorized)) && leaf && leaf.IsFullyOpen && (!partner || partner.IsFullyOpen);
     void Awake() { leaf = GetComponent<Door>(); }
     public bool TryOpenWithKey(string keyId)
     {
         if (!leaf) leaf = GetComponent<Door>();
-        if (!isActiveAndEnabled || !game || game.HasWon || keyId != "main_exit_key" ||
+        if (!isActiveAndEnabled || !game || !GameStateManager.Instance || GameStateManager.Instance.State != GameState.Playing || keyId != "main_exit_key" ||
             leaf.requiredKeyId != keyId || (partner && partner.requiredKeyId != keyId)) return false;
         if (!leaf.UnlockDoor(keyId)) return false;
         if (partner && !partner.UnlockDoor(keyId)) return false;
@@ -20,10 +21,5 @@ public sealed class MainExitDoor : MonoBehaviour
         if (!leaf.IsOpen) leaf.Open(1f);
         if (partner && !partner.IsOpen) partner.Open(1f);
         return true;
-    }
-    void Update()
-    {
-        // Unlocking alone or a blocked swing never grants victory.
-        if (armed && game && !game.HasWon && leaf.IsFullyOpen && (!partner || partner.IsFullyOpen)) game.Win();
     }
 }

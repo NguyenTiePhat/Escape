@@ -1,0 +1,178 @@
+{
+  "BanDanhBongBan": [
+    [
+      {
+        "name": "Image Texture",
+        "image": "texture_pbr_20250901.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Base Color"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.001",
+        "image": "texture_pbr_20250901_normal.png",
+        "connections": [
+          [
+            "NORMAL_MAP",
+            "Color"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.002",
+        "image": "texture_pbr_20250901_roughness.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Roughness"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.003",
+        "image": "texture_pbr_20250901_metallic.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Metallic"
+          ]
+        ]
+      }
+    ]
+  ],
+  "Tutrungbaydodungdiali": [
+    [
+      {
+        "name": "Image Texture",
+        "image": "texture_pbr_20250901.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Base Color"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.001",
+        "image": "texture_pbr_20250901_normal.png",
+        "connections": [
+          [
+            "NORMAL_MAP",
+            "Color"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.002",
+        "image": "texture_pbr_20250901_roughness.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Roughness"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.003",
+        "image": "texture_pbr_20250901_metallic.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Metallic"
+          ]
+        ]
+      }
+    ]
+  ],
+  "TuNhoo": [
+    [
+      {
+        "name": "Image Texture",
+        "image": "texture_pbr_20250901.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Base Color"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.001",
+        "image": "texture_pbr_20250901_normal.png",
+        "connections": [
+          [
+            "NORMAL_MAP",
+            "Color"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.002",
+        "image": "texture_pbr_20250901_roughness.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Roughness"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.003",
+        "image": "texture_pbr_20250901_metallic.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Metallic"
+          ]
+        ]
+      }
+    ]
+  ],
+  "BanGheHocSinh": [
+    [
+      {
+        "name": "Image Texture",
+        "image": "texture_pbr_20250901.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Base Color"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.001",
+        "image": "texture_pbr_20250901_normal.png",
+        "connections": [
+          [
+            "NORMAL_MAP",
+            "Color"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.002",
+        "image": "texture_pbr_20250901_roughness.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Roughness"
+          ]
+        ]
+      },
+      {
+        "name": "Image Texture.003",
+        "image": "texture_pbr_20250901_metallic.png",
+        "connections": [
+          [
+            "BSDF_PRINCIPLED",
+            "Metallic"
+          ]
+        ]
+      }
+    ]
+  ]
+}

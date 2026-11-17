@@ -277,9 +277,8 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
                 Vector3.Distance(attackVictim.transform.position, transform.position) < 1.5f &&
                 vision && vision.CanSee(config, attackVictim))
             {
-                var health = attackVictim.GetComponent("PlayerHealth");
-                if (health) health.SendMessage("Kill", SendMessageOptions.RequireReceiver);
-                else Debug.Log("Monster Attack: Kill " + attackVictim.name + " (PlayerHealth not installed yet).", attackVictim);
+                var health = attackVictim.GetComponent<PlayerHealth>();
+                if (health) health.Kill();
                 OnAttackHit?.Invoke(attackVictim);
                 OnAnyAttackHit?.Invoke(attackVictim);
             }

@@ -1,0 +1,6 @@
+PASS invulnerability defaults off
+PASS invulnerability rejects repeated kills without locking controls or losing
+PASS toggle off restores one-hit death
+PASS toggle cannot revive after death
+PASS restart resets invulnerability
+PASS invulnerability does not block victory
