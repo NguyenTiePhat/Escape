@@ -1,0 +1,786 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.7f1 (017862109af0) revision 96354'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Channel LicenseClient-Admin doesn't exist
+OS: 'Windows 11  (10.0.26200) CoreSingleLanguage' Language: 'en' Physical Memory: 16085 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-17T15:39:29Z
+[Licensing::Module] Successfully launched the LicensingClient (PId: 21332)
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.5.7f1\Editor\Unity.exe
+-batchmode
+-force-d3d11
+-projectPath
+C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6
+-executeMethod
+ReferencePropsSetup.Run
+-quit
+-logFile
+C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\SourceAssets\reference-props-unity.log
+Successfully changed project path to: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6
+C:/Users/Admin/Documents/Nam4_HK1/CNM in PTUD CNTT/Escape_TheGhost/Escape/RecoveredProjects/TheGhost_School_Unity6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [21416]  Target information:
+
+Player connection [21416]  * "[IP] 192.168.80.1 [Port] 55504 [Flags] 2 [Guid] 2528562305 [EditorId] 2528562305 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21416]  * "[IP] 192.168.52.1 [Port] 55504 [Flags] 2 [Guid] 2528562305 [EditorId] 2528562305 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21416]  * "[IP] 26.241.69.239 [Port] 55504 [Flags] 2 [Guid] 2528562305 [EditorId] 2528562305 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21416]  * "[IP] 192.168.1.12 [Port] 55504 [Flags] 2 [Guid] 2528562305 [EditorId] 2528562305 [Version] 1048832 [Id] WindowsEditor(7,MSI) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21416] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21416] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin" at "2026-11-17T15:39:30.1601434Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 21332, path: "C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              bac0762e02dc479f9763e1503b9f21f0
+  Correlation Id:          6496a65978d9f79dd5da48fee66980ab
+  External correlation Id: 4599266837618908205
+  Machine Id:              W5BfsISKqPdbsAsjWoGAkfjslkQ=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-Admin" (connect: 0.37s, validation: 0.15s, handshake: 0.10s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-Admin-notifications" at "2026-11-17T15:39:30.4051783Z"
+[Licensing::Module] Connected to LicensingClient (PId: 21332, launch time: 0.00, total connection time: 0.62s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Package Manager] Connected to IPC stream "Upm-4060" after 0.4 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968281716077-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.01
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 0.67s
+[Licensing::Module] Licensing is initialized (took 0.04s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.5.7f1 (017862109af0)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/Admin/Documents/Nam4_HK1/CNM in PTUD CNTT/Escape_TheGhost/Escape/RecoveredProjects/TheGhost_School_Unity6/Assets
+Forcing GfxDevice: Direct3D 11
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3050 Laptop GPU (ID=0x25a2)
+    Vendor:   NVIDIA
+    VRAM:     3962 MB
+    Driver:   32.0.16.1062
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56060
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+[Licensing::Client] Successfully resolved entitlement details
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.5.7f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.010653 seconds.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.719 seconds
+Domain Reload Profiling: 1543ms
+	BeginReloadAssembly (181ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (9ms)
+	RebuildNativeTypeToScriptingClass (40ms)
+	initialDomainReloadingComplete (121ms)
+	LoadAllAssembliesAndSetupDomain (469ms)
+		LoadAssemblies (172ms)
+		AnalyzeDomain (336ms)
+			TypeCache.Refresh (333ms)
+				TypeCache.ScanAssembly (313ms)
+	FinalizeReload (724ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			BeforeProcessingInitializeOnLoad (170ms)
+			ProcessInitializeOnLoadAttributes (146ms)
+			ProcessInitializeOnLoadMethodAttributes (270ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 39 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.inputsystem@1.20.1 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+  Built-in packages:
+    com.unity.ugui@2.5.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.ugui@67707a67a4ab)
+    com.unity.multiplayer.center@1.0.1 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.modules.accessibility@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\Users\Admin\Documents\Nam4_HK1\CNM in PTUD CNTT\Escape_TheGhost\Escape\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.05 seconds
+[ScriptCompilation] Requested script compilation because: AssetDatabase observed changes in script compilation related files
+Starting: C:\Program Files\Unity\Hub\Editor\6000.5.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/Users/Admin/Documents/Nam4_HK1/CNM in PTUD CNTT/Escape_TheGhost/Escape/RecoveredProjects/TheGhost_School_Unity6
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s818ms
+[274/277    0s] Csc Library/Bee/artifacts/1900b0aE.dag/Assembly-CSharp-Editor.dll (+2 others)
+Assets\Recovery\Editor\DoorControlsRepair.cs(16,49): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\DoorControlsRepair.cs(16,18): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\DoorFeatureSetup.cs(25,94): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\DoorFeatureSetup.cs(25,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\M7RoundSetup.cs(15,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\M7RoundSetup.cs(28,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\ItemSystemSetup.cs(31,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\M7RoundValidation.cs(54,35): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\FinishOriginalWall.cs(12,10): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\BuildStartRoom.cs(12,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\ItemSystemSetup.cs(47,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\ItemSystemSetup.cs(49,116): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\ItemSystemSetup.cs(54,62): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\ItemSystemSetup.cs(54,22): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\ItemSystemSetup.cs(68,53): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\ItemSystemSetup.cs(68,22): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\ItemSystemSetup.cs(71,260): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\ItemSystemSetup.cs(71,223): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\DoorFeatureSetup.cs(49,85): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\DoorFeatureSetup.cs(49,19): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\DoorFeatureSetup.cs(74,94): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\DoorFeatureSetup.cs(74,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\DoorFeatureSetup.cs(104,98): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\DoorFeatureSetup.cs(104,28): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\FixRoomSurfaces.cs(10,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\FixRoomSurfaces.cs(11,55): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\FixRoomSurfaces.cs(11,16): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\CompactStartRoom.cs(29,12): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\CompactStartRoom.cs(32,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\FinishSchool.cs(36,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\FinishSchool.cs(51,58): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\RepairSchoolDoors.cs(19,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\RepairSchoolDoors.cs(22,69): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\RepairSchoolDoors.cs(22,32): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\RepairSchoolDoors.cs(48,59): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\RepairSchoolDoors.cs(48,22): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\NoiseGameplaySetup.cs(55,88): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\NoiseGameplaySetup.cs(55,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\NoiseGameplaySetup.cs(67,68): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\NoiseGameplaySetup.cs(67,31): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\M7RoundValidation.cs(113,23): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\M7RoundValidation.cs(151,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\RepairStartFloor.cs(61,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\ReworkOriginalRoom.cs(27,12): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\ReworkOriginalRoom.cs(29,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\StabilizeSchool.cs(27,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\StabilizeSchool.cs(27,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\RelocateStartDoor.cs(23,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\RelocateStartDoor.cs(61,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\RelocateStartDoor.cs(61,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\RelocateStartDoor.cs(81,29): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\RoomLightingRepair.cs(24,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\RoomLightingRepair.cs(24,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\RoomLightingRepair.cs(25,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\RoomLightingRepair.cs(25,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\RoomLightingRepair.cs(30,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\RoomMovementRepair.cs(26,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\StabilizeSchool.cs(61,93): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\StabilizeSchool.cs(61,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\StabilizeSchool.cs(74,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\StabilizeSchool.cs(77,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\RoomLightingRepair.cs(54,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\RoomLightingRepair.cs(54,33): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\RoomMovementRepair.cs(74,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\RoomMovementRepair.cs(74,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\RoomMovementRepair.cs(105,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(93,81): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(93,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(96,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(96,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(97,89): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(97,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+
+Assets\Recovery\Editor\SchoolRecovery.cs(98,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+[275/277    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.pdb
+[276/277    0s] CopyFiles Library/ScriptAssemblies/Assembly-CSharp-Editor.dll
+*** Tundra build success (0.76 seconds), 3 items updated, 277 evaluated
+Assets\Recovery\Editor\DoorControlsRepair.cs(16,49): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\DoorControlsRepair.cs(16,18): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\DoorFeatureSetup.cs(25,94): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\DoorFeatureSetup.cs(25,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\M7RoundSetup.cs(15,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\M7RoundSetup.cs(28,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\ItemSystemSetup.cs(31,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\M7RoundValidation.cs(54,35): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\FinishOriginalWall.cs(12,10): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\BuildStartRoom.cs(12,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\ItemSystemSetup.cs(47,24): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\ItemSystemSetup.cs(49,116): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\ItemSystemSetup.cs(54,62): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\ItemSystemSetup.cs(54,22): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\ItemSystemSetup.cs(68,53): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\ItemSystemSetup.cs(68,22): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\ItemSystemSetup.cs(71,260): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\ItemSystemSetup.cs(71,223): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\DoorFeatureSetup.cs(49,85): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\DoorFeatureSetup.cs(49,19): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\DoorFeatureSetup.cs(74,94): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\DoorFeatureSetup.cs(74,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\DoorFeatureSetup.cs(104,98): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\DoorFeatureSetup.cs(104,28): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\FixRoomSurfaces.cs(10,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\FixRoomSurfaces.cs(11,55): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\FixRoomSurfaces.cs(11,16): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\CompactStartRoom.cs(29,12): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\CompactStartRoom.cs(32,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\FinishSchool.cs(36,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\FinishSchool.cs(51,58): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\RepairSchoolDoors.cs(19,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\RepairSchoolDoors.cs(22,69): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\RepairSchoolDoors.cs(22,32): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\RepairSchoolDoors.cs(48,59): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\RepairSchoolDoors.cs(48,22): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\NoiseGameplaySetup.cs(55,88): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\NoiseGameplaySetup.cs(55,29): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\NoiseGameplaySetup.cs(67,68): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\NoiseGameplaySetup.cs(67,31): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\M7RoundValidation.cs(113,23): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\M7RoundValidation.cs(151,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\RepairStartFloor.cs(61,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\ReworkOriginalRoom.cs(27,12): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\ReworkOriginalRoom.cs(29,13): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\StabilizeSchool.cs(27,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\StabilizeSchool.cs(27,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\RelocateStartDoor.cs(23,20): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\RelocateStartDoor.cs(61,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\RelocateStartDoor.cs(61,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\RelocateStartDoor.cs(81,29): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\RoomLightingRepair.cs(24,58): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\RoomLightingRepair.cs(24,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\RoomLightingRepair.cs(25,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\RoomLightingRepair.cs(25,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\RoomLightingRepair.cs(30,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\RoomMovementRepair.cs(26,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\StabilizeSchool.cs(61,93): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\StabilizeSchool.cs(61,25): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\StabilizeSchool.cs(74,22): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\StabilizeSchool.cs(77,21): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\RoomLightingRepair.cs(54,72): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\RoomLightingRepair.cs(54,33): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\RoomMovementRepair.cs(74,65): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\RoomMovementRepair.cs(74,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\RoomMovementRepair.cs(105,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+Assets\Recovery\Editor\SchoolRecovery.cs(93,81): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\SchoolRecovery.cs(93,17): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\SchoolRecovery.cs(96,91): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\SchoolRecovery.cs(96,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\SchoolRecovery.cs(97,89): warning CS0618: 'FindObjectsSortMode' is obsolete: 'FindObjectsSortMode has been deprecated. Use the FindObjectsByType overloads that do not take a FindObjectsSortMode parameter.'
+Assets\Recovery\Editor\SchoolRecovery.cs(97,26): warning CS0618: 'Object.FindObjectsByType<T>(FindObjectsInactive, FindObjectsSortMode)' is obsolete: 'FindObjectsByType with FindObjectsSortMode parameter has been deprecated. Use FindObjectsByType<T>() or FindObjectsByType<T>(FindObjectsInactive) instead. InstanceID will be replaced in the future with EntityId and previous sort order cannot be maintained.'
+Assets\Recovery\Editor\SchoolRecovery.cs(98,17): warning CS0618: 'Object.FindFirstObjectByType<T>()' is obsolete: 'FindFirstObjectByType has been deprecated because it relies on instance ID ordering. Use FindAnyObjectByType instead, which does not depend on ordering.'
+AssetDatabase: script compilation time: 1.434369s
+Begin MonoManager ReloadAssembly
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.858 seconds
+Domain Reload Profiling: 1825ms
+	BeginReloadAssembly (563ms)
+		DisableScriptedObjects (78ms)
+		CreateAndSetChildDomain (196ms)
+	RebuildCommonClasses (29ms)
+	RebuildNativeTypeToScriptingClass (29ms)
+	initialDomainReloadingComplete (72ms)
+	LoadAllAssembliesAndSetupDomain (269ms)
+		LoadAssemblies (194ms)
+		AnalyzeDomain (80ms)
+			TypeCache.Refresh (54ms)
+				TypeCache.ScanAssembly (42ms)
+			BuildScriptInfoCaches (19ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (862ms)
+		SetupLoadedEditorAssemblies (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			BeforeProcessingInitializeOnLoad (130ms)
+			ProcessInitializeOnLoadAttributes (272ms)
+			ProcessInitializeOnLoadMethodAttributes (128ms)
+			AfterProcessingInitializeOnLoad (18ms)
+		AwakeInstancesAfterBackupRestoration (55ms)
+Starting new worker id: 0 with log in C:/Users/Admin/Documents/Nam4_HK1/CNM in PTUD CNTT/Escape_TheGhost/Escape/RecoveredProjects/TheGhost_School_Unity6/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=143986182532e624baed3d18ec9154de): Total: 4.356 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1498 ms
+		Asset DB Callback time: managed=284 ms, native=57 ms
+		Scripting: domain reloads=1, domain reload time=1043 ms, compile time=1442 ms, other=30 ms
+		Project Asset Count: scripts=443, non-scripts=9246
+		Asset File Changes: new=0, changed=1, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 52.862ms
+	ApplyChangesToAssetFolders: 1.170ms
+	Scan: 183.251ms
+	Collect global state as custom dependencies: 18.916ms
+	OnSourceAssetsModified: 1.669ms
+	CategorizeScriptCompilationAssets: 8.655ms
+	ProcessAssetsWithTransientArtifactChanges: 22.763ms
+	CategorizeAssets: 100.119ms
+	CompileScripts: 1441.833ms
+	ImportOutOfDateAssets: 993.424ms (869.683ms without children)
+		UnloadImportedAssets: 0.237ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.768ms
+		ImportSchedulerStart: 121.728ms
+	PostProcessAllAssets: 285.526ms
+		VCAutoAddAssetPostprocess 1.908ms
+		XRBuildSystem.XRAssetImported 0.195ms
+		PostProcessCallbackCreateDeferredMaterials 0.054ms
+		MonoPostProcessAllAssets: 282.604ms
+			AssetPostprocessor.OnPostprocessAllAssets 182.249ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 40.686ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 12.692ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 11.087ms
+			AssetChangedListener.OnPostprocessAllAssets 3.847ms
+			SyncVS.PostprocessSyncProject 3.018ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.404ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.625ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 1.460ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 1.099ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 1.097ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.866ms
+			AssetEvents.OnPostprocessAllAssets 0.688ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.627ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.615ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.609ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.474ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 0.457ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.386ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.276ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.262ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.203ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.194ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.177ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.175ms
+	PostAssetChangesProfiler: 4.819ms
+	UnloadStreamsBegin: 6.482ms
+	PersistCurrentRevisions: 0.587ms
+	GenerateScriptTypeHashes: 5.785ms
+	GenerateScriptTypeSerializationHashes: 11.351ms
+	Untracked: 1203.858ms
+
+Application.AssetDatabase Initial Refresh End
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Scanning for USB devices : 4.062ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-TheGhost_School_Unity6
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 966 unused Assets / (0.9 MB). Loaded Objects now: 1771.
+Memory consumption went from 245.4 MB to 244.4 MB.
+Total: 18.441300 ms (FindLiveObjects: 0.201600 ms CreateObjectMapping: 0.335200 ms MarkObjects: 12.035900 ms  DeleteObjects: 5.854200 ms)
+
+Asset Pipeline Refresh (id=3748d0ee51a34f34c961439d2d369a5f): Total: 0.150 seconds - Initiated by RefreshV2(NoUpdateAssetOptions)
+Importing 'GUID: 58f0d9fc98578ed4395d2689ecee2fab - Path: Assets/Recovery/ReferenceProps/Textures/RP_Steel_Albedo.png' with importer (TextureImporter)
+Imported 'GUID: 58f0d9fc98578ed4395d2689ecee2fab' -> (Import Result ID: '312ecb0f9538ffe5091f8e7e8c4a5a4b') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=476ead40473e2003d6cc319ba89656b5 DependenciesID=0f0b67d9ea5e3fae8e0724b9f8985973 StaticDependenciesID=ff439b1691d63ab00bd232a170d699e1 
+Asset Pipeline Refresh (id=9f091c0ab57d9b84faf827985023e1e9): Total: 0.150 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 1f5b3d04b4c3bf74ab396032f4bbc828 - Path: Assets/Recovery/ReferenceProps/Textures/RP_Silver_Albedo.png' with importer (TextureImporter)
+Imported 'GUID: 1f5b3d04b4c3bf74ab396032f4bbc828' -> (Import Result ID: '2db44cec1889e6ae2e0bdf724e094883') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=49ad7eef76d781b16f64648a05a63642 DependenciesID=f8d91c6f9275db20aa6656c672c11ca1 StaticDependenciesID=dc1b125e4bb831d166070b4c5c4a8301 
+Asset Pipeline Refresh (id=67b4322d486bfd04e981dd3d29b88b0b): Total: 0.138 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: a1d474ad450579e46b27e010ec4abfa5 - Path: Assets/Recovery/ReferenceProps/Textures/RP_Gold_Albedo.png' with importer (TextureImporter)
+Imported 'GUID: a1d474ad450579e46b27e010ec4abfa5' -> (Import Result ID: '28e15c9e641921b832f039cafe542a4c') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=d524b5fe23c2e8b0d919f6701cab6c0c DependenciesID=635765af50fe0a54bf1f4efeff84afaf StaticDependenciesID=548c8885cdbc6cb9e363d43666e4b3c9 
+Asset Pipeline Refresh (id=3a76dcadbc326e1469678ffe33645d68): Total: 0.128 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 4a419f4b25fad1a4cb97bc5de900662e - Path: Assets/Recovery/ReferenceProps/Textures/RP_Wood_Albedo.png' with importer (TextureImporter)
+Imported 'GUID: 4a419f4b25fad1a4cb97bc5de900662e' -> (Import Result ID: '97af26adc07c9fe0d092341bb9627896') in 0.014 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=e721c3504a3f897610bdc3aa2194f086 DependenciesID=38e25a8a9a8a871cf3017a49fe4f2c85 StaticDependenciesID=aeb83665d042b63cb3fc603cbed44981 
+Asset Pipeline Refresh (id=573cab889044edc4eae1b2eb7851506e): Total: 0.121 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: fe16128dd3e3ef74cbb4506e6a06ad54 - Path: Assets/Recovery/ReferenceProps/Textures/RP_Dark_Albedo.png' with importer (TextureImporter)
+Imported 'GUID: fe16128dd3e3ef74cbb4506e6a06ad54' -> (Import Result ID: '6efaf37dcf1fc91b7614d849f5c28761') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=46914699e3f6b73d4c8ca86243b6a809 DependenciesID=4fd12a096274148f9502c2dfdbff97c4 StaticDependenciesID=43519c19a531f0e234a7a8739c490a0a 
+Asset Pipeline Refresh (id=b63fcbd408890f942a15cf7409dc9900): Total: 0.132 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 8ab3d01be82d8a14ba8936fa36349d86 - Path: Assets/Recovery/ReferenceProps/Textures/RP_Brass_Albedo.png' with importer (TextureImporter)
+Imported 'GUID: 8ab3d01be82d8a14ba8936fa36349d86' -> (Import Result ID: 'afef6871a1411f4d48082162c81f7e82') in 0.013 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=05c31d481b1f189d834d52fd7acb0347 DependenciesID=9b4b764c160cb88be1737fb38df0120b StaticDependenciesID=6da4b818169b4f049be25932be4739d3 
+Asset Pipeline Refresh (id=5d8d474a06fd0044c985b95701bc1b81): Total: 0.126 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 50552a185048be24e91fd4f02075f89a - Path: Assets/Recovery/ReferenceProps/Models/MetalBlank.fbx' with importer (FBXImporter)
+Worker ready: AssetImportWorkerHW0 0
+Imported 'GUID: 50552a185048be24e91fd4f02075f89a' -> (Import Result ID: 'd9ecdb5933b5ba254d4fe0ab9255916c') in 0.062 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=df8b3a0c57fe34d92b1197109a302125 DependenciesID=2ae2a27eb6dbd478be16acc6a7752af1 StaticDependenciesID=e0b9875408fe6a20282fa637b1b82236 
+Asset Pipeline Refresh (id=03650fe960748e24ebe9efc0900ebf16): Total: 0.239 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/7631d959427f33540b516299d36b843b'
+	Deserialize:            1.032 ms
+	Integration:            0.758 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.050 ms
+	Total Operation Time:   1.842 ms
+Importing 'GUID: 24c6cc2c63e230d44937c6bcff1daf82 - Path: Assets/Recovery/M6/Prefabs/MetalBlank.prefab' with importer (PrefabImporter)
+Imported 'GUID: 24c6cc2c63e230d44937c6bcff1daf82' -> (Import Result ID: '338bdaf94a700e0aa7b0785936f6b26d') in 0.010 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=1665b630bd98ebe2f26bab0c6d9dd828 DependenciesID=7e5760058359bb492922ad69b302e8e1 StaticDependenciesID=208b2b3d8c461ed1677d97437d48d9a5 
+Asset Pipeline Refresh (id=b376c801fdc926b46a62e6ae2b786376): Total: 0.176 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=632ada38fe2f7444f9609667aecebcc8): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 2a04961c973e3c54ba5eeeaa62a55793 - Path: Assets/Recovery/M6/Icons/metal_blank.png' with importer (TextureImporter)
+Imported 'GUID: 2a04961c973e3c54ba5eeeaa62a55793' -> (Import Result ID: 'b18d973e8b71253ada41449b7f9ce75e') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9ad4f12a98ec046280b482308e7e0e1 DependenciesID=28e287cf6862498e37309ad74bfabe86 StaticDependenciesID=7586b95cc2a961826f64ca05eeccbe67 
+Asset Pipeline Refresh (id=599f57b456bb7fb429b57f1b96ca36fe): Total: 0.153 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 2a04961c973e3c54ba5eeeaa62a55793 - Path: Assets/Recovery/M6/Icons/metal_blank.png' with importer (TextureImporter)
+Imported 'GUID: 2a04961c973e3c54ba5eeeaa62a55793' -> (Import Result ID: 'b18d973e8b71253ada41449b7f9ce75e') in 0.025 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=c9ad4f12a98ec046280b482308e7e0e1 DependenciesID=28e287cf6862498e37309ad74bfabe86 StaticDependenciesID=7586b95cc2a961826f64ca05eeccbe67 
+Asset Pipeline Refresh (id=f6f551271eca7b24782c2bc91546f9ee): Total: 0.154 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: c1b76724c3faf5545b083476aa8f6b09 - Path: Assets/Recovery/ReferenceProps/Materials/RP_Steel.mat' with importer (NativeFormatImporter)
+Imported 'GUID: c1b76724c3faf5545b083476aa8f6b09' -> (Import Result ID: 'c115a974a3b15a4743ade8f4fe986c26') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=2ad5092ed2162ff4455353198616bd80 DependenciesID=985455f561e57657348946705e982557 StaticDependenciesID=f67671106ad51d1172fc9a25f0b9f92f 
+Importing 'GUID: 23c6c43d6af7b9b4fa4885f85358d6dc - Path: Assets/Recovery/ReferenceProps/Materials/RP_Gold.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 23c6c43d6af7b9b4fa4885f85358d6dc' -> (Import Result ID: 'b4ce9a8d5c71a97dde442eab4eccb66f') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=434c91fb0c69469471065f9e979c66ad DependenciesID=48d456da117507e8a6ff2dc9580fb2cb StaticDependenciesID=e122272ba71be1e23bb0f58710bf23de 
+Importing 'GUID: 94577ad857812ae4c82eaccfc8f54102 - Path: Assets/Recovery/ReferenceProps/Materials/RP_Wood.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 94577ad857812ae4c82eaccfc8f54102' -> (Import Result ID: 'bf1638edecee450cdf107aa0e0f35a54') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=ef3c52aaacf8acb7f00e25753558a32f DependenciesID=1e5110e52909d52711252a6abd6c0b4a StaticDependenciesID=853f44134f5529dd87dc5648234ea3a3 
+Importing 'GUID: c6ab85cffe1a77e4e8e11a05ffbbac6a - Path: Assets/Recovery/ReferenceProps/Materials/RP_Brass.mat' with importer (NativeFormatImporter)
+Imported 'GUID: c6ab85cffe1a77e4e8e11a05ffbbac6a' -> (Import Result ID: '8e548dae6e91a05897d5c29327021e32') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=f3d259bafa6b678bd6499cb0242c6958 DependenciesID=0a69715e5d98a63d6b799f0ba7e366bf StaticDependenciesID=7501cbf18676b14a273368ae86cf8d98 
+Importing 'GUID: 2ccd4ead820eab244974dc10047e66b6 - Path: Assets/Recovery/ReferenceProps/Materials/RP_Dark.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 2ccd4ead820eab244974dc10047e66b6' -> (Import Result ID: '81e725d9c6baf76d0d76f885dbf71ab6') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=78964185485929d87e6bb9824a820f10 DependenciesID=18065a567a44d35004e74aaa035f53e0 StaticDependenciesID=08d79cea043b9144937a7c1dfc7043f5 
+Importing 'GUID: 3e7b91059c4019347b86f0dcabfa1635 - Path: Assets/Recovery/ReferenceProps/Materials/RP_Silver.mat' with importer (NativeFormatImporter)
+Imported 'GUID: 3e7b91059c4019347b86f0dcabfa1635' -> (Import Result ID: '64835b00b3a1e2f3dc4a5f3008150da4') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=7488b988067a79694312ea9af4338ecd DependenciesID=9150660dad5be6e577aa594b8e1c24e6 StaticDependenciesID=bf0b5be25a4b7b53c7580222652634f9 
+Importing 'GUID: 52b215ddbd27ab040afc3cd03c6bf9d9 - Path: Assets/Recovery/M6/Items/metal_blank.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 52b215ddbd27ab040afc3cd03c6bf9d9' -> (Import Result ID: '6f88492b6872a1edf477d6f91ff78aba') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=235c0f9b313fbe8e9d3ee6c8721dea01 DependenciesID=4f77ea7fb8dd0148c53c072a65e25515 StaticDependenciesID=bb81072e71af99f1b4fcc3bda9622d27 
+Asset Pipeline Refresh (id=846049b0ef01d814c96c8c2e52ef8ecc): Total: 0.125 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: d8311d24ad6624d4289e34d97dbe5f0f - Path: Assets/Recovery/ReferenceProps/Models/GoldKey.fbx' with importer (FBXImporter)
+Imported 'GUID: d8311d24ad6624d4289e34d97dbe5f0f' -> (Import Result ID: '90d862a9445dabbb713dbfe5a73a8353') in 0.026 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=9ef619b8df3635fa6263a6565b49e186 DependenciesID=6a631db7b58bec5662eb29fabcc1cb91 StaticDependenciesID=d35978c4d922259973766a3594b28a33 
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 after 2250 ms: Could not connect to server
+Asset Pipeline Refresh (id=683788978e224b94c906f26e971a3e55): Total: 0.139 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/4e55c6f7077c250409d19df3dc9de335'
+	Deserialize:            0.538 ms
+	Integration:            0.362 ms
+	Integration of assets:  0.003 ms
+	Thread Wait Time:       28.987 ms
+	Total Operation Time:   29.891 ms
+Importing 'GUID: fd93b0c83589a2043951be6ff89df625 - Path: Assets/Recovery/M6/Prefabs/MainKey.prefab' with importer (PrefabImporter)
+Imported 'GUID: fd93b0c83589a2043951be6ff89df625' -> (Import Result ID: 'd9586eeab32bdf191e167174a19371ff') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=453b6b4274fbee38c6e79317ace6f798 DependenciesID=54d6a71f2da061ee5e05720409c5ea7b StaticDependenciesID=187a5345118f43f27d4e01371c24e89a 
+Asset Pipeline Refresh (id=f15520de2166b6a4fa6847bfe0fe6a2a): Total: 0.135 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=41556ab5f42f3d54e854d314005b7cbe): Total: 0.019 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 3e8e64ff29d051945ab6b0c41d2af2fb - Path: Assets/Recovery/M6/Icons/main_exit_key.png' with importer (TextureImporter)
+Imported 'GUID: 3e8e64ff29d051945ab6b0c41d2af2fb' -> (Import Result ID: 'c62d98676be7da978b924e1cf72cb3ce') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f4f5b20b01f40e53a11331dd1dcd710 DependenciesID=8ba3983c028b0c4cd69a67d5d1a67294 StaticDependenciesID=0bd37d671c6e732212c897d26fb9d8b8 
+Asset Pipeline Refresh (id=4ddef2c128e77dd428d3d9b7c6498ae0): Total: 0.137 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 3e8e64ff29d051945ab6b0c41d2af2fb - Path: Assets/Recovery/M6/Icons/main_exit_key.png' with importer (TextureImporter)
+Imported 'GUID: 3e8e64ff29d051945ab6b0c41d2af2fb' -> (Import Result ID: 'c62d98676be7da978b924e1cf72cb3ce') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=4f4f5b20b01f40e53a11331dd1dcd710 DependenciesID=8ba3983c028b0c4cd69a67d5d1a67294 StaticDependenciesID=0bd37d671c6e732212c897d26fb9d8b8 
+Asset Pipeline Refresh (id=ddde1455192eb1c4c94237b82fe298d0): Total: 0.100 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ab7a594f60a0455449c89cb9081682d9 - Path: Assets/Recovery/M6/Items/main_exit_key.asset' with importer (NativeFormatImporter)
+Imported 'GUID: ab7a594f60a0455449c89cb9081682d9' -> (Import Result ID: '019195babf5802f3325358a10ace9741') in 0.001 seconds [static dependencies only]. Details - ImportResultOutputID=055a16faed36421c9e2751584a69ad5e DependenciesID=707d9f6d57e1684ad43957f94c148bc9 StaticDependenciesID=7f6f7eb69ec3dc6edfce4d17738950e7 
+Asset Pipeline Refresh (id=8e88f7a671eecef4c9d78e385c040ddc): Total: 0.089 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f3e28cf5f018c6448bd1ccf7ad942501 - Path: Assets/Recovery/ReferenceProps/Models/SilverKey.fbx' with importer (FBXImporter)
+Imported 'GUID: f3e28cf5f018c6448bd1ccf7ad942501' -> (Import Result ID: 'b16d86cf0e2eda43bc7b7904d4c59855') in 0.032 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=70c1db828d33bea23007b99cb8db5a89 DependenciesID=f365d1c3d983c3aeebe3974b05c33cd8 StaticDependenciesID=caa2a202a9c8e0d8e386249f211455ad 
+Asset Pipeline Refresh (id=787b93ecfeba661459f0a3dbbd51f75f): Total: 0.137 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/c430d48607288074e828caafe9fbb4f9'
+	Deserialize:            0.387 ms
+	Integration:            0.500 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.028 ms
+	Total Operation Time:   0.917 ms
+Importing 'GUID: d9042f538e455944f89f85c57e652d16 - Path: Assets/Recovery/M6/Prefabs/SilverKey.prefab' with importer (PrefabImporter)
+Imported 'GUID: d9042f538e455944f89f85c57e652d16' -> (Import Result ID: 'aa3d841b376c48db72fd709085143d36') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=dffad0dccbcd7edffebe0a3939fd134d DependenciesID=8841555a9d6de3aa76f236665fea3492 StaticDependenciesID=60f4ef93a3f87c100370035fd6168cff 
+Asset Pipeline Refresh (id=b056db31fb1360e4daa28fc54320769f): Total: 0.123 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=88c4dca9d0b1cf84d8d5e003cb23f081): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 5d776e919492e2d4db0a91b6c9aec9af - Path: Assets/Recovery/M6/Icons/silver_key.png' with importer (TextureImporter)
+Imported 'GUID: 5d776e919492e2d4db0a91b6c9aec9af' -> (Import Result ID: '44982b54677d6c78a4bb79bc3b5aa59c') in 0.015 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc7e18dd9049a330e2ea9db22fb596c5 DependenciesID=940c99300fe541a5678359016df42e94 StaticDependenciesID=5246164d4065486f55b1a9af6c88a4c4 
+Asset Pipeline Refresh (id=d9a7da68e87c6b64e9dad5d324d0585e): Total: 0.122 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 5d776e919492e2d4db0a91b6c9aec9af - Path: Assets/Recovery/M6/Icons/silver_key.png' with importer (TextureImporter)
+Imported 'GUID: 5d776e919492e2d4db0a91b6c9aec9af' -> (Import Result ID: '44982b54677d6c78a4bb79bc3b5aa59c') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=fc7e18dd9049a330e2ea9db22fb596c5 DependenciesID=940c99300fe541a5678359016df42e94 StaticDependenciesID=5246164d4065486f55b1a9af6c88a4c4 
+Asset Pipeline Refresh (id=a1497b1b45f240346bfaf62f730059af): Total: 0.159 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 194f923ebaab7234fa848ffe7012c27f - Path: Assets/Recovery/M6/Items/silver_key.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 194f923ebaab7234fa848ffe7012c27f' -> (Import Result ID: 'af69597429ed9d4e0fd0f3ee73b4fad9') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=28632a8b7e72657c2b7229746c91f607 DependenciesID=a2b6c633659bd8fec7cb636f4cfb83ac StaticDependenciesID=7e9b170055296d5eaa93bb4578bf6a64 
+Asset Pipeline Refresh (id=430e79b1150674642a58994fe913a912): Total: 0.152 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: f70356becde2f184a8316b0d9fd25e11 - Path: Assets/Recovery/ReferenceProps/Models/SawBlade.fbx' with importer (FBXImporter)
+Imported 'GUID: f70356becde2f184a8316b0d9fd25e11' -> (Import Result ID: 'd3062f45a331cda5cea842afe933eec0') in 0.031 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=697ed7599158e64e3cc7748042f05ba1 DependenciesID=f4b630a6975282d851c55b1a2eaf4ec1 StaticDependenciesID=03d9cde44627295e333241b6af003a98 
+Asset Pipeline Refresh (id=dacefae5fd5f9214fb1288b691e14866): Total: 0.153 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/f55869300a93b754abc3611d6d2fc28a'
+	Deserialize:            0.508 ms
+	Integration:            0.352 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.025 ms
+	Total Operation Time:   0.887 ms
+Importing 'GUID: 6325c9518bc56a34f9d0bce19ec85606 - Path: Assets/Recovery/M6/Prefabs/SawBlade.prefab' with importer (PrefabImporter)
+Imported 'GUID: 6325c9518bc56a34f9d0bce19ec85606' -> (Import Result ID: 'e9bae2854c2348122aeeeb076c178360') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b15c3c73d9e825d640dfab6211ae9e55 DependenciesID=885a5220d9104445ff5d6ccb08d1cdaa StaticDependenciesID=b11f5a9b71ec09d02a88532e47238a69 
+Asset Pipeline Refresh (id=12c50ad0cfc03814fab7729aea745343): Total: 0.133 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=618ae2f89972f3e4dafec2ebde36b4b1): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 4d1de6817ecc9af4e9ee4e7836b0c94a - Path: Assets/Recovery/M6/Icons/saw_blade.png' with importer (TextureImporter)
+Imported 'GUID: 4d1de6817ecc9af4e9ee4e7836b0c94a' -> (Import Result ID: 'fa427d93d30364b0a463836ce7080bef') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8750d6151ef1daec2e85bbc578e6f1e DependenciesID=4bfb103c8929260a5b701130768fdcd1 StaticDependenciesID=82d7983c5aa66919b2d4673227fa03fe 
+Asset Pipeline Refresh (id=4f66868c9a2775d4399108b2d4703c17): Total: 0.125 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 4d1de6817ecc9af4e9ee4e7836b0c94a - Path: Assets/Recovery/M6/Icons/saw_blade.png' with importer (TextureImporter)
+Imported 'GUID: 4d1de6817ecc9af4e9ee4e7836b0c94a' -> (Import Result ID: 'fa427d93d30364b0a463836ce7080bef') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b8750d6151ef1daec2e85bbc578e6f1e DependenciesID=4bfb103c8929260a5b701130768fdcd1 StaticDependenciesID=82d7983c5aa66919b2d4673227fa03fe 
+Asset Pipeline Refresh (id=5c083ed7ae399ce4b91df67d8ca81396): Total: 0.142 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 713425752d9854b489dae1ec5d272969 - Path: Assets/Recovery/M6/Items/saw_blade.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 713425752d9854b489dae1ec5d272969' -> (Import Result ID: '4773dcd42d00c73e2ea7f481423afe36') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=72c6233f864f8cdf23dbe2b15779674a DependenciesID=0e2b922e45d57a882357cff3ec8e1eb0 StaticDependenciesID=9900df131cd0a9e23e6530e7da165e70 
+Curl error 7: Failed to connect to cdp.cloud.unity3d.com port 443 after 2044 ms: Could not connect to server
+Asset Pipeline Refresh (id=6ebe69e568909e14d943a6581a7268c3): Total: 0.107 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: e522b56d80d14154c963086c03c51fef - Path: Assets/Recovery/ReferenceProps/Models/SawHandle.fbx' with importer (FBXImporter)
+Imported 'GUID: e522b56d80d14154c963086c03c51fef' -> (Import Result ID: 'b609173e49b395202910c6ad1820d050') in 0.028 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f2a0875da9f584534d8eb7274529b6ab DependenciesID=762cbcf96422ee1f6d7a6749959039c3 StaticDependenciesID=33816038da85a313b2716f5f783f2130 
+Asset Pipeline Refresh (id=7d01b7853ee2e2c4e849dfafe860bec4): Total: 0.136 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/015d822aee58edf4bb7de1c1a678e3d2'
+	Deserialize:            0.503 ms
+	Integration:            0.259 ms
+	Integration of assets:  0.001 ms
+	Thread Wait Time:       0.022 ms
+	Total Operation Time:   0.785 ms
+Importing 'GUID: 3bf55ab321ab7e04cbe0dd304273020d - Path: Assets/Recovery/M6/Prefabs/SawHandle.prefab' with importer (PrefabImporter)
+Imported 'GUID: 3bf55ab321ab7e04cbe0dd304273020d' -> (Import Result ID: '4aedf12a0a47182210b1d2c95593a6b6') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=69d412e8cba8f93ebc520f439d946172 DependenciesID=e2a4d81de8888de3e39d4a590221e2f5 StaticDependenciesID=0d193c225597e853195122e3c0cb23c7 
+Asset Pipeline Refresh (id=91732794ec460db4db4e5b321b72cbd3): Total: 0.124 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=63853f3ae234a88419643f6be86fda5f): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 118f57e8d5a98cd4fb2ebea742ecfb3f - Path: Assets/Recovery/M6/Icons/saw_handle.png' with importer (TextureImporter)
+Imported 'GUID: 118f57e8d5a98cd4fb2ebea742ecfb3f' -> (Import Result ID: '6f6f32f35c3b9f54ef6177a7bef0e3bb') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3409432011d7accbd0edb64bd4379a0 DependenciesID=d1dd8807c1f72eed9cea8deb8ccbcdda StaticDependenciesID=7b95838ff593e34c786cf9ca5692c00f 
+Asset Pipeline Refresh (id=d9fcf736ceeda0946801f8a4523a408d): Total: 0.145 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 118f57e8d5a98cd4fb2ebea742ecfb3f - Path: Assets/Recovery/M6/Icons/saw_handle.png' with importer (TextureImporter)
+Imported 'GUID: 118f57e8d5a98cd4fb2ebea742ecfb3f' -> (Import Result ID: '6f6f32f35c3b9f54ef6177a7bef0e3bb') in 0.018 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=b3409432011d7accbd0edb64bd4379a0 DependenciesID=d1dd8807c1f72eed9cea8deb8ccbcdda StaticDependenciesID=7b95838ff593e34c786cf9ca5692c00f 
+Asset Pipeline Refresh (id=5ebafe6e64ec86f43aa06c63049ddd08): Total: 0.122 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: c3a6698d5a37fdb4f80c91aed5ee34aa - Path: Assets/Recovery/M6/Items/saw_handle.asset' with importer (NativeFormatImporter)
+Imported 'GUID: c3a6698d5a37fdb4f80c91aed5ee34aa' -> (Import Result ID: '2f048adb9c059535a079ddbc5e9faee2') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=1b1c594f80a445f8b6540cfb7ea92eba DependenciesID=0207be1ba9068af4a0e120f2b15d83da StaticDependenciesID=e140f2fb92b15bfcc44a3f7f6410f958 
+Asset Pipeline Refresh (id=13f2e2d978e55094080de14d5fb60387): Total: 0.105 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 95a664d0b404de74a9523f0effbb13f4 - Path: Assets/Recovery/ReferenceProps/Models/Screws.fbx' with importer (FBXImporter)
+Imported 'GUID: 95a664d0b404de74a9523f0effbb13f4' -> (Import Result ID: '99c1a651fdf136fd63f725dab4e21b34') in 0.039 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=a1442ad55496917a87e4a00249b6a8a6 DependenciesID=b28ebe87ea0707aedf179ee71a2e016d StaticDependenciesID=737439ea2ed33b76956975ee873b37cb 
+Asset Pipeline Refresh (id=89b7ea22f810f4042b33c1f9399b149f): Total: 0.133 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/60630a0cddcdf6b4daab5cd333c50f69'
+	Deserialize:            1.110 ms
+	Integration:            0.419 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.023 ms
+	Total Operation Time:   1.555 ms
+Importing 'GUID: d87f347e305bf7f4c92c634f6d8ef484 - Path: Assets/Recovery/M6/Prefabs/Screws.prefab' with importer (PrefabImporter)
+Imported 'GUID: d87f347e305bf7f4c92c634f6d8ef484' -> (Import Result ID: '031833a38d42807fcf6172c957045cf7') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=f7082dec3f3f2eff5721a0f4e17069f8 DependenciesID=a5dec3a01c120cd9607abca29e63da19 StaticDependenciesID=26af4e09d32c0aaf44c71c2acee8b13e 
+Asset Pipeline Refresh (id=6d3e22fe77ab91d448bbd734b5076f25): Total: 0.108 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=2475955007cb8db43ad25ef940af0e5c): Total: 0.017 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b9212af2daf8bfa4fbf315b30b00bff4 - Path: Assets/Recovery/M6/Icons/screws.png' with importer (TextureImporter)
+Imported 'GUID: b9212af2daf8bfa4fbf315b30b00bff4' -> (Import Result ID: 'b484dacc985fdd80bcb6bc53319f7bc0') in 0.021 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=874f6ac779b6f968040b50d79aebc6e5 DependenciesID=ee0601060b693802b57d8b5e094eda30 StaticDependenciesID=3810cfb8ac657ee8ad3137af8f2a7274 
+Asset Pipeline Refresh (id=66471aeb484faad4ab9931bc0df26fc2): Total: 0.151 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: b9212af2daf8bfa4fbf315b30b00bff4 - Path: Assets/Recovery/M6/Icons/screws.png' with importer (TextureImporter)
+Imported 'GUID: b9212af2daf8bfa4fbf315b30b00bff4' -> (Import Result ID: 'b484dacc985fdd80bcb6bc53319f7bc0') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=874f6ac779b6f968040b50d79aebc6e5 DependenciesID=ee0601060b693802b57d8b5e094eda30 StaticDependenciesID=3810cfb8ac657ee8ad3137af8f2a7274 
+Asset Pipeline Refresh (id=f0eb28302c958c7468e55fdbddd5d9a7): Total: 0.136 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 5a4e723e0e512534fb400593fc895416 - Path: Assets/Recovery/M6/Items/screws.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 5a4e723e0e512534fb400593fc895416' -> (Import Result ID: 'd206810d1cb354ca75686ca293cd5e5f') in 0.003 seconds [static dependencies only]. Details - ImportResultOutputID=96cf4408419f0e393343c2fde87dd792 DependenciesID=4d7bd4b1fe5969908c37fb760f480672 StaticDependenciesID=83f61ac84702d0a37859c7c212873f6a 
+Asset Pipeline Refresh (id=2487bdfe915e40945a5a1fc4b90ecf0b): Total: 0.124 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: c4f2224a86017504bacef6f0318af911 - Path: Assets/Recovery/ReferenceProps/Models/AssembledSaw.fbx' with importer (FBXImporter)
+Imported 'GUID: c4f2224a86017504bacef6f0318af911' -> (Import Result ID: '810afee3aa4356a6760fe85647142d02') in 0.033 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=3dfa43fc3091f627c35a3e18624e5770 DependenciesID=3e608bd0790f811a6398f47a03a1b8f4 StaticDependenciesID=3badbdaa3dc2a57a8ac25bfe6897f368 
+Asset Pipeline Refresh (id=e694c2c3b0de62e41acad24bd806c82f): Total: 0.156 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/8f6f3406190883346b4490496b667b83'
+	Deserialize:            0.991 ms
+	Integration:            0.667 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   1.676 ms
+Importing 'GUID: f81fcffdc1b739641b1e7e1d81ed318c - Path: Assets/Recovery/M6/Prefabs/AssembledSaw.prefab' with importer (PrefabImporter)
+Imported 'GUID: f81fcffdc1b739641b1e7e1d81ed318c' -> (Import Result ID: 'a4b4c4ffc0d5e2c928e60afcaa66fb43') in 0.008 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=2711de9f0ecc2e211471f608084e1753 DependenciesID=d4973ba25cdb3c18193432f13e5c8d57 StaticDependenciesID=9e78826079989d1faea217faba80feb5 
+Asset Pipeline Refresh (id=036eb6b667c4d4943b207db0abe8f6d5): Total: 0.161 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=009c24be9acdc8d41a2ad042900d8ac5): Total: 0.020 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 820f09d60e6e42641b206519f611f279 - Path: Assets/Recovery/M6/Icons/assembled_saw.png' with importer (TextureImporter)
+Imported 'GUID: 820f09d60e6e42641b206519f611f279' -> (Import Result ID: 'ac6809fa660392c49fbd95c59d178bde') in 0.022 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=819b7138abb67b913ba84d7c1331ba19 DependenciesID=736c6a1cb7ca001224fe0687c14a61a7 StaticDependenciesID=78f8d073370f78a60890ea33f6042fd4 
+Asset Pipeline Refresh (id=683cc4a0791058b459d2e8641cedea1e): Total: 0.150 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 820f09d60e6e42641b206519f611f279 - Path: Assets/Recovery/M6/Icons/assembled_saw.png' with importer (TextureImporter)
+Imported 'GUID: 820f09d60e6e42641b206519f611f279' -> (Import Result ID: 'ac6809fa660392c49fbd95c59d178bde') in 0.020 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=819b7138abb67b913ba84d7c1331ba19 DependenciesID=736c6a1cb7ca001224fe0687c14a61a7 StaticDependenciesID=78f8d073370f78a60890ea33f6042fd4 
+Asset Pipeline Refresh (id=1697135bd3cbc2d449e0b9be001515ee): Total: 0.136 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 9767091f61166c443aba9772c886622a - Path: Assets/Recovery/M6/Items/assembled_saw.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 9767091f61166c443aba9772c886622a' -> (Import Result ID: '942181bc5fa6aa6d0b94f68a3a92f9d7') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=067652fc17141163da03269d9c33879c DependenciesID=c6eb3cb2a1bb5bc1a16bb19d93ad2140 StaticDependenciesID=b974ccd768d4fa0a28bbee019be06447 
+Asset Pipeline Refresh (id=bd305a3dad5cf524c9a1903463912baa): Total: 0.102 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: ddedc540068131841b96827f7a514f68 - Path: Assets/Recovery/ReferenceProps/Models/KeyMold.fbx' with importer (FBXImporter)
+Imported 'GUID: ddedc540068131841b96827f7a514f68' -> (Import Result ID: '0eebec8c317ac4fd8eb268173d4997e1') in 0.029 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=50d65bcc54115132ff555974dacc3975 DependenciesID=7435c62ac50cfaba341df7d710611cd2 StaticDependenciesID=4e94bea194ef38b350b27a689022f4d6 
+Asset Pipeline Refresh (id=15d4bb0cbc55dce428e7b74e9e7aba88): Total: 0.132 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Loaded scene 'Library/Unused/5f21ab0f829dab04893245cffabdf25b'
+	Deserialize:            1.049 ms
+	Integration:            0.356 ms
+	Integration of assets:  0.002 ms
+	Thread Wait Time:       0.035 ms
+	Total Operation Time:   1.441 ms
+Importing 'GUID: a650129f234c8b24687090aea8c14b2d - Path: Assets/Recovery/M6/Prefabs/KeyFrame.prefab' with importer (PrefabImporter)
+Imported 'GUID: a650129f234c8b24687090aea8c14b2d' -> (Import Result ID: '411efea6a32307ad4b2da8a7f16a8470') in 0.007 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=bcfb63211a1cbdf5351caa24ed5c3d33 DependenciesID=a6b7ac19b67f099c5b179be5b87a2b8b StaticDependenciesID=e92b4b0783ab58d2df70ea9ff8f0c3c0 
+Asset Pipeline Refresh (id=25cad19b58097a9419cdf66fccbd2a01): Total: 0.110 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Asset Pipeline Refresh (id=bc553e9b2b529334b8a38fdca470fb37): Total: 0.018 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 5e7220a976616ff42bd8122c218c3396 - Path: Assets/Recovery/M6/Icons/key_frame.png' with importer (TextureImporter)
+Imported 'GUID: 5e7220a976616ff42bd8122c218c3396' -> (Import Result ID: '89080780c411f1090defd35bf774eb6e') in 0.016 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14b370b7a13739a55fecc5a354ea38de DependenciesID=758bbe64414c782aa7bdbb1f52dff399 StaticDependenciesID=7b6a8869ad00f7a95ce381f435075e33 
+Asset Pipeline Refresh (id=777c163da6eba69409e1706723bd48d3): Total: 0.123 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: 5e7220a976616ff42bd8122c218c3396 - Path: Assets/Recovery/M6/Icons/key_frame.png' with importer (TextureImporter)
+Imported 'GUID: 5e7220a976616ff42bd8122c218c3396' -> (Import Result ID: '89080780c411f1090defd35bf774eb6e') in 0.017 seconds [static and dynamic dependencies]. Details - ImportResultOutputID=14b370b7a13739a55fecc5a354ea38de DependenciesID=758bbe64414c782aa7bdbb1f52dff399 StaticDependenciesID=7b6a8869ad00f7a95ce381f435075e33 
+Asset Pipeline Refresh (id=845890febdffe64438485562a28723c1): Total: 0.126 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Importing 'GUID: c1b41f97dcd6d454589b22b62afd6e91 - Path: Assets/Recovery/M6/Items/key_frame.asset' with importer (NativeFormatImporter)
+Imported 'GUID: c1b41f97dcd6d454589b22b62afd6e91' -> (Import Result ID: 'bbf8a4d87051c9372e9f2b2e9f65be96') in 0.002 seconds [static dependencies only]. Details - ImportResultOutputID=74ef7c7c80853c7ec3f39747e32dad4d DependenciesID=4101685ba86061e43e8b0ca47480302d StaticDependenciesID=32a90462f4c5eebee35ceebfe0b7a8a0 
+Asset Pipeline Refresh (id=1a7498cb7401abc4d9fb1fa3d55512db): Total: 0.120 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Unloading 0 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 696 unused Assets / (407.1 KB). Loaded Objects now: 1787.
+Memory consumption went from 292.0 MB to 291.6 MB.
+Total: 15.565200 ms (FindLiveObjects: 0.186200 ms CreateObjectMapping: 0.201900 ms MarkObjects: 13.641500 ms  DeleteObjects: 1.534000 ms)
+
+Importing 'GUID: 314cf198e96b7ac479aad51e14e1f4eb - Path: Assets/Recovery/ReferenceProps/Scenes/ReferenceProps_Showcase.unity' with importer (DefaultImporter)
+Imported 'GUID: 314cf198e96b7ac479aad51e14e1f4eb' -> (Import Result ID: 'd583d25adefaf74620a4ca9585fce9d9') in 0.006 seconds [static dependencies only]. Details - ImportResultOutputID=3cd3fc9029859176f1c8b49a1a1f1486 DependenciesID=c6456912cad300a9b266397c8a0d1cf0 StaticDependenciesID=4c01332b940080dc2a69e52d3469ddbb 
+Asset Pipeline Refresh (id=213358f8480e9a74da1b1f80ee20ad6e): Total: 0.170 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+Reference props import and saved-asset validation
+PASS MetalBlank: 88 triangles; metres=(0.0650, 0.0165, 0.2350); item=metal_blank; saved mesh/material/texture/icon/collider/rigidbody and original pickup reference valid.
+PASS GoldKey: 840 triangles; metres=(0.0640, 0.0080, 0.1730); item=main_exit_key; saved mesh/material/texture/icon/collider/rigidbody and original pickup reference valid.
+PASS SilverKey: 840 triangles; metres=(0.0640, 0.0080, 0.1730); item=silver_key; saved mesh/material/texture/icon/collider/rigidbody and original pickup reference valid.
+PASS SawBlade: 932 triangles; metres=(0.4490, 0.0030, 0.0757); item=saw_blade; saved mesh/material/texture/icon/collider/rigidbody and original pickup reference valid.
+PASS SawHandle: 344 triangles; metres=(0.2046, 0.0250, 0.1554); item=saw_handle; saved mesh/material/texture/icon/collider/rigidbody and original pickup reference valid.
+PASS Screws: 2802 triangles; metres=(0.0820, 0.0685, 0.0480); item=screws; saved mesh/material/texture/icon/collider/rigidbody and original pickup reference valid.
+PASS AssembledSaw: 1276 triangles; metres=(0.5990, 0.0250, 0.1554); item=assembled_saw; saved mesh/material/texture/icon/collider/rigidbody and original pickup reference valid.
+PASS KeyMold: 1322 triangles; metres=(0.2500, 0.0350, 0.2050); item=key_frame; saved mesh/material/texture/icon/collider/rigidbody and original pickup reference valid.
+PASS: eight prefabs and showcase saved. School_Test scene and runtime scripts not edited.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+ReferencePropsSetup:Run () (at Assets/Recovery/Editor/ReferencePropsSetup.cs:126)
+
+(Filename: Assets/Recovery/Editor/ReferencePropsSetup.cs Line: 126)
+
+Batchmode quit successfully invoked - shutting down!
+Killing ADB server in 2.1790025 seconds.
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-Admin-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-Admin channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Exiting batchmode successfully now!
+Exiting without the bug reporter. Application will terminate with return code 0

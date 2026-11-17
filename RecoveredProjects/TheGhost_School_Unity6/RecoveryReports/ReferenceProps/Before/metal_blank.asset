@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5ae2a71570bdfc6459e48b26926d9e56, type: 3}
+  m_Name: metal_blank
+  m_EditorClassIdentifier: Assembly-CSharp::ItemData
+  id: metal_blank
+  itemName: "Ph\xF4i kim lo\u1EA1i"
+  icon: {fileID: 21300000, guid: 2a04961c973e3c54ba5eeeaa62a55793, type: 3}
+  description: "Ph\xF4i th\xE9p ch\u01B0a gia c\xF4ng, d\xF9ng c\xF9ng khung in ch\xECa
+    kh\xF3a."
+  type: 3
+  stackable: 0
+  maxStack: 1
+  weight: 0.2
+  batteryAmount: 25
+  pickupPrefab: {fileID: 9181654022220770031, guid: 24c6cc2c63e230d44937c6bcff1daf82, type: 3}
