@@ -17,6 +17,7 @@ public sealed class PlayerInteractor : MonoBehaviour
     void Awake()
     {
         if (!view) view = GetComponentInChildren<Camera>();
+        if (view && !view.GetComponent<PickupProximityOutline>()) view.gameObject.AddComponent<PickupProximityOutline>();
         if (interactableMask.value == 0) interactableMask = LayerMask.GetMask("Interactable");
     }
     void Update()
@@ -81,3 +82,4 @@ public sealed class PlayerInteractor : MonoBehaviour
     public void ClearTarget() => SetTarget(null);
     void OnDisable() => ClearTarget();
 }
+

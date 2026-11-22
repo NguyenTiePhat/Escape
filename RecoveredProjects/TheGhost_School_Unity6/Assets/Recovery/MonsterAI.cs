@@ -141,7 +141,7 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
         warning = null;
         UpdateVision();
         // Door waits must not freeze lost-sight or search timeout clocks.
-        if (CurrentState == MonsterState.Chase && !CanSeePlayer && Time.time - lastSightAt > 1.5f) BeginSearch(lastSeenPosition);
+        if (CurrentState == MonsterState.Chase && !CanSeePlayer && Time.time - lastSightAt > config.chaseMemorySeconds) BeginSearch(lastSeenPosition);
         if (CurrentState == MonsterState.Search && Time.time - searchStarted >= Mathf.Max(0, config.searchDuration))
         { Awareness = 0; CurrentTarget = null; ResumePatrol(); }
         if (CurrentState != MonsterState.Attack && doorNavigation.Tick(agent)) { PlayAnimation("Idle"); return; }
@@ -247,11 +247,13 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
     void UpdateChase()
     {
         agent.speed = Mathf.Max(0, config.chaseSpeed);
-        if (!CanSeePlayer && Time.time - lastSightAt > 1.5f)
+        agent.acceleration = config.chaseAcceleration;
+        agent.angularSpeed = config.chaseTurnSpeed;
+        if (!CanSeePlayer && Time.time - lastSightAt > config.chaseMemorySeconds)
         {
             BeginSearch(lastSeenPosition); return;
         }
-        if (CanSeePlayer && Time.time >= attackCooldown && Vector3.Distance(CurrentTarget.transform.position, transform.position) < 1.5f)
+        if (CanSeePlayer && Time.time >= attackCooldown && Vector3.Distance(CurrentTarget.transform.position, transform.position) < config.attackRange)
         {
             attackVictim = CurrentTarget; attackStarted = Time.time; attackLaunched = false;
             Stop(); ChangeState(MonsterState.Attack); PlayAnimation("Attack");
@@ -260,7 +262,7 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
         }
         if (Time.time >= chaseRefreshAt)
         {
-            chaseRefreshAt = Time.time + .2f;
+            chaseRefreshAt = Time.time + .1f;
             if (!SetDestination(lastSeenPosition, 2.5f)) { Stop(); return; }
         }
         PlayAnimation(agent.velocity.sqrMagnitude > .01f ? "Run" : "Idle");
@@ -270,11 +272,26 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
         // Commit to the victim selected at windup; never transfer a hit to another player.
         agent.speed = 0; agent.isStopped = true; agent.velocity = Vector3.zero;
         float elapsed = Time.time - attackStarted;
-        if (!attackLaunched && elapsed >= .6f)
+        if (elapsed >= .12f && elapsed < config.attackHitDelay && attackVictim && vision && vision.CanSee(config, attackVictim))
+        {
+            Vector3 delta = Vector3.ProjectOnPlane(attackVictim.transform.position-transform.position,Vector3.up);
+            float step = Mathf.Min(3f*Time.deltaTime, Mathf.Max(0,delta.magnitude-.8f));
+            if(step>0)
+            {
+                Vector3 move=delta.normalized*step; bool blocked=agent.Raycast(transform.position+move,out _);
+                float radius=Mathf.Max(.1f,agent.radius);
+                Vector3 bottom=transform.position+Vector3.up*(radius+.08f);
+                Vector3 top=transform.position+Vector3.up*Mathf.Max(radius+.09f,agent.height-radius);
+                foreach(var hit in Physics.CapsuleCastAll(bottom,top,radius,delta.normalized,step,Physics.DefaultRaycastLayers,QueryTriggerInteraction.Ignore))
+                    if(!hit.transform.IsChildOf(transform)&&!hit.transform.IsChildOf(attackVictim.transform)) {blocked=true;break;}
+                if(!blocked)agent.Move(move);
+            }
+        }
+        if (!attackLaunched && elapsed >= config.attackHitDelay)
         {
             attackLaunched = true;
             if (attackVictim && attackVictim.gameObject.activeInHierarchy &&
-                Vector3.Distance(attackVictim.transform.position, transform.position) < 1.5f &&
+                Vector3.Distance(attackVictim.transform.position, transform.position) < config.attackRange &&
                 vision && vision.CanSee(config, attackVictim))
             {
                 var health = attackVictim.GetComponent<PlayerHealth>();
@@ -283,9 +300,9 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
                 OnAnyAttackHit?.Invoke(attackVictim);
             }
         }
-        if (elapsed >= .8f)
+        if (elapsed >= Mathf.Max(config.attackHitDelay+.1f,config.attackRecovery))
         {
-            attackVictim = null; attackCooldown = Time.time + .65f;
+            attackVictim = null; attackCooldown = Time.time + config.attackCooldownSeconds;
             chaseRefreshAt = 0; ChangeState(MonsterState.Chase);
         }
     }

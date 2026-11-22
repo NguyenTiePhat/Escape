@@ -1,0 +1,25 @@
+PASS fresh round has six random pickups
+PASS silver key cannot skip gold-key objective
+PASS machine rejects missing ingredients
+PASS wood barrier rejects missing saw
+PASS random silver key collected
+PASS silver key unlocks ordinary door and remains reusable
+PASS collect saw_blade
+PASS install and consume saw_blade
+PASS collect saw_handle
+PASS install and consume saw_handle
+PASS collect screws
+PASS install and consume screws
+PASS three parts produce assembled saw
+PASS crafted saw remains near output after physics settles
+PASS crafted ReferenceProps saw is collectible
+PASS selected saw clears boards and unlocks back door
+PASS collect key_frame
+PASS collect metal_blank
+PASS machine consumes ingredients and produces gold key
+PASS gold key collectible; completed machine cannot duplicate output
+PASS crafted gold key authorizes main exit
+PASS opening main door alone does not win
+PASS physical doorway traversal wins after random pickups and crafting
+PASS restart resets pickups and both crafting stations
+Integration test invokes gameplay APIs; travel between pickups/stations and keyboard input are not simulated. Main doorway traversal uses CharacterController. No scene saved.

@@ -25,7 +25,7 @@ public sealed class MonsterVision : MonoBehaviour
         }
         bool flashlight = beam && beam.isActiveAndEnabled && beam.intensity > 0;
         bool dark = playerInCompleteDarkness || MonsterDarknessZone.Contains(player.transform.position);
-        EffectiveRange = Mathf.Max(0, config.sightRange) * (player.IsCrouching ? .6f : 1) * (flashlight ? 1.5f : dark ? .4f : 1);
+        EffectiveRange = Mathf.Max(0, config.sightRange) * (player.IsCrouching ? .75f : 1) * (flashlight ? 1.5f : dark ? .65f : 1);
         Vector3 origin = eyes ? eyes.position : transform.position + Vector3.up * 1.9f;
         // Bone orientation is import-dependent; the actor's forward defines its cone.
         Vector3 torso = body ? body.bounds.center : player.transform.position + Vector3.up;

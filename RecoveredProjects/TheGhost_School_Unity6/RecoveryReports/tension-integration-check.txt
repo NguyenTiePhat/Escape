@@ -1,0 +1,10 @@
+PASS real nearest-monster distance tracks approach
+PASS real monster chase state reaches manager
+PASS actual chase blocks scare activation
+PASS heartbeat strength increases with measured approach
+PASS environmental sound gets proximity low-pass
+PASS reduced effects restores environmental cutoff
+PASS door-slam event starts on an open door at low tension
+PASS door slam completes through existing collision-safe door motion
+High/reduced camera renders captured; no changes from validation saved to scene.
+PASS saved door-slam event has spatial closing audio

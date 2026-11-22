@@ -1,0 +1,5 @@
+Standing ended=(16.51, 2.00, 54.73) height=1.8 reached=False
+Crouching ended=(16.51, 2.00, 54.73) height=1.10001 reached=False
+FAIL System.Exception: Crouching passage traversal failed
+  at CrouchPassageValidation+<Test>d__4.MoveNext () [0x0037e] in C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Assets\Recovery\Editor\CrouchPassageValidation.cs:31 
+  at CrouchPassageValidation.Tick () [0x00000] in C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Assets\Recovery\Editor\CrouchPassageValidation.cs:32 

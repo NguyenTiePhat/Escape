@@ -20,6 +20,7 @@ public sealed class MicSettingsPanel : MonoBehaviour
     CursorLockMode previousCursor;
     bool previousVisible;
     Vector2 deviceScroll;
+    Vector2 settingsScroll;
     void Awake() { if (!detector) detector = GetComponent<MicrophoneNoiseDetector>(); }
     void OnEnable()
     {
@@ -93,13 +94,14 @@ public sealed class MicSettingsPanel : MonoBehaviour
     void OnGUI()
     {
         if (!IsOpen || !detector) return;
-        float width = Mathf.Min(540, Screen.width - 24), height = Mathf.Min(470, Screen.height - 24);
+        float width = Mathf.Min(540, Screen.width - 24), height = Mathf.Min(690, Screen.height - 24);
         Rect panel = new Rect((Screen.width - width) / 2, (Screen.height - height) / 2, width, height);
         GUI.depth = -1000;
         var panelColor = GUI.color; GUI.color = new Color(0, 0, 0, .55f); GUI.DrawTexture(new Rect(0, 0, Screen.width, Screen.height), Texture2D.whiteTexture);
         GUI.color = new Color(.07f, .08f, .10f, .98f); GUI.DrawTexture(panel, Texture2D.whiteTexture); GUI.color = panelColor;
-        GUI.Box(panel, "Cài đặt micro [F2 / Esc]");
+        GUI.Box(panel, "Cài đặt / Trợ năng [F2 / Esc]");
         GUILayout.BeginArea(new Rect(panel.x + 20, panel.y + 30, width - 40, height - 45));
+        settingsScroll=GUILayout.BeginScrollView(settingsScroll);
         GUILayout.Label("Micro thu âm");
         GUI.enabled = stage == 0;
         string current = string.IsNullOrEmpty(detector.selectedDevice) ? "Mặc định hệ thống" : detector.selectedDevice;
@@ -128,7 +130,9 @@ public sealed class MicSettingsPanel : MonoBehaviour
         if (stage != 0) GUILayout.Label((stage == 1 ? "Giữ im lặng để đo tiếng nền: " : "Hãy nói với âm lượng bình thường: ") + Mathf.CeilToInt(Mathf.Max(0, stageEnds - Time.unscaledTime)) + " giây");
         else GUILayout.Label(calibrationMessage);
         if (GUILayout.Button(detector.detectionEnabled ? "Tắt phát hiện giọng nói" : "Bật phát hiện giọng nói")) { CancelCalibration(); detector.SetDetectionEnabled(!detector.detectionEnabled); }
+        GUILayout.Space(12); TensionSettings.DrawSettings();
         GUILayout.Space(6); if (GUILayout.Button("Đóng")) Close();
+        GUILayout.EndScrollView();
         GUILayout.EndArea(); GUI.enabled = true;
     }
 }

@@ -1,0 +1,123 @@
+PASS scene has active tension and three authored scare events
+PASS proximity increases target; chase reaches maximum
+PASS noise and darkness contribute
+PASS Lerp decay is gradual and publishes events
+PASS unrelated noise ignored
+PASS player-owned noise reaches tension
+PASS music weights normalized 0
+PASS music weights normalized 1
+PASS music weights normalized 2
+PASS music weights normalized 3
+PASS music weights normalized 4
+PASS music weights normalized 5
+PASS music weights normalized 6
+PASS music weights normalized 7
+PASS music weights normalized 8
+PASS music weights normalized 9
+PASS music weights normalized 10
+PASS music weights normalized 11
+PASS music weights normalized 12
+PASS music weights normalized 13
+PASS music weights normalized 14
+PASS music weights normalized 15
+PASS music weights normalized 16
+PASS music weights normalized 17
+PASS music weights normalized 18
+PASS music weights normalized 19
+PASS music weights normalized 20
+PASS music weights normalized 21
+PASS music weights normalized 22
+PASS music weights normalized 23
+PASS music weights normalized 24
+PASS music weights normalized 25
+PASS music weights normalized 26
+PASS music weights normalized 27
+PASS music weights normalized 28
+PASS music weights normalized 29
+PASS music weights normalized 30
+PASS music weights normalized 31
+PASS music weights normalized 32
+PASS music weights normalized 33
+PASS music weights normalized 34
+PASS music weights normalized 35
+PASS music weights normalized 36
+PASS music weights normalized 37
+PASS music weights normalized 38
+PASS music weights normalized 39
+PASS music weights normalized 40
+PASS music weights normalized 41
+PASS music weights normalized 42
+PASS music weights normalized 43
+PASS music weights normalized 44
+PASS music weights normalized 45
+PASS music weights normalized 46
+PASS music weights normalized 47
+PASS music weights normalized 48
+PASS music weights normalized 49
+PASS music weights normalized 50
+PASS music weights normalized 51
+PASS music weights normalized 52
+PASS music weights normalized 53
+PASS music weights normalized 54
+PASS music weights normalized 55
+PASS music weights normalized 56
+PASS music weights normalized 57
+PASS music weights normalized 58
+PASS music weights normalized 59
+PASS music weights normalized 60
+PASS music weights normalized 61
+PASS music weights normalized 62
+PASS music weights normalized 63
+PASS music weights normalized 64
+PASS music weights normalized 65
+PASS music weights normalized 66
+PASS music weights normalized 67
+PASS music weights normalized 68
+PASS music weights normalized 69
+PASS music weights normalized 70
+PASS music weights normalized 71
+PASS music weights normalized 72
+PASS music weights normalized 73
+PASS music weights normalized 74
+PASS music weights normalized 75
+PASS music weights normalized 76
+PASS music weights normalized 77
+PASS music weights normalized 78
+PASS music weights normalized 79
+PASS music weights normalized 80
+PASS music weights normalized 81
+PASS music weights normalized 82
+PASS music weights normalized 83
+PASS music weights normalized 84
+PASS music weights normalized 85
+PASS music weights normalized 86
+PASS music weights normalized 87
+PASS music weights normalized 88
+PASS music weights normalized 89
+PASS music weights normalized 90
+PASS music weights normalized 91
+PASS music weights normalized 92
+PASS music weights normalized 93
+PASS music weights normalized 94
+PASS music weights normalized 95
+PASS music weights normalized 96
+PASS music weights normalized 97
+PASS music weights normalized 98
+PASS music weights normalized 99
+PASS music weights normalized 100
+PASS three continuous audio layers configured
+PASS all layers play continuously even at zero gain
+PASS heartbeat starts below 12m and intensifies closer
+PASS Built-in visual shader compiled and attached
+PASS reduced mode removes visual effects and shake
+PASS reduced mode suppresses scares
+PASS no scares during chase
+PASS 90-second minimum cannot be shortened in Inspector
+PASS high tension suppresses scares
+PASS sound event fires at low tension
+PASS global cooldown blocks another event
+PASS same event cannot repeat this round
+PASS different event can run after cooldown
+PASS active shadow is hidden when effects disabled
+PASS round end suppresses tension gameplay and scares
+Complete. Local Play Mode validation; audio gain/loop behaviour checked programmatically.

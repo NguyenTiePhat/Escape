@@ -12,11 +12,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7d900de3845205748b9e9d238f211ba5, type: 3}
   m_Name: MonsterConfig
   m_EditorClassIdentifier: Assembly-CSharp::MonsterConfig
-  patrolSpeed: 0.3
-  chaseSpeed: 4.8
-  hearingThreshold: 0.15
-  sightRange: 14
-  sightAngle: 100
-  searchDuration: 8
-  awarenessGainPerSecond: 0.5
-  awarenessLossPerSecond: 0.3
+  patrolSpeed: 0.85
+  chaseSpeed: 6.3
+  hearingThreshold: 0.12
+  sightRange: 28
+  sightAngle: 140
+  searchDuration: 18
+  awarenessGainPerSecond: 1.8
+  awarenessLossPerSecond: 0.18
+  chaseMemorySeconds: 4
+  chaseAcceleration: 28
+  chaseTurnSpeed: 360
+  attackRange: 1.8
+  attackHitDelay: 0.42
+  attackRecovery: 0.75
+  attackCooldownSeconds: 0.3

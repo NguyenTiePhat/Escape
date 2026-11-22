@@ -12,4 +12,11 @@ public sealed class MonsterConfig : ScriptableObject
     [Min(0)] public float roarCooldown = 6f;
     [Min(.01f)] public float awarenessGainPerSecond = .5f;
     [Min(0)] public float awarenessLossPerSecond = .3f;
+    [Min(0)] public float chaseMemorySeconds = 4f;
+    [Min(1)] public float chaseAcceleration = 28f;
+    [Min(1)] public float chaseTurnSpeed = 360f;
+    [Min(.1f)] public float attackRange = 1.8f;
+    [Min(.1f)] public float attackHitDelay = .42f;
+    [Min(.1f)] public float attackRecovery = .75f;
+    [Min(0)] public float attackCooldownSeconds = .3f;
 }

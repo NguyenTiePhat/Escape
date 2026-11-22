@@ -1,0 +1,10 @@
+Pickup visibility rebuild — 2026-11-22
+
+The runtime was spawning six pickups, but the previous collider-only surface selection placed some on book piles, narrow edges and visually obstructed surfaces. Rebuilt School_Test candidate locations using broad tabletop support and clear nearby viewing positions. Removed two original student desks after camera renders exposed angled geometry not represented by the supporting collider, and two combined desk/chair models whose centers caused blade overhang.
+
+Final configuration: one silver key at one of three starting-table locations; one each key mold, metal blank, saw blade, saw handle and screw set across eight shared tabletop candidates. Gold key and assembled saw remain crafting outputs. All use ReferenceProps. Silver key scale1.35 and screw set1.6 improve readability; silver/steel metallic0.3 and gloss0.28 improve diffuse response without new lights or UI.
+
+Verification: 50 seeded layouts, exact six pickups, no duplicates/overlap; two Play rounds verify collection and scene reload. Play Mode camera renders confirmed all six models and guided removal of the four problematic table candidates; remaining table and starting-key screenshots retain the same assets and locations. No fallback viewpoints were used. Screenshots use existing scene illumination; darker rooms still benefit from the player's flashlight.
+
+Compared against the user's latest scene backup, only the spawner component and its transform changed among retained serialized objects. Replaced spawn-point GameObjects/Transforms; no level geometry restored or removed. The user's deletion of the wooden obstacle remains intact.
+

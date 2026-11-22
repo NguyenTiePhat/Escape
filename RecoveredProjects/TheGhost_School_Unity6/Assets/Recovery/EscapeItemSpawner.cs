@@ -8,21 +8,29 @@ public sealed class EscapeItemSpawner : MonoBehaviour
     public Entry[] entries;
     public readonly List<PickupItem> Spawned = new List<PickupItem>();
     bool spawned;
-    void Start() => Spawn();
+    GameStateManager round;
+    void Start()
+    {
+        round = GameStateManager.Instance;
+        if (round) { round.OnStateChanged += StateChanged; StateChanged(round.State); }
+        else Spawn();
+    }
+    void StateChanged(GameState state) { if (state == GameState.Playing) Spawn(); }
+    void OnDestroy() { if (round) round.OnStateChanged -= StateChanged; }
     public void Spawn()
     {
         if (spawned || entries == null) return;
-        // Build the entire assignment before spawning anything. Backtracking avoids random dead ends.
+        foreach (var entry in entries) if (entry == null || !entry.item || !entry.item.pickupPrefab)
+        { Debug.LogError("Missing escape item prefab.", this); return; }
         var assignment = new Transform[entries.Length];
         if (!Choose(0, assignment, new HashSet<Transform>()))
         { Debug.LogError("Escape item spawn points are incomplete or overlap.", this); return; }
-        foreach (var entry in entries) if (entry == null || !entry.item || !entry.item.pickupPrefab)
-        { Debug.LogError("Missing escape item prefab.", this); return; }
         spawned = true;
         for (int i = 0; i < entries.Length; i++)
         {
-            var prop = Instantiate(entries[i].item.pickupPrefab, assignment[i].position, assignment[i].rotation);
+            var prop = Instantiate(entries[i].item.pickupPrefab, assignment[i].position, assignment[i].rotation, transform);
             prop.item = entries[i].item;
+            prop.quantity = 1;
             var body = prop.GetComponent<Rigidbody>(); if (body) { body.isKinematic = true; body.useGravity = false; }
             Spawned.Add(prop);
         }
@@ -30,7 +38,7 @@ public sealed class EscapeItemSpawner : MonoBehaviour
     bool Choose(int index, Transform[] assignment, HashSet<Transform> used)
     {
         if (index == entries.Length) return true;
-        if (entries[index] == null || entries[index].points == null) return false;
+        if (entries[index].points == null) return false;
         var options = new List<Transform>(entries[index].points);
         for (int i = options.Count - 1; i > 0; i--) { int j = UnityEngine.Random.Range(0, i + 1); var value = options[i]; options[i] = options[j]; options[j] = value; }
         foreach (var point in options)

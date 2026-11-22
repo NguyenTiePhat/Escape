@@ -1,0 +1,8 @@
+PASS player camera automatically has outline component
+PASS near item draws white pixels=203
+PASS beyond3m removes outline
+PASS opaque wall occludes outline
+PASS disable removes render commands
+PASS reenable restores outline once
+PASS item collectible
+PASS collection removes outline immediately
