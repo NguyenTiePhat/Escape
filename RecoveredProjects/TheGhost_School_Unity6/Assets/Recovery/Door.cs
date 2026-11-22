@@ -26,6 +26,8 @@ public class Door : MonoBehaviour, IInteractable
     public Collider BlockingPanel { get; private set; }
     public float CurrentAngle => angle;
     public float CurrentSpeed { get; private set; }
+    public bool UnlockedByKey { get; private set; }
+    public float LastFullyOpenedAt { get; private set; } = float.NegativeInfinity;
     public bool IsFullyOpen => Mathf.Abs(angle - openAngle) < .01f;
     public bool IsFullyClosed => Mathf.Abs(angle) < .01f;
     public string Prompt => isLocked ? (string.IsNullOrEmpty(lockedPrompt) ? "Cửa đã khóa (chọn chìa khóa, E: mở khóa)" : lockedPrompt) : IsOpen ? "Đóng cửa (Shift: đóng mạnh)" : "Mở cửa (Shift: mở mạnh)";
@@ -104,12 +106,12 @@ public class Door : MonoBehaviour, IInteractable
         if (IsMoving) OnDoorToggled?.Invoke(this, open, CurrentSpeed);
         return true;
     }
-    public void LockDoor() { isLocked = true; IsMoving = false; IsBlocked = false; }
+    public void LockDoor() { if (UnlockedByKey) return; isLocked = true; IsMoving = false; IsBlocked = false; }
     public void UnlockDoor() { isLocked = false; }
     public bool UnlockDoor(string keyId)
     {
         if (string.IsNullOrEmpty(requiredKeyId) || !string.Equals(requiredKeyId, keyId, StringComparison.Ordinal)) return false;
-        UnlockDoor(); return true;
+        UnlockedByKey = true; UnlockDoor(); return true;
     }
     protected virtual void Update() => Tick(Time.deltaTime);
     public void Tick(float deltaTime)
@@ -126,7 +128,11 @@ public class Door : MonoBehaviour, IInteractable
             ApplyAngle();
         }
         Physics.SyncTransforms();
-        if (Mathf.Abs(angle - (IsOpen ? openAngle : 0)) < .001f) IsMoving = false;
+        if (Mathf.Abs(angle - (IsOpen ? openAngle : 0)) < .001f)
+        {
+            IsMoving = false;
+            if (IsOpen) LastFullyOpenedAt = Time.time;
+        }
     }
     bool Ignore(Collider other) => !other || !other.enabled || other.isTrigger || other.transform.IsChildOf(transform);
     void ApplyAngle()

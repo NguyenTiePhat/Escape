@@ -20,7 +20,8 @@ public sealed class ScareEvent : MonoBehaviour
         bool entered=inside&&!occupied;occupied=inside;return entered;
     }
     public bool Ready => !HasPlayed && isActiveAndEnabled &&
-        (kind==ScareKind.Sound ? sound&&sound.clip : kind==ScareKind.DoorSlam ? door&&door.IsOpen&&!door.isLocked : shadow&&shadowStart&&shadowEnd);
+        (kind==ScareKind.Sound ? sound&&sound.clip : kind==ScareKind.DoorSlam ?
+            door&&door.IsFullyOpen&&!door.IsMoving&&!door.isLocked&&Time.time-door.LastFullyOpenedAt>=4f : shadow&&shadowStart&&shadowEnd);
     public bool Begin()
     {
         if(!Ready)return false;

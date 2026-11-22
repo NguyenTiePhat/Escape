@@ -7,6 +7,7 @@ public sealed class MonsterDoorNavigation : MonoBehaviour
 {
     Door waitingDoor;
     public Door OperatingDoor => waitingDoor;
+    public Door LastMovementBlocker { get; private set; }
     float waitUntil, retryAt;
     Vector3 previousPosition;
     bool hasPrevious;
@@ -20,9 +21,11 @@ public sealed class MonsterDoorNavigation : MonoBehaviour
         if (hasPrevious)
         {
             Vector3 travelled = transform.position - previousPosition;
-            if (travelled.sqrMagnitude > .0001f && travelled.magnitude < 10f &&
-                FindDoor(previousPosition, travelled.normalized, travelled.magnitude, agent))
+            var crossedDoor = travelled.sqrMagnitude > .0001f && travelled.magnitude < 10f ?
+                FindDoor(previousPosition, travelled.normalized, travelled.magnitude, agent) : null;
+            if (crossedDoor)
             {
+                LastMovementBlocker = crossedDoor;
                 var target = agent.destination;
                 agent.Warp(previousPosition);
                 agent.SetDestination(target);
@@ -39,6 +42,10 @@ public sealed class MonsterDoorNavigation : MonoBehaviour
             else
             {
                 if (waitingDoor.isLocked || waitingDoor.decorative) return Blocked(agent, waitingDoor);
+                // A leaf can hit its real wall stop before the configured angle.
+                // Route around its actual pose instead of waiting forever for IsFullyOpen.
+                if (waitingDoor.IsBlocked && Mathf.Abs(waitingDoor.CurrentAngle) > 5f)
+                    return Blocked(agent, waitingDoor);
                 // Retry a door whose first sweep was obstructed, without repeated toggle events.
                 if (!waitingDoor.IsOpen && Time.time >= retryAt)
                 {
@@ -55,7 +62,7 @@ public sealed class MonsterDoorNavigation : MonoBehaviour
             Mathf.Min(direction.magnitude, Mathf.Max(1.6f, agent.velocity.magnitude * Time.deltaTime + .5f)), agent);
         if (!door) { agent.isStopped = false; return false; }
         if (door.isLocked || door.decorative) return Blocked(agent, door);
-        if (door.IsFullyOpen) return Pause(agent); // The open leaf still physically obstructs this route.
+        if (door.IsFullyOpen || (door.IsBlocked && Mathf.Abs(door.CurrentAngle) > 5f)) return Blocked(agent, door);
         waitingDoor = door; retryAt = Time.time + .5f;
         if (!door.GetComponent<DoorNoise>()) door.gameObject.AddComponent<DoorNoise>();
         if (!door.IsOpen) door.Open(1f);
@@ -93,6 +100,10 @@ public sealed class MonsterDoorNavigation : MonoBehaviour
         foreach (var hit in Physics.CapsuleCastAll(bottom, top, radius, direction, distance, ~0, QueryTriggerInteraction.Ignore))
         {
             if (hit.collider.transform.IsChildOf(transform)) continue;
+            // Capsule casts report an existing grazing contact at distance zero.
+            // Permit motion away from it so the rollback guard cannot trap an agent.
+            var center = position + Vector3.up * (agent.height * .5f);
+            if (hit.distance <= .001f && Vector3.Dot(hit.collider.ClosestPoint(center) - center, direction) <= .001f) continue;
             var door = hit.collider.GetComponentInParent<Door>();
             if (door && hit.distance < nearest) { closest = door; nearest = hit.distance; }
         }

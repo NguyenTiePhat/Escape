@@ -31,5 +31,5 @@ public sealed class SchoolExplorer : MonoBehaviour
     void OnEnable() { if (motor) motor.enabled = true; if (look) look.enabled = true; if (interactor) interactor.enabled = true; }
     void OnDisable() { if (motor) motor.enabled = false; if (look) look.enabled = false; if (interactor) interactor.enabled = false; }
     public bool SetCrouching(bool value) => motor.SetCrouching(value);
-    public void MoveGrounded(Vector3 velocity, bool jump, float deltaTime) => motor.MoveGrounded(velocity, deltaTime);
+    public void MoveGrounded(Vector3 velocity, bool jump, float deltaTime) { if (jump) motor.TryJump(); motor.MoveGrounded(velocity, deltaTime); }
 }

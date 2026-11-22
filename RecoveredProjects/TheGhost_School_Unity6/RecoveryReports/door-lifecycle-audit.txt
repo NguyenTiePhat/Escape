@@ -1,0 +1,54 @@
+Gameplay/Doors/DoorP2 (1)/Door22 pos=(-2.996, 4.708, 48.747) local=(0.000, 0.000, 0.002) scale=(106.60, 106.60, 106.60) hinge=(0.00, 0.00, 0.00) angle=-90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;SchoolDoor;DoorNoise
+ BOX Door22 center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (-3.02, 3.36, 49.40), Extents: (0.11, 1.35, 0.65)
+Level/SchoolModel/Doors/DoorBack/Roof door leaf pos=(35.290, 16.370, 53.560) local=(0.001, 1.092, 0.012) scale=(1.00, 1.00, 1.00) hinge=(-0.65, 0.00, 0.04) angle=-95 locked=True
+ COMPONENTS Transform;BoxCollider;Door;DoorNoise
+ BOX Roof door leaf center=(0.00, 0.00, 0.00) size=(1.29, 2.70, 0.06) world=Center: (35.29, 16.37, 53.56), Extents: (0.65, 1.35, 0.03)
+Gameplay/Doors/RDoor1 pos=(14.626, 4.743, 36.474) local=(11.251, 3.648, 28.057) scale=(124.52, 126.85, 130.00) hinge=(0.00, 0.00, 0.00) angle=-90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;AudioSource;BoxCollider;Rigidbody;SchoolDoor;DoorNoise
+ BOX RDoor1 center=(0.01, -0.01, 0.00) size=(0.01, 0.02, 0.00) world=Center: (15.28, 3.40, 36.46), Extents: (0.65, 1.34, 0.08)
+Gameplay/Doors/DoorP2 (2)/Door23 pos=(-7.474, 4.719, 50.040) local=(0.000, 0.000, 0.002) scale=(106.60, 106.60, 106.60) hinge=(0.00, 0.00, 0.00) angle=-90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;SchoolDoor;DoorNoise
+ BOX Door23 center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (-7.45, 3.37, 49.39), Extents: (0.11, 1.35, 0.65)
+Gameplay/Doors/DoorP/Door1 pos=(68.246, 4.708, 62.002) local=(0.000, 0.000, 0.003) scale=(106.60, 106.60, 106.60) hinge=(0.00, 0.00, 0.00) angle=-90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;SchoolDoor;DoorNoise
+ BOX Door1 center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (67.60, 3.36, 61.98), Extents: (0.65, 1.35, 0.11)
+Gameplay/Doors/DoorP1/Door pos=(-7.474, 4.708, 39.639) local=(0.000, 0.000, 0.002) scale=(106.60, 106.60, 106.60) hinge=(0.00, 0.00, 0.00) angle=-90 locked=False
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;SchoolDoor;DoorNoise
+ BOX Door center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (-7.45, 3.36, 38.99), Extents: (0.11, 1.35, 0.65)
+Gameplay/Doors/DoorP (2)/Door12 pos=(57.847, 4.713, 56.871) local=(0.000, 0.000, 0.003) scale=(106.60, 106.60, 106.60) hinge=(0.00, 0.00, 0.00) angle=-90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;SchoolDoor;DoorNoise
+ BOX Door12 center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (57.20, 3.36, 56.85), Extents: (0.65, 1.35, 0.11)
+Gameplay/Doors/DoorP/RDoor1 (1) pos=(16.970, 4.743, 55.540) local=(0.000, 0.000, 0.000) scale=(120.69, 126.85, 130.00) hinge=(0.00, 0.00, 0.00) angle=90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;AudioSource;BoxCollider;Rigidbody;SchoolDoor;DoorNoise
+ BOX RDoor1 (1) center=(0.01, -0.01, 0.00) size=(0.01, 0.02, 0.00) world=Center: (16.96, 3.40, 54.91), Extents: (0.08, 1.34, 0.63)
+Gameplay/Doors/DoorNarrowP1/DoorNarrow_mesh.002 pos=(63.049, 11.209, 57.220) local=(0.000, 0.000, -0.001) scale=(106.60, 106.60, 106.60) hinge=(0.00, 0.00, 0.00) angle=90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;Door;DoorNoise
+ BOX DoorNarrow_mesh.002 center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (62.40, 9.86, 57.20), Extents: (0.65, 1.35, 0.11)
+START ROOM — original room corrections/Exit door hinge pos=(20.125, 4.315, 62.673) local=(20.125, 4.315, 62.673) scale=(104.50, 89.93, 57.45) hinge=(0.00, 0.00, 0.00) angle=90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;SchoolDoor;DoorNoise
+ BOX Exit door hinge center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (19.49, 3.18, 62.66), Extents: (0.64, 1.14, 0.06)
+Gameplay/Doors/DoorMain_R pos=(34.774, 2.004, 63.818) local=(26.749, 1.542, 49.091) scale=(1.30, 1.26, 1.30) hinge=(-0.01, 1.02, -0.03) angle=-90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;Door;DoorNoise;MainExitDoor
+ BOX DoorMain_R center=(0.42, 1.02, -0.03) size=(0.86, 1.93, 0.05) world=Center: (35.32, 3.29, 63.78), Extents: (0.56, 1.22, 0.03)
+Gameplay/Doors/DoorMain_L pos=(37.001, 2.004, 63.818) local=(28.463, 1.542, 49.091) scale=(1.30, 1.26, 1.30) hinge=(0.01, 1.02, -0.03) angle=90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;Door;DoorNoise;MainExitDoor
+ BOX DoorMain_L center=(-0.42, 1.02, -0.03) size=(0.86, 1.93, 0.05) world=Center: (36.45, 3.29, 63.78), Extents: (0.56, 1.22, 0.03)
+Gameplay/Doors/DoorP (1)/Door11 pos=(68.246, 4.716, 57.191) local=(0.000, 0.000, 0.000) scale=(106.60, 106.60, 106.60) hinge=(0.00, 0.00, 0.00) angle=-90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;SchoolDoor;DoorNoise
+ BOX Door11 center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (67.60, 3.37, 57.17), Extents: (0.65, 1.35, 0.11)
+Gameplay/Doors/RDoor pos=(-6.178, 4.743, 36.621) local=(-4.752, 3.648, 28.170) scale=(124.52, 126.85, 130.00) hinge=(0.00, 0.00, 0.00) angle=-90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;AudioSource;BoxCollider;Rigidbody;SchoolDoor;DoorNoise
+ BOX RDoor center=(0.01, -0.01, 0.00) size=(0.01, 0.02, 0.00) world=Center: (-5.53, 3.40, 36.61), Extents: (0.65, 1.34, 0.09)
+Gameplay/Doors/DoorP2/Door2 pos=(-2.596, 4.708, 43.544) local=(0.000, 0.000, -0.002) scale=(106.60, 106.60, 106.60) hinge=(0.00, 0.00, 0.00) angle=90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;SchoolDoor;DoorNoise
+ BOX Door2 center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (-2.62, 3.36, 44.19), Extents: (0.11, 1.35, 0.65)
+Gameplay/Doors/RDoor (2) pos=(30.220, 11.254, 47.128) local=(23.246, 8.657, 36.253) scale=(124.52, 126.85, 130.00) hinge=(0.00, 0.00, 0.00) angle=-90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;AudioSource;BoxCollider;Rigidbody;SchoolDoor;DoorNoise
+ BOX RDoor (2) center=(0.01, -0.01, 0.00) size=(0.01, 0.02, 0.00) world=Center: (30.87, 9.91, 47.12), Extents: (0.65, 1.34, 0.09)
+Gameplay/Doors/DoorP2 (3)/Door24 pos=(38.925, 4.719, 50.037) local=(0.000, 0.000, -0.002) scale=(106.60, 106.60, 106.60) hinge=(0.00, 0.00, 0.00) angle=90 locked=True
+ COMPONENTS Transform;MeshFilter;MeshRenderer;BoxCollider;AudioSource;Rigidbody;SchoolDoor;DoorNoise
+ BOX Door24 center=(0.01, -0.01, 0.00) size=(0.01, 0.03, 0.00) world=Center: (38.95, 3.37, 49.39), Extents: (0.11, 1.35, 0.65)
+SCARE Door behind player kind=DoorSlam door=START ROOM — original room corrections/Exit door hinge
+SCARE End of corridor silhouette kind=Shadow door=none
+SCARE Corridor knock kind=Sound door=none

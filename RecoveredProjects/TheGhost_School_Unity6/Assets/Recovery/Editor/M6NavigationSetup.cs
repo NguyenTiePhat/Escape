@@ -31,7 +31,7 @@ public static class M6NavigationSetup
   var bounds=colliders[0].bounds;foreach(var c in colliders)bounds.Encapsulate(c.bounds);bounds.Expand(2);
   var sources=new List<NavMeshBuildSource>();NavMeshBuilder.CollectSources(bounds,~0,NavMeshCollectGeometry.PhysicsColliders,0,marks,sources);
   sources.RemoveAll(s=>s.component is Collider c && !ValidBounds(c.bounds));
-  var settings=NavMesh.GetSettingsByID(0);settings.agentRadius=.42f;settings.agentHeight=2.2f;settings.agentClimb=.3f;settings.agentSlope=45;settings.overrideVoxelSize=true;settings.voxelSize=.07f;settings.minRegionArea=1;
+  var settings=NavMesh.GetSettingsByID(0);settings.agentRadius=.42f;settings.agentHeight=2.2f;settings.agentClimb=.45f;settings.agentSlope=45;settings.overrideVoxelSize=true;settings.voxelSize=.07f;settings.minRegionArea=1;
   var baked=NavMeshBuilder.BuildNavMeshData(settings,sources,bounds,Vector3.zero,Quaternion.identity);if(!baked)throw new Exception("NavMesh build failed");
   var loader=Object.FindAnyObjectByType<MonsterNavMesh>();if(!loader)throw new Exception("Missing NavMesh loader");
   loader.enabled=false;var old=loader.data;

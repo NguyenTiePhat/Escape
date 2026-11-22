@@ -1,0 +1,1477 @@
+[Licensing::Module] Trying to connect to existing licensing client channel...
+Built from '6000.5/staging' branch; Version is '6000.5.7f1 (017862109af0) revision 96354'; Using compiler version '194234433'; Build Type 'Release'
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin" at "2026-11-22T16:42:11.984616Z"
+OS: 'Windows 11  (10.0.26300) CoreSingleLanguage' Language: 'en' Physical Memory: 11995 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+System  architecture: x64
+Process architecture: x64
+Date: 2026-11-22T16:42:11Z
+
+COMMAND LINE ARGUMENTS:
+D:\Unity\6000.5.7f1\Editor\Unity.exe
+-batchmode
+-nographics
+-projectPath
+C:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+-executeMethod
+BossMapAccessValidation.Run
+-logFile
+C:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6/RecoveryReports/boss-map-validation.log
+Successfully changed project path to: C:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+C:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gfx=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-main-allocator-mimalloc-enabled=0"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+Logging is directed to a specific file, skipping project log.Player connection [18056]  Target information:
+
+Player connection [18056]  * "[IP] 192.168.1.41 [Port] 55504 [Flags] 2 [Guid] 712761572 [EditorId] 712761572 [Version] 1048832 [Id] WindowsEditor(7,PCcuaPhat) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [18056] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [18056] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+[Package Manager] Connected to IPC stream "Upm-16264" after 0.3 seconds.
+[Licensing::Module] Licensing is not yet initialized.
+[Licensing::Client] Error: HandshakeResponse reported an error:
+	ResponseCode: 505
+	ResponseStatus: Unsupported protocol version '1.18.1'.
+[Licensing::Module] Error: Failed to handshake to channel: "LicenseClient-admin"
+[Licensing::IpcConnector] LicenseClient-admin channel disconnected successfully.
+[Licensing::IpcConnector] Channel LicenseClient-admin-6000.5.7 doesn't exist
+[Licensing::Module] Successfully launched the LicensingClient (PId: 24364)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin-6000.5.7" at "2026-11-22T16:42:15.0294752Z"
+[Licensing::Client] Code 10 while verifying Licensing Client signature (process Id: 24364, path: "D:/Unity/6000.5.7f1/Editor/Data/Resources/Licensing/Client/Unity.Licensing.Client.exe")
+[Licensing::Module] LicensingClient has failed validation; ignoring
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              649060894d7f4adf88f579ac2f29cf6b
+  Correlation Id:          c726b796048528e3f7754763527c6c05
+  External correlation Id: 5544728767849122113
+  Machine Id:              Lhf/sAuseKZLr3d/xUxfAzPNncs=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-admin-6000.5.7" (connect: 0.37s, validation: 0.28s, handshake: 0.02s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-admin-6000.5.7-notifications" at "2026-11-22T16:42:15.3239792Z"
+[Licensing::Module] Connected to LicensingClient (PId: 24364, launch time: 0.01, total connection time: 0.67s)
+[Licensing::Module] Error: Access token is unavailable; failed to update
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] License group:
+  Id: 18968478618703-UnityPersXXXX
+  Product: Unity Personal
+  Type: Assigned
+  Expiration: Unlimited
+[Licensing::Client] Successfully updated license, isAsync: True, time: 0.02
+[Licensing::Client] Successfully resolved entitlement details
+[Licensing::Module] Licensing Background thread has ended after 3.45s
+[Licensing::Module] Licensing is initialized (took 2.73s).
+[Licensing::Client] Successfully resolved entitlement details
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Initialize engine version: 6000.5.7f1 (017862109af0)
+[Subsystems] Discovering subsystems at path D:/Unity/6000.5.7f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6/Assets
+Forcing GfxDevice: Null
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+NullGfxDevice:
+    Version:  NULL 1.0 [1.0]
+    Renderer: Null Device
+    Vendor:   Unity Technologies
+Initialize mono
+Mono path[0] = 'D:/Unity/6000.5.7f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Unity/6000.5.7f1/Editor/Data/BCLExtensions/runtime/netstandard2.1'
+Mono path[2] = 'D:/Unity/6000.5.7f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Unity/6000.5.7f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56264
+CodeReloadManager initialized
+ImportWorker Server TCP listen port: 0
+AcceleratorClientConnectionCallback - disconnected - :0
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Unity/6000.5.7f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001458 seconds.
+Native extension for WindowsStandalone target not found
+Package Manager log level set to [2]
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.599 seconds
+Domain Reload Profiling: 1219ms
+	BeginReloadAssembly (159ms)
+		CreateAndSetChildDomain (4ms)
+	RebuildCommonClasses (5ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (71ms)
+	LoadAllAssembliesAndSetupDomain (360ms)
+		LoadAssemblies (155ms)
+		AnalyzeDomain (271ms)
+			TypeCache.Refresh (270ms)
+				TypeCache.ScanAssembly (253ms)
+	FinalizeReload (602ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (122ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (236ms)
+[Licensing::Client] Successfully resolved entitlement details
+Application.AssetDatabase Initial Refresh Start
+[Package Manager] Restoring resolved packages state from cache
+[Licensing::Client] Successfully resolved entitlement details
+[Package Manager] Registered 39 packages:
+  Packages from [https://packages.unity.com]:
+    com.unity.inputsystem@1.20.1 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.inputsystem@2436e68c60c4)
+  Built-in packages:
+    com.unity.ugui@2.5.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.ugui@67707a67a4ab)
+    com.unity.multiplayer.center@1.0.1 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.multiplayer.center@b860850997d0)
+    com.unity.modules.accessibility@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.accessibility)
+    com.unity.modules.adaptiveperformance@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.adaptiveperformance)
+    com.unity.modules.ai@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.ai)
+    com.unity.modules.androidjni@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.androidjni)
+    com.unity.modules.animation@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.animation)
+    com.unity.modules.assetbundle@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.assetbundle)
+    com.unity.modules.audio@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.audio)
+    com.unity.modules.cloth@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.cloth)
+    com.unity.modules.director@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.director)
+    com.unity.modules.imageconversion@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.imageconversion)
+    com.unity.modules.imgui@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.imgui)
+    com.unity.modules.jsonserialize@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.jsonserialize)
+    com.unity.modules.particlesystem@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.particlesystem)
+    com.unity.modules.physics@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.physics)
+    com.unity.modules.physics2d@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.physics2d)
+    com.unity.modules.physicscore2d@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.physicscore2d)
+    com.unity.modules.screencapture@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.screencapture)
+    com.unity.modules.terrain@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.terrain)
+    com.unity.modules.terrainphysics@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.terrainphysics)
+    com.unity.modules.tilemap@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.tilemap)
+    com.unity.modules.ui@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.ui)
+    com.unity.modules.uielements@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.uielements)
+    com.unity.modules.umbra@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.umbra)
+    com.unity.modules.unityanalytics@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unityanalytics)
+    com.unity.modules.unitywebrequest@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequest)
+    com.unity.modules.unitywebrequestassetbundle@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle)
+    com.unity.modules.unitywebrequestaudio@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequestaudio)
+    com.unity.modules.unitywebrequesttexture@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequesttexture)
+    com.unity.modules.unitywebrequestwww@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.unitywebrequestwww)
+    com.unity.modules.vectorgraphics@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.vectorgraphics)
+    com.unity.modules.vehicles@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.vehicles)
+    com.unity.modules.video@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.video)
+    com.unity.modules.wind@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.wind)
+    com.unity.modules.xr@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.xr)
+    com.unity.modules.subsystems@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.subsystems)
+    com.unity.modules.hierarchycore@1.0.0 (location: C:\UnityProjects\theghost\RecoveredProjects\TheGhost_School_Unity6\Library\PackageCache\com.unity.modules.hierarchycore)
+[Subsystems] No new subsystems found in resolved package list.
+[Package Manager] Done registering packages in 0.02 seconds
+Starting: D:\Unity\6000.5.7f1\Editor\Data\Tools\BuildPipeline\bee_backend.exe --ipc --defer-dag-verification --dagfile="Library/Bee/1900b0aE.dag" --continue-on-failure --profile="Library/Bee/backend1.traceevents" ScriptAssemblies
+WorkingDir: C:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6
+DisplayProgressbar: Compiling Scripts
+ExitCode: 0 Duration: 0s129ms
+*** Tundra build success (0.07 seconds), 0 items updated, 274 evaluated
+AssetDatabase: script compilation time: 0.625819s
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.661 seconds
+Domain Reload Profiling: 1351ms
+	BeginReloadAssembly (432ms)
+		DisableScriptedObjects (34ms)
+		CreateAndSetChildDomain (166ms)
+	RebuildCommonClasses (11ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (56ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (181ms)
+		AnalyzeDomain (43ms)
+			TypeCache.Refresh (28ms)
+				TypeCache.ScanAssembly (20ms)
+			BuildScriptInfoCaches (11ms)
+			ResolveRequiredComponents (3ms)
+	FinalizeReload (663ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (108ms)
+			ProcessInitializeOnLoadAttributes (161ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+		AwakeInstancesAfterBackupRestoration (27ms)
+Starting new worker id: 0 with log in C:/UnityProjects/theghost/RecoveredProjects/TheGhost_School_Unity6/Logs/AssetImportWorkerHW0.log
+
+Asset Pipeline Refresh (id=eaec19eee4a91204dafb647049469e06): Total: 2.485 seconds - Initiated by InitialRefreshV2(ForceSynchronousImport)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1047 ms
+		Asset DB Callback time: managed=52 ms, native=21 ms
+		Scripting: domain reloads=1, domain reload time=721 ms, compile time=631 ms, other=11 ms
+		Project Asset Count: scripts=448, non-scripts=9368
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 25.398ms
+	ApplyChangesToAssetFolders: 0.841ms
+	Scan: 110.111ms
+	Collect global state as custom dependencies: 11.515ms
+	CategorizeScriptCompilationAssets: 3.716ms
+	ProcessAssetsWithTransientArtifactChanges: 17.959ms
+	CategorizeAssets: 67.796ms
+	CompileScripts: 630.782ms
+	ImportOutOfDateAssets: 762.581ms (668.359ms without children)
+		UnloadImportedAssets: 0.209ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 0.974ms
+		ImportSchedulerStart: 93.032ms
+	PostProcessAllAssets: 52.194ms
+		MonoPostProcessAllAssets: 52.090ms
+			SyncVS.PostprocessSyncProject 31.883ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 7.953ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 1.419ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 0.767ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 0.277ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.265ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 0.261ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.183ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.180ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.097ms
+	UnloadStreamsBegin: 2.498ms
+	PersistCurrentRevisions: 0.357ms
+	GenerateScriptTypeHashes: 2.658ms
+	GenerateScriptTypeSerializationHashes: 5.221ms
+	Untracked: 790.410ms
+
+Application.AssetDatabase Initial Refresh End
+Scanning for USB devices : 1.976ms
+Initializing Unity extensions:
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+[MODES] Loading mode Default (0) for mode-current-id-TheGhost_School_Unity6
+Unloading 141 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 1142 unused Assets / (7.7 MB). Loaded Objects now: 1670.
+Memory consumption went from 270.1 MB to 262.4 MB.
+Total: 22.881900 ms (FindLiveObjects: 0.235200 ms CreateObjectMapping: 0.510300 ms MarkObjects: 9.632300 ms  DeleteObjects: 12.498300 ms)
+
+Opening scene 'Assets/Recovery/Scenes/School_Test.unity'
+Unloading 39 Unused Serialized files (Serialized files now loaded: 0)
+Lighting data asset ‘LightingData’ is incompatible with the current Unity version because the scene it was baked for was not serialized. Please use Generate Lighting to rebuild the lighting data, or assign the target scene to the Lighting Data Asset in the inspector.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string,UnityEditor.SceneManagement.OpenSceneMode)
+UnityEditor.SceneManagement.EditorSceneManager:OpenScene (string)
+BossMapAccessValidation:Run () (at Assets/Recovery/Editor/BossMapAccessValidation.cs:20)
+
+[Assets/Recovery/Editor/BossMapAccessValidation.cs line 20]
+
+Loaded scene 'Assets/Recovery/Scenes/School_Test.unity'
+	Deserialize:            426.422 ms
+	Integration:            1437.912 ms
+	Integration of assets:  20.195 ms
+	Thread Wait Time:       -0.093 ms
+	Total Operation Time:   1884.436 ms
+Unloading 6 unused Assets / (91.0 KB). Loaded Objects now: 19272.
+Memory consumption went from 357.4 MB to 357.3 MB.
+Total: 6.842200 ms (FindLiveObjects: 1.192100 ms CreateObjectMapping: 0.425900 ms MarkObjects: 5.066700 ms  DeleteObjects: 0.155500 ms)
+
+Microsoft Media Foundation video decoding to texture disabled: graphics device is Null, only Direct3D 11 and Direct3D 12 (only on desktop) are supported for hardware-accelerated video decoding.
+[Project] Loading completed in 10.427 seconds
+	Project init time: 				7.838 seconds
+		Template init time: 		0.000 seconds
+		Package Manager init time: 		3.036 seconds
+		Asset Database init time: 		0.494 seconds
+		Global illumination init time: 	0.005 seconds
+		Assemblies load time: 			1.261 seconds
+		Unity extensions init time: 	0.007 seconds
+		Asset Database refresh time: 	2.485 seconds
+	Scene opening time: 			2.200 seconds
+##utp:{"type":"ProjectInfo","version":2,"phase":"Immediate","time":1795365742401,"processId":16264,"projectLoad":10.4265809,"projectInit":7.8376434,"templateInit":0.0,"packageManagerInit":3.0356787,"assetDatabaseInit":0.4935523,"globalIlluminationInit":0.0053973,"assembliesLoad":1.2613717,"unityExtensionsInit":0.0073396,"assetDatabaseRefresh":2.4853261,"sceneOpening":2.1997877}
+##utp:{"type":"EditorInfo","version":2,"phase":"Immediate","time":1795365742401,"processId":16264,"editorVersion":"6000.5.7f1 (017862109af0)","branch":"6000.5/staging","buildType":"Release","platform":"Windows"}
+Reloading assemblies for play mode.
+Reloading assemblies after forced synchronous recompile.
+Begin MonoManager ReloadAssembly
+Curl error 7: Failed to connect to config.uca.cloud.unity3d.com port 443 after 2240 ms: Could not connect to server
+Worker ready: AssetImportWorkerHW0 0
+Native extension for WindowsStandalone target not found
+ScheduleIndexationOnStartup MainProcess:True IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.773 seconds
+Domain Reload Profiling: 1301ms
+	BeginReloadAssembly (282ms)
+		DisableScriptedObjects (39ms)
+		CreateAndSetChildDomain (67ms)
+	RebuildCommonClasses (14ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (54ms)
+	LoadAllAssembliesAndSetupDomain (153ms)
+		LoadAssemblies (150ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (777ms)
+		SetupLoadedEditorAssemblies (0ms)
+			BeforeProcessingInitializeOnLoad (114ms)
+			ProcessInitializeOnLoadAttributes (180ms)
+			ProcessInitializeOnLoadMethodAttributes (87ms)
+		AwakeInstancesAfterBackupRestoration (86ms)
+
+Asset Pipeline Refresh (id=485fb9c262eacfc4cb6f1a19474f040a): Total: 1.848 seconds - Initiated by StopAssetImportingV2(ForceSynchronousImport | ForceDomainReload)
+	(Values over 0.05ms)
+	Summary:
+		Imports: total=0 (actual=0, local cache=0, cache server=0)
+		Asset DB Process Time: managed=0 ms, native=1012 ms
+		Asset DB Callback time: managed=214 ms, native=56 ms
+		Scripting: domain reloads=1, domain reload time=560 ms, compile time=3 ms, other=0 ms
+		Project Asset Count: scripts=448, non-scripts=9368
+		Asset File Changes: new=0, changed=0, moved=0, deleted=0
+		Scan Filter Count: 0
+	InvokePackagesCallback: 2.966ms
+	ApplyChangesToAssetFolders: 0.251ms
+	Collect global state as custom dependencies: 1.688ms
+	ProcessAssetsWithTransientArtifactChanges: 33.717ms
+	CategorizeAssets: 76.284ms
+	CompileScripts: 3.350ms
+	ImportOutOfDateAssets: 845.434ms (782.976ms without children)
+		CollectScriptTypesHashes: 0.524ms
+		ReloadNativeAssets: 1.009ms
+		UnloadImportedAssets: 0.285ms
+		EnsureUptoDateAssetsAreRegisteredWithGuidPM: 1.618ms
+		ImportSchedulerStart: 59.520ms
+	PostProcessAllAssets: 259.141ms
+		PostProcessCallbackCreateDeferredMaterials 7.196ms
+		ShaderAssetModifiedCallback 3.083ms
+		ComputeShaderImportPostprocess 2.787ms
+		RaytracingShaderImportPostprocess 1.830ms
+		SpeedTreeImporter.PostprocessAllAssets 0.855ms
+		LocalizationDatabase.AssetDatabasePostprocessCallback 0.639ms
+		AssemblyValidation.PostprocessAllAssets 0.560ms
+		BlockShaderImporter.PostprocessAllAssets 0.507ms
+		SpriteAtlasDatabase.OnAssetPostprocessCallback 0.236ms
+		XRBuildSystem.XRAssetImported 0.145ms
+		MonoPostProcessAllAssets: 211.742ms
+			AssetPostprocessor.OnPostprocessAllAssets 114.745ms
+			StyleCatalogPostProcessor.OnPostprocessAllAssets 24.480ms
+			WindowAssetPostprocessingWatcher.OnPostprocessAllAssets 12.078ms
+			BuilderAssetPostprocessor.OnPostprocessAllAssets 7.461ms
+			InputActionAssetPostprocessor.OnPostprocessAllAssets 6.199ms
+			AssetChangedListener.OnPostprocessAllAssets 5.958ms
+			TextAssetPostProcessor.OnPostprocessAllAssets 5.787ms
+			InputActionJsonNameModifierAssetProcessor.OnPostprocessAllAssets 4.634ms
+			SyncVS.PostprocessSyncProject 4.116ms
+			SpeedTree9Postprocessor.OnPostprocessAllAssets 2.224ms
+			RetainedModeAssetPostprocessor.OnPostprocessAllAssets 2.212ms
+			ProjectSettingsPostprocessor.OnPostprocessAllAssets 1.423ms
+			ArtifactBrowserPostProcessor.OnPostprocessAllAssets 0.672ms
+			ReferencedClipsPostProcessor.OnPostprocessAllAssets 0.628ms
+			AssetEvents.OnPostprocessAllAssets 0.471ms
+			TMPro_TexturePostProcessor.OnPostprocessAllAssets 0.394ms
+			EditModeScopePostprocessor.OnPostprocessAllAssets 0.353ms
+			TerrainToolbarOverlayPostProcessor.OnPostprocessAllAssets 0.318ms
+			AudioMixerPostprocessor.OnPostprocessAllAssets 0.309ms
+			SpeedTreePostProcessor.OnPostprocessAllAssets 0.301ms
+			AssetDatabaseCallbacks.OnPostprocessAllAssets 0.274ms
+			ConfigAssetsTracker.OnPostprocessAllAssets 0.242ms
+			ScenarioDriftAssetsTracker.OnPostprocessAllAssets 0.227ms
+			RenderPipelineGlobalSettingsPostprocessor.OnPostprocessAllAssets 0.174ms
+			AudioContainerPostProcessor.OnPostprocessAllAssets 0.085ms
+	PostAssetChangesProfiler: 11.477ms
+	GatherAllCurrentPrimaryImportResultRevisions: 0.618ms
+	UnloadStreamsBegin: 1.214ms
+	PersistCurrentRevisions: 0.324ms
+	GenerateScriptTypeHashes: 3.729ms
+	GenerateScriptTypeSerializationHashes: 7.260ms
+	Untracked: 602.071ms
+
+Loaded scene 'Temp/__Backupscenes/0.backup'
+	Deserialize:            1026.366 ms
+	Integration:            245.880 ms
+	Integration of assets:  4.725 ms
+	Thread Wait Time:       -1.897 ms
+	Total Operation Time:   1275.073 ms
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+[MODES] ModeService[none].Initialize
+[MODES] ModeService[none].LoadModes
+Start Indexing on Editor startup
+[Indexing] Starting Initial Indexing for Assets
+Created GICache directory at C:/Users/admin/AppData/LocalLow/Unity/Caches/GiCache. Took: 0.017s, timestamps: [14.061 - 14.078]
+[Licensing::Client] Successfully resolved entitlement details
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:61)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+Physics.ClosestPoint can only be used with a BoxCollider, SphereCollider, CapsuleCollider and a convex MeshCollider.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.Collider:ClosestPoint (UnityEngine.Vector3)
+MonsterDoorNavigation:FindDoor (UnityEngine.Vector3,UnityEngine.Vector3,single,UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:106)
+MonsterDoorNavigation:Tick (UnityEngine.AI.NavMeshAgent) (at Assets/Recovery/MonsterDoorNavigation.cs:24)
+MonsterAI:Update () (at Assets/Recovery/MonsterAI.cs:173)
+
+[Assets/Recovery/MonsterAI.cs line 173]
+
+MonoPathRemapper: Attempts to remap: 302838; Successful remaps: 1980
+Serialized file version minimum: 23, current 23
+Clearing [InteractionFont] dynamic font asset data.
+UnityEngine.Debug:ExtractStackTraceNoAlloc (byte*,int,string)
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:Internal_Log (UnityEngine.LogType,UnityEngine.LogOption,string,UnityEngine.Object)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:Log (object)
+TMPro.EditorEventCallbacks/<>c:<InitializeFontAssetResourceChangeCallBacks>b__0_0 () (at ./Library/PackageCache/com.unity.ugui@67707a67a4ab/Editor/TMP/TMP_EditorResourceManager.cs:36)
+UnityEditor.EditorApplication:Internal_EditorApplicationQuit ()
+BossMapAccessValidation:Finish (int) (at Assets/Recovery/Editor/BossMapAccessValidation.cs:119)
+BossMapAccessValidation:Tick () (at Assets/Recovery/Editor/BossMapAccessValidation.cs:118)
+UnityEditor.EditorApplication:Internal_CallUpdateFunctions ()
+
+(Filename: ./Library/PackageCache/com.unity.ugui@67707a67a4ab/Editor/TMP/TMP_EditorResourceManager.cs Line: 36)
+
+Importing 'GUID: 0899e506b45a7154d9cd5db9ba7422ea - Path: Assets/Recovery/Items/InteractionFont.asset' with importer (NativeFormatImporter)
+Imported 'GUID: 0899e506b45a7154d9cd5db9ba7422ea' -> (Import Result ID: '9523720690db4ff407a3c52d040de156') in 0.013 seconds [static dependencies only]. Details - ImportResultOutputID=3c637256d49b5a7028432b65bd468e71 DependenciesID=c0d860523d32cf834d0f3c116d3de27c StaticDependenciesID=1f32e8f5c8aec9d05a23bba943697b06 
+Asset Pipeline Refresh (id=02eece85672d98b4a83a27f3f15d6095): Total: 0.113 seconds - Initiated by StopAssetImportingV2(NoUpdateAssetOptions)
+[Physics::Module] Cleanup current backend.
+[Physics::Module] Id: 0xf2b8ea05
+Input System module state changed to: ShutdownInProgress.
+Input Polling Thread exited.
+Input System module state changed to: Shutdown.
+[Licensing::IpcConnector] LicenseClient-admin-6000.5.7-notifications channel disconnected successfully.
+[Licensing::IpcConnector] LicenseClient-admin-6000.5.7 channel disconnected successfully.
+AcceleratorClientConnectionCallback - disconnected - :0
+Cleanup mono
+CodeReloadManager destroyed
+Checking for leaked weakptr:
+  Found no leaked weakptrs.
+[Package Manager] Server process was shutdown
+##utp:{"type":"MemoryLeaks","version":2,"phase":"Immediate","time":1795365772789,"processId":16264,"allocatedMemory":20624574,"memoryLabels":[{"Default":181899},{"Permanent":15516},{"NewDelete":66235},{"Thread":4197560},{"Manager":32662},{"VertexData":8},{"Geometry":816},{"Texture":24},{"Shader":842408},{"Material":24},{"GfxDevice":55328},{"Animation":15544},{"Audio":1168},{"FreeType":8},{"FontEngine":736},{"Physics":2146},{"Physics2D":16},{"Serialization":178056},{"Input":42840},{"JobScheduler":256},{"TextLib":280},{"Mono":48},{"ScriptingNativeRuntime":674964},{"BaseObject":1621896},{"Resource":1208},{"Renderer":3080},{"Transform":4685},{"File":4005},{"WebCam":616},{"Culling":32},{"Terrain":11442},{"Wind":24},{"STL":40},{"String":21334},{"StaticString":3808},{"Utility":2673238},{"Curl":2559},{"PoolAlloc":2168},{"AI":80},{"TypeTree":8869},{"CodeReload":448},{"RuntimeInitializeOnLoadManager":64},{"Sprites":102},{"SpriteAtlas":120},{"GI":7816},{"CloudService":9944},{"WebRequest":552},{"VR":47114},{"SceneManager":608},{"Video":64},{"LazyScriptCache":32},{"Camera":17},{"Secure":2377},{"SerializationCache":1576},{"APIUpdating":10320},{"Subsystems":336},{"VirtualTexturing":57888},{"StaticSafetyDebugInfo":278528},{"Analytics":552},{"Hierarchy":1176},{"UIElements":72},{"CoreStats":13688},{"Identifiers":6768},{"Gui":128},{"EditorUtility":154465},{"VersionControl":8},{"Undo":931},{"AssetDatabase":9311660},{"AssetImporter":40},{"EditorGi":328},{"UnityConnect":38929},{"Upm":1912},{"UpmDiagnostics":8},{"AssetCompliance":64},{"DrivenProperties":72},{"LocalIPC":211},{"ProfilerEditor":9746},{"CoreBusinessMetrics":3500},{"Windowing":456},{"Licensing":664},{"AssetReference":32},{"IPCStream":32}]}

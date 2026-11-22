@@ -8,6 +8,7 @@ public sealed class PlayerMotor : MonoBehaviour
     [Min(0)] public float walkSpeed = 3.5f, sprintSpeed = 6f, crouchSpeed = 1.8f;
     [Min(0)] public float crouchHeight = 1.1f, crouchLerpSpeed = 14f;
     public float gravity = -9.81f;
+    [Min(.1f)] public float jumpHeight = 1f;
     public LayerMask standingObstacles = ~0;
     [Header("Head bob / comfort")]
     public bool headBobEnabled = true;
@@ -48,6 +49,7 @@ public sealed class PlayerMotor : MonoBehaviour
             move = new Vector2((keyboard.dKey.isPressed ? 1 : 0) - (keyboard.aKey.isPressed ? 1 : 0),
                 (keyboard.wKey.isPressed ? 1 : 0) - (keyboard.sKey.isPressed ? 1 : 0));
             if (keyboard.cKey.wasPressedThisFrame) SetCrouching(!IsCrouching);
+            if (keyboard.spaceKey.wasPressedThisFrame) TryJump();
         }
         Tick(move, input && (keyboard.leftShiftKey.isPressed || keyboard.rightShiftKey.isPressed), Time.deltaTime);
     }
@@ -55,6 +57,16 @@ public sealed class PlayerMotor : MonoBehaviour
     {
         if (!crouching && !CanStand()) return false;
         IsCrouching = crouching;
+        return true;
+    }
+    public bool TryJump()
+    {
+        if (!isActiveAndEnabled || InputBlocked || ActionMovementLocked || !body.enabled ||
+            !body.isGrounded || fallSpeed > 0 || IsCrouching || body.height < standingHeight - .05f) return false;
+        var game = GameStateManager.Instance;
+        var health = GetComponent<PlayerHealth>();
+        if ((game && game.State != GameState.Playing) || (health && !health.CanParticipate)) return false;
+        fallSpeed = Mathf.Sqrt(2f * Mathf.Abs(gravity) * jumpHeight);
         return true;
     }
     public bool CanStand()

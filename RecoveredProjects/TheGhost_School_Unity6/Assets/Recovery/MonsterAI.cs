@@ -60,6 +60,9 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
     float attackStarted, attackCooldown;
     PlayerMotor attackVictim;
     bool attackLaunched;
+    bool hasPendingNoise;
+    NoiseEvent pendingNoise;
+    float pendingNoiseLoudness;
 
     void Awake()
     {
@@ -86,6 +89,7 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
         Awareness = 0; CanSeePlayer = false; CurrentTarget = null;
         candidatesRefreshAt = 0; chaseRefreshAt = 0; attackCooldown = 0;
         heardUntil = 0; searchPoints.Clear(); searchTravelling = false;
+        hasPendingNoise = false;
         NoiseManager.RegisterListener(this, transform);
     }
 
@@ -96,6 +100,12 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
         if (!float.IsFinite(e.position.x) || !float.IsFinite(e.position.y) || !float.IsFinite(e.position.z)) return;
         if (e.owner && e.owner.transform.IsChildOf(transform)) return;
         if (doorNavigation && e.owner && e.owner.GetComponent<Door>() == doorNavigation.OperatingDoor && doorNavigation.OperatingDoor) return;
+        if (agent.isOnOffMeshLink)
+        {
+            if (!hasPendingNoise || perceivedLoudness > pendingNoiseLoudness)
+            { pendingNoise = e; pendingNoiseLoudness = perceivedLoudness; hasPendingNoise = true; }
+            return;
+        }
         // Hearing remembers the emitted position, never the owner's live position through walls.
         if (CurrentState == MonsterState.Chase || CurrentState == MonsterState.Attack)
         {
@@ -109,17 +119,20 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
         }
         if (CurrentState != MonsterState.Patrol && CurrentState != MonsterState.Search && CurrentState != MonsterState.Investigate) return;
         // Compare what this monster heard, not the source's unattenuated loudness.
-        if (hasNoiseTarget && perceivedLoudness <= targetNoiseLoudness) return;
+        // Loud sounds take priority briefly; they must not suppress all later,
+        // equally quiet footsteps for the whole journey to an old position.
+        if (hasNoiseTarget && Time.time < heardUntil && perceivedLoudness <= targetNoiseLoudness) return;
         // Voice/door noise can originate above the floor. Project vertically while
         // keeping the destination within .6m horizontally of the actual sound.
         // An unreachable sound must not replace an existing reachable target.
-        if (!SetDestination(e.position, 2.5f)) return;
+        if (!SetDestination(e.position, 2.5f, true)) return;
         if (CurrentState == MonsterState.Patrol)
         {
             resumePatrolTarget = travelling; resumeWaypointIndex = CurrentWaypointIndex;
         }
         lastNoisePosition = e.position; noiseDestination = navigationDestination;
         targetNoiseLoudness = perceivedLoudness; hasNoiseTarget = true;
+        heardUntil = Time.time + Mathf.Max(0, config.noisePrioritySeconds);
         IsWaiting = false; IsLookingAround = false; travelling = false;
         if (animationDriver) animationDriver.SetAttentionPoint(lastNoisePosition);
         ChangeState(MonsterState.Investigate); PlayAnimation("Investigate");
@@ -132,7 +145,13 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
             Stop(); WarnOnce("MonsterConfig is missing; patrol stopped."); return;
         }
         // Read the shared asset live: Inspector edits take effect on the next frame.
-        float movementSpeed = CurrentState == MonsterState.Attack ? 0 : CurrentState == MonsterState.Chase ? config.chaseSpeed : config.patrolSpeed;
+        float movementSpeed = CurrentState == MonsterState.Attack ? 0 : CurrentState == MonsterState.Chase ? config.chaseSpeed :
+            CurrentState == MonsterState.Investigate ? config.investigateSpeed : config.patrolSpeed;
+        if (CurrentState == MonsterState.Investigate)
+        {
+            agent.acceleration = Mathf.Max(12f, config.chaseAcceleration * .5f);
+            agent.angularSpeed = Mathf.Max(240f, config.chaseTurnSpeed);
+        }
         agent.speed = float.IsFinite(movementSpeed) ? Mathf.Max(0, movementSpeed) : 0;
         if (!agent.enabled || !agent.isOnNavMesh)
         {
@@ -140,6 +159,13 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
         }
         warning = null;
         UpdateVision();
+        // Finish the short stair seam before replacing a path or resetting the agent.
+        if (agent.isOnOffMeshLink) { PlayAnimation(CurrentState == MonsterState.Chase ? "Run" : "Walk"); return; }
+        if (hasPendingNoise)
+        {
+            hasPendingNoise = false;
+            OnNoiseHeard(pendingNoise, pendingNoiseLoudness);
+        }
         // Door waits must not freeze lost-sight or search timeout clocks.
         if (CurrentState == MonsterState.Chase && !CanSeePlayer && Time.time - lastSightAt > config.chaseMemorySeconds) BeginSearch(lastSeenPosition);
         if (CurrentState == MonsterState.Search && Time.time - searchStarted >= Mathf.Max(0, config.searchDuration))
@@ -400,12 +426,20 @@ public sealed class MonsterAI : MonoBehaviour, INoiseListener
         if (CurrentState == state) return;
         CurrentState = state; OnStateChanged?.Invoke(state);
     }
-    bool SetDestination(Vector3 position, float sampleDistance = .6f)
+    bool SetDestination(Vector3 position, float sampleDistance = .6f, bool approachBlockedSound = false)
     {
         var filter = new NavMeshQueryFilter { agentTypeID = agent.agentTypeID, areaMask = agent.areaMask };
         if (!NavMesh.SamplePosition(position, out var hit, sampleDistance, filter)) return false;
         if (Vector3.ProjectOnPlane(hit.position - position, Vector3.up).magnitude > .6f) return false;
-        if (!NavMesh.CalculatePath(agent.nextPosition, hit.position, filter, path) || path.status != NavMeshPathStatus.PathComplete) return false;
+        if (!NavMesh.CalculatePath(agent.nextPosition, hit.position, filter, path)) return false;
+        if (path.status != NavMeshPathStatus.PathComplete)
+        {
+            // Still react to a sound behind a locked door: approach the last reachable
+            // point without unlocking the door or revealing the owner's live location.
+            if (!approachBlockedSound || path.status != NavMeshPathStatus.PathPartial || path.corners.Length == 0) return false;
+            hit.position = path.corners[path.corners.Length - 1];
+            if (!NavMesh.CalculatePath(agent.nextPosition, hit.position, filter, path) || path.status != NavMeshPathStatus.PathComplete) return false;
+        }
         if (!agent.SetPath(path)) return false;
         destination = position; navigationDestination = hit.position; agent.isStopped = false;
         return true;

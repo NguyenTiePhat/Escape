@@ -28,7 +28,7 @@ public sealed class StartRoom : MonoBehaviour {
  GUI.Label(new Rect(18,110,430,44),objective);
  if(interactor && interactor.Target==null && inventory.Selected)GUI.Box(new Rect(Screen.width/2-150,Screen.height*.72f,300,40),inventory.Selected.flashlight?"[E] Bật / tắt đèn pin":"[E] Đọc tờ giấy");
  if(Time.time<messageUntil)GUI.Box(new Rect(Screen.width/2-150,Screen.height*.64f,300,36),message);
- GUI.Label(new Rect(18,Screen.height-54,Screen.width-36,24),"WASD: đi  |  Shift: chạy  |  C: ngồi/đứng  |  Esc: thả chuột");
+ GUI.Label(new Rect(18,Screen.height-54,Screen.width-36,24),"WASD: đi  |  Shift: chạy  |  C: ngồi/đứng  |  Space: nhảy  |  Esc: thả chuột");
  GUI.Label(new Rect(18,Screen.height-30,Screen.width-36,24),"1–5 / cuộn chuột: chọn đồ  |  E: nhặt/dùng  |  F: cửa (Shift: mạnh)  |  G: thả  |  L: đèn pin  |  F2: micro");
  }
 }

@@ -14,10 +14,14 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::MonsterConfig
   patrolSpeed: 0.85
   chaseSpeed: 6.3
-  hearingThreshold: 0.12
+  hearingThreshold: 0
+  hearAcrossMap: 1
+  investigateSpeed: 3.8
+  noisePrioritySeconds: 0.6
   sightRange: 28
   sightAngle: 140
   searchDuration: 18
+  roarCooldown: 6
   awarenessGainPerSecond: 1.8
   awarenessLossPerSecond: 0.18
   chaseMemorySeconds: 4

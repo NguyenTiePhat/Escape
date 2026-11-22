@@ -1,0 +1,52 @@
+PASS jump: apex=0.9561849m, airborne/repeated jump rejected, landed grounded
+PASS jump respects input, crafting and crouch locks
+PASS all 14 closed doors still block physical traversal
+DOOR OPEN Gameplay/Doors/DoorP2 (1)/Door22 angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/DoorP/Door1 angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/DoorP2 (3)/Door24 angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/DoorP2/Door2 angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/DoorP2 (2)/Door23 angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/DoorP1/Door angle=-90 blocked=none
+DOOR OPEN Gameplay/Doors/RDoor angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/RDoor1 angle=90 blocked=none
+DOOR OPEN START ROOM — original room corrections/Exit door hinge angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/RDoor (2) angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/DoorNarrowP1/DoorNarrow_mesh.002 angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/DoorP (2)/Door12 angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/DoorP/RDoor1 (1) angle=90 blocked=none
+DOOR OPEN Gameplay/Doors/DoorP (1)/Door11 angle=90 blocked=none
+PASS traversal West ground corridor
+PASS traversal Central ground corridor to real end wall
+BLOCKED East ground corridor at=(55.90, 2.80, 53.97) toward=(68.00, 2.04, 54.00)
+ CONTACT Level/SchoolPropsContent/Comore1 (1)/ComoreShelvings/Rotated Box Collider Center: (57.59, 3.79, 53.87), Extents: (1.35, 1.46, 0.37)
+ CONTACT Level/SchoolPropsContent/Comore1 (1)/ComoreShelvings/Rotated Box Collider Center: (55.43, 3.13, 53.60), Extents: (0.82, 1.18, 0.78)
+ CONTACT Level/SchoolPropsContent/Comore1 (1)/ComoreShelvings/Rotated Box Collider Center: (55.36, 3.05, 54.83), Extents: (0.78, 1.13, 0.66)
+BLOCKED Gym court at=(2.52, 2.10, 11.05) toward=(3.00, 2.12, 5.00)
+ CONTACT Level/SchoolModel/Interior/Gym/GymFloor Center: (2.60, 1.32, 18.20), Extents: (15.60, 0.76, 18.20)
+ CONTACT Level/SchoolModel/Interior/Gym/rostrumsCombined_Meshes/Rostrum_frame Center: (2.10, 2.36, 10.98), Extents: (0.05, 0.42, 0.06)
+ CONTACT Level/SchoolModel/Interior/Gym/rostrumsCombined_Meshes/Rostrum_frame Center: (2.47, 2.15, 10.32), Extents: (0.37, 0.05, 0.64)
+ CONTACT Level/SchoolModel/Interior/Gym/rostrumsCombined_Meshes/Rostrum_frame Center: (2.34, 2.58, 10.55), Extents: (0.24, 0.05, 0.40)
+ CONTACT Level/SchoolModel/Interior/Gym/rostrumsCombined_Meshes/Rostrum_frame Center: (2.36, 2.61, 10.52), Extents: (2.15, 0.03, 1.22)
+PASS traversal Gym cross court
+PASS traversal Upper corridor
+PASS traversal Reading alcove
+PASS traversal Upper north room
+PASS traversal Main stairs to upper floor
+PASS traversal Stairs to saw landing
+PASS traversal Door Gameplay/Doors/DoorP2 (1)/Door22
+PASS traversal Door Gameplay/Doors/DoorP/Door1
+PASS traversal Door Gameplay/Doors/DoorP2 (3)/Door24
+PASS traversal Door Gameplay/Doors/DoorP2/Door2
+PASS traversal Door Gameplay/Doors/DoorP2 (2)/Door23
+PASS traversal Door Gameplay/Doors/DoorP1/Door
+PASS traversal Door Gameplay/Doors/RDoor
+PASS traversal Door Gameplay/Doors/RDoor1
+PASS traversal Door START ROOM — original room corrections/Exit door hinge
+PASS traversal Door Gameplay/Doors/RDoor (2)
+PASS traversal Door Gameplay/Doors/DoorNarrowP1/DoorNarrow_mesh.002
+PASS traversal Door Gameplay/Doors/DoorP (2)/Door12
+PASS traversal Door Gameplay/Doors/DoorP/RDoor1 (1)
+PASS traversal Door Gameplay/Doors/DoorP (1)/Door11
+ROOF DOOR angle=-95 blocker=
+PASS traversal Roof door after removing timber
+Traversal totals passed=23 blocked=2. Door keys authorized only in test memory; no scene saved.

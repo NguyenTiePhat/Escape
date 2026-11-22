@@ -66,8 +66,9 @@ public sealed class NoiseManager : MonoBehaviour
             if (!listeners.TryGetValue(entry.Key, out var current) || current != entry.Value) continue;
             if (!current.gameObject.activeInHierarchy || (entry.Key is Behaviour behaviour && !behaviour.isActiveAndEnabled)) continue;
             float distance = Vector3.Distance(e.position, current.position);
-            if (distance > radius) continue;
-            float perceived = e.loudness * Mathf.Clamp01(1f - distance / radius);
+            bool mapHearing = entry.Key is MonsterAI monster && monster.config && monster.config.hearAcrossMap;
+            if (!mapHearing && distance > radius) continue;
+            float perceived = mapHearing ? e.loudness : e.loudness * Mathf.Clamp01(1f - distance / radius);
             if (debugLogging) Debug.Log($"[Noise heard] {current.name}: distance={distance:F2}m perceived={perceived:F3}", current);
             try { entry.Key.OnNoiseHeard(e, perceived); }
             catch (Exception exception) { Debug.LogException(exception, current); }

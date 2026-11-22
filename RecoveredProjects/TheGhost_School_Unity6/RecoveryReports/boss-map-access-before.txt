@@ -1,0 +1,66 @@
+BOSS (20.00, 1.97, 65.50) agent=0.42
+Level/SchoolPropsContent/1stFloorBarricade (2) position=(28.80, 3.51, 54.20)
+ COLLIDER 1stFloorBarricade (2) Center: (28.45, 3.84, 54.60), Extents: (2.45, 1.90, 2.37)
+ COLLIDER Rotated Box Collider Center: (28.84, 2.60, 54.41), Extents: (0.35, 0.65, 1.19)
+ COLLIDER Rotated Box Collider Center: (29.79, 2.93, 53.87), Extents: (1.08, 1.02, 0.64)
+ COLLIDER Rotated Box Collider Center: (27.92, 3.80, 53.99), Extents: (0.82, 1.24, 1.22)
+ COLLIDER Rotated Box Collider Center: (27.63, 3.81, 54.64), Extents: (0.44, 1.93, 2.33)
+ COLLIDER Rotated Box Collider Center: (26.62, 2.81, 53.69), Extents: (0.54, 0.86, 0.64)
+ COLLIDER Rotated Box Collider Center: (29.19, 3.13, 52.75), Extents: (0.65, 1.19, 0.42)
+ COLLIDER Rotated Box Collider Center: (28.90, 3.51, 54.85), Extents: (0.39, 0.26, 0.66)
+Level/SchoolModel/Interior/LockerRoom/Column (2) position=(-13.00, 1.95, 40.30)
+ COLLIDER Column (2) Center: (-13.00, 4.55, 40.30), Extents: (0.52, 2.60, 0.52)
+TARGET (5.00, 2.00, 54.00) sample=True complete=True corners=(20.00, 1.99, 65.50);(19.88, 1.99, 64.47);(19.53, 1.99, 64.12);(16.80, 1.99, 63.21);(16.45, 1.99, 63.07);(14.07, 1.99, 61.39);(5.25, 1.99, 58.52);(4.90, 1.99, 58.17);(4.90, 1.99, 56.98);(5.00, 2.03, 54.00)
+TARGET (28.00, 2.00, 54.00) sample=False complete=False corners=
+TARGET (44.90, 2.00, 52.15) sample=True complete=True corners=(20.00, 1.99, 65.50);(19.88, 1.99, 64.47);(19.53, 1.99, 64.12);(16.80, 1.99, 63.21);(16.45, 1.99, 63.07);(14.07, 1.99, 61.39);(5.25, 1.99, 58.52);(4.90, 1.99, 58.17);(4.90, 1.99, 56.98);(5.25, 1.99, 56.63);(8.05, 1.99, 55.79);(21.07, 1.99, 54.53);(21.63, 1.99, 54.53);(23.59, 1.99, 54.81);(27.09, 1.99, 56.35);(27.44, 1.99, 56.35);(28.14, 1.99, 56.28);(28.98, 1.99, 56.07);(35.84, 1.99, 53.76);(44.59, 1.99, 52.50);(44.73, 1.99, 52.43);(44.91, 2.08, 52.19)
+TARGET (44.90, 5.38, 46.30) sample=True complete=True corners=(20.00, 1.99, 65.50);(19.88, 1.99, 64.47);(19.53, 1.99, 64.12);(16.80, 1.99, 63.21);(16.45, 1.99, 63.07);(14.07, 1.99, 61.39);(5.25, 1.99, 58.52);(4.90, 1.99, 58.17);(4.90, 1.99, 56.98);(5.25, 1.99, 56.63);(8.05, 1.99, 55.79);(21.07, 1.99, 54.53);(21.63, 1.99, 54.53);(23.59, 1.99, 54.81);(27.09, 1.99, 56.35);(27.44, 1.99, 56.35);(28.14, 1.99, 56.28);(28.98, 1.99, 56.07);(35.84, 1.99, 53.76);(44.59, 1.99, 52.50);(44.73, 1.99, 52.43);(44.94, 2.10, 52.15);(44.90, 5.36, 46.30)
+TARGET (40.05, 8.52, 54.00) sample=True complete=False corners=(20.00, 1.99, 65.50);(19.88, 1.99, 64.47);(19.53, 1.99, 64.12);(16.80, 1.99, 63.21);(16.45, 1.99, 63.07);(14.07, 1.99, 61.39);(5.25, 1.99, 58.52);(4.90, 1.99, 58.17);(4.90, 1.99, 56.98);(5.25, 1.99, 56.63);(8.05, 1.99, 55.79);(21.07, 1.99, 54.53);(21.63, 1.99, 54.53);(23.59, 1.99, 54.81);(27.09, 1.99, 56.35);(27.44, 1.99, 56.35);(28.14, 1.99, 56.28);(28.98, 1.99, 56.07);(35.84, 1.99, 53.76);(44.59, 1.99, 52.50);(44.73, 1.99, 52.43);(44.94, 2.10, 52.15);(44.87, 5.35, 46.06);(44.59, 5.35, 45.85);(43.75, 5.35, 45.85);(41.58, 5.35, 45.99);(41.23, 5.35, 46.34);(40.11, 8.26, 51.17)
+ END Level/SchoolModel/Interior/Corridors/FloorCorridors_2nd Center: (49.43, 8.45, 57.20), Extents: (20.80, 0.00, 15.60)
+ END Level/SchoolModel/Interior/Corridors/FloorCorridors_2nd Center: (49.41, 8.12, 57.23), Extents: (20.82, 0.36, 5.26)
+ END Level/Collisions/SecondHallwayWithoutEntries(Trace) Center: (39.00, 11.05, 46.80), Extents: (0.33, 2.60, 5.20)
+ END Level/SchoolModel/Interior/Corridors/StairsMain/Coll01 Center: (41.60, 6.76, 48.86), Extents: (2.60, 1.70, 2.79)
+ END Level/SchoolModel/Interior/Corridors/StairsMain/Coll08 Center: (39.40, 9.60, 46.69), Extents: (0.09, 4.37, 5.12)
+ END Level/SchoolModel/Interior/Corridors/StairsMain/Coll13 Center: (39.49, 7.42, 49.31), Extents: (0.16, 2.06, 2.85)
+ END Level/SchoolModel/Interior/Corridors/2ndHallwayWalls Center: (50.02, 11.05, 52.00), Extents: (21.42, 2.60, 11.67)
+ END Level/SchoolModel/Interior/Corridors/FloorCorridors_2nd Center: (33.96, 8.28, 46.80), Extents: (5.42, 0.20, 5.20)
+TARGET (68.00, 8.52, 54.00) sample=True complete=False corners=(20.00, 1.99, 65.50);(19.88, 1.99, 64.47);(19.53, 1.99, 64.12);(16.80, 1.99, 63.21);(16.45, 1.99, 63.07);(14.07, 1.99, 61.39);(5.25, 1.99, 58.52);(4.90, 1.99, 58.17);(4.90, 1.99, 56.98);(5.25, 1.99, 56.63);(8.05, 1.99, 55.79);(21.07, 1.99, 54.53);(21.63, 1.99, 54.53);(23.59, 1.99, 54.81);(27.09, 1.99, 56.35);(27.44, 1.99, 56.35);(28.14, 1.99, 56.28);(28.98, 1.99, 56.07);(35.84, 1.99, 53.76);(43.96, 1.99, 53.55);(44.24, 1.99, 53.55);(54.32, 1.99, 57.96);(63.56, 1.99, 58.59);(66.43, 1.99, 58.59);(66.71, 1.99, 58.38);(67.27, 1.99, 57.75);(68.00, 1.99, 54.00)
+ END Level/SchoolPropsContent/FirstFloor (1) Center: (60.44, 1.19, 57.03), Extents: (11.06, 0.79, 15.77)
+ END Level/SchoolPropsContent/FirstFloor (1) Center: (26.65, 1.95, 54.60), Extents: (44.85, 0.00, 18.20)
+TARGET (52.00, 8.52, 44.00) sample=True complete=False corners=(20.00, 1.99, 65.50);(19.88, 1.99, 64.47);(19.53, 1.99, 64.12);(16.80, 1.99, 63.21);(16.45, 1.99, 63.07);(14.07, 1.99, 61.39);(5.25, 1.99, 58.52);(4.90, 1.99, 58.17);(4.90, 1.99, 56.98);(5.25, 1.99, 56.63);(8.05, 1.99, 55.79);(21.07, 1.99, 54.53);(21.63, 1.99, 54.53);(23.59, 1.99, 54.81);(27.09, 1.99, 56.35);(27.44, 1.99, 56.35);(28.14, 1.99, 56.28);(28.98, 1.99, 56.07);(35.84, 1.99, 53.76);(44.59, 1.99, 52.50);(44.73, 1.99, 52.43);(44.94, 2.10, 52.15);(46.13, 5.35, 46.41);(48.44, 5.35, 44.00)
+ END Level/SchoolPropsContent/FirstCeiling (1) Center: (59.64, 7.15, 57.20), Extents: (10.56, 0.00, 15.60)
+ END Level/SchoolModel/Interior/Corridors/StairsMain/Coll06 Center: (48.98, 9.52, 46.73), Extents: (0.09, 4.28, 5.16)
+ END Level/Collisions/FirstHallwayWithoutEntries(Trace) Center: (49.07, 4.55, 44.20), Extents: (0.00, 2.60, 2.60)
+ END Level/SchoolModel/Interior/Corridors/StairsMain/Coll02 Center: (44.20, 5.20, 44.38), Extents: (4.88, 0.12, 2.46)
+ END Level/SchoolPropsContent/FirstCeiling (1) Center: (26.00, 7.26, 54.60), Extents: (44.20, 0.41, 18.20)
+ END Level/SchoolModel/Interior/Corridors/FirstHallwayWalls Center: (31.85, 4.55, 50.05), Extents: (39.65, 2.60, 13.65)
+TARGET (35.30, 15.01, 52.00) sample=True complete=False corners=(20.00, 1.99, 65.50);(19.88, 1.99, 64.47);(19.53, 1.99, 64.12);(16.80, 1.99, 63.21);(16.45, 1.99, 63.07);(14.07, 1.99, 61.39);(5.25, 1.99, 58.52);(4.90, 1.99, 58.17);(4.90, 1.99, 56.98);(5.25, 1.99, 56.63);(8.05, 1.99, 55.79);(21.07, 1.99, 54.53);(21.63, 1.99, 54.53);(23.59, 1.99, 54.81);(27.09, 1.99, 56.35);(27.44, 1.99, 56.35);(28.14, 1.99, 56.28);(28.98, 1.99, 56.07);(35.84, 1.99, 53.76);(44.59, 1.99, 52.50);(44.73, 1.99, 52.43);(44.94, 2.10, 52.15);(44.87, 5.35, 46.06);(44.59, 5.35, 45.85);(43.75, 5.35, 45.85);(41.58, 5.35, 45.99);(41.23, 5.35, 46.34);(40.11, 8.26, 51.17)
+ END Level/SchoolModel/Interior/Corridors/FloorCorridors_2nd Center: (49.43, 8.45, 57.20), Extents: (20.80, 0.00, 15.60)
+ END Level/SchoolModel/Interior/Corridors/FloorCorridors_2nd Center: (49.41, 8.12, 57.23), Extents: (20.82, 0.36, 5.26)
+ END Level/Collisions/SecondHallwayWithoutEntries(Trace) Center: (39.00, 11.05, 46.80), Extents: (0.33, 2.60, 5.20)
+ END Level/SchoolModel/Interior/Corridors/StairsMain/Coll01 Center: (41.60, 6.76, 48.86), Extents: (2.60, 1.70, 2.79)
+ END Level/SchoolModel/Interior/Corridors/StairsMain/Coll08 Center: (39.40, 9.60, 46.69), Extents: (0.09, 4.37, 5.12)
+ END Level/SchoolModel/Interior/Corridors/StairsMain/Coll13 Center: (39.49, 7.42, 49.31), Extents: (0.16, 2.06, 2.85)
+ END Level/SchoolModel/Interior/Corridors/2ndHallwayWalls Center: (50.02, 11.05, 52.00), Extents: (21.42, 2.60, 11.67)
+ END Level/SchoolModel/Interior/Corridors/FloorCorridors_2nd Center: (33.96, 8.28, 46.80), Extents: (5.42, 0.20, 5.20)
+TARGET (3.00, 2.12, 18.00) sample=True complete=True corners=(20.00, 1.99, 65.50);(19.88, 1.99, 64.47);(19.53, 1.99, 64.12);(16.80, 1.99, 63.21);(16.45, 1.99, 63.07);(14.07, 1.99, 61.39);(5.25, 1.99, 58.52);(4.90, 1.99, 58.17);(4.90, 1.99, 56.98);(5.25, 1.99, 56.63);(8.05, 1.99, 55.79);(17.15, 1.99, 54.74);(17.43, 1.99, 54.53);(17.92, 1.99, 53.76);(18.34, 1.99, 53.34);(18.97, 1.99, 52.29);(19.25, 1.99, 47.39);(19.25, 1.99, 46.20);(18.90, 1.99, 45.85);(15.40, 1.99, 43.26);(14.98, 1.99, 42.91);(14.84, 1.99, 42.42);(15.05, 1.99, 36.61);(14.91, 2.10, 35.84);(5.53, 2.10, 17.92);(4.83, 2.10, 17.36);(4.48, 2.10, 17.36);(3.00, 2.10, 18.00)
+TARGET (19.75, 2.19, 67.25) sample=True complete=True corners=(20.00, 1.99, 65.50);(19.75, 1.99, 67.25)
+TARGET (21.25, 1.97, 68.75) sample=True complete=True corners=(20.00, 1.99, 65.50);(21.25, 1.99, 68.75)
+TARGET (21.25, 2.04, 67.25) sample=True complete=True corners=(20.00, 1.99, 65.50);(21.25, 1.99, 67.25)
+TARGET (20.00, 1.97, 65.50) sample=True complete=True corners=(20.00, 1.99, 65.50)
+DOOR Gameplay/Doors/DoorP2 (1)/Door22 pos=(-3.00, 4.71, 48.75) locked=True key=silver_key
+DOOR Gameplay/Doors/DoorP2 (3)/Door24 pos=(38.92, 4.72, 50.04) locked=True key=silver_key
+DOOR Gameplay/Doors/DoorP1/Door pos=(-7.47, 4.71, 39.64) locked=True key=silver_key
+DOOR Gameplay/Doors/RDoor pos=(-6.18, 4.74, 36.62) locked=True key=silver_key
+DOOR Gameplay/Doors/DoorP (1)/Door11 pos=(68.25, 4.72, 57.19) locked=True key=silver_key
+DOOR Gameplay/Doors/DoorP/RDoor1 (1) pos=(16.97, 4.74, 55.54) locked=True key=silver_key
+DOOR START ROOM — original room corrections/Exit door hinge pos=(20.13, 4.31, 62.67) locked=True key=silver_key
+DOOR Gameplay/Doors/DoorMain_L pos=(37.00, 2.00, 63.82) locked=True key=main_exit_key
+DOOR Gameplay/Doors/DoorP/Door1 pos=(68.25, 4.71, 62.00) locked=True key=silver_key
+DOOR Gameplay/Doors/DoorMain_R pos=(34.77, 2.00, 63.82) locked=True key=main_exit_key
+DOOR Gameplay/Doors/DoorP (2)/Door12 pos=(57.85, 4.71, 56.87) locked=True key=silver_key
+DOOR Gameplay/Doors/DoorP2/Door2 pos=(-2.60, 4.71, 43.54) locked=True key=silver_key
+DOOR Level/SchoolModel/Doors/DoorBack/Roof door leaf pos=(35.29, 16.37, 53.56) locked=True key=
+DOOR Gameplay/Doors/RDoor1 pos=(14.63, 4.74, 36.47) locked=True key=silver_key
+DOOR Gameplay/Doors/DoorP2 (2)/Door23 pos=(-7.47, 4.72, 50.04) locked=True key=silver_key
+DOOR Gameplay/Doors/DoorNarrowP1/DoorNarrow_mesh.002 pos=(63.05, 11.21, 57.22) locked=True key=silver_key
+DOOR Gameplay/Doors/RDoor (2) pos=(30.22, 11.25, 47.13) locked=True key=silver_key

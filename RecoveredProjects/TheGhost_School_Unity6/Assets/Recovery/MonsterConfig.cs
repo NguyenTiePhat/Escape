@@ -6,6 +6,10 @@ public sealed class MonsterConfig : ScriptableObject
     [Min(0)] public float patrolSpeed = .3f;
     [Min(0)] public float chaseSpeed = 4.8f;
     [Range(0, 1)] public float hearingThreshold = .15f;
+    [Tooltip("Hear emitted gameplay noises across the entire map without distance attenuation.")]
+    public bool hearAcrossMap = true;
+    [Min(0)] public float investigateSpeed = 3.8f;
+    [Min(0)] public float noisePrioritySeconds = .6f;
     [Min(0)] public float sightRange = 14;
     [Range(0, 360)] public float sightAngle = 100;
     [Min(0)] public float searchDuration = 8;

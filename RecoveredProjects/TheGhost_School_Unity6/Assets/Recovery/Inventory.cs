@@ -133,7 +133,13 @@ public sealed class Inventory : MonoBehaviour
                     else Notify("Đang mở cửa thoát hiểm...");
                     break;
                 }
-                if (!door || !door.isLocked || !door.UnlockDoor(slot.Item.id)) { Notify("Chìa khóa không dùng được ở đây."); return; }
+                if (door && !door.isLocked)
+                {
+                    door.Open();
+                    Notify(door.IsOpen ? "Cửa đã mở khóa." : "Cửa đã mở khóa nhưng đang bị vật cản.");
+                    break;
+                }
+                if (!door || !door.UnlockDoor(slot.Item.id)) { Notify("Chìa khóa không dùng được ở đây."); return; }
                 if (door.consumeKeyOnUnlock) ConsumeSelected();
                 bool opening = door.Open();
                 Notify(opening ? "Đã mở cửa." : "Đã mở khóa. Cửa đang bị vật cản."); break;
