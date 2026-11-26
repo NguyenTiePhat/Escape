@@ -63298,24 +63298,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!1 &3684
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 31972}
-  - component: {fileID: 27089}
-  - component: {fileID: 32170}
-  m_Layer: 5
-  m_Name: SprintProgressBar
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
 --- !u!1 &3685
 GameObject:
   m_ObjectHideFlags: 0
@@ -155159,23 +155141,6 @@ GameObject:
   - component: {fileID: 28601}
   m_Layer: 5
   m_Name: Your Progress
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!1 &9040
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 31027}
-  - component: {fileID: 27257}
-  m_Layer: 5
-  m_Name: Fill Amount
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -628484,14 +628449,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7114}
   m_CullTransparentMesh: 1
---- !u!222 &27089
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3684}
-  m_CullTransparentMesh: 1
 --- !u!222 &27090
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -629827,14 +629784,6 @@ CanvasRenderer:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4211}
-  m_CullTransparentMesh: 1
---- !u!222 &27257
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040}
   m_CullTransparentMesh: 1
 --- !u!222 &27258
 CanvasRenderer:
@@ -686590,25 +686539,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 1}
---- !u!224 &31027
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 9040}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 31972}
-  m_LocalEulerAnglesHint: {x: 0, y: -0, z: -0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 400, y: 7}
-  m_Pivot: {x: 0, y: 0.5}
 --- !u!224 &31028
 RectTransform:
   m_ObjectHideFlags: 0
@@ -697566,7 +697496,6 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 32060}
-  - {fileID: 31972}
   - {fileID: 31962}
   - {fileID: 29856}
   m_Father: {fileID: 31842}
@@ -705605,26 +705534,6 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: -11.665001}
   m_SizeDelta: {x: 475.6, y: 36.67}
   m_Pivot: {x: 0, y: 1}
---- !u!224 &31972
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3684}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 31027}
-  m_Father: {fileID: 31575}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0.5, y: 0}
 --- !u!224 &31973
 RectTransform:
   m_ObjectHideFlags: 0
@@ -708977,18 +708886,6 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
---- !u!225 &32170
-CanvasGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3684}
-  m_Enabled: 1
-  m_Alpha: 0
-  m_Interactable: 0
-  m_BlocksRaycasts: 0
-  m_IgnoreParentGroups: 0
 --- !u!225 &32171
 CanvasGroup:
   m_ObjectHideFlags: 0
@@ -711563,11 +711460,12 @@ MonoBehaviour:
     t\xECm v\u1EADt d\u1EE5ng v\xE0 manh m\u1ED1i \u0111\u1EC3 m\u1EDF \u0111\u01B0\u1EDDng
     tho\xE1t kh\u1ECFi tr\u01B0\u1EDDng. H\xE3y quan s\xE1t k\u1EF9 nh\u1EEFng g\xF3c
     t\u1ED1i.\n\nWASD: di chuy\u1EC3n \u2022 Chu\u1ED9t: nh\xECn quanh \u2022 Shift:
-    ch\u1EA1y\nE: t\u01B0\u01A1ng t\xE1c v\u1EDBi v\u1EADt \u0111ang nh\xECn\n\n\u0110\u1EEBng
+    \u0111i b\u1ED9\nE: t\u01B0\u01A1ng t\xE1c v\u1EDBi v\u1EADt \u0111ang nh\xECn\n\n\u0110\u1EEBng
     b\u1ECF qua nh\u1EEFng m\u1EA9u gi\u1EA5y b\u1EA1n t\xECm th\u1EA5y."
   view: {fileID: 348079987}
   flashlightObject: {fileID: 892832307}
   hands: {fileID: 0}
+  inventory: {fileID: 0}
 --- !u!4 &472567884
 Transform:
   m_ObjectHideFlags: 0

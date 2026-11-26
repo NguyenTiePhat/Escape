@@ -43,7 +43,7 @@ public class FirstPersonHands : MonoBehaviour {
  }
  void LateUpdate(){if(!rig||!equipped||Cursor.lockState!=CursorLockMode.Locked)return;if(Input.GetKeyDown(KeyCode.L))ToggleFlashlight();
   bool moving=Cursor.lockState==CursorLockMode.Locked&&(Mathf.Abs(Input.GetAxisRaw("Vertical"))+Mathf.Abs(Input.GetAxisRaw("Horizontal"))>.1f);
-  phase+=Time.deltaTime*(moving?(Input.GetKey(KeyCode.LeftShift)?12:8):1.8f);
+  phase+=Time.deltaTime*(moving?((Input.GetKey(KeyCode.LeftShift)||Input.GetKey(KeyCode.RightShift))?8:12):1.8f);
   float amp=moving?.012f:.002f;var target=new Vector3(Mathf.Sin(phase)*amp,Mathf.Cos(phase*2)*amp,0);
   rig.localPosition=Vector3.Lerp(rig.localPosition,target,Time.deltaTime*12);
   rig.localRotation=Quaternion.Slerp(rig.localRotation,Quaternion.Euler(-Input.GetAxis("Mouse Y")*.6f,Input.GetAxis("Mouse X")*.6f,Mathf.Sin(phase)*amp*35),Time.deltaTime*10);

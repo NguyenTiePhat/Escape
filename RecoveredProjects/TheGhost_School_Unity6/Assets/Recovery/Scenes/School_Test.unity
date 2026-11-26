@@ -48395,25 +48395,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 4294967295
   m_IsActive: 1
---- !u!1 &4700
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 13045}
-  - component: {fileID: 19736}
-  - component: {fileID: 17814}
-  - component: {fileID: 24000}
-  m_Layer: 0
-  m_Name: SCP173
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
-  m_IsActive: 1
 --- !u!1 &4713
 GameObject:
   m_ObjectHideFlags: 0
@@ -49521,7 +49502,9 @@ GameObject:
   - component: {fileID: 24022}
   - component: {fileID: 25380}
   - component: {fileID: 21493}
-  m_Layer: 0
+  - component: {fileID: 25385}
+  - component: {fileID: 25383}
+  m_Layer: 13
   m_Name: DoorNarrow_mesh.0024
   m_TagString: Button
   m_Icon: {fileID: 0}
@@ -108574,21 +108557,6 @@ Transform:
   - {fileID: 15130}
   m_Father: {fileID: 13587}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!4 &13045
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: 0.7071068, z: -0, w: 0.7071068}
-  m_LocalPosition: {x: 6.412923, y: 1.5153847, z: 51.86231}
-  m_LocalScale: {x: 7.061153, y: 7.061153, z: 7.061153}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 13261}
-  m_LocalEulerAnglesHint: {x: -0, y: -90, z: 0}
 --- !u!4 &13046
 Transform:
   m_ObjectHideFlags: 0
@@ -109724,7 +109692,6 @@ Transform:
   - {fileID: 13730}
   - {fileID: 13046}
   - {fileID: 13236}
-  - {fileID: 13045}
   m_Father: {fileID: 15598}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &13262
@@ -184064,55 +184031,6 @@ MeshRenderer:
   m_SortingOrder: 0
   m_MaskInteraction: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!23 &17814
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 0
-  m_ReflectionProbeUsage: 0
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RayTracingAccelStructBuildFlagsOverride: 0
-  m_RayTracingAccelStructBuildFlags: 1
-  m_SmallMeshCulling: 1
-  m_ForceMeshLod: -1
-  m_MeshLodSelectionBias: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 2100000, guid: f9a56d286022146458456a297bd2f165, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 1
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_GlobalIlluminationMeshLod: 0
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_MaskInteraction: 0
-  m_AdditionalVertexStreams: {fileID: 0}
 --- !u!23 &17815
 MeshRenderer:
   m_ObjectHideFlags: 0
@@ -228559,14 +228477,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8409}
   m_Mesh: {fileID: 4300000, guid: a029a7ba2465c0541b02599af4bee7c1, type: 2}
---- !u!33 &19736
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700}
-  m_Mesh: {fileID: 4300000, guid: 008b5726bcc984e4e9e8e5cf2909e025, type: 2}
 --- !u!33 &19737
 MeshFilter:
   m_ObjectHideFlags: 0
@@ -289745,27 +289655,6 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0046195984, y: 0.18206596, z: 0.25758365}
   m_Center: {x: 0.119558334, y: 0.09103298, z: 0.046463028}
---- !u!65 &24000
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4700}
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_LayerOverridePriority: 0
-  m_IsTrigger: 0
-  m_ProvidesContacts: 0
-  m_Enabled: 1
-  serializedVersion: 3
-  m_Size: {x: 0.054665, y: 0.2213134, z: 0.06724052}
-  m_Center: {x: -0.00086193264, y: 0.10761257, z: 0.0025329927}
 --- !u!65 &24001
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -320052,11 +319941,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: 0.0000000037252903, y: 0, z: -0.0007056156}
   obstacleMask:
@@ -320616,11 +320504,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: 0, y: 0, z: -0.0008264028}
   obstacleMask:
@@ -320641,11 +320528,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: -0.000000059604645, y: 0, z: -0.0008264624}
   obstacleMask:
@@ -321507,11 +321393,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: 0, y: 0, z: -0.0008264028}
   obstacleMask:
@@ -321532,11 +321417,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: -0.000000007450581, y: 0, z: -0.00070561573}
   obstacleMask:
@@ -322135,6 +322019,18 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &25383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ff9fa2ce122e8944a88b9f0f0845058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::DoorNoise
 --- !u!82 &25384
 AudioSource:
   m_ObjectHideFlags: 0
@@ -322259,6 +322155,31 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 0
+--- !u!114 &25385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2d4eceaa87828c40a2ed0c605c76435, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Door
+  openAngle: 90
+  speed: 60
+  strongSpeed: 160
+  isLocked: 1
+  requiredKeyId: silver_key
+  consumeKeyOnUnlock: 0
+  lockedPrompt: "Ph\xF2ng ch\u1EBF t\u1EA1o \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
+    E \u0111\u1EC3 m\u1EDF kh\xF3a."
+  decorative: 0
+  hingeOffset: {x: 0, y: 0, z: -0.00082640257}
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
 --- !u!82 &25386
 AudioSource:
   m_ObjectHideFlags: 0
@@ -328236,6 +328157,53 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 0.0043000006, y: 0.00012, z: 0.0026999996}
   m_Center: {x: 0.000000014901161, y: -0.000000029802322, z: 0}
+--- !u!1 &83316208
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 83316209}
+  - component: {fileID: 83316210}
+  m_Layer: 0
+  m_Name: GroundWest furniture 20
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &83316209
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83316208}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 14.945173, y: 2.9689963, z: 67.19399}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &83316210
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 83316208}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundWest
+  supportPath: Level/SchoolPropsContent/EasterEggRoom/SchoolEasterEggRoom_Details/LibraryTable
+  approachPosition: {x: 16.051197, y: 1.9929495, z: 67.14545}
 --- !u!114 &83326873
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -328372,48 +328340,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b437ec5240702f14094a039f35bb6388, type: 2}
---- !u!1 &94640244
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 94640245}
-  m_Layer: 0
-  m_Name: Visible tabletop pickup locations
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &94640245
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 94640244}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1353044870}
-  - {fileID: 1861280624}
-  - {fileID: 1675078647}
-  - {fileID: 1304465907}
-  - {fileID: 1490863843}
-  - {fileID: 2099119758}
-  - {fileID: 1273805495}
-  - {fileID: 136553823}
-  - {fileID: 787972018}
-  - {fileID: 1207240636}
-  - {fileID: 430147427}
-  m_Father: {fileID: 556343296}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &95304119
 GameObject:
   m_ObjectHideFlags: 0
@@ -328838,7 +328764,7 @@ MonoBehaviour:
   walkDistance: 1.7
   sprintDistance: 2.3
   crouchDistance: 1.2
-  walkLoudness: 0.35
+  walkLoudness: 0.15
   sprintLoudness: 0.8
   crouchLoudness: 0.1
   surfaceMask:
@@ -328972,8 +328898,8 @@ MonoBehaviour:
   crouchSpeed: 1.8
   crouchHeight: 1.1
   crouchLerpSpeed: 14
-  gravity: -9.81
-  jumpHeight: 1
+  gravity: -25
+  jumpHeight: 0.9
   standingObstacles:
     serializedVersion: 2
     m_Bits: 4294967295
@@ -329073,37 +328999,6 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 815155929}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &136553822
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 136553823}
-  m_Layer: 0
-  m_Name: Clear tabletop 8
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &136553823
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 136553822}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 62.3779, y: 2.8779993, z: 70.894196}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 94640245}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &139677465
 GameObject:
@@ -329298,6 +329193,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7041197480747106716, guid: 9ffe5ac0e841ae847ae3e0dac06a7e5a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 143339859}
+    - targetCorrespondingSourceObject: {fileID: 1753955021539340684, guid: 9ffe5ac0e841ae847ae3e0dac06a7e5a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 143339862}
   m_SourcePrefab: {fileID: 100100000, guid: 9ffe5ac0e841ae847ae3e0dac06a7e5a, type: 3}
 --- !u!4 &143339857 stripped
 Transform:
@@ -329342,10 +329240,37 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.75993633, y: 0.8441716, z: 1.0000099}
   m_Center: {x: -0.000019967556, y: 0.42208573, z: -0.000014543533}
+--- !u!1 &143339861 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1753955021539340684, guid: 9ffe5ac0e841ae847ae3e0dac06a7e5a, type: 3}
+  m_PrefabInstance: {fileID: 143339856}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &143339862
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 143339861}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3362887337151679087, guid: 06fb580f851de26439aae0fddf6849e3, type: 3}
 --- !u!1 &159376440
 GameObject:
   m_ObjectHideFlags: 0
@@ -330036,6 +329961,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 224556140}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &226861078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 226861079}
+  - component: {fileID: 226861080}
+  m_Layer: 0
+  m_Name: UpperWest furniture 11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &226861079
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226861078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.4, y: 9.379499, z: 60.519997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &226861080
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 226861078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperWest
+  supportPath: Floor 2 - XAPK furnishings/North alcove - quiet reading tables/Reading
+    table 38.4
+  approachPosition: {x: 38.4, y: 8.50295, z: 61.269997}
 --- !u!64 &232709396
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -330384,6 +330357,53 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 43c39c7654117e34a81ca2f684095b3b, type: 2}
+--- !u!1 &268971151
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 268971152}
+  - component: {fileID: 268971153}
+  m_Layer: 0
+  m_Name: GroundWest furniture 19
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &268971152
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268971151}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 8.673334, y: 3.663963, z: 52.600815}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &268971153
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 268971151}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundWest
+  supportPath: Level/SchoolPropsContent/EasterEggRoom/SchoolEasterEggRoom_Details/Bookcase
+  approachPosition: {x: 8.673334, y: 2.0128176, z: 53.350815}
 --- !u!1 &270332860
 GameObject:
   m_ObjectHideFlags: 0
@@ -330744,6 +330764,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 288123095}
   m_Mesh: {fileID: 8913705665833898582, guid: c7575a782dbe6da47bcb9d3864d99b48, type: 3}
+--- !u!1 &302855797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 302855798}
+  - component: {fileID: 302855799}
+  m_Layer: 0
+  m_Name: GroundWest furniture 22
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &302855798
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302855797}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.445177, y: 2.9689968, z: 65.794}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &302855799
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 302855797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundWest
+  supportPath: Level/SchoolPropsContent/EasterEggRoom/SchoolEasterEggRoom_Details/LibraryTable
+  approachPosition: {x: 17.43, y: 2.051816, z: 65.42718}
 --- !u!1 &304601738
 GameObject:
   m_ObjectHideFlags: 0
@@ -330945,6 +331012,54 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 311534410}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &315079854
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 315079855}
+  - component: {fileID: 315079856}
+  m_Layer: 0
+  m_Name: UpperEast furniture 6
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &315079855
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315079854}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.1, y: 9.072811, z: 52.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &315079856
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 315079854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperEast
+  supportPath: Floor 2 - XAPK furnishings/Library approach - waiting benches/Bench
+    east of library approach
+  approachPosition: {x: 67.1, y: 8.50295, z: 53.55}
 --- !u!1 &318444182
 GameObject:
   m_ObjectHideFlags: 0
@@ -331558,6 +331673,54 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::TensionVisuals
   tension: {fileID: 1688713175}
   effectShader: {fileID: 4800000, guid: 682e6f79e2a014d4e85ad81cf689cd02, type: 3}
+--- !u!1 &358432480
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 358432481}
+  - component: {fileID: 358432482}
+  m_Layer: 0
+  m_Name: GroundSouth furniture 4
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &358432481
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358432480}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.8, y: 3.085746, z: 30.460026}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &358432482
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358432480}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundSouth
+  supportPath: Drive furnishings - curated additions/Gym - table tennis beside the
+    court/Imported model
+  approachPosition: {x: -7.49, y: 2.097949, z: 30.11062}
 --- !u!1 &363978968
 GameObject:
   m_ObjectHideFlags: 0
@@ -332067,6 +332230,53 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 26b5969340b9eb54a9da2474afd78d2a, type: 2}
+--- !u!1 &396105730
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 396105731}
+  - component: {fileID: 396105732}
+  m_Layer: 0
+  m_Name: Start furniture 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &396105731
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396105730}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 21.98, y: 2.883, z: 61.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &396105732
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 396105730}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: Start
+  supportPath: Starting room table
+  approachPosition: {x: 22.54, y: 2.0279493, z: 61.18}
 --- !u!1 &398548786
 GameObject:
   m_ObjectHideFlags: 0
@@ -332417,37 +332627,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0ff9fa2ce122e8944a88b9f0f0845058, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DoorNoise
---- !u!1 &430147426
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 430147427}
-  m_Layer: 0
-  m_Name: Starting table key 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &430147427
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 430147426}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.279999, y: 2.883, z: 62.030003}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 94640245}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &448713047
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -332717,7 +332896,7 @@ MonoBehaviour:
     t\xECm v\u1EADt d\u1EE5ng v\xE0 manh m\u1ED1i \u0111\u1EC3 m\u1EDF \u0111\u01B0\u1EDDng
     tho\xE1t kh\u1ECFi tr\u01B0\u1EDDng. H\xE3y quan s\xE1t k\u1EF9 nh\u1EEFng g\xF3c
     t\u1ED1i.\n\nWASD: di chuy\u1EC3n \u2022 Chu\u1ED9t: nh\xECn quanh \u2022 Shift:
-    ch\u1EA1y\nE: t\u01B0\u01A1ng t\xE1c v\u1EDBi v\u1EADt \u0111ang nh\xECn\n\n\u0110\u1EEBng
+    \u0111i b\u1ED9\nE: t\u01B0\u01A1ng t\xE1c v\u1EDBi v\u1EADt \u0111ang nh\xECn\n\n\u0110\u1EEBng
     b\u1ECF qua nh\u1EEFng m\u1EA9u gi\u1EA5y b\u1EA1n t\xECm th\u1EA5y."
   view: {fileID: 348079987}
   flashlightObject: {fileID: 892832307}
@@ -332941,11 +333120,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: -0.000000059604645, y: 0, z: -0.0008264624}
   obstacleMask:
@@ -333360,59 +333538,134 @@ MonoBehaviour:
   entries:
   - item: {fileID: 11400000, guid: 194f923ebaab7234fa848ffe7012c27f, type: 2}
     points:
-    - {fileID: 787972018}
-    - {fileID: 1207240636}
-    - {fileID: 430147427}
+    - {fileID: 1867634933}
+    - {fileID: 396105731}
+    - {fileID: 1811074524}
   - item: {fileID: 11400000, guid: c1b41f97dcd6d454589b22b62afd6e91, type: 2}
     points:
-    - {fileID: 1353044870}
-    - {fileID: 1861280624}
-    - {fileID: 1675078647}
-    - {fileID: 1304465907}
-    - {fileID: 1490863843}
-    - {fileID: 2099119758}
-    - {fileID: 1273805495}
-    - {fileID: 136553823}
+    - {fileID: 1474094670}
+    - {fileID: 722102259}
+    - {fileID: 1359327998}
+    - {fileID: 2122863439}
+    - {fileID: 358432481}
+    - {fileID: 1927352982}
+    - {fileID: 315079855}
+    - {fileID: 1211392325}
+    - {fileID: 1754397009}
+    - {fileID: 1431745050}
+    - {fileID: 1367438610}
+    - {fileID: 226861079}
+    - {fileID: 1042316121}
+    - {fileID: 900087479}
+    - {fileID: 847107260}
+    - {fileID: 834685633}
+    - {fileID: 1627225605}
+    - {fileID: 1583030515}
+    - {fileID: 1808600678}
+    - {fileID: 268971152}
+    - {fileID: 83316209}
+    - {fileID: 841019503}
+    - {fileID: 302855798}
   - item: {fileID: 11400000, guid: 52b215ddbd27ab040afc3cd03c6bf9d9, type: 2}
     points:
-    - {fileID: 1353044870}
-    - {fileID: 1861280624}
-    - {fileID: 1675078647}
-    - {fileID: 1304465907}
-    - {fileID: 1490863843}
-    - {fileID: 2099119758}
-    - {fileID: 1273805495}
-    - {fileID: 136553823}
+    - {fileID: 1474094670}
+    - {fileID: 722102259}
+    - {fileID: 1359327998}
+    - {fileID: 2122863439}
+    - {fileID: 358432481}
+    - {fileID: 1927352982}
+    - {fileID: 315079855}
+    - {fileID: 1211392325}
+    - {fileID: 1754397009}
+    - {fileID: 1431745050}
+    - {fileID: 1367438610}
+    - {fileID: 226861079}
+    - {fileID: 1042316121}
+    - {fileID: 900087479}
+    - {fileID: 847107260}
+    - {fileID: 834685633}
+    - {fileID: 1627225605}
+    - {fileID: 1583030515}
+    - {fileID: 1808600678}
+    - {fileID: 268971152}
+    - {fileID: 83316209}
+    - {fileID: 841019503}
+    - {fileID: 302855798}
   - item: {fileID: 11400000, guid: 713425752d9854b489dae1ec5d272969, type: 2}
     points:
-    - {fileID: 1353044870}
-    - {fileID: 1861280624}
-    - {fileID: 1675078647}
-    - {fileID: 1304465907}
-    - {fileID: 1490863843}
-    - {fileID: 2099119758}
-    - {fileID: 1273805495}
-    - {fileID: 136553823}
+    - {fileID: 1474094670}
+    - {fileID: 722102259}
+    - {fileID: 1359327998}
+    - {fileID: 2122863439}
+    - {fileID: 358432481}
+    - {fileID: 1927352982}
+    - {fileID: 315079855}
+    - {fileID: 1211392325}
+    - {fileID: 1754397009}
+    - {fileID: 1431745050}
+    - {fileID: 1367438610}
+    - {fileID: 226861079}
+    - {fileID: 1042316121}
+    - {fileID: 900087479}
+    - {fileID: 847107260}
+    - {fileID: 834685633}
+    - {fileID: 1627225605}
+    - {fileID: 1583030515}
+    - {fileID: 1808600678}
+    - {fileID: 268971152}
+    - {fileID: 83316209}
+    - {fileID: 841019503}
+    - {fileID: 302855798}
   - item: {fileID: 11400000, guid: c3a6698d5a37fdb4f80c91aed5ee34aa, type: 2}
     points:
-    - {fileID: 1353044870}
-    - {fileID: 1861280624}
-    - {fileID: 1675078647}
-    - {fileID: 1304465907}
-    - {fileID: 1490863843}
-    - {fileID: 2099119758}
-    - {fileID: 1273805495}
-    - {fileID: 136553823}
+    - {fileID: 1474094670}
+    - {fileID: 722102259}
+    - {fileID: 1359327998}
+    - {fileID: 2122863439}
+    - {fileID: 358432481}
+    - {fileID: 1927352982}
+    - {fileID: 315079855}
+    - {fileID: 1211392325}
+    - {fileID: 1754397009}
+    - {fileID: 1431745050}
+    - {fileID: 1367438610}
+    - {fileID: 226861079}
+    - {fileID: 1042316121}
+    - {fileID: 900087479}
+    - {fileID: 847107260}
+    - {fileID: 834685633}
+    - {fileID: 1627225605}
+    - {fileID: 1583030515}
+    - {fileID: 1808600678}
+    - {fileID: 268971152}
+    - {fileID: 83316209}
+    - {fileID: 841019503}
+    - {fileID: 302855798}
   - item: {fileID: 11400000, guid: 5a4e723e0e512534fb400593fc895416, type: 2}
     points:
-    - {fileID: 1353044870}
-    - {fileID: 1861280624}
-    - {fileID: 1675078647}
-    - {fileID: 1304465907}
-    - {fileID: 1490863843}
-    - {fileID: 2099119758}
-    - {fileID: 1273805495}
-    - {fileID: 136553823}
+    - {fileID: 1474094670}
+    - {fileID: 722102259}
+    - {fileID: 1359327998}
+    - {fileID: 2122863439}
+    - {fileID: 358432481}
+    - {fileID: 1927352982}
+    - {fileID: 315079855}
+    - {fileID: 1211392325}
+    - {fileID: 1754397009}
+    - {fileID: 1431745050}
+    - {fileID: 1367438610}
+    - {fileID: 226861079}
+    - {fileID: 1042316121}
+    - {fileID: 900087479}
+    - {fileID: 847107260}
+    - {fileID: 834685633}
+    - {fileID: 1627225605}
+    - {fileID: 1583030515}
+    - {fileID: 1808600678}
+    - {fileID: 268971152}
+    - {fileID: 83316209}
+    - {fileID: 841019503}
+    - {fileID: 302855798}
 --- !u!4 &556343296
 Transform:
   m_ObjectHideFlags: 0
@@ -333426,7 +333679,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 94640245}
+  - {fileID: 1920779004}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &559182892
@@ -334591,11 +334844,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: -0.000000059604645, y: 0, z: -0.0008264624}
   obstacleMask:
@@ -334853,6 +335105,54 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 82e23c0b2cc25f34bbfcd45c2289bf06, type: 2}
+--- !u!1 &722102258
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 722102259}
+  - component: {fileID: 722102260}
+  m_Layer: 0
+  m_Name: GroundEast furniture 1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &722102259
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722102258}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 62.480007, y: 2.91634, z: 44.999966}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &722102260
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 722102258}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundEast
+  supportPath: Drive furnishings - curated additions/Biology classroom - rear desk
+    2 facing board/Imported model
+  approachPosition: {x: 62.480007, y: 1.9929495, z: 45.92}
 --- !u!64 &722815557
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -335295,37 +335595,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 54b56f7d0c1ca324c96c1a145f1b147c, type: 2}
---- !u!1 &787972017
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 787972018}
-  m_Layer: 0
-  m_Name: Starting table key 0
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &787972018
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 787972017}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.279999, y: 2.883, z: 61.73}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 94640245}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &793336925
 GameObject:
   m_ObjectHideFlags: 0
@@ -335605,10 +335874,9 @@ MonoBehaviour:
   speed: 60
   strongSpeed: 160
   isLocked: 0
-  requiredKeyId: silver_key
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: -0.000000059604645, y: 0, z: 0.0012621996}
   obstacleMask:
@@ -335686,8 +335954,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 815155926}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 14.509439, y: 1.9929495, z: 53.76431}
+  m_LocalRotation: {x: 0, y: 1, z: 0, w: -0.00000004371139}
+  m_LocalPosition: {x: 44, y: 1.99, z: 61.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -335997,6 +336265,53 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 822389477}
   m_CullTransparentMesh: 1
+--- !u!1 &834685632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 834685633}
+  - component: {fileID: 834685634}
+  m_Layer: 0
+  m_Name: GroundWest furniture 15
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &834685633
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834685632}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -6.1976466, y: 2.5468109, z: 51.625595}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &834685634
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 834685632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundWest
+  supportPath: Level/SchoolModel/Interior/Corridors/CorridorDetails/Bench (5)/Bench_LOD1
+  approachPosition: {x: -5.5481277, y: 1.9929495, z: 50.96}
 --- !u!64 &837608823
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -336019,6 +336334,100 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 68a690aadefa53a4dacbbcd0e85821f8, type: 2}
+--- !u!1 &841019502
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 841019503}
+  - component: {fileID: 841019504}
+  m_Layer: 0
+  m_Name: GroundWest furniture 21
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &841019503
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841019502}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 18.445177, y: 2.9689968, z: 64.744}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &841019504
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 841019502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundWest
+  supportPath: Level/SchoolPropsContent/EasterEggRoom/SchoolEasterEggRoom_Details/LibraryTable
+  approachPosition: {x: 19.09475, y: 2.0024114, z: 64.12}
+--- !u!1 &847107259
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 847107260}
+  - component: {fileID: 847107261}
+  m_Layer: 0
+  m_Name: GroundWest furniture 14
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &847107260
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847107259}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.1818, y: 2.5468109, z: 51.625595}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &847107261
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 847107259}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundWest
+  supportPath: Level/SchoolModel/Interior/Corridors/CorridorDetails/Bench (5)/Bench_LOD1
+  approachPosition: {x: -4.532281, y: 1.9929495, z: 50.96}
 --- !u!1 &847259384
 GameObject:
   m_ObjectHideFlags: 0
@@ -336489,11 +336898,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: 0.0000000037252903, y: 0, z: -0.0007056156}
   obstacleMask:
@@ -336768,6 +337176,54 @@ Transform:
   - {fileID: 363978969}
   m_Father: {fileID: 242929837}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &900087478
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 900087479}
+  - component: {fileID: 900087480}
+  m_Layer: 0
+  m_Name: UpperWest furniture 13
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &900087479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900087478}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 44.2, y: 9.379499, z: 60.519997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &900087480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 900087478}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperWest
+  supportPath: Floor 2 - XAPK furnishings/North alcove - quiet reading tables/Reading
+    table 44.2
+  approachPosition: {x: 44.2, y: 8.50295, z: 61.269997}
 --- !u!1 &900093913
 GameObject:
   m_ObjectHideFlags: 0
@@ -337162,6 +337618,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7041197480747106716, guid: 9ffe5ac0e841ae847ae3e0dac06a7e5a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 934844553}
+    - targetCorrespondingSourceObject: {fileID: 1753955021539340684, guid: 9ffe5ac0e841ae847ae3e0dac06a7e5a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 934844556}
   m_SourcePrefab: {fileID: 100100000, guid: 9ffe5ac0e841ae847ae3e0dac06a7e5a, type: 3}
 --- !u!4 &934844551 stripped
 Transform:
@@ -337206,10 +337665,37 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.75993633, y: 0.8441716, z: 1.0000099}
   m_Center: {x: -0.000019967556, y: 0.42208573, z: -0.000014543533}
+--- !u!1 &934844555 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1753955021539340684, guid: 9ffe5ac0e841ae847ae3e0dac06a7e5a, type: 3}
+  m_PrefabInstance: {fileID: 934844550}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &934844556
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 934844555}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3362887337151679087, guid: 06fb580f851de26439aae0fddf6849e3, type: 3}
 --- !u!64 &937189231
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -337962,6 +338448,54 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a85c02774f8918d49a85400833d773b8, type: 2}
+--- !u!1 &1042316120
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1042316121}
+  - component: {fileID: 1042316122}
+  m_Layer: 0
+  m_Name: UpperWest furniture 12
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1042316121
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042316120}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 44.2, y: 9.379499, z: 59.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1042316122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1042316120}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperWest
+  supportPath: Floor 2 - XAPK furnishings/North alcove - quiet reading tables/Reading
+    table 44.2
+  approachPosition: {x: 45.31, y: 8.50295, z: 59.23}
 --- !u!1 &1042640213
 GameObject:
   m_ObjectHideFlags: 0
@@ -339231,7 +339765,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1675215968}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1207240635
+--- !u!1 &1211392324
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -339239,29 +339773,46 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1207240636}
+  - component: {fileID: 1211392325}
+  - component: {fileID: 1211392326}
   m_Layer: 0
-  m_Name: Starting table key 1
+  m_Name: UpperEast furniture 7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1207240636
+--- !u!4 &1211392325
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1207240635}
+  m_GameObject: {fileID: 1211392324}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 21.98, y: 2.883, z: 61.73}
+  m_LocalPosition: {x: 66.08415, y: 9.072811, z: 52.8}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 94640245}
+  m_Father: {fileID: 1920779004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1211392326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1211392324}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperEast
+  supportPath: Floor 2 - XAPK furnishings/Library approach - waiting benches/Bench
+    east of library approach
+  approachPosition: {x: 66.08415, y: 8.50295, z: 53.55}
 --- !u!1 &1213181460
 GameObject:
   m_ObjectHideFlags: 0
@@ -339318,11 +339869,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: 0, y: 0, z: -0.0008264028}
   obstacleMask:
@@ -339993,37 +340543,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 7881f110bb192f1478cd32fab446b706, type: 2}
---- !u!1 &1273805494
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1273805495}
-  m_Layer: 0
-  m_Name: Clear tabletop 7
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1273805495
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1273805494}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 22.8865, y: 2.8779976, z: 65.247}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 94640245}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1278921920
 GameObject:
   m_ObjectHideFlags: 0
@@ -340509,6 +341028,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8879633578883673879, guid: 7aacf3a910a24044089562c3916ca47c, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1294639329}
+    - targetCorrespondingSourceObject: {fileID: 7298982728491179087, guid: 7aacf3a910a24044089562c3916ca47c, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1294639332}
   m_SourcePrefab: {fileID: 100100000, guid: 7aacf3a910a24044089562c3916ca47c, type: 3}
 --- !u!4 &1294639327 stripped
 Transform:
@@ -340553,10 +341075,37 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 0
   m_ProvidesContacts: 0
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 3
   m_Size: {x: 0.99999666, y: 0.34436953, z: 0.69469166}
   m_Center: {x: -0.0000047683716, y: 0.17220245, z: -0.000000059604645}
+--- !u!1 &1294639331 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7298982728491179087, guid: 7aacf3a910a24044089562c3916ca47c, type: 3}
+  m_PrefabInstance: {fileID: 1294639326}
+  m_PrefabAsset: {fileID: 0}
+--- !u!64 &1294639332
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1294639331}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -3362887337151679087, guid: b41f20e6365f1f2499d796a8c421bd53, type: 3}
 --- !u!1 &1295099598
 GameObject:
   m_ObjectHideFlags: 0
@@ -340910,37 +341459,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1299590316}
   m_Mesh: {fileID: 4300000, guid: d7084e97097d3114890dd7de14f7555c, type: 2}
---- !u!1 &1304465906
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1304465907}
-  m_Layer: 0
-  m_Name: Clear tabletop 4
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1304465907
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1304465906}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 13.519998, y: 2.8779976, z: 52.871002}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 94640245}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1312123163
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -341207,7 +341725,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1213181461}
   m_LocalEulerAnglesHint: {x: 0.0000025047943, y: 1.3578517e-25, z: -6.212021e-18}
---- !u!1 &1353044869
+--- !u!1 &1359327997
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -341215,29 +341733,94 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1353044870}
+  - component: {fileID: 1359327998}
+  - component: {fileID: 1359327999}
   m_Layer: 0
-  m_Name: Clear tabletop 1
+  m_Name: GroundSouth furniture 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1353044870
+--- !u!4 &1359327998
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1353044869}
+  m_GameObject: {fileID: 1359327997}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.4574, y: 2.8779976, z: 61.4575}
+  m_LocalPosition: {x: -5.8, y: 3.0857832, z: 28.360022}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 94640245}
+  m_Father: {fileID: 1920779004}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1359327999
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1359327997}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundSouth
+  supportPath: Drive furnishings - curated additions/Gym - table tennis beside the
+    court/Imported model
+  approachPosition: {x: -5.150481, y: 2.097949, z: 27.720001}
+--- !u!1 &1367438609
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1367438610}
+  - component: {fileID: 1367438611}
+  m_Layer: 0
+  m_Name: UpperWest furniture 10
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1367438610
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367438609}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 38.4, y: 9.379499, z: 59.47}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1367438611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1367438609}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperWest
+  supportPath: Floor 2 - XAPK furnishings/North alcove - quiet reading tables/Reading
+    table 38.4
+  approachPosition: {x: 39.510002, y: 8.50295, z: 59.242004}
 --- !u!1 &1370291387
 GameObject:
   m_ObjectHideFlags: 0
@@ -342446,6 +343029,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1088191776}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1431745049
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1431745050}
+  - component: {fileID: 1431745051}
+  m_Layer: 0
+  m_Name: UpperEast furniture 9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1431745050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431745049}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 56.984154, y: 9.072811, z: 52.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1431745051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1431745049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperEast
+  supportPath: Floor 2 - XAPK furnishings/Library approach - waiting benches/Bench
+    west of library approach
+  approachPosition: {x: 56.984154, y: 8.50295, z: 53.55}
 --- !u!64 &1433282163
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -342967,6 +343598,54 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: b0018b9722b16da43888ae490e838ee1, type: 2}
+--- !u!1 &1474094669
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1474094670}
+  - component: {fileID: 1474094671}
+  m_Layer: 0
+  m_Name: GroundEast furniture 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1474094670
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474094669}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 62.480007, y: 2.91634, z: 43.09997}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1474094671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474094669}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundEast
+  supportPath: Drive furnishings - curated additions/Biology classroom - rear desk
+    1 facing board/Imported model
+  approachPosition: {x: 62.472458, y: 2.050318, z: 44.03}
 --- !u!64 &1477393253
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -343011,37 +343690,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: a13e3fc146ce27b4984a3a03e0e86ab6, type: 2}
---- !u!1 &1490863842
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1490863843}
-  m_Layer: 0
-  m_Name: Clear tabletop 5
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1490863843
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1490863842}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 15.3907, y: 2.877998, z: 72.2878}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 94640245}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1506157875
 GameObject:
   m_ObjectHideFlags: 0
@@ -343305,11 +343953,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: 0, y: 0, z: -0.0008264028}
   obstacleMask:
@@ -344043,6 +344690,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1571295048}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1583030514
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1583030515}
+  - component: {fileID: 1583030516}
+  m_Layer: 0
+  m_Name: UpperEast furniture 17
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1583030515
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583030514}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.86619, y: 9.377998, z: 59.9093}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1583030516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1583030514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperEast
+  supportPath: Level/SchoolModel/Interior/Library/TeacherTableStaticEx_combined_static
+  approachPosition: {x: 68.67, y: 8.50295, z: 60.103416}
 --- !u!64 &1584002558
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -344674,11 +345368,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: -0.000000059604645, y: 0, z: -0.0008264624}
   obstacleMask:
@@ -344808,6 +345501,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624514130}
   m_Mesh: {fileID: -6102285992486916660, guid: c7575a782dbe6da47bcb9d3864d99b48, type: 3}
+--- !u!1 &1627225604
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1627225605}
+  - component: {fileID: 1627225606}
+  m_Layer: 0
+  m_Name: UpperEast furniture 16
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1627225605
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627225604}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 68.25984, y: 9.377998, z: 62.009293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1627225606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1627225604}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperEast
+  supportPath: Level/SchoolModel/Interior/Library/TeacherTableStaticEx_combined_static
+  approachPosition: {x: 68.94504, y: 8.50295, z: 61.277508}
 --- !u!1 &1638163130
 GameObject:
   m_ObjectHideFlags: 0
@@ -344952,11 +345692,10 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
-  lockedPrompt: "C\u1EEDa \u0111\xE3 kh\xF3a \u2014 ch\u1ECDn ch\xECa b\u1EA1c, nh\u1EA5n
-    E \u0111\u1EC3 m\u1EDF."
+  lockedPrompt: 
   decorative: 0
   hingeOffset: {x: -0.000000007450581, y: 0, z: -0.00070561573}
   obstacleMask:
@@ -345023,8 +345762,8 @@ MonoBehaviour:
   openAngle: 90
   speed: 60
   strongSpeed: 160
-  isLocked: 1
-  requiredKeyId: silver_key
+  isLocked: 0
+  requiredKeyId: 
   consumeKeyOnUnlock: 0
   lockedPrompt: 
   decorative: 0
@@ -345524,37 +346263,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675014140}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1675078646
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1675078647}
-  m_Layer: 0
-  m_Name: Clear tabletop 3
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1675078647
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1675078646}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 11.9561, y: 2.8779974, z: 58.410297}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 94640245}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1675215966
 GameObject:
   m_ObjectHideFlags: 0
@@ -346440,6 +347148,54 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1754397008
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1754397009}
+  - component: {fileID: 1754397010}
+  m_Layer: 0
+  m_Name: UpperEast furniture 8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1754397009
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754397008}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 58, y: 9.072811, z: 52.8}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1754397010
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754397008}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperEast
+  supportPath: Floor 2 - XAPK furnishings/Library approach - waiting benches/Bench
+    west of library approach
+  approachPosition: {x: 58, y: 8.50295, z: 53.55}
 --- !u!64 &1757746325
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -346881,6 +347637,100 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1796027781}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1808600677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1808600678}
+  - component: {fileID: 1808600679}
+  m_Layer: 0
+  m_Name: UpperEast furniture 18
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1808600678
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808600677}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 67.86619, y: 9.377998, z: 60.959293}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1808600679
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1808600677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: UpperEast
+  supportPath: Level/SchoolModel/Interior/Library/TeacherTableStaticEx_combined_static
+  approachPosition: {x: 68.67, y: 8.50295, z: 61.250004}
+--- !u!1 &1811074523
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1811074524}
+  - component: {fileID: 1811074525}
+  m_Layer: 0
+  m_Name: Start furniture 2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1811074524
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811074523}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.279999, y: 2.883, z: 62.030003}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1811074525
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1811074523}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: Start
+  supportPath: Starting room table
+  approachPosition: {x: 22.54, y: 2.0279493, z: 61.18}
 --- !u!1 &1813416251
 GameObject:
   m_ObjectHideFlags: 0
@@ -347455,37 +348305,6 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1860088282}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!1 &1861280623
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1861280624}
-  m_Layer: 0
-  m_Name: Clear tabletop 2
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1861280624
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1861280623}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 9.1559, y: 2.8779979, z: 56.6956}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 94640245}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!64 &1865055826
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -347622,6 +348441,53 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1865525829}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!1 &1867634932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1867634933}
+  - component: {fileID: 1867634934}
+  m_Layer: 0
+  m_Name: Start furniture 0
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1867634933
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867634932}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 22.279999, y: 2.883, z: 61.73}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1867634934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867634932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: Start
+  supportPath: Starting room table
+  approachPosition: {x: 22.54, y: 2.0279493, z: 61.12896}
 --- !u!1 &1875123503
 GameObject:
   m_ObjectHideFlags: 0
@@ -348556,6 +349422,63 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: cfab9cbbedc198d438ee58087e8a1aa3, type: 2}
+--- !u!1 &1920779003
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1920779004}
+  m_Layer: 0
+  m_Name: Distributed reachable furniture locations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1920779004
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1920779003}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1474094670}
+  - {fileID: 722102259}
+  - {fileID: 1359327998}
+  - {fileID: 2122863439}
+  - {fileID: 358432481}
+  - {fileID: 1927352982}
+  - {fileID: 315079855}
+  - {fileID: 1211392325}
+  - {fileID: 1754397009}
+  - {fileID: 1431745050}
+  - {fileID: 1367438610}
+  - {fileID: 226861079}
+  - {fileID: 1042316121}
+  - {fileID: 900087479}
+  - {fileID: 847107260}
+  - {fileID: 834685633}
+  - {fileID: 1627225605}
+  - {fileID: 1583030515}
+  - {fileID: 1808600678}
+  - {fileID: 268971152}
+  - {fileID: 83316209}
+  - {fileID: 841019503}
+  - {fileID: 302855798}
+  - {fileID: 1867634933}
+  - {fileID: 396105731}
+  - {fileID: 1811074524}
+  m_Father: {fileID: 556343296}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1925078677
 GameObject:
   m_ObjectHideFlags: 0
@@ -348653,6 +349576,54 @@ Light:
   m_LightUnit: 1
   m_LuxAtDistance: 1
   m_EnableSpotReflector: 1
+--- !u!1 &1927352981
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1927352982}
+  - component: {fileID: 1927352983}
+  m_Layer: 0
+  m_Name: GroundSouth furniture 5
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1927352982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927352981}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.8000007, y: 3.085758, z: 31.510027}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1927352983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1927352981}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundSouth
+  supportPath: Drive furnishings - curated additions/Gym - table tennis beside the
+    court/Imported model
+  approachPosition: {x: -5.8000007, y: 2.097949, z: 32.27}
 --- !u!64 &1929854215
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -350976,37 +351947,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 5bc5ff9cd5118444987f14bcd317a7c5, type: 2}
---- !u!1 &2099119757
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2099119758}
-  m_Layer: 0
-  m_Name: Clear tabletop 6
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &2099119758
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2099119757}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 16.081, y: 2.8779972, z: 60.163998}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 94640245}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2100065012
 GameObject:
   m_ObjectHideFlags: 0
@@ -351217,6 +352157,54 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 4f1d1ade5c5de354b9820c4fbd8b334d, type: 2}
+--- !u!1 &2122863438
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2122863439}
+  - component: {fileID: 2122863440}
+  m_Layer: 0
+  m_Name: GroundSouth furniture 3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2122863439
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122863438}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -5.8, y: 3.0857456, z: 29.410025}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1920779004}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2122863440
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2122863438}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 362b9ec1604cd6d4a9f9ec06f32e7b82, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::EscapeSpawnLocation
+  region: GroundSouth
+  supportPath: Drive furnishings - curated additions/Gym - table tennis beside the
+    court/Imported model
+  approachPosition: {x: -5.4505944, y: 2.097949, z: 27.720001}
 --- !u!64 &2131466569
 MeshCollider:
   m_ObjectHideFlags: 0

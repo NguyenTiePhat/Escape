@@ -45,7 +45,20 @@ public sealed class EscapeItemSpawner : MonoBehaviour
         {
             if (!point || used.Contains(point)) continue;
             bool overlap = false;
-            for (int j = 0; j < index; j++) if (Vector3.Distance(point.position, assignment[j].position) < .6f) overlap = true;
+            var location = point.GetComponent<EscapeSpawnLocation>();
+            for (int j = 0; j < index; j++)
+            {
+                if (Vector3.Distance(point.position, assignment[j].position) < .6f) overlap = true;
+                var previous = assignment[j].GetComponent<EscapeSpawnLocation>();
+                if (location && previous && !string.IsNullOrEmpty(location.region) && location.region == previous.region) overlap = true;
+                // The two ingredients for the main-exit key must require exploring
+                // different floors and distant parts of the school in every round.
+                if (location && previous && IsKeyIngredient(entries[index].item.id) && IsKeyIngredient(entries[j].item.id))
+                {
+                    if (Mathf.Abs(point.position.y - assignment[j].position.y) < 5f ||
+                        Vector3.ProjectOnPlane(point.position - assignment[j].position, Vector3.up).magnitude < 40f) overlap = true;
+                }
+            }
             if (overlap) continue;
             used.Add(point); assignment[index] = point;
             if (Choose(index + 1, assignment, used)) return true;
@@ -53,4 +66,5 @@ public sealed class EscapeItemSpawner : MonoBehaviour
         }
         return false;
     }
+    static bool IsKeyIngredient(string id) => id == "key_frame" || id == "metal_blank";
 }

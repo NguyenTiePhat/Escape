@@ -6,7 +6,7 @@ public enum FootstepSurface { Tile, Wood, Metal, Carpet }
 public sealed class FootstepNoise : MonoBehaviour
 {
     public float walkDistance = 1.7f, sprintDistance = 2.3f, crouchDistance = 1.2f;
-    [Range(0, 1)] public float walkLoudness = .35f, sprintLoudness = .8f, crouchLoudness = .1f;
+    [Range(0, 1)] public float walkLoudness = .15f, sprintLoudness = .8f, crouchLoudness = .1f;
     public LayerMask surfaceMask = Physics.DefaultRaycastLayers;
     public AudioClip[] tileClips, woodClips, metalClips, carpetClips;
     public AudioSource audioSource;
